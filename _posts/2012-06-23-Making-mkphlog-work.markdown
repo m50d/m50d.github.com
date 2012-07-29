@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Making mkphlog work
 ---
 Sadly it seems like the SDF doesn't support dynamic gopher content - despite its claims to the contrary. So I guess I'm down to using scripts to generate my posts. Which would be fine if markdown were a natively supported gopher
