@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Muv-Luv: First Impressions
+title: "Muv-Luv: First Impressions"
 ---
 Sure, that first episode was pretty much every giant robot show ever. Sure, the outfits are ridiculous (the boob-hugging combat suits get the most attention, but the Upotte!!-length school skirts are equally stupid). But right now I'm feeling really good about Muv-Luv Alternative: Total Eclipse (to give it its full title).
 
