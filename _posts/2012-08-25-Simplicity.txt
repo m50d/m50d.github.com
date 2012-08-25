@@ -1,6 +1,8 @@
 ---
 layout: default
+title: Simplicity
 published: false
 ---
 
-A programming language should be as simple as possible, but no simpler.
+A programming language should be as simple as possible, but no simpler. The hard part, of course, is defining what's simple.
+
