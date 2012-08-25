@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: AKB0048 Season 1
 ---
 
