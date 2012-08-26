@@ -1,6 +1,5 @@
 ---
 layout: default
-published: false
 title: Teetering on the Brink (Kokoro Connect episode 8)
 ---
 
