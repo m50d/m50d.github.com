@@ -4,3 +4,4 @@ published: false
 title: Natsuiro Kiseki
 ---
 
+Childhood, friendship. A simple life, with simple pleasures.
