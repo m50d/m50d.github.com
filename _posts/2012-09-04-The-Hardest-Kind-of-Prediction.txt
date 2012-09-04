@@ -9,3 +9,5 @@ Prediction is hard, especially about the future. Here's a few guesses about what
 1. Boxing will be illegal in several European countries
 2. The keyboard will remain the primary computer input device for programming and extended writing
 3. Developed nations will not be fighting any full-scale wars
+4. There will be computers which pass the turing test in its original form. There will be no computers widely recognized as intelligent or thinking
+5. 
