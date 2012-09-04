@@ -17,3 +17,5 @@ Prediction is hard, especially about the future. Here's a few guesses about what
 9. The pub will be essentially dead as a form of entertainment, surviving only among hipsters
 10. Cannabis will be legal in much of Europe. Both it and alcohol will be seen as morally dubious. Even caffeine will be looked on with suspicion.
 11. Self-producing a movie at hollywood-equivalent quality will be a real option, and one taken by a few geek heroes every year. Most movies will continue to be produced through a small number of big-name studios.
+12. Apple will be a declining shadow of its former self
+13. Most people will own several computers, none of which they think of as programmable
