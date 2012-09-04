@@ -1,0 +1,10 @@
+---
+layout: default
+published: false
+title: The Hardest Kind of Prediction
+---
+
+Prediction is hard, especially about the future. Here's a few guesses about what life will be like 30 years from now, to see whether I can do better than Heinlein.
+
+1. Boxing will be illegal in several European countries
+2. The keyboard will remain the primary computer input device for programming and extended writing.
