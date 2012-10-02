@@ -4,4 +4,4 @@ title: Guilty Hereonormative Pleasure (Maria Holic)
 published: false
 ---
 
-Writing this post has been rather like explaining a joke, only it turns out the joke is black people.
+This was going to be a post about *Maria Holic*, but in the light of a friend's response to same, the first episode of *Tonari no Kaibutsu-kun*, and (Notch's hastily-edited blog post)[http://notch.tumblr.com/post/32726020631/john-callaham-dont-be-a-goat-murderer], it's now a post about rape jokes.
