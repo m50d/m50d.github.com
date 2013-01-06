@@ -12,4 +12,4 @@ Humanity is the storytelling ape; distinguished from our relatives more than any
 
 But gradually we see the darker side, the holes in Rikka's life that lead her here. The implications make me slightly uncomfortable - I met many well-adjusted people at Cambridge who nevertheless enjoyed dressing up and hitting each other with sticks at the weekend (actually that could describe a number of different circles). The normal life needs to make a case for itself - I've been a vociferous defender of normality in lifehacker circles, but normal adult life is actually pretty fun; not so high-school, at least not for me. There's something greatly admirable about Rikka because she's made her life so much more meaningful than those of her peers, even if that meaning is illusory.
 
-While the 
+The show teases us with its pacing, following the line of its argument; early episodes are nothing more than playing around.
