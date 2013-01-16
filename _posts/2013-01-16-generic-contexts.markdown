@@ -11,15 +11,12 @@ Fortunately, in software we know how to avoid this: Agile. So let's talk through
 Suppose we have a series of functions that might fail - perhaps they're calls to remote webservices that could go down.
 
     val f1: {} => Option[Int] = ...;
-    f1: (AnyRef) => Option[Int]
     val f2: Int => Option[String] = ...;
-    f2: (Int) => Option[String]
     val f3: String => Option[Set[Int]] = ...;
-    f3: (String) => Option[Set[Int]]
 
 We want to call them one after another, and return a failure if any of them fails, success if they're all succesful. The most naïve possible way to write our function looks something like:
     
-    def doFunctionsInSequence(): Option[Set[Int]] = {
+    def doFunctionsInSequence1(): Option[Set[Int]] = {
       val r1 = f1(null)
       if(!r1.isEmpty) {
         val r2 = f2(r1.get)
