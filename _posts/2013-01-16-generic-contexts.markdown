@@ -27,4 +27,7 @@ We want to call them one after another, and return a failure if any of them fail
       else None
     }
     
-Even typing this makes me feel ill (and it's nothing to do with the ifs and gets - cases and pattern-matching would be no better).
+Even typing this makes me feel ill (and it's nothing to do with the ifs and gets, as bad as they are - cases and pattern-matching would be fundamentally no better). As Scala programmers we should at least know to "flatmap that shit":
+
+    def doFunctionsInSequence2(): Option[Set[Int]] =
+      f1(null) flatMap f2 flatMap f3
