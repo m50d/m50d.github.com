@@ -8,4 +8,26 @@ I took a [Category Theory course](http://gopher.srcf.net:70/users/md401/pt3notes
 
 Fortunately, in software we know how to avoid this: Agile. So let's talk through (an anonymized version of) a real-life problem I had at work, and the abstraction that can be used to solve it - no theory, just programming.
 
-Suppose we need to do something inside a "context". 
+Suppose we have a series of functions that might fail - perhaps they're calls to remote webservices that could go down.
+
+    val f1: {} => Option[Int] = ...;
+    f1: (AnyRef) => Option[Int]
+    val f2: Int => Option[String] = ...;
+    f2: (Int) => Option[String]
+    val f3: String => Option[Set[Int]] = ...;
+    f3: (String) => Option[Set[Int]]
+
+We want to call them one after another, and return a failure if any of them fails, success if they're all succesful. The most naïve possible way to write our function looks something like:
+    
+    def doFunctionsInSequence(): Option[Set[Int]] = {
+      val r1 = f1(null)
+      if(!r1.isEmpty) {
+        val r2 = f2(r1.get)
+        if(!r2.isEmpty)
+          f3(r2.get)
+        else None
+        }
+      else None
+    }
+    
+Even typing this makes me feel ill (and it's nothing to do with the ifs and gets - cases and pattern-matching would be no better).
