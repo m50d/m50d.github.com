@@ -108,7 +108,8 @@ mysteryFunction is some kind of "gather" function; it takes a Set of Futures (re
 
 Thinking about it, we can easily see how to combine a Future\[Set\[T]]\] and a Future\[T\] to add the T to the set:
 
-    def addToFutureSet[T](futureSet: Future[Set[T]], futureElementToAdd: Future[T])(implicit ec: ExecutionContext): Future[Set[T]] =
+    def addToFutureSet[T](futureSet: Future[Set[T]], futureElementToAdd: Future[T])
+        (implicit ec: ExecutionContext): Future[Set[T]] =
       for {
         set <- futureSet
         elementToAdd <- futureElementToAdd
