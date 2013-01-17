@@ -58,7 +58,7 @@ This can get especially bad when using futures, as the point at which we want to
         userId: Int =>
           val alternateFormatId = reformat(userId)
           logSomething()
-          val ret = webApi3(alternateFormatId) flatMap {
+          webApi3(alternateFormatId) flatMap {
             api3Output: String =>
               val objectRepresentation = parseJson(api3Ouptut)
               val keyForApi2 = if(objectRepresentation.someFlag) objectRepresentation.field1(alternateFormatId)
@@ -69,4 +69,18 @@ This can get especially bad when using futures, as the point at which we want to
             }
         }
 
-I've seen worse code in my time, but this is pretty nasty. We can make it clearer using scala's for/yield syntax (misleadingly called [sequence comprehensions](http://www.scala-lang.org/node/111) in the official tour, but useful for far more than sequences)
+I've seen worse code in my time, but this is pretty nasty. We can make it clearer using scala's for/yield syntax (misleadingly called [sequence comprehensions](http://www.scala-lang.org/node/111) in the official tour, but useful for far more than sequences).
+
+    def fetchSomeData(username: String): Future[Set[Int]] =
+      for {
+        userId <- webApi1("hello")
+        alternateFormatId = reformat(userId)
+        _ = logSomething()
+        api3Output <- webApi3(alternateFormatId)
+        objectRepresentation = parseJson(api3Ouptut)
+        keyForApi2 = if(objectRepresentation.someFlag) objectRepresentation.field1(alternateFormatId)
+           else objectRepresentation.wrapper2(userId).field1
+        ret <- webApi2(keyForApi2)
+        _ = logSomethingElse()
+      } yield(ret)
+        
