@@ -130,3 +130,5 @@ But hopefully we can recognize this as a fold:
 As you may have guessed, our mysteryFunction is generally known as "traverse" (or rather, the special case "sequence").
 
 ##Level 3b: Let's traverse a TraversableLike
+
+This is slightly beside the point, but if 
