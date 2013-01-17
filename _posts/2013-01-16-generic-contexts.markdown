@@ -153,4 +153,33 @@ When working with several APIs of this form, we might find ourselves wanting to 
 
 ##Level 4: Genericity in the context itself
 
-Now we know how to handle collections when we're working with Futures. But we might hit the same problem when working with Options as before
+Now we know how to handle collections when we're working with Futures. But we might hit the same problem when working with Options as before:
+
+    def doFunctionsInSequence4() =
+     for {
+       ids <- f3("hello")
+       optionalStrings = for {
+         id <- ids
+       } yield f2(id)
+       strings <- sequence(optionalStrings)
+       ...
+
+Of course, we can implement this sequence in the same way - but writing almost exactly the same code twice should set your programmer spidey-sense tingling:
+
+    def sequence[TL[X] <: TraversableLike[X, TL[X]] with GenTraversable[X]
+        with GenericTraversableTemplate[X, TL], T]
+        (optionTraversableLike: TL[Option[T]]): Option[TL[T]] = {
+      def addToOptionTL[T](optionTL: Option[TL[T]], optionElementToAdd: Option[T]): Option[TL[T]] =
+        for {
+          tl <- optionTL
+          elementToAdd <- optionElementToAdd
+        } yield {
+          val builder = tl.genericBuilder[T]
+          builder ++= tl
+          builder += elementToAdd
+          builder.result
+        }
+      optionTraversableLike.foldLeft(
+          Some(optionTraversableLike.genericBuilder[T].result))(
+          addToOptionTL)
+    }
