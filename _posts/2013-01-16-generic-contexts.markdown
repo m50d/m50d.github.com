@@ -8,6 +8,8 @@ I took a [Category Theory course](http://gopher.srcf.net:70/users/md401/pt3notes
 
 Fortunately, in software we know how to avoid this: Agile. So let's talk through (an anonymized version of) a real-life problem I had at work, and the abstraction that can be used to solve it - no theory, just programming.
 
+##Level 1: Flatmap that Shit
+
 Suppose we have a series of functions that might fail - perhaps they're calls to remote webservices that could go down.
 
     val f1: {} => Option[Int] = ...;
@@ -27,7 +29,7 @@ We want to call them one after another, and return a failure if any of them fail
       else None
     }
     
-Even typing this makes me feel ill (and it's nothing to do with the ifs and gets, as bad as they are - cases and pattern-matching would be fundamentally no better). As Scala programmers we should at least know to "flatmap that shit":
+Even typing this makes me feel ill - and replacing the ifs and gets with cases and pattern-matching, while more idiomatic, would be no better. There are too many branches in this code (as would show up under measures like NPath or Cyclomatic complexity) when fundamentally it's just running through a flat sequence of functions:
 
     def doFunctionsInSequence2(): Option[Set[Int]] =
       f1(null) flatMap f2 flatMap f3
