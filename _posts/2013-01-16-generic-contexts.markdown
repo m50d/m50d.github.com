@@ -131,4 +131,4 @@ As you may have guessed, our mysteryFunction is generally known as "traverse" (o
 
 ##Level 3b: Let's traverse a TraversableLike
 
-This is slightly beside the point, but if 
+A slight digression: when working with several APIs of this form, 
