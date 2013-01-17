@@ -84,4 +84,4 @@ I've seen worse code in my time, but this is pretty nasty. We can make it cleare
         _ = logSomethingElse()
       } yield(ret)
 
-Still not the nicest function in the world, but we've got rid of the pyramid.
+Still not the nicest function in the world, but it's a definite improvement.
