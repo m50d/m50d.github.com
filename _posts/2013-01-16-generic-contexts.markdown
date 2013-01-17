@@ -136,7 +136,7 @@ When working with several APIs of this form, we might find ourselves wanting to 
         with GenericTraversableTemplate[X, TL], T]
         (futureTraversableLike: TL[Future[T]])
         (implicit ec: ExecutionContext): Future[TL[T]] = {
-      def addToFutureTL[T](futureTL: Future[TL[T]], futureElementToAdd: Future[T]): Future[TL[T]] =
+      def addToFutureTL(futureTL: Future[TL[T]], futureElementToAdd: Future[T]): Future[TL[T]] =
         for {
           tl <- futureTL
           elementToAdd <- futureElementToAdd
@@ -169,7 +169,7 @@ Of course, we can implement this sequence in the same way - but writing almost e
     def sequence[TL[X] <: TraversableLike[X, TL[X]] with GenTraversable[X]
         with GenericTraversableTemplate[X, TL], T]
         (optionTraversableLike: TL[Option[T]]): Option[TL[T]] = {
-      def addToOptionTL[T](optionTL: Option[TL[T]], optionElementToAdd: Option[T]): Option[TL[T]] =
+      def addToOptionTL(optionTL: Option[TL[T]], optionElementToAdd: Option[T]): Option[TL[T]] =
         for {
           tl <- optionTL
           elementToAdd <- optionElementToAdd
@@ -184,4 +184,44 @@ Of course, we can implement this sequence in the same way - but writing almost e
           addToOptionTL)
     }
 
-So, what did we actually need to know about our "context" type (Future or Option)? We needed to be able to combine an element and a set
+So, what did we actually need to know about our "context" type (Future or Option)? We needed to be able to "wrap up" our initial empty value, and we needed to be able to "combine" two things "inside" our context. There are several signatures we could use for this, but a popular definition is to say we know how to combine a value and a function that takes that value:
+
+    trait ComposeableContext[C[_]] {
+        def wrap[A](a: A): C[A]
+        def combine[A, B](a: C[A], f: C[A => B]): C[B]
+    }
+    
+    def sequence[C[_]: ComposeableContext, TL[X] <: TraversableLike[X, TL[X]] with GenTraversable[X]
+        with GenericTraversableTemplate[X, TL], T]
+        (contextTraversableLike: TL[C[T]]): C[TL[T]] = {
+      def addToTL(tl: TL[T], elementToAdd: T): TL[T] = {
+        val builder = tl.genericBuilder[T]
+        builder ++= tl
+        builder += elementToAdd
+        builder.result
+      }
+      def addToContextTL(contextTl: C[TL[T]], elementToAdd: C[T]): C[TL[T]] = {
+        val composer = implicitly[ComposeableContext[C]]
+        composer.combine(elementToAdd,
+            composer.combine(contextTl, composer.wrap((addToTL _).curried)))
+      }
+      contextTraversableLike.foldLeft(
+         implicitly[ComposeableContext[C]].wrap(
+             contextTraversableLike.genericBuilder[T].result))(addToContextTL)
+    }
+
+And let's check we can use it:
+
+    implicit object ComposeOption extends ComposeableContext[Option] {
+      def wrap[A](a: A) = Some(a)
+      def combine[A, B](a: Option[A], f: Option[A => B]) =
+        for {
+          sa <- a
+          sf <- f
+        } yield (sf(sa))
+    }
+
+    scala> sequence(Set[Option[Int]](Some(1), Some(2), Some(3)))
+    res0: Option[scala.collection.immutable.Set[Int]] = Some(Set(1, 2, 3))
+    scala> sequence(Set(Some(1), None, Some(3)))
+    res1: Option[scala.collection.immutable.Set[Int]] = None
