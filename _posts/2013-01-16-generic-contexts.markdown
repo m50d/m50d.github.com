@@ -244,7 +244,7 @@ Suppose we're composing some actions in our context, and we want to do several c
       photoMetadataAnalytics <- performAnalytics(tweetPhotoMetadatas)
       ...
 
-Clearly this isn't ideal - we're writing the same thing over and over again. It would be nice to "weave" seamlessly between mapping through the context and mapping through collections. The best approach I've managed so far looks like:
+Clearly this isn't ideal - we're writing the same thing over and over again. It would be nice to "weave" seamlessly between mapping through the context and mapping through collections. The best approach I've managed so far lets you write code that looks like:
 
     for {
       user <- fetchUser(userId)
