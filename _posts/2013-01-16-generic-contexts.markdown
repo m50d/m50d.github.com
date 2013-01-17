@@ -244,7 +244,7 @@ Suppose we're composing some actions in our context, and we want to do several c
       photoMetadataAnalytics <- performAnalytics(tweetPhotoMetadatas)
       ...
 
-Clearly this isn't ideal - we're writing the same thing over and over again. It would be nice to "weave" seamlessly between mapping through the context and mapping through collections. The best approach I've found so far looks like:
+Clearly this isn't ideal - we're writing the same thing over and over again. It would be nice to "weave" seamlessly between mapping through the context and mapping through collections. The best approach I've managed so far looks like:
 
     for {
       user <- fetchUser(userId)
@@ -258,4 +258,4 @@ Clearly this isn't ideal - we're writing the same thing over and over again. It 
       photoMetadataAnalytics <- performAnalytics(tweetPhotoMetadatas)
       ...
 
-This is an improvement, but it still looks a bit cumbersome.
+This is an improvement, but it still feels a bit cumbersome. Can you do better? (I don't even know a way to do it in scalaz or Haskell, so examples you've found on the internet are fine). Answers on a pull request!
