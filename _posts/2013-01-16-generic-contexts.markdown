@@ -33,3 +33,7 @@ Even typing this makes me feel ill - and replacing the ifs and gets with cases a
 
     def doFunctionsInSequence2(): Option[Set[Int]] =
       f1(null) flatMap f2 flatMap f3
+
+##Level 2: "for", not just for collections any more
+
+Flatmap is great when each step is a single named function, but often we want to do some kind of 
