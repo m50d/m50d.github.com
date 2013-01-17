@@ -146,5 +146,7 @@ When working with several APIs of this form, we might find ourselves wanting to 
           builder += elementToAdd
           builder.result
         }
-      futureTraversableLike.foldLeft(future{})(addToFutureTL)
+      futureTraversableLike.foldLeft(
+          future{futureTraversableLike.genericBuilder[T].result})(
+          addToFutureTL)
     }
