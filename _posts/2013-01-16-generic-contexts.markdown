@@ -36,4 +36,5 @@ Even typing this makes me feel ill - and replacing the ifs and gets with cases a
 
 ##Level 2: "for", not just for collections any more
 
-Flatmap is great when each step is a single named function, but often we want to do some kind of 
+Flatmap is great when each step is an existing function - but when each stage is a handful of statements that don't make sense as a function in their own right, we can easily end-up in callback hell with the so-called [pyramid of doom](http://raynos.github.com/presentation/shower/controlflow.htm?full#PyramidOfDoom)
+
