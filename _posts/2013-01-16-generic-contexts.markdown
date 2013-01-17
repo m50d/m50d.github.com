@@ -29,7 +29,7 @@ We want to call them one after another, and return a failure if any of them fail
       else None
     }
     
-Even typing this makes me feel ill - and replacing the ifs and gets with cases and pattern-matching, while more idiomatic, would be no better. There are too many branches in this code (as would show up under measures like NPath or Cyclomatic complexity) when fundamentally it's just running through a flat sequence of functions:
+Even typing this makes me feel ill - and replacing the ifs and gets with cases and pattern-matching, while more idiomatic, wouldn't really be any better. There are too many branches in this code (as would show up under measures like NPath or Cyclomatic complexity) when fundamentally it's just running through a flat sequence of functions:
 
     def doFunctionsInSequence2(): Option[Set[Int]] =
       f1(null) flatMap f2 flatMap f3
@@ -184,4 +184,4 @@ Of course, we can implement this sequence in the same way - but writing almost e
           addToOptionTL)
     }
 
-So, what did we actually need to know about our "context" type (Future or Option)?
+So, what did we actually need to know about our "context" type (Future or Option)? We needed a 
