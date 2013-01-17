@@ -184,4 +184,4 @@ Of course, we can implement this sequence in the same way - but writing almost e
           addToOptionTL)
     }
 
-So, what did we actually need to know about our "context" type (Future or Option)? We needed a 
+So, what did we actually need to know about our "context" type (Future or Option)? We needed to be able to combine an element and a set
