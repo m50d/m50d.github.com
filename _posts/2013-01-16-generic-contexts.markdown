@@ -132,7 +132,10 @@ As you may have guessed, our mysteryFunction is generally known as "traverse" (o
 
 When working with several APIs of this form, we might find ourselves wanting to do the same thing with List instead of Set - and perhaps other containers as well. It turns out it's quite easy to rewrite our method to work for most scala containers, though the type signature is a bit intimidating, and we have to pass in the empty container to start from:
 
-    def traverse[TL[X] <: TraversableLike[X, TL[X]] with GenTraversable[X] with GenericTraversableTemplate[X, TL], T](futureTraversableLike: TL[Future[T]], futureEmptyTL: Future[TL[T]])(implicit ec: ExecutionContext): Future[TL[T]] = {
+    def traverse[TL[X] <: TraversableLike[X, TL[X]] with GenTraversable[X]
+        with GenericTraversableTemplate[X, TL], T]
+        (futureTraversableLike: TL[Future[T]], futureEmptyTL: Future[TL[T]])
+        (implicit ec: ExecutionContext): Future[TL[T]] = {
       def addToFutureTL[T](futureTL: Future[TL[T]], futureElementToAdd: Future[T]): Future[TL[T]] =
         for {
           tl <- futureTL
