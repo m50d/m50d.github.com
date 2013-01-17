@@ -227,3 +227,7 @@ And let's check we can use it:
     res0: Option[scala.collection.immutable.Set[Int]] = Some(Set(1, 2, 3))
     scala> sequence(Set(Some(1), None, Some(3)))
     res1: Option[scala.collection.immutable.Set[Int]] = None
+
+At this point I'm pretty sure we've used the "M word", but who cares? We didn't use any category theory - we just wrote a function to solve our problem, and made it gradually more generic.
+
+## Level 5? Weaving contexts together
