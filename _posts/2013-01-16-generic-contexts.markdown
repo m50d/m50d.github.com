@@ -48,3 +48,23 @@ Flatmap is great when each step is an existing function - but when each stage is
     }
 
 This can get especially bad when using futures, as the point at which we want to perform an asynchronous step is often not a clean break in the logic of the code.
+
+    def webApi1(s: String): Future[Int] = ...
+    def webApi2(i: Int): Future(Set[Int]) = ...
+    def webApi3(i: Int): Future[String] = ...
+    
+    def fetchSomeData(username: String): Future[Set[Int] =
+      webApi1("hello") flatMap {
+        userId: Int =>
+          val alternateFormatId = reformat(userId)
+          logSomething()
+          val ret = webApi3(alternateFormatId) flatMap {
+            api3Output: String =>
+              val objectRepresentation = parseJson(api3Ouptut)
+              val keyForApi2 = if(objectRepresentation.someFlag) objectRepresentation.field1(alternateFormatId)
+                else objectRepresentation.wrapper2(userId).field1
+              val ret = webApi2(keyForApi2)
+              logSomethingElse()
+              ret
+            }
+        }
