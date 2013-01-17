@@ -240,5 +240,22 @@ Suppose we're composing some actions in our context, and we want to do several c
       user <- fetchUser(userId)
       tweets <- sequence(for {tweetId <- user.tweetIds} yield fetchTweet(tweetId))
       tweetPhotos <- sequence(for {tweet <- tweets} yield fetchTweetPhoto(tweet))
-      tweetPhotoMetadata <- sequence(for {tweetPhoto <- tweetPhotos} yield fetchTweetPhotoMetadata(tweetPhoto))
+      tweetPhotoMetadatas <- sequence(for {tweetPhoto <- tweetPhotos} yield fetchTweetPhotoMetadata(tweetPhoto))
+      photoMetadataAnalytics <- performAnalytics(tweetPhotoMetadatas)
       ...
+
+Clearly this isn't ideal - we're writing the same thing over and over again. It would be nice to "weave" seamlessly between mapping through the context and mapping through collections. The best approach I've found so far looks like:
+
+    for {
+      user <- fetchUser(userId)
+      tweetPhotoMetadatas <- (
+        for {
+          tweetId <- stepInsideCollection[Future](user.tweetIds)
+          tweet <- fetchTweet(tweetId)
+          tweetPhoto <- fetchTweetPhoto(tweet)
+          tweetPhotoMetadata <- fetchTweetPhotoMetadata(tweetPhoto)
+        } yield (tweetPhotoMetadata)).stepOutsideCollection
+      photoMetadataAnalytics <- performAnalytics(tweetPhotoMetadatas)
+      ...
+
+This is an improvement, but it still looks a bit cumbersome.
