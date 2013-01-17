@@ -180,6 +180,8 @@ Of course, we can implement this sequence in the same way - but writing almost e
           builder.result
         }
       optionTraversableLike.foldLeft(
-          Some(optionTraversableLike.genericBuilder[T].result))(
+          Some(optionTraversableLike.genericBuilder[T].result): Option[TL[T]])(
           addToOptionTL)
     }
+
+So, what did we actually need to know about our "context" type (Future or Option)?
