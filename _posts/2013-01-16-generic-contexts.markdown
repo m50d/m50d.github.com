@@ -53,7 +53,7 @@ This can get especially bad when using futures, as the point at which we want to
     def webApi2(i: Int): Future(Set[Int]) = ...
     def webApi3(i: Int): Future[String] = ...
     
-    def fetchSomeData(username: String): Future[Set[Int] =
+    def fetchSomeData(username: String): Future[Set[Int]] =
       webApi1("hello") flatMap {
         userId: Int =>
           val alternateFormatId = reformat(userId)
@@ -68,3 +68,5 @@ This can get especially bad when using futures, as the point at which we want to
               ret
             }
         }
+
+I've seen worse code in my time, but this is pretty nasty. We can make it clearer using scala's for/yield syntax (misleadingly called [sequence comprehensions](http://www.scala-lang.org/node/111) in the official tour, but useful for far more than sequences)
