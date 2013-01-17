@@ -38,3 +38,13 @@ Even typing this makes me feel ill - and replacing the ifs and gets with cases a
 
 Flatmap is great when each step is an existing function - but when each stage is a handful of statements that don't make sense as a function in their own right, we can easily end-up in callback hell with the so-called [pyramid of doom](http://raynos.github.com/presentation/shower/controlflow.htm?full#PyramidOfDoom)
 
+    def doFunctionsInSequence3(): Option[Set[Int]] = {
+      f1(null) flatMap {i: Int => f2(i + 3) flatMap {
+        s:String => 
+          val t = s.toUpperCase + i
+          f3(t + s)
+        }
+      }
+    }
+
+This can get especially bad with futures, if the point where we go from 
