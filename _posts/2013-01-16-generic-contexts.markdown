@@ -151,4 +151,6 @@ When working with several APIs of this form, we might find ourselves wanting to 
           addToFutureTL)
     }
 
-##Level 4: Make it generic in the context itself
+##Level 4: Genericity in the context itself
+
+Now we know how to handle collections in 
