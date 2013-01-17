@@ -47,7 +47,7 @@ Flatmap is great when each step is an existing function - but when each stage is
       }
     }
 
-This can get especially bad when using futures, as the point at which we want to perform an asynchronous step is often not a clean break in the logic of the code. Say we're using futures to make asynchronous calls to some web API, so that a small number of pooled threads can make our calls to lots of slow third-party web servers, rather than having to keep a blocked thread around for each call we're making.
+This can get especially bad when using futures, as the point at which we want to perform an asynchronous step is often not a clean break in the logic of the code. Say we're using futures to make asynchronous calls to some web API (so that a small number of pooled threads can make our calls to lots of slow third-party web servers in parallel, rather than having to keep one blocked thread around for each call that hasn't completed yet).
 
     def webApi1(s: String): Future[Int] = ...
     def webApi2(i: Int): Future(Set[Int]) = ...
@@ -104,4 +104,29 @@ I left the Set\[Int\] 'til last in the previous example, because using it presen
         userProfile <- getUserProfile(userId)
       } yield((UserProfile, tweetData))
       
-Without mysteryFunction, this code won't compile; tweetDataFutures is a Set\[Future\[TweetData\]\] where we need a single Future; we can't just write "tweetDataSet <- tweetDataFutureSet" (that would make tweetDataSet a Future, when we want it to be a Set). 
+mysteryFunction is some kind of "gather" function; it takes a Set of Futures (results that will be available at some point in the future), and returns a Future for the set of all the results (so this Set will be available at some point in the future - namely, when all the individual results are). Without mysteryFunction, this code won't compile; tweetDataFutures is a Set\[Future\[TweetData\]\] where we need a single Future; we can't just write "tweetDataSet <- tweetDataFutureSet" (that would make tweetDataSet a Future, when we want it to be a Set).
+
+Thinking about it, we can easily see how to combine a Future\[Set\[T]]\] and a Future\[T\] to add the T to the set:
+
+    def addToFutureSet[T](futureSet: Future[Set[T]], futureElementToAdd: Future[T])(implicit ec: ExecutionContext): Future[Set[T]] =
+      for {
+        set <- futureSet
+        elementToAdd <- futureElementToAdd
+      } yield(set + elementToAdd)
+
+If we were imperative-minded we might implement mysteryFunction like this:
+
+    def mysteryFunction[T](futureSet: Set[Future[T]])(implicit ec: ExecutionContext): Future[Set[T]] = {
+      var workingSetFuture: Future[Set[T]] = future(Set())
+      for {future <- futureSet} {workingSetFuture = addToFutureSet(workingSetFuture, future)}
+      workingSetFuture
+    }
+
+But hopefully we can recognize this as a fold:
+
+    def mysteryFunction[T](futureSet: Set[Future[T]])(implicit ec: ExecutionContext): Future[Set[T]] =
+      futureSet.foldLeft(future(Set[T]()))(addToFutureSet)
+
+As you may have guessed, our mysteryFunction is actually called "traverse".
+
+##Level 3b: Let's traverse a TraversableLike
