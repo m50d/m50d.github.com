@@ -228,6 +228,10 @@ And let's check we can use it:
     scala> sequence(Set(Some(1), None, Some(3)))
     res1: Option[scala.collection.immutable.Set[Int]] = None
 
-At this point I'm pretty sure we've used the "M word", but who cares? We didn't use any category theory - we just wrote a function to solve our problem, and made it gradually more generic.
+At this point I'm pretty sure we've used the "M word", but who cares what we call it? We didn't use any category theory - we just wrote a function to solve our problem, and made it gradually more generic.
 
-## Level 5? Weaving contexts together
+One place names *are* important is for compatibility, in the interests of which I'll tell you that our ComposeableContext is essentially scalaz.Applicative, and scalaz provides an implementation of sequence (although as far as I know it only works for Lists, not for generic TraversableLikes).
+
+## Level 5? Weaving contexts through each other
+
+Suppose we're composing some contexts
