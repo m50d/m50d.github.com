@@ -132,7 +132,7 @@ As you may have guessed, our mysteryFunction is generally known as "traverse" (o
 
 When working with several APIs of this form, we might find ourselves wanting to do the same thing with List instead of Set - and perhaps other containers as well. It turns out it's quite easy to rewrite our method to work for most scala collections, though the type signature is a bit intimidating:
 
-    def traverse[TL[X] <: TraversableLike[X, TL[X]] with GenTraversable[X]
+    def sequence[TL[X] <: TraversableLike[X, TL[X]] with GenTraversable[X]
         with GenericTraversableTemplate[X, TL], T]
         (futureTraversableLike: TL[Future[T]])
         (implicit ec: ExecutionContext): Future[TL[T]] = {
@@ -153,4 +153,4 @@ When working with several APIs of this form, we might find ourselves wanting to 
 
 ##Level 4: Genericity in the context itself
 
-Now we know how to handle collections when we're working with Futures. But the same problem arises when 
+Now we know how to handle collections when we're working with Futures. But we might hit the same problem when working with Options as before
