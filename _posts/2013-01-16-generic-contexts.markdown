@@ -127,6 +127,6 @@ But hopefully we can recognize this as a fold:
     def mysteryFunction[T](futureSet: Set[Future[T]])(implicit ec: ExecutionContext): Future[Set[T]] =
       futureSet.foldLeft(future(Set[T]()))(addToFutureSet)
 
-As you may have guessed, our mysteryFunction is actually called "traverse".
+As you may have guessed, our mysteryFunction is generally known as "traverse" (or rather, the special case "sequence").
 
 ##Level 3b: Let's traverse a TraversableLike
