@@ -1,6 +1,6 @@
 ---
 layout: default
-published: false
+published: true
 title: Generic Contexts, or: Don't Mention the M Word
 ---
 
