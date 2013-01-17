@@ -234,4 +234,11 @@ One place names *are* important is for compatibility, in the interests of which 
 
 ## Level 5? Weaving contexts through each other
 
-Suppose we're composing some contexts
+Suppose we're composing some actions in our context, and we want to do several contextful operations on a set of elements:
+   
+    for {
+      user <- fetchUser(userId)
+      tweets <- sequence(for {tweetId <- user.tweetIds} yield fetchTweet(tweetId))
+      tweetPhotos <- sequence(for {tweet <- tweets} yield fetchTweetPhoto(tweet))
+      tweetPhotoMetadata <- sequence(for {tweetPhoto <- tweetPhotos} yield fetchTweetPhotoMetadata(tweetPhoto))
+      ...
