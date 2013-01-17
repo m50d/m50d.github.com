@@ -153,4 +153,4 @@ When working with several APIs of this form, we might find ourselves wanting to 
 
 ##Level 4: Genericity in the context itself
 
-Now we know how to handle collections in 
+Now we know how to handle collections when we're working with Futures. But the same problem arises when 
