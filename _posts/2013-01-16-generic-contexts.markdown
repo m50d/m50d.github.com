@@ -230,7 +230,7 @@ And let's check we can use it:
 
 At this point I'm pretty sure we've used the "M word", but who cares what we call it? We didn't use any category theory - we just wrote a function to solve our problem, and made it gradually more generic.
 
-One place names *are* important is for compatibility, in the interests of which I'll tell you that our ComposeableContext is essentially scalaz.Applicative, and scalaz provides an implementation of sequence (although as far as I know it only works for Lists, not for generic TraversableLikes).
+One place names *are* important is for compatibility, in the interests of which I'll tell you that our ComposeableContext is essentially scalaz.Applicative, and scalaz provides an implementation of sequence (although I believe only for Lists, not for generic TraversableLikes).
 
 ## Level 5? Weaving contexts through each other
 
