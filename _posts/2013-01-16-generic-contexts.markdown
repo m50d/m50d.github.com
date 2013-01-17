@@ -86,7 +86,7 @@ I've seen worse code in my time, but this is pretty nasty. We can make it cleare
 
 Still not the nicest function in the world, but it's a definite improvement.
 
-##Level 3a: Let's traverse a set
+##Level 3: Let's traverse a collection
 
 I left the Set\[Int\] 'til last in the previous example, because using it presents a problem. Often we want to fetch a set (or list, or map... but let's not get ahead of ourselves) from one web service, and then call another service for each element - imagine a twitter-like service where we fetch all the tweets for a given user by calling one service to get their IDs, and then call another service with each ID to fetch the tweets themselves. So we want to write something like this:
 
@@ -127,8 +127,20 @@ But hopefully we can recognize this as a fold:
     def mysteryFunction[T](futureSet: Set[Future[T]])(implicit ec: ExecutionContext): Future[Set[T]] =
       futureSet.foldLeft(future(Set[T]()))(addToFutureSet)
 
-As you may have guessed, our mysteryFunction is generally known as "traverse" (or rather, the special case "sequence").
+As you may have guessed, our mysteryFunction is generally known as "traverse" (or rather, this is the special case "sequence").
 
-##Level 3b: Let's traverse a TraversableLike
+When working with several APIs of this form, we might find ourselves wanting to do the same thing with List instead of Set - and perhaps other containers as well. It turns out it's quite easy to rewrite our method to work for most scala containers, though the type signature is a bit intimidating, and we have to pass in the empty container to start from:
 
-A slight digression: when working with several APIs of this form, 
+    def traverse[TL[X] <: TraversableLike[X, TL[X]] with GenTraversable[X] with GenericTraversableTemplate[X, TL], T](futureTraversableLike: TL[Future[T]], futureEmptyTL: Future[TL[T]])(implicit ec: ExecutionContext): Future[TL[T]] = {
+      def addToFutureTL[T](futureTL: Future[TL[T]], futureElementToAdd: Future[T]): Future[TL[T]] =
+        for {
+          tl <- futureTL
+          elementToAdd <- futureElementToAdd
+        } yield {
+          val builder = tl.genericBuilder[T]
+          builder ++= tl
+          builder += elementToAdd
+          builder.result
+        }
+      futureTraversableLike.foldLeft(futureEmptyTL)(addToFutureTL)
+    }
