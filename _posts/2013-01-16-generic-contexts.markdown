@@ -83,4 +83,5 @@ I've seen worse code in my time, but this is pretty nasty. We can make it cleare
         ret <- webApi2(keyForApi2)
         _ = logSomethingElse()
       } yield(ret)
-        
+
+Still not the nicest function in the world, but we've got rid of the pyramid.
