@@ -47,4 +47,4 @@ Flatmap is great when each step is an existing function - but when each stage is
       }
     }
 
-This can get especially bad with futures, if the point where we go from 
+This can get especially bad when using futures, as the point at which we want to perform an asynchronous step is often not a clean break in the logic of the code.
