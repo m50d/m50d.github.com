@@ -85,3 +85,8 @@ I've seen worse code in my time, but this is pretty nasty. We can make it cleare
       } yield(ret)
 
 Still not the nicest function in the world, but it's a definite improvement.
+
+##Level 3a: Let's traverse a set
+
+I left the Set\[Int\] 'till last in the previous example, because using it presents a problem. Often we want to fetch a set (or list, or map... but let's not get ahead of ourselves) from one web service, and then call another service for each element - imagine a twitter-like service where we fetch all the tweets for a given user by calling one service to get their IDs, and then call another service with each ID to fetch the tweets themselves.
+
