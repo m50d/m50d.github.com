@@ -88,7 +88,7 @@ Still not the nicest function in the world, but it's a definite improvement.
 
 ##Level 3a: Let's traverse a set
 
-I left the Set\[Int\] 'till last in the previous example, because using it presents a problem. Often we want to fetch a set (or list, or map... but let's not get ahead of ourselves) from one web service, and then call another service for each element - imagine a twitter-like service where we fetch all the tweets for a given user by calling one service to get their IDs, and then call another service with each ID to fetch the tweets themselves. So we want to write something like this:
+I left the Set\[Int\] 'til last in the previous example, because using it presents a problem. Often we want to fetch a set (or list, or map... but let's not get ahead of ourselves) from one web service, and then call another service for each element - imagine a twitter-like service where we fetch all the tweets for a given user by calling one service to get their IDs, and then call another service with each ID to fetch the tweets themselves. So we want to write something like this:
 
     def mysteryFunction[T](futureSet: Set[Future[T]]): Future[Set[T]] = ...
     
