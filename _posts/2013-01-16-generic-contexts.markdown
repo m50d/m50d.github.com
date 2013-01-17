@@ -47,7 +47,7 @@ Flatmap is great when each step is an existing function - but when each stage is
       }
     }
 
-This can get especially bad when using futures, as the point at which we want to perform an asynchronous step is often not a clean break in the logic of the code.
+This can get especially bad when using futures, as the point at which we want to perform an asynchronous step is often not a clean break in the logic of the code. Say we're using futures to make asynchronous calls to some web API, so that a small number of pooled threads can make our calls to lots of slow third-party web servers, rather than having to keep a blocked thread around for each call we're making.
 
     def webApi1(s: String): Future[Int] = ...
     def webApi2(i: Int): Future(Set[Int]) = ...
@@ -88,5 +88,20 @@ Still not the nicest function in the world, but it's a definite improvement.
 
 ##Level 3a: Let's traverse a set
 
-I left the Set\[Int\] 'till last in the previous example, because using it presents a problem. Often we want to fetch a set (or list, or map... but let's not get ahead of ourselves) from one web service, and then call another service for each element - imagine a twitter-like service where we fetch all the tweets for a given user by calling one service to get their IDs, and then call another service with each ID to fetch the tweets themselves.
+I left the Set\[Int\] 'till last in the previous example, because using it presents a problem. Often we want to fetch a set (or list, or map... but let's not get ahead of ourselves) from one web service, and then call another service for each element - imagine a twitter-like service where we fetch all the tweets for a given user by calling one service to get their IDs, and then call another service with each ID to fetch the tweets themselves. So we want to write something like this:
 
+    def mysteryFunction[T](futureSet: Set[Future[T]]): Future[Set[T]] = ...
+    
+    def fetchTweets(username: String): Future[(UserProfile, Set[TweetData])] =
+      for {
+        userId <- getUserId(username)
+        tweetIds <- getTweetIds(userId)
+        tweetDataFutureSet = for { //We can still use for on sequences
+          tweetId <- tweetIds
+          tweetData <- getTweetData(tweetId)
+        } yield(tweetData)
+        tweetDataSet <- mysteryFunction(tweetDataFutureSet)
+        userProfile <- getUserProfile(userId)
+      } yield((UserProfile, tweetData))
+      
+Without mysteryFunction, this code won't compile; tweetDataFutures is a Set\[Future\[TweetData\]\] where we need a single Future; we can't just write "tweetDataSet <- tweetDataFutureSet" (that would make tweetDataSet a Future, when we want it to be a Set). 
