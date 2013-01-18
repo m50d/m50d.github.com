@@ -190,7 +190,7 @@ So, what did we actually need to know about our "context" type (Future or Option
         def combine[A, B](a: C[A], f: C[A => B]): C[B]
     }
     
-This is generic enough to be used for many other operations besides our "sequence" (e.g. it's almost trivial to implement map for a generic C\[_\]:ComposeableContext), but it's fairly easy to use: we'll write a "contextless" addToTL function, and then use a ComposeableContext and the .curried builtin to turn it into one whose parameters and result are inside our context C:
+This is generic enough to be used for many other operations besides our "sequence" (e.g. it's almost trivial to implement "map" for a generic C\[_\]:ComposeableContext), but it's fairly easy to use: we'll write a "contextless" addToTL function, and then use a ComposeableContext and the .curried builtin to turn it into one whose parameters and result are inside our context C:
     
     def sequence[C[_]: ComposeableContext, TL[X] <: TraversableLike[X, TL[X]] with GenTraversable[X]
         with GenericTraversableTemplate[X, TL], T]
