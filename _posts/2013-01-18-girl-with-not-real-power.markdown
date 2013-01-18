@@ -8,7 +8,11 @@ Girl with not real power shows which think about it too much have a bad past. I 
 
 *Vividred Operation* is different. It takes something from *Strike Witches* (and is made by the same people), but that show used a past that had girls with not real powers instead of flying cars. Here we see girls with not real powers fighting next to people in flying cars, and both of them are helping each other. The last time I can think of seeing something like this was *Kurau Phantom Memory*, which was not very good.
 
+![](/vo21.jpg)
+
 Some of it looks like *Strike Witches* - especially the powers and bad things. The people and the setting also remind me of *Senki Zesshou Symphogear*, though without any of the dark side; it's a very clean look that really does seem like after now, if after now has everyone being friends to each other (if some people are not friends then maybe after now will look more like *AKB0048*). The people's faces are drawn a bit simply, with more time spent on their clothes, especially after they change into not real power form - a change that's done over a long time with lots of flashes and clothes appearing and disappearing, like  not real power should be. I should mention now that this show likes to take time to focus on bits of its girl bodies, especially their asses; the opening shot people have talked about on other computers is quite like many other parts of the show. I hope it is not so bad to mean I can't show it to friends.
+
+![](/vo22.jpg)
 
 At the moment the people are very normal and happy except the one who is very bad; both are not really interesting, but the show has been about fighting and not talking so far - and when they did talk, to explain why they couldn't go into each other, it was one of the most funny things I've ever seen.
 
