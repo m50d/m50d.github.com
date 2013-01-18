@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Girl with Not Real Power: *Vividred Operation* part two in Up Goer Five Writing
-published: false
+published: true
 ---
 
 Girl with not real power shows which think about it too much have a bad past. I really liked *Mai Otome*, which thought about it a bit, but people on other computers don't seem to agree (and love to make jokes about oh noes her really tiny worker things); many more people like its mirror *My Hime*, which is almost happy about not thinking about how the not real power works. In *Pretty Cure* or *Nanoha* we're supposed to just accept the power as part of the setting; sometimes, but not often, the girls think about how to use their not real powers, but they never think about how they actually work. The great different show is *Puella Magi Madoka Magica*, but this is really the different one that shows that they are all the same. Mr Kyubey is supposed to be from space and worried about everything becoming the same, but really the way he can give wishes is not real and can't be real even long after now.
