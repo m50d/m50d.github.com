@@ -4,7 +4,7 @@ title: On Magic
 published: false
 ---
 
-Every company has its own dialect. One piece that's stayed with me from my first job is the use of "magic" as a curse word. To most peoople the term's connotations are almost entirely positive, but software developers are more ambivalent; when the developers of a library or framework say that part of it works "as if by magic", too often this means underdocumented, incomprehensible behaviour when you actually *need* to understand how it works.
+Every company has its own dialect. One fragment that's stayed with me from my first job is "magic" as a curse word. To most people the term's connotations are almost entirely positive, but software developers are more ambivalent; when the developers of a library or framework say that part of it works "as if by magic", too often this means underdocumented, incomprehensible behaviour when you actually *need* to understand how it works.
 
 In the CMX team (as it was called), the magic we complained about was mostly reflection, some culprits being Spring's setter injection, Wicket's awful [PropertyModel](http://wicket.apache.org/apidocs/1.4/org/apache/wicket/model/PropertyModel.html) (a shame that a framework which is usually a pinnacle of object-oriented design also gives one the tools to violate it so thoroughly), and to a lesser extent Hibernate. Each of these represents a "magical" way to change properties of your objects - a way that's invisible to one's IDE and one's eyes, that can violate the invariants otherwise enforced in constructors, and so makes it much harder to safely refactor code.
 
