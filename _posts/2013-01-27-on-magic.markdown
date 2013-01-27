@@ -4,4 +4,4 @@ title: On Magic
 published: false
 ---
 
-Every company has its own dialect.
+Every company has its own dialect. One piece that's stayed with me from my first job is the use of "magic" as a curse word. To most peoople the term's connotations are almost entirely positive, but software developers are more ambivalent; when the developers of a library or framework say that part of it works "as if by magic", too often this means underdocumented, incomprehensible behaviour when you actually *need* to understand how it works.
