@@ -8,4 +8,4 @@ Every company has its own dialect. One piece that's stayed with me from my first
 
 In the CMX team (as it was called), the magic we complained about was mostly reflection, some culprits being Spring's setter injection, Wicket's awful [PropertyModel](http://wicket.apache.org/apidocs/1.4/org/apache/wicket/model/PropertyModel.html) (a shame that a framework which is usually a pinnacle of object-oriented design also gives one the tools to violate it so thoroughly), and to a lesser extent Hibernate. Each of these represents a "magical" way to change properties of your objects - a way that's invisible to one's IDE and one's eyes, that can violate the invariants otherwise enforced in constructors, and so makes it much harder to safely refactor code.
 
-Really, we should expect nothing less from "magic"; what else does it mean but 
+Really, we should expect nothing less from "magic"; what else does it mean but something that violates rules and invariants? But all too often fiction writers seem to treat magic as just another kind of technology; something that follows a different set of rules, but does so reliably, discoverably.
