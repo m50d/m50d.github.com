@@ -1,7 +1,7 @@
 ---
 layout: default
 title: On Magic
-published: false
+published: true
 ---
 
 Every company has its own dialect. One fragment that's stayed with me from my first job is "magic" as a curse word. To most people the term's connotations are almost entirely positive, but software developers are more ambivalent; when the creators of a library or framework say that it works "as if by magic", too often this means underdocumented, incomprehensible behaviour when you actually *need* to understand how it works.
