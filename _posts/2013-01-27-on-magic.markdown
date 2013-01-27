@@ -1,0 +1,7 @@
+---
+layout: default
+title: On Magic
+published: false
+---
+
+Every company has its own dialect.
