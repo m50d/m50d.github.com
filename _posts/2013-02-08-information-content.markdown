@@ -12,4 +12,4 @@ Cultural context has a similar effect. Someone writing German will convey more i
 
 So: imagine an alien race provided us with a value for some [busy beaver function](http://en.wikipedia.org/wiki/Busy_beaver) - say S(500) for some reasonably practical Turing machine (if that's not a contradiction in terms) - along with a (short) proof that it was valid. Just writing the number out would probably take several hundred bits, even with the new notation that would doubtless be invented for the task.
 
-But these few hundred bits would contain a staggering amount of information. At a stroke we'd have proofs of 
+But these few hundred bits would contain a staggering amount of information. At a stroke we'd have proofs of many of the most important open questions in mathematics, as soon as we'd cranked our way through the relevant calculations.
