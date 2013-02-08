@@ -14,4 +14,4 @@ So: imagine an alien race provided us with a value for some [busy beaver functio
 
 But these few hundred bits would contain a staggering amount of information. At a stroke we'd have proofs of many of the most important open questions in mathematics, as soon as we'd cranked our way through the relevant calculations. Yet from a complexity theory point of view, we'd regard this message as containing no more or less information than any other arbitrary bitstring of the same length.
 
-If, as I incline to believe, the rules of the universe are fundamentally very simple, 
+If, as I incline to believe, the rules of the universe are fundamentally very simple, then the information content of the whole universe is very small; perhaps, as Rees had it, "Just Six Numbers".
