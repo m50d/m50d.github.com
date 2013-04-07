@@ -4,4 +4,4 @@ title: Old Flying School
 published: false
 ---
 
-I'm writing on the eve of the finale, as anime endings seem to be almost universally terrible.
+> It's pointless to speak of any "meaning". If we cared to look, we might find a meaning, but even if we did, those girls would not have chosen it for themselves.
