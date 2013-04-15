@@ -1,16 +1,13 @@
 ---
 layout: default
 title: Old Flying School
-published: false
 ---
 
 > It's pointless to speak of any "meaning". If we cared to look, we might find a meaning, but even if we did, those girls would not have chosen it for themselves.
 
 Wow. A week after finishing *Simoun*, I'm still at a loss to describe its beauty. I don't think I've seen such an unmistakable work of art since *Puella Magi Madoka Magica*. And this when the only "recommendation" I'd heard for this show was "Haha, it's about aeroplanes powered by teenage lesbianism".
 
-It's an understandable response to the premise: a world where 
-
-Of course there is some truth to this, but I found the kisses more disturbing than fanservicey (at least in the early episodes). Perhaps a viewer new to anime would dismiss (as mere excuse) the setting/premise, exposited a little clunkily over the first couple of episodes, of a world in which children grow up sexless, choosing gender only when they are of age. But with some anime experience it's striking just how much our characters' looks and speech patterns straddle the line between male and female. Liberal as I am, many of them seemed outright *wrong*, as alien as a race with extra fingers.
+It's an understandable response to the premise: a world where children are born sexless, and a small elite remain that way until adulthood, flying machines driven by lost technology activated only when two of them kiss. The early exposition feels quite clunky (admittedly I was aware of the premise beforehand), and I can understand why a viewer (particularly one new to animé) might see it as just an excuse. But for me it was striking just how much our characters' looks and speech patterns straddle the line between male and female, and I found those kisses more disturbing than anything else. Liberal as I am, many of them seemed outright *wrong*, as alien as a race with extra fingers.
 
 In-universe, it becomes gradually clear that the Simile are a band apart; what starts as admiration and respect from the populace becomes adoration as the war worsens and people cling more closely to their faith. We see a very human mix of responses to this; Neviril, the prima donna, rises to the occasion, her aloofness becoming the nobility the people needed. Conversely, the friendlier Floe's desire to be treated normally gets her nothing but trouble. But as the people's need for the Simile to remain pure and untouched becomes stronger forever, so does the military's need for them to fight.
 
