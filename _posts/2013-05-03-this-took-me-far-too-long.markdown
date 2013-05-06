@@ -10,4 +10,4 @@ It's more than a naming coincidence. *Chuunibyo demo Koi ga Shitai* reminded me 
 
 For a self-conscious, intelligent student, precocious on some axes and grossly immature on others, it can be hell. You do what you have to to fit in, but feel incredible levels of guilt afterwards, because you're trying to apply ordinary morality to a situation where it simply doesn't or cannot apply. And so you begin to see yourself as evil, precisely because you're the only one there with a moral compass.
 
-Different people react differently to this.
+Different people react differently to this. Some embrace it with Gnostic vigour - if I must be evil then I shall be evil, the evilist of all - there is no truer satanist than a teenage satanist (at least there wasn't when I was that age. No doubt many things have changed since).
