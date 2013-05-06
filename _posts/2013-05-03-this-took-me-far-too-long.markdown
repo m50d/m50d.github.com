@@ -14,3 +14,6 @@ Different people react differently to this. Some embrace it with Gnostic vigour 
 
 But it's only Takao's self-regard that empowers her. Every teenager is forced to confront their own insignificance, as for the first time in our lives we start making life choices that close off certain options. You're forced to confront the fact that if you really want to be an astronaut, or a movie star, it's going to take a hell of a lot of work. If you're a bookish sort whose true wish is to live a life worth writing a story about, it's probably impossible; there's a particularly good scene in *The Melancholy of Haruhi Suzumiya* where Haruhi talks about realising just how many people there are in the world, and the corresponding insignificance of her own place in it.
 
+Everyone (well, Kyon excepted) wants to be the star of their own story. Sometimes that means saving the world, as we saw in *Chuunibyo*. But if one reads Serious Literature™ rather than fantasy quests, it could equally well mean personal damnation.
+
+(Good thing I stuck to genre fiction then?)
