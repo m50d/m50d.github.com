@@ -16,4 +16,4 @@ But it's only Takao's self-regard that empowers her. Every teenager is forced to
 
 Everyone (well, Kyon excepted) wants to be the star of their own story. Sometimes that means saving the world, as we saw in *Chuunibyo*. But if one reads Serious Literature™ rather than fantasy quests, it could equally well mean personal damnation.
 
-(Good thing I stuck to genre fiction then?)
+Good thing I stuck to genre fiction, eh?
