@@ -1,5 +1,5 @@
 ---
-published: "false"
+published: "true"
 layout: default
 title: Calling the Shots
 
