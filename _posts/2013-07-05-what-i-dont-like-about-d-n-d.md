@@ -9,7 +9,8 @@ I've been thinking a lot about RPG systems lately, partly because I'm GMing for 
 ##Mechanics
  * Your character's abilities are dominated by your stats, the first six dice rolls you make during creation. Roll well and you can claim the spotlight by force, roll badly and you are forever mechanically weaker than the rest of the party
  
-Playing a weaker character can be fun as a roleplaying choice. But having it forced upon you is not, at least for me. Yes, you can mitigate against it by being clever in your actions, by having interesting character quirks, by - when all else fails - minmaxing like hell. But *players who rolled higher stats can do all these things too*. Yes, the rules say that the very worst stats can be mulliganed, but that only shifts the line for where the worst rolls are. The fundamental problem - that there's a randomly imposed power imbalance in the party which is substantial and *permanent*, remains.
+Playing a weaker character can be fun as a roleplaying choice. But having it forced upon you is not, at least for me. Yes, you can mitigate against it by being clever in your actions, by having interesting character quirks, by - when all else fails - minmaxing like hell. But *players who rolled higher stats can do all these things too*. Yes, the group should balance spotlight between characters - but when one character is much better than another at most tasks, it's not really practical (you could tailor challenges to the weaker characters' strong points - but that would, quite rightly, draw complaints from everyone else). Yes, the rules say that the very worst stats can be mulliganed, but that only shifts the line for where the worst rolls are. The fundamental problem - that there's a randomly imposed power imbalance in the party which is substantial and *permanent*, remains.
 
- * The flat probability curve doesn't have any truly extreme results
+ * The flat probability curve doesn't have any extreme results
+ 
 
