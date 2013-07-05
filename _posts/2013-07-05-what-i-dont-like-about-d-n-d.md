@@ -20,3 +20,5 @@ Yes, the rules say that the very worst stats can be mulliganed, but that only sh
 The only point of having randomness in a game is so that you can occasionally be surprised. I tend to have a pretty low rate of dice rolling in my games - it's not unusual to go half an hour without rolling any, and most conflicts are resolved in one or two throws - but when I ask for one there should be a chance of something that I didn't expect. Otherwise what's the point?
 
 With D&D every outcome has a 5% chance. Which is reasonably unlikely, but not *that* unlikely, particularly if you're rolling at the frequencies that are typical in a D&D game. There's a mythology built up around the natural 20, but it's something you can expect to happen every so often. You don't get the "epic" rolls that you still talk about months later, like the time I rolled 350 in HARP, or my hextruple-fumble in Promethean.
+
+Put it another way: as GM, in D&D I can set a success probability of 5%, 10%, .... Contrast with e.g. GURPS, where there are fewer numbers you might roll (16 rather than 20). But
