@@ -21,4 +21,4 @@ The only point of having randomness in a game is so that you can occasionally be
 
 With D&D every outcome has a 5% chance. Which is reasonably unlikely, but not *that* unlikely, particularly if you're rolling at the frequencies that are typical in a D&D game. There's a mythology built up around the natural 20, but it's something you can expect to happen every so often. You don't get the "epic" rolls that you still talk about months later, like the time I rolled 350 in HARP, or my hextruple-fumble in Promethean.
 
-Put it another way: as GM, in D&D I can set a success probability of 5%, 10%, .... Contrast with e.g. GURPS, where there are fewer numbers you might roll (16 rather than 20). But
+Put it another way: as GM, in D&D I can set a success probability of 5%, 10%, .... Contrast with e.g. GURPS, where there are fewer numbers you might roll (16 rather than 20). But TODO
