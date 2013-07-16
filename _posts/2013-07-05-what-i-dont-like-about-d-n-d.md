@@ -22,6 +22,8 @@ Perhaps this is personal preference, but many of the things D&D encourages you t
 
 Treasure and equipment feel similarly wasteful. I'll admit that occasionally it's nice to be able to anticipate buying a particular awesome item and gradually save up the loot for it. But a lot of the time it seems like the main purpose of an equipment list is to let the GM "gotcha" a player who forgot to put something that would be obvious in-character on the list. And honestly that's no fun for either of them. Just assume everyone's taken a reasonable set of gear for whatever they're doing, and if it becomes important whether or not a character has a certain thing, ask their player. If they *want* to play someone super-prepared who always has everything a situation might possibly need to a ridiculous extent, fine - it's their own fun they're spoiling. But in my experience most players can be trusted, and the ones who can't probably weren't worth playing with anyway.
 
+* The rules focus on combat, so the game focuses on combat
+
  * The flat probability curve doesn't have any extreme results
  
 The only point of having randomness in a game is so that you can occasionally be surprised. I tend to have a pretty low rate of dice rolling in my games - it's not unusual to go half an hour without rolling any, and most conflicts are resolved in one or two throws - but when I ask for one there should be a chance of something that I didn't expect. Otherwise what's the point?
