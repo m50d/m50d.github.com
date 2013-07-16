@@ -24,7 +24,7 @@ My preferred approach is to assume everyone's taken a reasonable set of gear for
 
 Explicitly calculating experience from each encounter makes sense in a computer game, where the machine can do it for you, but the cost/benefit is too poor to do it by hand. It's even worse if you keep track of individual characters separately, as you end up with a vicious circle: some characters are better at combat (perhaps because they rolled higher stats ), so they're able to fight more and take part in more encounters, so they get more experience, widening the gap between them and weaker characters. In my games, the party levels up together if at all, and I tell them to do so when it seems narratively appropriate rather than when the entries we've added up in a table somewhere say so.
 
-Fortunately, you can do all this in D&D too - just drop the encumberance rools, stop writing down loot/experience, tell your players to be sensible about what they're carrying and when to level up. It doesn't change the "feel" of the game, doesn't make it "not D&D" - it just removes a few of the boring bits and lets you concentrate on the fun stuff.
+Fortunately, you can do all this in D&D too - just drop the encumberance rools, stop writing down loot/experience, tell your players to be sensible about what they're carrying and when to level up. It doesn't change the "feel" of the game, doesn't make it "not D&D" - it just removes a few of the boring bits and lets you spend more time on the fun stuff.
 
 * The rules focus on combat, so the game focuses on combat
 
