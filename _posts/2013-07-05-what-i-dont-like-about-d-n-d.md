@@ -1,7 +1,7 @@
 ---
 published: false
-layout: default
 title: "What I Don't Like About D&D"
+layout: default
 ---
 
 I've been thinking a lot about RPG systems lately, partly because I'm GMing for the first time in years, partly in response to [this](http://susd.pretend-money.com/blog/2013/6/27/monster-hearts/). I've enjoyed D&D - its flaws can be mitigated, and good friends can hame a good time doing almost any activity. But of all the systems I've played (and some systemless games), I've probably enjoyed D&D the least. I do not say this lightly.
@@ -41,3 +41,17 @@ Put it another way: as GM, in D&D I can set a success probability of 5%, 10%, ..
 * Setting
 It's easier for sci-fi settings to emulate fantasy than the other way around, because the difference between the two genres is that science fiction expects a consistent explanation behind everything, while fantasy is more or less indifferent to this. So you could easily adapt something like *Eclipse Phase* (which is a deeply sci-fi game, more firmly embedded in the genre than most) to a fantasy setting - the TITANS were, well, Titans, that escaped the magical control they were under. Storing memories in stones and passing them between bodies is easy, and it's always been like that. Mechanical golem bodies are worn only by the poor, the rich always use human (or magically enhanced human, or human-animal magical crossbreed) bodies, and there's a healthy black market in supplying fresh, uninhabited bodies, even if you have to evict the current occupant first. All that works perfectly well in fantasy.
 But going in the other direction and adapting a fantasy setting you can only ever reach very light, space-operaey sci-fi. You can't just declare a Minkowsky Particle and explain all the magic in terms of it, because fantasy magic systems haven't been designed with this in mind.
+
+little about anything else. Which means that even if it makes up a small proportion of your game time, most real time will be spent making combat rolls. I remember one particular campaign which was a fascinating story of political intrigue in a pseudo-Venetian setting, with various factions vying for control of the court, the merchants trying to increase their own power, the ruler barely more than a figurehead but with his own vision for what the city-state should do... it really was amazing. But most sessions we'd spend an hour or so exploring this wonderful stuff, and then someone's guards would rush in or we'd spot a thief in the street, and suddenly everything ground to a halt for twenty minutes as we trudged through the combat rolls - and after that it was always a bit harder to get back into the mindset we'd started with.
+
+This one's relatively easy to fix, and my experience is many groups already have their ways of dealing with it: once it's clear how a combat's going to go, there's no need to roll out every single action the way the leter of the rules say. Feel free to cut it down to a smaller number of rolls, or - for minor encounters that are intended for flavour rather than to pose a challenge to the PCs - do away with the rolling altogether.
+
+* Aside: small-scale minatures wargames
+
+I've sometimes heard that the D&D rules were originally written for a small-scale wargame, with minatures, one squad per player - something like *Necromuda*. Certainly the feel is similar, so whether the story is actually true is almost irrelevant.
+
+The funny thing is, I like *Necromuda*. (And ironically enough its biggest problem is similar: its rules are an adaptation of those for a larger-scale wargame, and don't always work for small squads). So I feel obliged to explain why D&D doesn't succeed on the same level.
+
+* Six stats is too many for balance
+
+As a GM, you can't give people an equal number of rolls on each stat.
