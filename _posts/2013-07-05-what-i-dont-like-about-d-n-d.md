@@ -42,7 +42,7 @@ Put it another way: as GM, in D&D I can set a success probability of 5%, 10%, ..
 
 * Six stats is too many to be balanced
 
-As a GM, you can't give people an equal number of rolls on each stat.
+If a system is to have stats then they should be balanced. As the complexity of the system increases this becomes ever more important, because the system will be taking up an increasing proportion of player time - D&D certainly falls into this category. But to do this means ensuring the six stats are used equally, which is quite simply *too hard*. So each group ends up with its own specific "balance" - e.g. CHA is used more or less than average, which in turn means sorcerors are more or less powerful. As with my first point, that can make for an interesting game when done deliberately, but is no fun to force onto players.
 
 * Setting
 It's easier for sci-fi settings to emulate fantasy than the other way around, because the difference between the two genres is that science fiction expects a consistent explanation behind everything, while fantasy is more or less indifferent to this. So you could easily adapt something like *Eclipse Phase* (which is a deeply sci-fi game, more firmly embedded in the genre than most) to a fantasy setting - the TITANS were, well, Titans, that escaped the magical control they were under. Storing memories in stones and passing them between bodies is easy, and it's always been like that. Mechanical golem bodies are worn only by the poor, the rich always use human (or magically enhanced human, or human-animal magical crossbreed) bodies, and there's a healthy black market in supplying fresh, uninhabited bodies, even if you have to evict the current occupant first. All that works perfectly well in fantasy.
