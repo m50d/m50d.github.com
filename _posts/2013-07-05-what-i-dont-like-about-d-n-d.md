@@ -28,7 +28,9 @@ Fortunately, you can do all this in D&D too - just drop the encumberance rools, 
 
 * The rules focus on combat, so the game focuses on combat
 
- * The flat probability curve doesn't have any extreme results
+Even with the heavy simplification many groups do, the complexity of D&D's combat ruleset still dwarfs what it offers for anything else.
+
+* The flat probability curve doesn't have any extreme results
  
 The only point of having randomness in a game is so that you can occasionally be surprised. I tend to have a pretty low rate of dice rolling in my games - it's not unusual to go half an hour without rolling any, and most conflicts are resolved in one or two throws - but when I ask for one there should be a chance of something that I didn't expect. Otherwise what's the point?
 
