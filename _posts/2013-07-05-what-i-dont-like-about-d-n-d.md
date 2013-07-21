@@ -36,11 +36,11 @@ This one's relatively easy to fix, and my experience is many groups already have
  
 The only point of having randomness in a game is so that you can occasionally be surprised. I tend to have a pretty low rate of dice rolling in my games - it's not unusual to go half an hour without rolling any, and most conflicts are resolved in one or two throws - but when I ask for one there should be a chance of something that I didn't expect. Otherwise what's the point?
 
-With D&D every outcome has a 5% chance. Which is reasonably unlikely, but not *that* unlikely, particularly if you're rolling at the frequencies that are typical in a D&D game. There's a mythology built up around the natural 20, but it's something you can expect to happen every so often. You don't get the "epic" rolls that you still talk about months later, like the time I rolled 350 in HARP and sliced through four pig-men with one blow, or the hextruple-fumble in Promethean where I not only shot off my own leg, but that of the PC next to me as well.
+With D&D every outcome has a 5% chance. Which is reasonably unlikely, but not *that* unlikely, particularly if you're rolling at the frequencies that are typical in a D&D game. There's a mythology built up around the natural 20, but it's something you can expect to happen every so often. You don't get the "epic" rolls that you still talk about months later, like the time I rolled 350 in HARP and sliced through four pig-men with one blow, or the hextruple-fumble in Promethean where I not only shot off my own leg, but that of the PC next to me as well. If you do play with the full combat system then extreme results become more available - one natural 20 isn't so strange, but two in a row is - but it's very hard to translate these into interesting story events when combat is done round-by-round.
 
 Put it another way: as GM, in D&D I can set a success probability of 5%, 10%, .... Contrast with e.g. GURPS, where there are fewer numbers you might roll (16 rather than 20). But the probabilities I can set are 0.46%, 1.9%, 4.6%.... Of course, this doesn't come for free; around the middle values the distribution is more spread out, so e.g. I can't choose anything between 38% and 50%. But for narrative purposes that's the right tradeoff; the difference between 0.5% and 2% is much more interesting than the difference between 35% and 40%.
 
-This one can't be fixed without making the game not-D&D, but can be ignored to a certain extent.
+This one can't be fixed without making the game not-D&D, but can be ignored to a certain extent. As a GM my recommendation is to run D&D the way you would run a diceless game.
 
 * The published settings are
 
