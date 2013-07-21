@@ -48,7 +48,7 @@ This one can't be fixed without making the game not-D&D, but can be ignored to a
 
 The only reason this isn't higher on the list is that all the groups I've played with know better than to start from level 1. Before I start complaining I will say that on the plus-side, combat is swingier (i.e. more affected by luck) and therefore, with typical GMing, much more lethal in the early levels, which can actually help the game out in the long run. If you're the kind of player who works out a character bit by bit in play, then starting with a few deaths makes the game seem very lethal and more intense - but once your character develops and firms up an identity and you become more attached to them the game is secretly becoming much safer, which is good because it's much less pleasant to lose a character once you've got to that stage.
 
-Unfortunately I reach that stage almost immediately, and I'm not the only one. Different players create characters in different ways, but I tend to build up a
+Unfortunately I reach that stage almost immediately (and I understand a nontrivial proportion of roleplayers are like me in this respect). I build up a backstory as part of character creation, and 
 
 * The system only really works for fantasy settings
 
