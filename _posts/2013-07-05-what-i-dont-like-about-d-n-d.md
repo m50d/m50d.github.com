@@ -50,7 +50,11 @@ The only reason this isn't higher on the list is that all the groups I've played
 
 Unfortunately I reach that stage almost immediately (and I understand a nontrivial proportion of roleplayers are like me in this respect). I build up a backstory as part of character creation, fleshing it out at the same time as my stats; my character's concept is complete before I've made my first dice roll. Losing such a character at random is, if anything, even more unpleasant than a more fully formed one, as I feel like all the effort on the concept was wasted. (Side note: this entire paragraph is in direct opposition to a post I wrote in my early roleplaying days at university. I guess creating a character becomes less dependent on mechanics as you gain more experience roleplaying)
 
-Worst of all, some concepts simply can't be represented at level 1. If you want to be a fighter/wizard, you can't do that until level 2; for now you'll have to pick one or the other. The system for playing alternate races presents a better approach; if a dragonkid or whatever costs 4 levels, even D&D realises that it would be stupid to have you play the first three levels as a human and then upgrade. So you start with all the dragonkid abilities on advance, as it were, and spend your first three levels paying them back.
+Worst of all, some concepts simply can't be represented at level 1. If you want to be a fighter/wizard, you can't do that until level 2; for now you'll have to pick one or the other.
+
+The really frustrating thing is there's a better system lurking there, in the racial rules: if a dragonkin or whatever costs 4 levels, even D&D realises that it would be stupid to have you play the first three levels as a human and then upgrade. So you start with all the dragonkin abilities on advance, as it were, and spend your first three levels paying them back.
+
+In isolation, this works brilliantly. But if only some of the party does it then you have a serious balance issue - so either you find a bunch of different but more or less equal races for everyone to play, and spin a ridiculous story for how they got together, or 3/4 of the party spends the first few levels hiding behind the one character who's three times as tough as them. Neither option is particularly fun.
 
 * The system only really works for fantasy settings
 
