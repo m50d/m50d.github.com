@@ -40,11 +40,13 @@ With D&D every outcome has a 5% chance. Which is reasonably unlikely, but not *t
 
 Put it another way: as GM, in D&D I can set a success probability of 5%, 10%, .... Contrast with e.g. GURPS, where there are fewer numbers you might roll (16 rather than 20). But the probabilities I can set are 0.46%, 1.9%, 4.6%.... Of course, this doesn't come for free; around the middle values the distribution is more spread out, so e.g. I can't choose anything between 38% and 50%. But for narrative purposes that's the right tradeoff; the difference between 0.5% and 2% is much more interesting than the difference between 35% and 40%.
 
+
+
+* The published settings are
+
 * Six stats is too many to be balanced
 
 If a system is to have stats then they should be balanced. As the complexity of the system increases this becomes ever more important, because the system will be taking up an increasing proportion of player time - D&D certainly falls into this category. But to do this means ensuring the six stats are used equally, which is quite simply *too hard*. So each group ends up with its own specific "balance" - e.g. CHA is used more or less than average, which in turn means sorcerors are more or less powerful. As with my first point, that can make for an interesting game when done deliberately, but is no fun to force onto players.
-
-* The published settings are
 
 * Setting
 
