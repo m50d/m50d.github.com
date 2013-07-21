@@ -57,7 +57,7 @@ But going in the other direction and adapting a fantasy setting you can only eve
 
 But even with a new setting, D&D's system is too closely wedded to a fantasy world. Combat relies on STR, DEX and CON in a way that is awkward to adapt to firearms. The magic and religion systems are an integral part of class balance, but don't fit well into other genres.
 
-Why is this a problem? Great characters should transcend genre. I've just finished *Marvel 1602*, which is as clear a demonstration as I could ask for of this: Thor and Nick Fury and Daredevil and all the rest of them are the same characters even if you put them in a medieval world with medieval rules.
+Why is this a problem? Great characters should transcend genre. I've just finished *Marvel 1602*, which is as clear a demonstration as I could ask for of this: Thor and Nick Fury and Daredevil and all the rest of them are the same characters even if you put them in a medieval world with medieval rules. Abilities may change - a soldier in a fantasy setting does quite different things to a soldier in a modern world, and one in a sci-fi or horror world is different again.
 
 With enough effort it can be done - D20 Babylon 5 can be a great game. But by and large it's not worth it. I prefer to have stat systems that are less specific, more to do with character type than 
 
