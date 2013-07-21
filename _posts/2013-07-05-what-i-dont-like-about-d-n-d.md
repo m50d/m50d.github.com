@@ -54,7 +54,7 @@ Worst of all, some concepts simply can't be represented at level 1. If you want 
 
 The really frustrating thing is there's a better system lurking there, in the racial rules: if a dragonkin or whatever costs 4 levels, even D&D realises that it would be stupid to have you play the first three levels as a human and then upgrade. So you start with all the dragonkin abilities on advance, as it were, and spend your first three levels paying them back.
 
-In isolation, this works brilliantly. But if only some of the party does it then you have a serious balance issue - so either you find a bunch of different but more or less equal races for everyone to play, and spin a ridiculous story for how they got together, or 3/4 of the party spends the first few levels hiding behind the one character who's three times as tough as them. Neither option is particularly fun.
+In isolation, this works brilliantly. But if only some of the party does it then you have a serious balance issue - so either you find a bunch of different but more or less equal races for everyone to play, and spin a ridiculous story for how they got together, or 3/4 of the party spends the first few levels hiding behind the one character who's three times as tough as them, because the power curve in D&D is very steep[1]. Neither option is particularly fun.
 
 * The system only really works for fantasy settings
 
@@ -80,3 +80,7 @@ One side is that D&D is personal. In most RPGs one is encouraged to identify as 
 The other is that Necromuda is equal and competitive in a way that a traditional-DM RPG can never be. Both of you go all-out, and the better or luckier player wins. Whereas with a DM who has to be both opponent and referee, it's impossible to have this kind of competition.
 
 And a third, more subjective reason: I find a lot more fun in moving the minatures around the terrain, in *seeing* the combat happen. So if you do happen to like this style of D&D play, I highly recommend using minatures if you're not doing so already.
+
+[1] Something you may not have realised if you primarily play D&D or D&D-like systems is that most RPGs put far less emphasis on mechanical progression. You might get slightly better at your specializations, but the fundamentals of your character tend to stay the same rather than starting generic and branching out as D&D does. A character five levels ahead of you is a threat in any game, but in many systems you could overcome that kind of gap with cunning and numbers, whereas in D&D you can end up with characters having near-godlike domination over other characters who are only a handful of levels lower.
+
+I'm not saying this is good or bad (personally I'm actually quite fond of it), just something to be aware of. I'm aware of groups who consider the "sweet spot" of D&D to be levels 5-10, and there's a ruleset on the internet for playing this style (basically once you go past level 10 you gain additional feats rather than further levels) if that's your thing.
