@@ -57,3 +57,5 @@ This one's relatively easy to fix, and my experience is many groups already have
 I've sometimes heard that the D&D rules were originally written for a small-scale wargame, with minatures, one squad per player - something like *Necromuda*. Certainly the feel is similar, so whether the story is actually true is almost irrelevant.
 
 The funny thing is, I like *Necromuda*. (And ironically enough its biggest problem is similar: its rules are an adaptation of those for a larger-scale wargame, and don't always work for small squads). So I feel obliged to explain why D&D doesn't succeed on the same level.
+
+One side is that D&D is personal. In most RPGs one is encouraged to identify as one's character, to speak with the character's
