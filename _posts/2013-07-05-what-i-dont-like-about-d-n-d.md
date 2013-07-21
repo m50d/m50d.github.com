@@ -85,7 +85,7 @@ And a third, more subjective reason: I find a lot more fun in moving the minatur
 
 
 
-I'd meant to end on a positive note by talking about what I *do* enjoy, but this has already gone on too long and I don't want to give certain quarters any more attention. Enjoy your roleplaying, and don't be afraid to adapt your system to your group. 
+I'd meant to end on a positive note by talking about what I *do* enjoy, but this has already gone on too long and I don't want to give certain quarters any more attention. Enjoy your roleplaying, and don't be afraid to adapt your system to your group - and if you've only played D&D and felt it was missing something, try a different system. There's a whole world out there, and assuming every RPG is like D&D is as foolish as assuming every board game is like Monopoly, or every video game is like CoD, or every TV show is like *Eastenders*.
 
 [1] Something you may not have realised if you primarily play D&D or D&D-like systems is that most RPGs put far less emphasis on mechanical progression. You might get slightly better at your specializations, but the fundamentals of your character tend to stay the same rather than starting generic and branching out as D&D does. A character five levels ahead of you is a threat in any game, but in many systems you could overcome that kind of gap with cunning and numbers, whereas in D&D you can end up with characters having near-godlike domination over other characters who are only a handful of levels lower.
 
