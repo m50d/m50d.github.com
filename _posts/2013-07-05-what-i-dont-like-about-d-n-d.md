@@ -40,7 +40,7 @@ With D&D every outcome has a 5% chance. Which is reasonably unlikely, but not *t
 
 Put it another way: as GM, in D&D I can set a success probability of 5%, 10%, .... Contrast with e.g. GURPS, where there are fewer numbers you might roll (16 rather than 20). But the probabilities I can set are 0.46%, 1.9%, 4.6%.... Of course, this doesn't come for free; around the middle values the distribution is more spread out, so e.g. I can't choose anything between 38% and 50%. But for narrative purposes that's the right tradeoff; the difference between 0.5% and 2% is much more interesting than the difference between 35% and 40%.
 
-
+This one can't be fixed without making the game not-D&D, but can be ignored to a certain extent.
 
 * The published settings are
 
