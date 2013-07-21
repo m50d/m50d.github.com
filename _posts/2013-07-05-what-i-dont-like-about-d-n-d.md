@@ -56,6 +56,8 @@ The really frustrating thing is there's a better system lurking there, in the ra
 
 In isolation, this works brilliantly. But if only some of the party does it then you have a serious balance issue - so either you find a bunch of different but more or less equal races for everyone to play, and spin a ridiculous story for how they got together, or 3/4 of the party spends the first few levels hiding behind the one character who's three times as tough as them, because the power curve in D&D is very steep[1]. Neither option is particularly fun.
 
+Fortunately, the solution to this one 
+
 * The system only really works for fantasy settings
 
 It's easier for sci-fi settings to emulate fantasy than the other way around, because the difference between the two genres is that science fiction expects a consistent explanation behind everything, while fantasy is more or less indifferent to this. So you could easily adapt something like *Eclipse Phase* (which is a deeply sci-fi game, more firmly embedded in the genre than most) to a fantasy setting - the TITANS were, well, Titans, that escaped the magical control they were under. Storing memories in stones and passing them between bodies is easy, and it's always been like that. Mechanical golem bodies are worn only by the poor, the rich always use human (or magically enhanced human, or human-animal magical crossbreed) bodies, and there's a healthy black market in supplying fresh, uninhabited bodies, even if you have to evict the current occupant first. All that works perfectly well in fantasy.
@@ -83,4 +85,6 @@ And a third, more subjective reason: I find a lot more fun in moving the minatur
 
 [1] Something you may not have realised if you primarily play D&D or D&D-like systems is that most RPGs put far less emphasis on mechanical progression. You might get slightly better at your specializations, but the fundamentals of your character tend to stay the same rather than starting generic and branching out as D&D does. A character five levels ahead of you is a threat in any game, but in many systems you could overcome that kind of gap with cunning and numbers, whereas in D&D you can end up with characters having near-godlike domination over other characters who are only a handful of levels lower.
 
-I'm not saying this is good or bad (personally I'm actually quite fond of it), just something to be aware of. I'm aware of groups who consider the "sweet spot" of D&D to be levels 5-10, and there's a ruleset on the internet for playing this style (basically once you go past level 10 you gain additional feats rather than further levels) if that's your thing.
+I'm not saying this is good or bad (personally I'm actually quite fond of it), just something to be aware of. (I *do* think there's a problem with many of the standard D&D settings where the level 10 NPCs can make a starting party feel totally emasculated, but this post is already far too long).
+
+I'm aware of groups who consider the "sweet spot" of D&D to be levels 5-10, and there's a ruleset on the internet for playing this style (basically once you go past level 10 you gain additional feats rather than further levels) if that's your thing.
