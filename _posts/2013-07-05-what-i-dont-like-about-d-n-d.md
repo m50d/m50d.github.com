@@ -46,7 +46,7 @@ This one can't be fixed without making the game not-D&D, but can be ignored to a
 
 * Characters start weak and undifferentiated
 
-The only reason this isn't higher on the list is that almost all groups know better than to start from level 1.
+The only reason this isn't higher on the list is that all the groups I've played with know better than to start from level 1. At level 1 you're weak; your performance in a fight is also much swingier (i.e. luck makes a much bigger diference), meaning every encounter carries a genuine risk of death. 
 
 * The system only really works for fantasy settings
 
