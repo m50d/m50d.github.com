@@ -58,4 +58,6 @@ I've sometimes heard that the D&D rules were originally written for a small-scal
 
 The funny thing is, I like *Necromuda*. (And ironically enough its biggest problem is similar: its rules are an adaptation of those for a larger-scale wargame, and don't always work for small squads). So I feel obliged to explain why D&D doesn't succeed on the same level.
 
-One side is that D&D is personal. In most RPGs one is encouraged to identify as one's character, to speak with the character's
+One side is that D&D is personal. In most RPGs one is encouraged to identify as one's character, to speak with the character's voice. In something like Necromuda I can maintain detachment - the unit is mine, but the unit transcends its individual members, so I can face a few deaths with equanimity. In an RPG, character death is a Big Deal, and so a high-lethality ruleset like D&D - one in which it's easy for characters to die meaninglessly, not because they sacrificed themselves for something greater but because they walked into a pack of goblins and got unlucky - is inappropriate.
+
+The other is that Necromuda is equal and competitive in a way that a traditional-DM RPG can never be.
