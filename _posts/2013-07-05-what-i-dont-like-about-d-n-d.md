@@ -56,7 +56,7 @@ The really frustrating thing is there's a better system lurking there, in the ra
 
 In isolation, this works brilliantly. But if only some of the party does it then you have a serious balance issue - so either you find a bunch of different but more or less equal races for everyone to play, and spin a ridiculous story for how they got together, or 3/4 of the party spends the first few levels hiding behind the one character who's three times as tough as them, because the power curve in D&D is very steep[1]. Neither option is particularly fun.
 
-Fortunately, the solution to this one 
+Fortunately, the solution to this one is easy and common: start at a level where you can make interesting characters, say level 5. Require anyone picking a nonhuman race to choose one whose level adjustment is <= this level, so that you can 
 
 * The system only really works for fantasy settings
 
