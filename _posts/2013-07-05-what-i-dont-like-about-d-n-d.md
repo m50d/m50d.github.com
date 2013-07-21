@@ -61,3 +61,5 @@ The funny thing is, I like *Necromuda*. (And ironically its biggest problem is s
 One side is that D&D is personal. In most RPGs one is encouraged to identify as one's character, to speak with the character's voice. In something like Necromuda I can maintain detachment - the unit is mine, but the unit transcends its individual members, so I can face a few deaths with equanimity. In an RPG, character death is a Big Deal, and so a high-lethality ruleset like D&D - one in which it's easy for characters to die meaninglessly, not because they sacrificed themselves for something greater but because they walked into a pack of goblins and got unlucky - is inappropriate.
 
 The other is that Necromuda is equal and competitive in a way that a traditional-DM RPG can never be.
+
+And a third reason: I find a lot more fun in moving the minatures around the terrain.
