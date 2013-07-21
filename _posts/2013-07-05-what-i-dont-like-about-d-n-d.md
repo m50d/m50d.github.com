@@ -48,7 +48,7 @@ This one can't be fixed without making the game not-D&D, but can be ignored to a
 
 * Six stats is too many to be balanced
 
-If a system is to have stats then they should be balanced. As the complexity of the system increases this becomes ever more important, because the system will be taking up an increasing proportion of player time - D&D certainly falls into this category. But to do this means ensuring the six stats are used equally, which is quite simply *too hard*. So each group ends up with its own specific "balance" - e.g. CHA is used more or less than average, which in turn means sorcerors are more or less powerful. As with my first point, that can make for an interesting game when done deliberately, but is no fun to force onto players.
+
 
 * The system only really works for fantasy settings
 
@@ -56,6 +56,8 @@ It's easier for sci-fi settings to emulate fantasy than the other way around, be
 But going in the other direction and adapting a fantasy setting you can only ever reach very light, space-operaey sci-fi. You can't just declare a Minkowsky Particle and explain all the magic in terms of it, because fantasy magic systems haven't been designed with this in mind.
 
 But even with a new setting, D&D's system is too closely wedded to a fantasy world. Combat relies on STR, DEX and CON in a way that is awkward to adapt to firearms. The magic and religion systems are an integral part of class balance, but don't fit well into other genres.
+
+(related but distinct thought: If a system is to have stats then they should be balanced. As the complexity of the system increases this becomes ever more important, because the system will be taking up an increasing proportion of player time - D&D certainly falls into this category. But to do this means ensuring the six stats are used equally, which is quite simply *too hard*. So each group ends up with its own specific "balance" - e.g. CHA is used more or less than average, which in turn means sorcerors are more or less powerful. As with my first point, that can make for an interesting game when done deliberately, but is no fun to force onto players.)
 
 Why is this a problem? Great characters should transcend genre. I've just finished *Marvel 1602* and started *Fate/Kaelid Liner*, which are the kind of thing I love: Thor and Nick Fury and Daredevil are the same characters even if you put them in a medieval world with medieval rules. Rin is still Rin even in a genre with very different conventions. Abilities may change - a soldier in a fantasy setting does quite different things to a soldier in a modern world, and one in a sci-fi or horror world is different again. But the archetypes of a soldier or a craftsman or a mystic are the same in each setting, and those are what truly define a character - not whether they can use a pike or pray to a particular god. So I prefer my character sheets to be more about personality traits and general character role than a detailed list of specific skills.
 
