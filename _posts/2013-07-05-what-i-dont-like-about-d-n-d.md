@@ -44,7 +44,7 @@ This one can't be fixed without making the game not-D&D, but can be ignored to a
 
 (Incidentally, if you have players who prefer standard D&D combat, do feel free to mess with your monsters' stats and fudge your dice rolls where necessary. It's not your job to provide an accurate simulation or a fair fight for the players - D&D's rules are not amenable to either - it's your job to help them tell an interesting story, to give them opponents that feel challenging but who will ultimately be overcome. Railroading is bad when it negates the players' agency - players who come up with something clever should be rewarded, players who do something stupid should suffer the consequences, even if that messes up the plans you had for the story. But negating the dice's agency is fine)
 
-* Characters start weak and undifferentiated. The published settings keep them that way.
+* Characters start weak and undifferentiated. The published settings keep them that way
 
 * The system only really works for fantasy settings
 
