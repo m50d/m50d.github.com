@@ -46,7 +46,7 @@ This one can't be fixed without making the game not-D&D, but can be ignored to a
 
 * Characters start weak and undifferentiated
 
-The only reason this isn't higher on the list is that all the groups I've played with know better than to start from level 1. Before I start complaining I will say that on the plus-side, combat is swingier (i.e. more affected by luck) and therefore, with typical GMing, much more lethal in the early levels, which can actually help the game out in the long run: 
+The only reason this isn't higher on the list is that all the groups I've played with know better than to start from level 1. Before I start complaining I will say that on the plus-side, combat is swingier (i.e. more affected by luck) and therefore, with typical GMing, much more lethal in the early levels, which can actually help the game out in the long run. If you're the kind of player who works out a character bit by bit in play, then starting with a few deaths makes 
 
 * The system only really works for fantasy settings
 
