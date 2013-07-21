@@ -1,5 +1,4 @@
 ---
-published: false
 title: "What I Don't Like About D&D"
 layout: default
 ---
