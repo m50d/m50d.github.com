@@ -59,7 +59,7 @@ But even with a new setting, D&D's system is too closely wedded to a fantasy wor
 
 Why is this a problem? Great characters should transcend genre. I've just finished *Marvel 1602* and started *Fate/Kaelid Liner*, which are the kind of thing I love: Thor and Nick Fury and Daredevil are the same characters even if you put them in a medieval world with medieval rules. Rin is still Rin even in a genre with very different conventions. Abilities may change - a soldier in a fantasy setting does quite different things to a soldier in a modern world, and one in a sci-fi or horror world is different again. But the archetypes of a soldier or a craftsman or a mystic are the same in each setting, and those are what truly define a character - not whether they can use a pike or pray to a particular god. So I prefer my character sheets to be more about types than individual skills.
 
-With enough effort it can be done - D20 Babylon 5 can be a great game. But by and large it's not worth it.
+That said, with enough effort it can be done - D20 Babylon 5 can be a great game. But by and large it's not worth it. By all means use D&D for fantasy (well, don't, but for the other reasons I've given), but as and when you want to expand to other genres (and you should certainly try a variety of genres - otherwise how would you know which you like best?), try a system more appropriate to them.
 
 * Aside: small-scale minatures wargames
 
