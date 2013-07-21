@@ -55,6 +55,8 @@ If a system is to have stats then they should be balanced. As the complexity of 
 It's easier for sci-fi settings to emulate fantasy than the other way around, because the difference between the two genres is that science fiction expects a consistent explanation behind everything, while fantasy is more or less indifferent to this. So you could easily adapt something like *Eclipse Phase* (which is a deeply sci-fi game, more firmly embedded in the genre than most) to a fantasy setting - the TITANS were, well, Titans, that escaped the magical control they were under. Storing memories in stones and passing them between bodies is easy, and it's always been like that. Mechanical golem bodies are worn only by the poor, the rich always use human (or magically enhanced human, or human-animal magical crossbreed) bodies, and there's a healthy black market in supplying fresh, uninhabited bodies, even if you have to evict the current occupant first. All that works perfectly well in fantasy.
 But going in the other direction and adapting a fantasy setting you can only ever reach very light, space-operaey sci-fi. You can't just declare a Minkowsky Particle and explain all the magic in terms of it, because fantasy magic systems haven't been designed with this in mind.
 
+But even leaving that aside, D&D's system is too closely wedded to 
+
 * Aside: small-scale minatures wargames
 
 I've sometimes heard that the D&D rules were originally written for a small-scale wargame, with minatures, one squad per player - something like *Necromuda*. Certainly the feel is similar, so whether the story is actually true is almost irrelevant.
