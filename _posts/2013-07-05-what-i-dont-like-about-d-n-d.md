@@ -46,6 +46,8 @@ This one can't be fixed without making the game not-D&D, but can be ignored to a
 
 * Characters start weak and undifferentiated
 
+The only reason this isn't higher on the list is that almost all groups know better than to start from level 1.
+
 * The system only really works for fantasy settings
 
 It's easier for sci-fi settings to emulate fantasy than the other way around, because the difference between the two genres is that science fiction expects a consistent explanation behind everything, while fantasy is more or less indifferent to this. So you could easily adapt something like *Eclipse Phase* (which is a deeply sci-fi game, more firmly embedded in the genre than most) to a fantasy setting - the TITANS were, well, Titans, that escaped the magical control they were under. Storing memories in stones and passing them between bodies is easy, and it's always been like that. Mechanical golem bodies are worn only by the poor, the rich always use human (or magically enhanced human, or human-animal magical crossbreed) bodies, and there's a healthy black market in supplying fresh, uninhabited bodies, even if you have to evict the current occupant first. All that works perfectly well in fantasy.
