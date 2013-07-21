@@ -57,7 +57,7 @@ But going in the other direction and adapting a fantasy setting you can only eve
 
 But even with a new setting, D&D's system is too closely wedded to a fantasy world. Combat relies on STR, DEX and CON in a way that is awkward to adapt to firearms. The magic and religion systems are an integral part of class balance, but don't fit well into other genres.
 
-With enough effort it can be done - D20 Babylon 5 is a great game.
+With enough effort it can be done - D20 Babylon 5 can be a great game. But by and large it's not worth it. I prefer to have stat systems that are less specific, more to do with character type than 
 
 * Aside: small-scale minatures wargames
 
