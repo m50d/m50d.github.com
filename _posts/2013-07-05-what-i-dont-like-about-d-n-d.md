@@ -62,4 +62,4 @@ One side is that D&D is personal. In most RPGs one is encouraged to identify as 
 
 The other is that Necromuda is equal and competitive in a way that a traditional-DM RPG can never be. Both of you go all-out, and the better or luckier player wins. Whereas with a DM who has to be both opponent and referee, it's impossible to have this kind of competition.
 
-And a third reason: I find a lot more fun in moving the minatures around the terrain.
+And a third reason: I find a lot more fun in moving the minatures around the terrain, in *seeing* the combat happen. So if you do happen to like this style of D&D play, I highly recommend using minatures if you're not doing so already.
