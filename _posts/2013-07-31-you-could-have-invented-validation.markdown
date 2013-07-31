@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: You Could Have Invented the Validation Monad
 ---
 
