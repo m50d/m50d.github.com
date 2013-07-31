@@ -35,4 +35,6 @@ And we use it something like this:
            e
    }
             
-Even with only two uses, we're clearly heading towards a pyramid of doom. Some Go advocates suggest moving the error branches as early as possible, using short-circuit return to leave the function in the error case, leaving the rest of the body to handle only the success path.
+Even with only two uses, we're clearly heading towards a pyramid of doom. Some Go advocates suggest moving the error branches as early as possible, using short-circuit return to leave the function in the error case, leaving the rest of the body to handle only the success path. This improves the superficial appearance of the code, but the fundamental problem remains: this function has a far too high branching factor, too many code paths for what it's doing, making it harder to test, harder to reason about, and harder to refactor.
+
+Let's take another look at those pattern matches.
