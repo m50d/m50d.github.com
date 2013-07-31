@@ -22,6 +22,17 @@ The | is made up syntax, unfortunately (at least for now) - to declare a functio
 
 And we use it something like this:
 
-    val file1OrError = readFile("filename1")
-    if(file1OrError.isInstanceOf[Error]) return file1OrError
-    val file2OrError = 
+    readFile("filename1") match {
+    	case Success(file1) =>
+            val filename2 = computeFilenameFromFile(file1)
+            readFile(filename2) match {
+                case Success(file2) =>
+                    computeFinalResultFromFiles(file1, file2)
+                case Error(e) =>
+                    e
+                }
+       case Error(e) =>
+           e
+   }
+            
+Even with only two uses, we're clearly heading towards a pyramid of doom.
