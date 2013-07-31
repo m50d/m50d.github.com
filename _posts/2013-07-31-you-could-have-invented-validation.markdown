@@ -20,4 +20,8 @@ The | is made up syntax, unfortunately (at least for now) - to declare a functio
     
     def readFile(filename: String): SuccessOrError[A]
 
-And we use it something like
+And we use it something like this:
+
+    val file1OrError = readFile("filename1")
+    if(file1OrError.isInstanceOf[Error]) return file1OrError
+    val file2OrError = 
