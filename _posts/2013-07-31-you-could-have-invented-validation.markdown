@@ -20,3 +20,4 @@ The | is made up syntax, unfortunately (at least for now) - to declare a functio
     
     def readFile(filename: String): SuccessOrError[A]
 
+And we use it something like
