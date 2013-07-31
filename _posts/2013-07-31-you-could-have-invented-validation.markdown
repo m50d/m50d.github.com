@@ -12,4 +12,11 @@ Imagine you have a bunch of functions that might return success or error. Go has
     
     def readFile(filename: String): Success[File] | Error
 
-The | is made up syntax, unfortunately (at least for now) - to declare a function like this we need an inheritance hierarchy.
+The | is made up syntax, unfortunately (at least for now) - to declare a function like this we need an inheritance hierarchy:
+
+    sealed trait SuccessOrError[A]
+    case class Error[A](e: Exception) extends SuccessOrError[A]
+    case class Success[A](result: A) extends SuccessOrError[A]
+    
+    def readFile(filename: String): SuccessOrError[A]
+
