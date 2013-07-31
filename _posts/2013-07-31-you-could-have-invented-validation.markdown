@@ -35,4 +35,4 @@ And we use it something like this:
            e
    }
             
-Even with only two uses, we're clearly heading towards a pyramid of doom.
+Even with only two uses, we're clearly heading towards a pyramid of doom. Some Go advocates suggest moving the error branches as early as possible, using short-circuit return to leave the function in the error case, leaving the rest of the body to handle only the success path.
