@@ -1,6 +1,7 @@
 ---
 layout: default
 title: You Could Have Invented the Validation Monad
+published: true
 ---
 
 (This is following on from a discussion about Go error handling)
@@ -92,6 +93,6 @@ Regular readers will know that these method names are special to scala, allowing
        file1 <- readFile("filename1")
        filename2 = computeFilenameFromFile(file1)
        file2 <- readFile(filename2)
-   } yield computeFinalResultFromFiles(file1, file2)
+    } yield computeFinalResultFromFiles(file1, file2)
 
 And there we have it. You'll find this type in Scalaz as "Validation".
