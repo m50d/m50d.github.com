@@ -11,5 +11,5 @@ Now that moving house is done I've no excuse not to write more. I've not finishe
 I never did manage to finish the Kerbal Space Program mission - even that ridiculous whale of a rocket didn't have enough fuel given my (lack of) piloting skills. But I did at least manage to get it into orbit:
 
 <iframe id="ytplayer" type="text/html" width="640" height="390"
-  src="http://www.youtube.com/embed/rB8WIWpiA9o?autoplay=0&origin=http://m50d.github.io"
+  src="http://www.youtube.com/embed/rB8WIWpiA9o?autoplay=0&amp;origin=http://m50d.github.io"
   frameborder="0"/>
