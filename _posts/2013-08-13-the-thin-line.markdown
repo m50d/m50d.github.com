@@ -1,5 +1,6 @@
 ---
 published: false
+title: "The Thin Line (Psycho-Pass)"
 ---
 
 ## A New Post
