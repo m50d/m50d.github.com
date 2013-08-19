@@ -1,4 +1,5 @@
 ---
+layout: default
 published: true
 title: "The Thin Line (Psycho-Pass)"
 ---
