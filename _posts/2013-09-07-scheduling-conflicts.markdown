@@ -15,6 +15,6 @@ The series I remember now aren't generally those I thought I would at the time. 
 
 And yes, there is a childishness to some of these stories. The effort invested in the setting can mean little left over for the characters. The results can be hard to relate to as humans. But the other half of this childishness is the sheer, wonderful joy of a world to explore, creatures to see, even the simple fun of flying or singing - something the shows I've mentioned capture far better than more serious science fiction.
 
-This summer season makes these questions more than academic. Having just finished *Psycho-Pass* - an excellent, if flawed, piece of that "serious science fiction", I'm now about to field a schedule of 
+This summer season makes these questions more than academic. Having just finished *Psycho-Pass* - an excellent, if flawed, piece of that "serious science fiction", I'm now about to field a schedule where perhaps five out of six shows could be classed as "magical girl" to some extent.
 
 t its height, something like (the novel) *Anathem* can weave together true insight into humans, humanity, and reality itself.
