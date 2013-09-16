@@ -17,4 +17,4 @@ And yes, there is a childishness to some of these stories. The effort invested i
 
 This summer season makes these questions more than academic. Having just finished *Psycho-Pass* - an excellent, if flawed, piece of that "serious science fiction", I'm now about to field a schedule where perhaps five out of six shows could be classed as "magical girl" to some extent.
 
-t its height, something like (the novel) *Anathem* can weave together true insight into humans, humanity, and reality itself.
+At its height, something like (the novel) *Anathem* can weave together true insight into humans, humanity, and reality itself.
