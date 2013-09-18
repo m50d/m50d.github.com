@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Scheduling Conflicts
+title: "Scheduling Conflicts"
 published: true
 ---
 
