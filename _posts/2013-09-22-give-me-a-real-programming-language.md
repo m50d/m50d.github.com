@@ -11,5 +11,4 @@ Even tools by and for real programs aren't immune from these problems. Consider 
 
 It seems impossible to design a "domain specific" language beyond a certain level of power without it becoming a full-blown programming language - perhaps because programming is all about abstraction, and so a sufficiently powerful language can always abstract away from the domain. This is, in my view, the reason why XML+XSLT failed and has been displaced by modern client-side rendering in javascript. XSLT was a language explicitly, carefully designed for a single task - transforming XML from one representation into another - and it *sucked*. Javascript isn't even a very good general-purpose programming language, but it still turned out to be far better suited for this task.
 
-XSLT
-sendmail M4
+Can it go the other way around? Yes - the format for sendmail's config file, M4, was eventually released separately as a programming language in its own right, and enjoyed some minor success (autoconf is written in it). But most companies would think twice about trying to write a programming language, even one with the modest ambitions of M4. But they somehow fail to realize that once you offer a sufficiently advanced configuration format, that's exactly what you're doing.
