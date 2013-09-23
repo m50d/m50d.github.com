@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Give Me a Real Programming Language
 ---
 
