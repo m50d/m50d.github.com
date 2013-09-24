@@ -11,4 +11,5 @@ Which is part of why *Honey & Clover* sits very high on my list[3]. Not only is 
 
 [1] Whom I had at one point expressed an attraction to<br/>
 [2] Recommended by the same source<br/>
-[3] It's no longer my favourite anim&eacute; - that honour belongs to *Wandering Son* - but it's comfortably in the top 5
+[3] It's no longer my favourite anim&eacute; - that honour belongs to *Wandering Son* - but it's comfortably in the top 5<br/>
+[4] Or so it remains in my memory.
