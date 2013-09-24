@@ -7,7 +7,7 @@ I was recommended *Good Will Hunting* in my final year of university, by a fello
 
 I had a similar experience with *Groundhog Day*[2]. Given infinite time, a man goes through all the possible responses - anger, denial, acceptance - and chooses the noble option; he betters himself, both morally (learning to help strangers) and functionally (becoming, if nothing else, a talented ice sculptor). And yet the film tells us that none of this matters: only "true love", it seems, has the power to change fate.
 
-Which is part of why *Honey & Clover* sits very high on my list[3].
+Which is part of why *Honey & Clover* sits very high on my list[3]. Not only is it a beautifully constructed story of human relationships[4],
 
 [1] Whom I had at one point expressed an attraction to<br/>
 [2] Recommended by the same source<br/>
