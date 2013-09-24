@@ -1,9 +1,4 @@
 ---
-published: true
-title: Give Me a Real Programming Language
----
-
----
 title: Give Me a Real Programming Language
 layout: default
 ---
