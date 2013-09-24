@@ -7,5 +7,5 @@ I was recommended *Good Will Hunting* in my final year of university, by a fello
 
 I had a similar experience with *Groundhog Day*[2]
 
-[1] Whom I had at one point expressed an attraction to.
+[1] Whom I had at one point expressed an attraction to<br/>
 [2] Recommended by the same source
