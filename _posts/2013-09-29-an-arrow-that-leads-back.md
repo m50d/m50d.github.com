@@ -19,7 +19,7 @@ So we have our functions, looking something like this:
 
 And it's very obvious which ones are making async calls and which ones aren't, and we can't possibly mistake an async call for a pure calculation or vice versa, which is nice. But immediately we find this is *horrific* to use directly:
 
-    fetchUser(id) flatMap {
+    def buildMosaic(id: Long) = fetchUser(id) flatMap {
         user => fetchTweets(user) flatMap {
             tweets =>
                 val interesting = interestingTweets(tweets)
@@ -36,3 +36,15 @@ And it's very obvious which ones are making async calls and which ones aren't, a
     }
 
 We've got our clarity - the call to interestingTweets looks very different from the async calls - but at too high a price.
+
+Of course, no-one would actually use a monad like this. We have scala's lovely yield notation instead:
+
+    def buildMosaic(id: Long) = for {
+            user <- fetchUser(id)
+            tweets <- fetchTweets(user)
+            interesting = interestingTweets(tweets)
+            avatars <- (interesting map fetchAvatar).sequence
+        } yield buildMosaic(avatars)
+
+This is clearly miles ahead - so much so that it takes a while to realize we've also lost something.
+        
