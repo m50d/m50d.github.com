@@ -47,4 +47,6 @@ Of course, no-one would actually use a monad like this. We have scala's lovely y
         } yield buildMosaic(avatars)
 
 This is clearly miles ahead - so much so that it takes a while to realize we've also lost something. The distinction between two types of call is still there, in the difference between = and <-, but it's subtle, easy to miss. While using <- where you should have used = is a syntax error, the converse will compile fine until you come to use the value. In practice this can lead to IO actions never taking place (we form a pure IO monad but never bind it), or, when using futures, to subtle concurrency bugs[1].
+
+[1] Imagine a function that creates a collection, and fills it with objects, returning a future that indicates completion of this operation - but *doesn't* contain all the objects, only the metadata.
         
