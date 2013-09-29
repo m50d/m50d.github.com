@@ -17,5 +17,5 @@ So we have our functions, looking something like this:
     def fetchAvatar(tweet: Tweet): Future[Avatar]
     def buildMosaic(avatars: List[Avatar]): Image
 
-And it's very obvious which ones are making async calls and which ones aren't, and we can't possibly mistake an async call for a pure calculation or vice versa, which is nice. But immediately we find this is *horrific* to use directly.
+And it's very obvious which ones are making async calls and which ones aren't, and we can't possibly mistake an async call for a pure calculation or vice versa, which is nice. But immediately we find this is *horrific* to use directly:
     
