@@ -7,4 +7,4 @@ I used a Kleisli arrow for the first time at work yesterday, and it was good. (I
 
 The monad is a very simple and general abstraction, but at the moment it's most commonly used to enable purer functional programming, i.e. greater control over efects. At first glance this sounds reasonable: whether a given function performs I/O, or hands part of itself off to another thread, or could fail in a particular way ginving a particular (strongly-typed) error, is important information that it would be nice to make obvious in a function's signature.
 
-(At this point a little )
+(At this point a sliver of doubt is already creeping in. Didn't the same idea lead to Java's checked exceptions, now almost universally acknowledged (even by Gosling himself) as a mistake? But perhaps )
