@@ -18,4 +18,21 @@ So we have our functions, looking something like this:
     def buildMosaic(avatars: List[Avatar]): Image
 
 And it's very obvious which ones are making async calls and which ones aren't, and we can't possibly mistake an async call for a pure calculation or vice versa, which is nice. But immediately we find this is *horrific* to use directly:
-    
+
+    fetchUser(id) flatMap {
+        user => fetchTweets(user) flatMap {
+            tweets =>
+                val interesting = interestingTweets(tweets)
+                (Future.successful(Nil) /: interesting) {
+                    (futureAvatars, tweet) =>
+                        futureAvatars flatMap {
+                             avatars => fetchAvatar(tweet) flatMap {
+                                 avatar => avatar :: avatars
+                             }
+                         }
+                     } map {
+                         avatars => buildMosaic(avatars)
+        }
+    }
+
+We've got our clarity - the call to interestingTweets looks very different from the async calls - but at too high a price.
