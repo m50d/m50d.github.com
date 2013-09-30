@@ -52,7 +52,7 @@ Using an arrow makes the code even prettier:
 
     val getMosaic = ☆(fetchUser) >=> fetchTweets >=> interestingTweets ∘ interesting ↦ avatars ∘ buildMosaic
 
-And yet... and yet. Somewhere along the line those clear syntactic distinctions - the very reason we're using monads in the first place, remember - have become rather blurred. Oh, you can still tell exactly what kind of function each of the above is - assuming you've memorized the symbol table[2]. But there are an awful lot of them, and checking which is which can be slower than just reading the functions being composed.
+And yet... and yet. Somewhere along the line those clear syntactic distinctions - the very reason we're using monads in the first place, remember - have become rather blurred. Oh, you can still tell exactly what kind of function each of the above is - assuming you've memorized the symbol table[2]. But there are an awful lot of them, and checking which is which can be slower than just reading the functions being composed. It makes me wonder how much better this approach really is than, say, a python implementation using some stack-slicing greenlet-style system, where only the function names would indicate that they were or weren't making async calls.
 
 [1] Imagine a function that creates a collection, and fills it with objects, returning a future that indicates completion of this operation - but *doesn't* contain all the objects, only the metadata. So we create a List of Future[Unit]s, sequence them into a Future[List[Unit]], and then use "\_ =" where we meant "\_ <-", forgetting to compose it into the future we're returning. Yeah.
 
