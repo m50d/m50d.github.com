@@ -52,6 +52,6 @@ Using an arrow makes the code even prettier:
 
     val getMosaic = ☆ fetchUser >=> fetchTweets >=> interestingTweets map interesting ↦ avatars map buildMosaic
 
-And yet... and yet. Somewhere along the line
+And yet... and yet. Somewhere along the line those clear syntactic distinctions - the very reason we're using monads in the first place, remember - have become rather blurred.
 
 [1] Imagine a function that creates a collection, and fills it with objects, returning a future that indicates completion of this operation - but *doesn't* contain all the objects, only the metadata. So we create a List of Future[Unit]s, sequence them into a Future[List[Unit]], and then use "\_ =" where we meant "\_ <-", forgetting to compose it into the future we're returning. Yeah.
