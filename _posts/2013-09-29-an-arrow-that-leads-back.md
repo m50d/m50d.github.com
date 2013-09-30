@@ -50,8 +50,10 @@ This is clearly miles ahead - so much so that it takes a while to realize we've 
 
 Using an arrow makes the code even prettier:
 
-    val getMosaic = ☆ fetchUser >=> fetchTweets >=> interestingTweets map interesting ↦ avatars map buildMosaic
+    val getMosaic = ☆ fetchUser >=> fetchTweets >=> interestingTweets ∘ interesting ↦ avatars ∘ buildMosaic
 
-And yet... and yet. Somewhere along the line those clear syntactic distinctions - the very reason we're using monads in the first place, remember - have become rather blurred. Oh, you can still tell exactly what kind of function each of the above is - assuming you've memorized the symbol table. But there are an awful lot of them.
+And yet... and yet. Somewhere along the line those clear syntactic distinctions - the very reason we're using monads in the first place, remember - have become rather blurred. Oh, you can still tell exactly what kind of function each of the above is - assuming you've memorized the symbol table[2]. But there are an awful lot of them.
 
 [1] Imagine a function that creates a collection, and fills it with objects, returning a future that indicates completion of this operation - but *doesn't* contain all the objects, only the metadata. So we create a List of Future[Unit]s, sequence them into a Future[List[Unit]], and then use "\_ =" where we meant "\_ <-", forgetting to compose it into the future we're returning. Yeah.
+
+[2] Scalaz 7 appears to be doing away with a whole lot of symbols, something I largely support. But I'm not sure "kleisli" and "traverse" are any clearer than ☆ and ↦
