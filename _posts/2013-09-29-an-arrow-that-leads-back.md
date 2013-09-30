@@ -59,3 +59,5 @@ And yet... and yet. Somewhere along the line those clear syntactic distinctions 
 [2] Scalaz 7 appears to be doing away with a whole lot of symbols, something I largely support. But I'm not sure the following is any clearer:
 
     val getMosaic = Kleisli apply fetchUser >=> fetchTweets >=> interestingTweets map interesting traverse avatars map buildMosaic
+
+The names are only slightly more self-explanatory, and the distinction between our methods and scalaz operators has disappeared.
