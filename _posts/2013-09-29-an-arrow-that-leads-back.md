@@ -54,6 +54,10 @@ Using an arrow makes the code even prettier:
 
 And yet... and yet. Somewhere along the line those clear syntactic distinctions - the very reason we're using monads in the first place, remember - have become rather blurred. Oh, you can still tell exactly what kind of function each of the above is - assuming you've memorized the symbol table[2]. But there are an awful lot of them, and checking which is which can be slower than just reading the functions being composed. It makes me wonder how much better this approach really is than, say, a python implementation using some stack-slicing greenlet-style system, where only the function names would indicate that they were or weren't making async calls.
 
+Most likely I'm overreacting. My IDE can display type information by hovering a function, so figuring out it's monadic is faster
+
+
+
 [1] Imagine a function that creates a collection, and fills it with objects, returning a future that indicates completion of this operation - but *doesn't* contain all the objects, only the metadata. So we create a List of Future[Unit]s, sequence them into a Future[List[Unit]], and then use "\_ =" where we meant "\_ <-", forgetting to compose it into the future we're returning. Yeah.
 
 [2] Scalaz 7 appears to be doing away with a whole lot of symbols, something I largely support. But I'm not sure the following is any clearer:
