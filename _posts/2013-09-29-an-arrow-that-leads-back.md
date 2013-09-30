@@ -50,7 +50,7 @@ This is clearly miles ahead - so much so that it takes a while to realize we've 
 
 Using an arrow makes the code even prettier:
 
-    val getMosaic = ☆ fetchUser >=> fetchTweets >=> interestingTweets ∘ interesting ↦ avatars ∘ buildMosaic
+    val getMosaic = ☆(fetchUser) >=> fetchTweets >=> interestingTweets ∘ interesting ↦ avatars ∘ buildMosaic
 
 And yet... and yet. Somewhere along the line those clear syntactic distinctions - the very reason we're using monads in the first place, remember - have become rather blurred. Oh, you can still tell exactly what kind of function each of the above is - assuming you've memorized the symbol table[2]. But there are an awful lot of them.
 
