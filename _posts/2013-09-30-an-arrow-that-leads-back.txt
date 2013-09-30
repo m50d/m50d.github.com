@@ -1,5 +1,4 @@
 ---
-published: false
 title: An Arrow that points back to where we started
 layout: default
 ---
