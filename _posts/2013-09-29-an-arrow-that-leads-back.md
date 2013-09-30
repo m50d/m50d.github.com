@@ -56,4 +56,6 @@ And yet... and yet. Somewhere along the line those clear syntactic distinctions 
 
 [1] Imagine a function that creates a collection, and fills it with objects, returning a future that indicates completion of this operation - but *doesn't* contain all the objects, only the metadata. So we create a List of Future[Unit]s, sequence them into a Future[List[Unit]], and then use "\_ =" where we meant "\_ <-", forgetting to compose it into the future we're returning. Yeah.
 
-[2] Scalaz 7 appears to be doing away with a whole lot of symbols, something I largely support. But I'm not sure "kleisli" and "traverse" are any clearer than ☆ and ↦
+[2] Scalaz 7 appears to be doing away with a whole lot of symbols, something I largely support. But I'm not sure the following is any clearer:
+
+    val getMosaic = Kleisli apply fetchUser >=> fetchTweets >=> interestingTweets map interesting traverse avatars map buildMosaic
