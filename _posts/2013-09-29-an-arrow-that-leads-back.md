@@ -19,7 +19,7 @@ So we have our functions, looking something like this:
 
 And it's very obvious which ones are making async calls and which ones aren't, and we can't possibly mistake an async call for a pure calculation or vice versa, which is nice. But immediately we find this is *horrific* to use directly:
 
-    def buildMosaic(id: Long) = fetchUser(id) flatMap {
+    def getMosaic(id: Long) = fetchUser(id) flatMap {
         user => fetchTweets(user) flatMap {
             tweets =>
                 val interesting = interestingTweets(tweets)
@@ -39,7 +39,7 @@ We've got our clarity - the call to interestingTweets looks very different from 
 
 Of course, no-one would actually use a monad like this. We have scala's lovely yield notation instead:
 
-    def buildMosaic(id: Long) = for {
+    def getMosaic(id: Long) = for {
             user <- fetchUser(id)
             tweets <- fetchTweets(user)
             interesting = interestingTweets(tweets)
@@ -48,5 +48,10 @@ Of course, no-one would actually use a monad like this. We have scala's lovely y
 
 This is clearly miles ahead - so much so that it takes a while to realize we've also lost something. The distinction between two types of call is still there, in the difference between = and <-, but it's subtle, easy to miss. While using <- where you should have used = is a syntax error, the converse will compile fine until you come to use the value. In practice this can lead to IO actions never taking place (we form a pure IO monad but never bind it), or, when using futures, to subtle concurrency bugs[1].
 
+Using an arrow makes the code even prettier:
+
+    val getMosaic = ☆ fetchUser >=> fetchTweets >=> interestingTweets map interesting ↦ avatars map buildMosaic
+
+And yet... and yet. Somewhere along the lines
+
 [1] Imagine a function that creates a collection, and fills it with objects, returning a future that indicates completion of this operation - but *doesn't* contain all the objects, only the metadata. So we create a List of Future[Unit]s, sequence them into a Future[List[Unit]], and then use "\_ =" where we meant "\_ <-", forgetting to compose it into the future we're returning. Yeah.
-        
