@@ -1,5 +1,5 @@
 ---
-title: An Arrow that points back to where we started
+title: An Arrow that Points Back to Where we Started
 layout: default
 ---
 
