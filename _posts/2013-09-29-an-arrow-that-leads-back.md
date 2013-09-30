@@ -54,7 +54,7 @@ Using an arrow makes the code even prettier:
 
 And yet... and yet. Somewhere along the line those clear syntactic distinctions - the very reason we're using monads in the first place, remember - have become rather blurred. Oh, you can still tell exactly what kind of function each of the above is - assuming you've memorized the symbol table[2]. But there are an awful lot of them, and checking which is which can be slower than just reading the functions being composed. It makes me wonder how much better this approach really is than, say, a python implementation using some stack-slicing greenlet-style system, where only the function names would indicate that they were or weren't making async calls.
 
-Most likely I'm overreacting. My IDE can display type information by hovering a function, so there's definitely some improvement over having to read the whole body. And there's value in having a compact, glyphic representation of a function - it makes it faster to scan for a particular section, even if I then have to mentally unpack what's going on around it. 
+Most likely I'm overreacting. My IDE can display type information by hovering a function, so there's definitely some improvement over having to read the whole body. And there's value in having a compact, glyphic representation of a function - it makes it faster to scan for a particular section, even if I then have to mentally unpack what's going on around it. And unlike function names, a type signature is guaranteed to be updated if a function changes from async to non (or vice versa).
 
 
 
