@@ -56,7 +56,7 @@ And yet... and yet. Somewhere along the line those clear syntactic distinctions 
 
 Most likely I'm overreacting. My IDE can display type information by hovering a function, so there's definitely some improvement over having to read the whole body. And there's value in having a compact, glyphic representation of a function - it makes it faster to scan for a particular section, even if I then have to mentally unpack what's going on around it. And unlike function names, a type signature is guaranteed to be updated if a function changes from async to non (or vice versa). Maybe in a week or two other code styles will look hopelessly verbose, and living without monadic isolation of I/O will be as unthinkable as living without immutable types is now.
 
-But I fear I'm reaching the limits of what language and libraries can do for me. 
+But I fear I'm reaching the limits of what language and libraries can do for me. The surface layer of scalaz was a whole new way of programming, a straightjacket that frees you to write unimaginably generic, flexible code without risk of hurting yourself. But the deeper parts, rather than constraining me further, seem to be about giving me ways to flex as far as I could before.
 
 
 
