@@ -2,4 +2,4 @@
 published: false
 ---
 
-I watched *The Auteur* recently, and found it strange how implausible it seemed.
+I watched *The Auteur* recently, and was surprised how implausible the concept seemed - a director with 
