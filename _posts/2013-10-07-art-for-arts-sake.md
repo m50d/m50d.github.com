@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: "Art For Art's Sake (Kill la Kill First Impressions)"
 ---
 
