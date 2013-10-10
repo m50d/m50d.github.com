@@ -1,5 +1,5 @@
 ---
-published: true
+layout: default
 title: "Art For Art's Sake (Kill la Kill First Impressions)"
 ---
 
