@@ -10,4 +10,6 @@ Could Tsurya substitute for Haruhi? No; she's active enough when participating w
 
 Ok, so characters have to stick to appropriate roles. Could we make an interesting crossover by substituting characters but keeping their roles intact? Could we write an interesting story about Kirk, Bones, and Yuki Nagato?
 
-Well, maybe. But immediately we see problems. Yuki is smart, scientifically minded, has difficulty displaying emotion, and gets her crew out of trouble most of the time. She even has to balance her human friendships with her alien heritage. But she's not someone who would argue with her captain.
+Well, maybe. But immediately we see problems. Yuki is smart, scientifically minded, has difficulty displaying emotion, and gets her crew out of trouble most of the time. She even has to balance her human friendships with her alien heritage.
+
+But she's not someone who would argue with her captain. She's not faced with mistrust and discrimination from her crewmates.
