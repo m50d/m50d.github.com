@@ -8,4 +8,4 @@ Mostly, I think, it's the treatment of the characters. Most seem to stand around
 
 Could Tsurya substitute for Haruhi? No; she's active enough when participating with the clup, but satisfied enough with her (high-class) life that she'd never initiate a club like Haruhi, and we'd lose the whole overarching plot. Could Emiri substitute for Yuki? Maybe; they're very similar characters by construction, and I can imagine her undergoing a similar interaction with Kyon. But without Yuki's bookish tendencies the show would lose something - and certainly neither interface could substitute for any of the other four brigade members.
 
-Ok, so characters have to stick to appropriate roles.
+Ok, so characters have to stick to appropriate roles. Could we
