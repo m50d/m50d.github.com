@@ -10,4 +10,4 @@ Could Tsurya substitute for Haruhi? No; she's active enough when participating w
 
 Ok, so characters have to stick to appropriate roles. Could we make an interesting crossover by substituting characters but keeping their roles intact? Could we write an interesting story about Kirk, Bones, and Yuki Nagato?
 
-Well, maybe.
+Well, maybe. But immediately we see problems.
