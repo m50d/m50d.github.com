@@ -14,4 +14,4 @@ Well, maybe. But immediately we see problems. Yuki is smart, scientifically mind
 
 But she's not someone who would argue with her captain. She's not faced with mistrust and discrimination from her crewmates. In the initial meeting it might be interesting to see all parties react to this, but to do anything productive we'd have to shift Kirk and McCoy's personalities after a couple of pages - or else change hers. As much as we talk about "character development", our most beloved characters seem permanently locked in particular attitudes to their compatriots; the best development reveals new facets to an existing character, but doesn't transform them completely.
 
-Occasionally some new development really does change the characters' relationships or personalities, as with the end of *Macross Plus*, or the most famous (infamous) scene in *Royal Space Force: The Wings of Honneamise*.
+Occasionally some new development really does change the characters' relationships or personalities, as with the end of *Macross Plus*, or the most famous (infamous) scene in *Royal Space Force: The Wings of Honneamise*. But those are memorable, and 
