@@ -10,4 +10,4 @@ And I'm going to crap all over that.
 
 Satsuki has indeed chosen to own what she wears. She feels no shame in her exposure; she's strong without losing her femininity (unless you're the kind of extreme traditionalist who holds that shyness is an inherent part of being a proper female).
 
-She's also utterly uninteresting. At least to me. There's simply nothing erotic about a naked girl who's naked for her own purposes, with no care for who she's facing.
+She's also utterly uninteresting. At least to me. There's simply nothing erotic about a naked girl who's naked for her own purposes, with no care for who she's facing. Whereas Matoi in her early episodes - those same episodes where ajthefourth wasn't interested - she was *fascinating*. The shame burning her cheeks, her flesh on display to those she hated, but standing firm nonetheless, she was the very picture of determination.
