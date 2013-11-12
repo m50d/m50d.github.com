@@ -1,5 +1,6 @@
 ---
 title: "But I Like Being Uncomfortable (Kill la Kill)"
+layout: default
 ---
 
 Well, this is awkward.
