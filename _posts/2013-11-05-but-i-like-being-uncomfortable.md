@@ -20,7 +20,7 @@ Desire usually wins in the end, of course. But the moment when a character cease
 
 In the real world, ajthefourth may well be right; I suspect the kind of experiences we see in these stories are nowhere near as fun in real life. But so it often is with fiction; utopias are boring, good stories require evil. Good erotica, at least for me, positively requires an unequal, socially regressive relationship; a hero who suffers at society's hand in a way no real person should have to suffer.
 
-(I don't think it necessarily needs to be a female who does so; 
+(I don't that hero needs to be female; indeed, as someone who enjoys identifying with such, a male lead would be better. But "ENM" does not seem to be a genre of erotica the way "ENF" is. I would be very interested to hear of any counterexamples)
 
 
 
