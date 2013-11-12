@@ -8,4 +8,6 @@ Ever since I read [this post](http://formeinfullbloom.wordpress.com/2013/10/17/w
 
 And I'm going to crap all over that.
 
-Satsuki has indeed chosen to own what she wears. She feels no shame in her exposure; she's strong without losing her femininity (unless you're the kind of extreme traditionalist who holds that shyness is an inherent part of being a proper female)
+Satsuki has indeed chosen to own what she wears. She feels no shame in her exposure; she's strong without losing her femininity (unless you're the kind of extreme traditionalist who holds that shyness is an inherent part of being a proper female).
+
+She's also utterly uninteresting. At least to me. There's simply nothing erotic about a naked girl 
