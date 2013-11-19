@@ -1,5 +1,6 @@
 ---
 title: "You Don't Know What You've Got (Gravity)"
+layout: default
 ---
 
 Many things are easy to take for granted; air, perhaps, most of all. To a normal person in a normal environment, it's hard to convey how important it is. And yet *Gravity* manages it so well that I walked out quite literally gasping.
