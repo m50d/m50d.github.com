@@ -12,4 +12,4 @@ And I was forcibly reminded that Hollywood still can't manage a respectful treat
 
 I read *Moondust: In Search of the Men who Fell to Earth* recently, which I also highly recommend. What struck me most as I read was the sheer *audacity* of the Apollo programme; you self-important apes think you can go *how many* kilometers? And you're gonna do this in what's basically a *ball of tin foil*? And yet it worked - and even in the case where it didn't, *Apollo 13* - our finest hour, as the movie puts it - we were able to keep everyone alive. In a way that's the easiest criticism to level at *Gravity* - that *Apollo 13* was able to show just as much drama and heroism in what was largely a factual account.
 
-For the older generation that's probably true. But for people my age the *Apollo* program is ancient history, as remote now as - well, the moon.
+For the older generation that's probably true. But for people my age the *Apollo* program is ancient history, as remote as - well, the moon.
