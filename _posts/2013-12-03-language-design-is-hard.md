@@ -22,3 +22,5 @@ The other development that lightens my heart is Scala 2.11's modularization work
 [javascript](http://acko.net/blog/on-asmjs/)
 
 [1] I'm reminded of [Zed Shaw's complaints about the web and OOP](http://vimeo.com/43380467)
+
+[2] We see the value
