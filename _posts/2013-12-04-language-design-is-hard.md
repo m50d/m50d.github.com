@@ -1,5 +1,5 @@
 ---
-published: true
+layout: default
 title: "Language Design is Hard. Let's Go Shopping"
 ---
 
