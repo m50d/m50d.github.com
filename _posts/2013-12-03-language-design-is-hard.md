@@ -21,7 +21,7 @@ Still, there are misfeatures that seem unlikely to change. Being unable to fuse 
 
 I'm not familiar with any matryoshka languages, but they seem like a plausible route to what I want. I can immediately identify several levels that I want to distinguish between: inert data, pure functions, functions that perform I/O, functions that use other kinds of effects like dates, objects that contain mutable state. We can bolt this on with [EFFTP](http://lrytz.github.io/slides/lamp-lara-efftp.html#/), but I've had experience with similar annotation-driven systems in Java; unless the language is designed with them in mind, there is limited use. I don't necessarily want a fully matryoshka language, but I do want these effect distinctions to be visible at the type level.
 
-Can this be done without compromising accessibility for beginning programmers, or Java interoperability? Honestly, I don't know. Having seen [this even more detailed critique](http://www.reddit.com/r/haskell/comments/1pjjy5/odersky_the_trouble_with_types_strange_loop_2013/cd3bgcu) of some current problems with Scala, I'll be watching [Ermine](http://nocandysw.com/ermine-user-guide/ermine-user-guide-usltr.pdf) with interest. 
+Can this be done without compromising accessibility for beginning programmers, as Haskell seems to? Honestly, I don't know. Having seen [this even more detailed critique](http://www.reddit.com/r/haskell/comments/1pjjy5/odersky_the_trouble_with_types_strange_loop_2013/cd3bgcu) of some current problems with Scala, I'll be watching [Ermine](http://nocandysw.com/ermine-user-guide/ermine-user-guide-usltr.pdf) with interest. Kmett seems to nnow and love Scala, 
 
 [javascript](http://acko.net/blog/on-asmjs/)
 
