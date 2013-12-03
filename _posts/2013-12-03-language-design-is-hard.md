@@ -27,7 +27,7 @@ Of course, Ermine is, as Kmett says, unbaked. Which brings me back to the worst 
 
 So, in five years' time I may have to jump ship. Maybe Ermine or a similar upstart will represent the pragmatic rewrite of Scala that I want, increasing safety without diminishing its power or accessibility. Maybe one of the existing super-safe languages like Coq will finally figure out how to make this kind of programming accessible to mere mortals. Maybe someone will show me how to use Haskell to solve OO-shaped problems and how to live without implicits.
 
-But ultimately 
+But ultimately, right now, the start of Philips' talk is the most relevant part.
 
 [1] I'm reminded of [Zed Shaw's complaints about the web and OOP](http://vimeo.com/43380467)
 
