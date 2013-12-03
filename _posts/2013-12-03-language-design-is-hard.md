@@ -23,6 +23,6 @@ The other development that lightens my heart is Scala 2.11's modularization work
 
 [1] I'm reminded of [Zed Shaw's complaints about the web and OOP](http://vimeo.com/43380467)
 
-[2] To me the value of a codebase in a single language is almost self-evident; it's what enables [shared code ownership](http://c2.com/cgi/wiki?CollectiveCodeOwnership), which I know from experience is far better than the alternative. But for a more populist argument, look at the explosive growth in Javascript's popularity. Javascript isn't a good language; in fact it's a downright terrible language, with typing that's not merely dynamic but outright weak, a notion of inheritence that violating the Principle of Least Surprise left and right.
+[2] To me the value of a codebase in a single language is almost self-evident; it's what enables [shared code ownership](http://c2.com/cgi/wiki?CollectiveCodeOwnership), which I know from experience is far better than the alternative. But for a more populist argument, look at the explosive growth in Javascript's popularity. Javascript isn't a good language; in fact it's a downright terrible language, with typing that's not merely dynamic but outright weak, notions of inheritence and even scope that differ from every other mainstream language, and violations of the Principle of Least Surprise left and right.
 
 [3] I'm avoiding saying the "M" word here.
