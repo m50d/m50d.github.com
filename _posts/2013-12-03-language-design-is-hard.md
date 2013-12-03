@@ -27,6 +27,8 @@ Of course, Ermine is, as Kmett says, unbaked. Which brings me back to the worst 
 
 So, in five years' time I may have to jump ship. Maybe Ermine or a similar upstart will represent the pragmatic rewrite of Scala that I want, increasing safety without diminishing its power or accessibility. Maybe one of the existing super-safe languages like Coq will finally figure out how to make this kind of programming accessible to mere mortals. Maybe someone will show me how to use Haskell to solve OO-shaped problems and how to live without implicits.
 
+But 
+
 [1] I'm reminded of [Zed Shaw's complaints about the web and OOP](http://vimeo.com/43380467)
 
 [2] To me the value of a codebase in a single language is almost self-evident; it's what enables [shared code ownership](http://c2.com/cgi/wiki?CollectiveCodeOwnership), which I know from experience is far better than the alternative. But for a more populist argument, look at the explosive growth in Javascript use in recent years. Javascript isn't a good language; in fact it's a downright terrible language, with typing that's not merely dynamic but outright weak, notions of inheritence and even scoping that differ from every other mainstream language, and [violations of the Principle of Least Surprise left and right (video)](https://www.destroyallsoftware.com/talks/wat). But for many people, all of this is outweighed by the benefits: you can have your server-side and client-side code running in the same language, and things like route definitions and build files are also usually written in Javascript. Even better, if you're using a funky modern datastore like MongoDB/CouchDB/etc., you store Javascript objects in the "database", and you can query them with a map-reduce construct of Javascript functions.
