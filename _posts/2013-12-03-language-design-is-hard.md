@@ -9,6 +9,6 @@ Where Philipps starts to go wrong, I think, is about 2/3 of the way through his 
 
 To a certain extent, you get this in Python (and Ruby, as I understand it). Your build system is python; your Django models are python classes, and your routes are configured with a mix of code and decorators - and unlike Java annotations, decorators have well-defined semantics in Python, so this is really just pure python code.
 
-All this is true...ish. Django models are real python classes... sort of.
+All this is true...ish. Django models are real python classes... sort of. In truth 
 
 [another critique](http://www.reddit.com/r/haskell/comments/1pjjy5/odersky_the_trouble_with_types_strange_loop_2013/cd3bgcu)
