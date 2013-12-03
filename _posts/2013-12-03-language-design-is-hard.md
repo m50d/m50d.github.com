@@ -13,7 +13,7 @@ All this is true...ish. Django models are real python classes... sort of (they u
 
 Of course it's possible to Greenspun this into Django, but don't expect the existing routing infrastructure to work with you. Don't expect to be able to pass a Django route into a higher-order function defined in a different library and get something useful out. I mean, Python won't *stop* you - the "we're all consenting adults here" philosophy means you can call any method with any argument - and it might even work, for a while. But there's no way to know (short of asking the devs, or hoping their roadmap is accurate) which styles of calling routes are supported, and which will be broken in the next release.
 
-This is the problem with dynamic syntax in, well, dynamic languages. As Philipps puts it, ignorance is strength, freedom is slavery; 
+This is the problem with dynamic syntax in, well, dynamic languages. As Philipps puts it, ignorance is strength, freedom is slavery; the *only* way to make maintainable software is by imposing non-leaky interfaces between layers.
 
 [another critique](http://www.reddit.com/r/haskell/comments/1pjjy5/odersky_the_trouble_with_types_strange_loop_2013/cd3bgcu)
 
