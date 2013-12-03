@@ -15,6 +15,8 @@ Of course it's possible to Greenspun this into Django, but don't expect the exis
 
 This is the problem with dynamic syntax in, well, dynamic languages. As Philipps puts it, ignorance is strength, and freedom is slavery; the *only* way to make maintainable software is by imposing non-leaky interfaces between layers (and while this is compromised slightly by reference equality, how much worse is it in a language where we can dynamically add attributes onto an existing object?). Sadly I only know one framework (as distinct from library) that has ever used proper abstractions: [Wicket](http://wicket.apache.org), whose private members and final classes ensure that the only *possible* ways to use it are the supported ones. But Scala inherits from Java at least the possibility of doing this, and the growing emphasis on compatibility in recent releases makes me hopeful for the future.
 
+The other news that lightens my heart is scala 2.11's modularization work.
+
 [another critique](http://www.reddit.com/r/haskell/comments/1pjjy5/odersky_the_trouble_with_types_strange_loop_2013/cd3bgcu)
 
 [javascript](http://acko.net/blog/on-asmjs/)
