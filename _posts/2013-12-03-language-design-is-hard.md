@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: "Language Design is Hard. Let's Go Shopping"
 ---
 
