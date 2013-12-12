@@ -6,7 +6,7 @@ This is a reply to [this post](http://www.sirlin.net/articles/balancing-multipla
 
 "Viable options" is a poor way to characterize the kind of choices that a balanced game needs to have. All the options in rock paper scissors are viable; there are even variants where you have 5 or 17 viable options rather than just 3. But none of those variants is any more balanced.
 
-The defining characteristic of a balanced game in this sense is having *choices which are matters of skill*.
+I think the defining characteristic of a balanced game is *choices which are matters of skill*.
 
 That rules out both choices where the "correct" option is obvious, and choices that are made effectively at random. It also goes some way towards explaining the problem with some theoretical "multiplayer solitaire starcraft". Such a game would not really be "unbalanced"[1] as long as there were still interesting choices to be made about your build order. But once the optimal build order was "solved" it would cease to even be balanced, because the game would now just be a matter of rote memorization rather than skill[2].
 
