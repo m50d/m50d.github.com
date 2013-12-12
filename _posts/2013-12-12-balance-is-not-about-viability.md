@@ -4,7 +4,7 @@ published: false
 
 This is a reply to [this post](http://www.sirlin.net/articles/balancing-multiplayer-games-part-1-definitions.html), which is apparently no longer accepting comments.
 
-I don't think "viable options" is a good way to characterize the kind of choices that a balanced game needs to have. All the options in rock paper scissors are viable; there are even variants where you have 5 or 17 viable options rather than just 3. But none of those variants is any more balanced.
+"Viable options" is a poor way to characterize the kind of choices that a balanced game needs to have. All the options in rock paper scissors are viable; there are even variants where you have 5 or 17 viable options rather than just 3. But none of those variants is any more balanced.
 
 I think the defining characteristic of a balanced game in this sense is having *choices which are matters of skill*. That rules out both choices where the "correct" option is obvious, and choices that are made effectively at random. It also goes some way towards explaining the problem with your theoretical "multiplayer solitaire starcraft" - which I don't think I would really call "unbalanced" (not that I think it's a good game - a game needs more than just balance) as long as there were still interesting choices to be made about your build order. But once the optimal build order was "solved" it would cease to even be balanced, because the game would now just be a matter of rote memorization rather than skill[1].
 
