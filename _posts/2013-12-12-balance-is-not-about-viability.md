@@ -16,10 +16,11 @@ Compare that to (Japanese rules) Mahjong, which I've recently been playing quite
 
 (Better *chance*, mind you. The flip side of balance is that a game must not simply be won by the most skilled player all the time - if everyone knows who's going to win before the start, there's no point playing the game)
 
+Note that the decision here is never about choosing between "viable options" - or at least, it never feels like it. Rather, one seems subjectively to be figuring out the unique best discard - the one where no other options *are* viable[4]. When I really can't tell which tile is better, what I feel is not freedom or balance but frustration that the game  in any given situation there may well be one "best" discard that gives you the highest chance of winning. And for any given skill level, there may be one "best" discard in that situation as you percieve it (which will not necessarily be the same)
+
 
 
 [1] Not that I think it's a good game - a game needs more than just balance
-[2] Ignoring the manual dexterity that would be quite central to such a game in real life.
-[3] Ok, *technically* if you were in second place and the fourth-place player was close to 0 you might want to lower the value of your hand to avoid wiping them out and ending the game.
-
-To add: But it's not about how many options are "viable"; in any given situation there may well be one "best" discard that gives you the highest chance of winning. And for any given skill level, there may be one "best" discard in that situation as you percieve it (which will not necessarily be the same)
+[2] Ignoring the manual dexterity that would be quite central to such a game in real life
+[3] Ok, *technically* if you were in second place and the fourth-place player was close to 0 you might want to lower the value of your hand to avoid wiping them out and ending the game
+[4] With different levels of ability one might reach different conclusions in the same situation. But the subjective feeling is always the same, and I think it reflects objective reality - in the overwhelming majority of game situations, there really will be a single "best" discard that one should be picking
