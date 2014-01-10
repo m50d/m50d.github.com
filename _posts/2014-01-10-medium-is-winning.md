@@ -6,5 +6,7 @@ For years I've been asking for a recommendation system for internet content. I'v
 
 So it's ironic that, despite all these established old-media recommendation engines, there was nothing for one of my favourite media - online articles. Oh, sure, there are plenty of blog-cum-social-networks - Livejournal was a social network before the term existed, and you're notified when your friends post new content. I imagine Wordpress offers something similar. Tumblr started out this way, and while most tumblrs are full of pictures, if you follow the right people you can get these kind of articles. Both Google+ users post long-form articles there. I've even got one friend blogging with Facebook's new "Notes" feature.
 
+Feedly - which I do use - or email subscriptions have the same problem and another to boot:
+
 [1] And briefly employee
 [2] My Kindle device is actually broken now; I read using the app on my phone
