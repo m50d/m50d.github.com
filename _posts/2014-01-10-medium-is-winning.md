@@ -2,4 +2,4 @@
 published: false
 ---
 
-For years I've been asking for a recommendation system for internet content.
+For years I've been asking for a recommendation system for internet content. I have last.fm for 
