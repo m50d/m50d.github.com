@@ -8,7 +8,7 @@ So it's ironic that, despite all these established old-media recommendation engi
 
 Feedly - which I do use - or email subscriptions have the same problem and another: I feel obliged to read. The accusatory "2 articles unread" notification taunts me until I've caught up; even when I'd rather be doing something else I find myself unable to resist. So I refrain from adding too many feeds or using its recommendation feature, for fear I'll spend hours each morning catching up on every last post.
 
-Aggregators like HN, Reddit or the venerable Slashdot fill some of the gap; I can visit one and have some confidence that most stories will be good. But over time such sites tend to become more about the discussion than the articles. And it's fatiguing - and I know how pathetic this sounds - to deal with all the different news sites, with their sidebars of links, their multi-page splits, their carousels of "other stories you might like", the animated flyin "read this next", the inane "thought for the day" interstitials.
+Aggregators like HN, Reddit or the venerable Slashdot fill some of the gap; I can visit one and have some confidence that most stories will be good. But over time such sites tend to become more about the discussion than the articles. And it's fatiguing - and I know how pathetic this sounds - to deal with all the different news sites, with their sidebars of links, their multi-page splits, their carousels of "other stories you might like", the animated flyin "read this next", the inane "thought for the day" interstitials. Evernote Clearly gets rid of most of the crap, but it makes multi-page articles even worse, and it doesn't always work properly.
 
 But last night I received my weekly "best of medium" email, and realized that
 
