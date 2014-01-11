@@ -16,7 +16,7 @@ I don't know how personalized this all is. I'm pretty easy to recommend for - my
 
 Even that might not be enough to dethrone it. Right now, Medium offers a reading experience that's head and shoulders above anywhere else on the web. It starts with the virtues I tried to embody in the styling of this blog - simple, plain text with a heading and an occasional picture, looking more like the unstyled sites of '90s academics than the "designed" sites of 2007 with their drop shadows and rounded corners. To this it adds a wonderfully unobtrusive comment system (comments are forced to be inline with the article and strictly limited in length, making it easier to respond to specific points and discouraging the rambling comment threads one gets on other sites), and a unified but again unobtrusive network, with the bare minimum of social functionality tucked away at the bottom.
 
-There are still a few things I'd miss - the pages don't seem particularly friendly to mechanical access, and there's no medium API[5], which offends my open-internet principles. 
+There are still a few things I'd miss - the pages don't seem particularly friendly to mechanical access, and there's no medium API[5], which offends my open-internet principles.
 
 
 
