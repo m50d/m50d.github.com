@@ -8,5 +8,9 @@ So it's ironic that, despite all these established old-media recommendation engi
 
 Feedly - which I do use - or email subscriptions have the same problem and another: I feel obliged to read. The accusatory "2 articles unread" notification taunts me until I've caught up; even when I'd rather be doing something else I find myself unable to resist. So I refrain from adding too many feeds or using its recommendation feature, for fear I'll spend hours each morning catching up on every last post.
 
+Aggregators like HN or Reddit fill some of the gap; I can visit one and have some confidence that most stories will be good.
+
+But last night I received 
+
 [1] And briefly employee
 [2] My Kindle device is actually broken now; I read using the app on my phone
