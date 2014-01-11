@@ -18,7 +18,7 @@ Even that might not be enough to dethrone it. Right now, Medium offers a reading
 
 There are still a few things I'd miss - the pages don't seem particularly friendly to mechanical access, and there's no medium API[5], which offends my open-internet sensibilities - particularly since there's no monetization mechanism in sight. The joy of medium is that it's so smooth, so effortless, and any advertizing would almost by definition have to break that.
 
-As a writer, these things concern me. But as a reader, the experience is everything - and medium does it so much better than everyone else. Already I can feel a shift in my reading habits. 
+As a writer, these things concern me. But as a reader, the experience is everything - and medium does it so much better than everyone else. Already I can feel a shift in my reading habits.
 
 
 
