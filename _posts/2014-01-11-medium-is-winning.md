@@ -1,5 +1,6 @@
 ---
-published: false
+layout: default
+title: "Medium is Winning"
 ---
 
 For years I've been asking for a recommendation system for internet content. I've been an enthusiastic user[1] of last.fm for almost a decade, and have spent many an hour pruning my Amazon recommendations, even before I switched to Kindle[2]. The loss of AniDB's "Anime Hint" feature has massively reduced my consumption of old shows (I now rely on word-of-mouth-like recommendations, which mostly means current series), and I never really found a good service for movies (though I've since heard good things about Netflix) - so I stopped watching movies.
