@@ -23,4 +23,4 @@ There are still a few things I'd miss - the pages don't seem particularly friend
 [1] And briefly employee
 [2] My Kindle device is actually broken now; I read using the app on my phone
 [3] Assuming the story wasn't using those gratuitous picture backgrounds - the ones that you scroll down and then they stay until you've scrolled a bit further past. Hopefully this fad will go away once it becomes easy enough for everyone to do it.
-[4] I don't have an API, but I've deliberately made it so that the markdown source for articles like these is easily accessible in the page source itself. All the styling is done in javascript, like how XHMTL+XSLT was supposed to work.
+[4] I don't have an API, but I've deliberately made it so that the markdown source for articles like these is easily accessible in the page source itself. All the styling is done in javascript, like how XHMTL+XSLT was supposed to work. I do use Jekyll to render these pages for workflow reasons, but it would be very easy to write the HTML entirely by hand.
