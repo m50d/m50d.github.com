@@ -10,7 +10,7 @@ Feedly - which I do use - or email subscriptions have the same problem and anoth
 
 Aggregators like HN, Reddit or the venerable Slashdot fill some of the gap; I can visit one and have some confidence that most stories will be good. But over time such sites tend to become more about the discussion than the articles. And it's fatiguing - and I know how pathetic this sounds - to deal with all the different news sites, with their sidebars of links, their multi-page splits, their carousels of "other stories you might like", the animated flyin "read this next", the inane "thought for the day" interstitials. Evernote Clearly gets rid of most of the crap, but it makes multi-page articles even worse, and it doesn't always work properly.
 
-But Medium isn't like that. I could click my clearly button and the only thing that would change would be the logo disappearing[3]. And even better, it has a recommendation system that works. I don't know how personalized the weekly "best of medium" email is - I'm pretty easy to recommend for - but I found insightful, inspiring reading - exactly the kind of ten-minute nuggets of joy that fits neatly into the gaps in my day.
+But Medium isn't like that. I could click my clearly button and the only thing that would change would be the logo disappearing[3]. And even better, it has a recommendation system that works. I don't know how personalized the weekly "best of medium" email is - I'm pretty easy to recommend for - but I found insightful, inspiring reading - ten-minute nuggets of joy that fit neatly into the gaps in my day. And with the way they're presented I don't feel 
 
 [1] And briefly employee
 [2] My Kindle device is actually broken now; I read using the app on my phone
