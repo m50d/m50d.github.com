@@ -14,6 +14,10 @@ But Medium isn't like that. I could click my clearly button and the only thing t
 
 I don't know how personalized this all is. I'm pretty easy to recommend for - my taste conforms so closely to stereotype that I used to read *Stuff White People Like* to find things that I might like. And there was a time when I could judge whether I'd like a series solely on how many TvTropes entries it had. So maybe there will come a time, as Medium grows and its tastes become less homogenous, when the "best of" is no longer perfectly suited to me. Or maybe the site will simply run out of good content.
 
+Even that might not be enough to dethrone it. Right now, Medium offers a reading experience that's head and shoulders above anywhere else on the web.
+
+
+
 [1] And briefly employee
 [2] My Kindle device is actually broken now; I read using the app on my phone
 [3] Assuming the story wasn't using those gratuitous picture backgrounds - the ones that you scroll down and then they stay until you've scrolled a bit further past. Hopefully this fad will go away once it becomes easy enough for everyone to do it.
