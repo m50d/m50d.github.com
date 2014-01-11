@@ -1,6 +1,7 @@
 ---
 layout: default
-title: "Medium is Winning"
+title: Medium is Winning
+published: true
 ---
 
 For years I've been asking for a recommendation system for internet content. I've been an enthusiastic user[1] of last.fm for almost a decade, and have spent many an hour pruning my Amazon recommendations, even before I switched to Kindle[2]. The loss of AniDB's "Anime Hint" feature has massively reduced my consumption of old shows (I now rely on word-of-mouth-like recommendations, which mostly means current series), and I never really found a good service for movies (though I've since heard good things about Netflix) - so I stopped watching movies.
@@ -23,8 +24,8 @@ As a writer, these things concern me. But as a reader, the experience is everyth
 
 
 
-[1] And briefly employee
-[2] My Kindle device is actually broken now; I read using the app on my phone
-[3] Assuming the story wasn't using those gratuitous picture backgrounds - the ones that you scroll down and then they stay until you've scrolled a bit further past. Hopefully this fad will go away once it becomes easy enough for everyone to do it.
-[4] I've long thought the open internet should have provided a solution to this - a standard way to label which part of an article is the content, which is the heading and so on. In the early days of the web, pages were expected to contain content and users were expected to use their own custom styling, which should have made all pages display in their preferred way. But instead the web bowed to print designers' desire to specify the position of every pixel, at least until the rise of mobile demonstrated the impossibility of that approach.
-[5] I don't have an API, but I've deliberately made it so that the markdown source for my posts is easily accessible in the page source itself. All the styling is done in javascript, like how XHMTL+XSLT was supposed to work. (And the github repository is public). I do use Jekyll to render these pages for workflow reasons, but it would be very easy to write the HTML entirely by hand.
+[1] And briefly employee  
+[2] My Kindle device is actually broken now; I read using the app on my phone  
+[3] Assuming the story wasn't using those gratuitous picture backgrounds - the ones that you scroll down and then they stay until you've scrolled a bit further past. Hopefully this fad will go away once it becomes easy enough for everyone to do it.  
+[4] I've long thought the open internet should have provided a solution to this - a standard way to label which part of an article is the content, which is the heading and so on. In the early days of the web, pages were expected to contain content and users were expected to use their own custom styling, which should have made all pages display in their preferred way. But instead the web bowed to print designers' desire to specify the position of every pixel, at least until the rise of mobile demonstrated the impossibility of that approach.  
+[5] I don't have an API, but I've deliberately made it so that the markdown source for my posts is easily accessible in the page source itself. All the styling is done in javascript, like how XHMTL+XSLT was supposed to work. (And the github repository is public). I do use Jekyll to render these pages for workflow reasons, but it would be very easy to write the HTML entirely by hand.  
