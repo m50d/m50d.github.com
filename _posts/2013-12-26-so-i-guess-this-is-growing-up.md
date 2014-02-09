@@ -1,7 +1,0 @@
----
-published: false
----
-
-This is one of those points where I want to send a message to my future self, to explain how I felt in case that no longer makes sense any more. After years - decades, even - of feeling that serious literature was just a status game, the science fiction that filled much of my youth is no longer quite so satisfying to me. That is, I read *On the Steel Breeze*, which by rights should be good.
-
-(enjoyed To the Stars. Funny that
