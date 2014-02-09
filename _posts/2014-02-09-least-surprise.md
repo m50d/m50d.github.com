@@ -2,4 +2,4 @@
 published: false
 ---
 
-Usually I look for novelty in my media.
+I've joked before that I judge things by their Kolgomorov complexity.
