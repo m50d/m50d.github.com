@@ -10,4 +10,4 @@ Be that as it may, *Sakura Trick* is not one of those shows. Rather than a formu
 
 And then there's the kissing. So far every episode has come with a seemingly minute-long scene of leads Haruka and Yuu liplocked and making noises, in a more or less compromising position. On Japanese television, it's probably groundbreaking - this is the show that *Yuru Yuri* (say) wanted, but didn't dare, to be. To an internet viewer, with all manner of hardcore just a directory away, it seems... well, quaint.
 
-In fact, that word describes *Sakura Trick* as a whole. It
+In fact, that's a fair description of *Sakura Trick*. 
