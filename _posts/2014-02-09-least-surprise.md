@@ -20,7 +20,7 @@ The flipside is that they never really develop. We have almost nothing in the wa
 
 So: a comedy with few jokes, a character drama with barely any characters. The animation isn't bad, but it's below modern standards (particularly the inspid ending sequence), and while I have a soft spot for the opening song it's objectively not that great - and, in any case, hardly going to carry the show.
 
-And yet. The jokes are gentle and spread out, but that gives them a delicacy, subtlety even. The characters are the barest sketches, but their love is very true; unrealistic, perhaps, but their simple joy in each other is enough to charm this viewer. It's the opposite of the - realistic, but tiring - melodrama that occupies most teenage romance series. This is love as a simple, safe, even bland thing - but still one to be celebrated.
+And yet. The jokes are gentle and spread out, but that gives them a delicacy, subtlety even. The characters are the barest sketches, but their love is very true; unrealistic, perhaps, but their simple joy in each other is enough to charm this viewer. It's the opposite of the - realistic, but tiring - melodrama that occupies most teenage romance series. This is love as a simple, safe, even bland thing - but still something to be celebrated.
 <br/>
 <br/>
 Note: this review took longer than expected; I'm writing without having seen episode 6. Let's hope it doesn't undermine everything I've just written.
