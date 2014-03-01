@@ -6,4 +6,6 @@ published: false
 
 What I don't get, though, is why any upstanding citizen would want to help them out.
 
+Like any currency, a bitcoin behaves like an uncopyable token; the usual economic cycle is that a user buys bitcoins with money (from someone with a large supply - more on that later), and uses them to buy goods or services from a seller - who then sells the bitcoins on to the next user in exchange for cold hard cash. (Bitcoin's advocates speak hopefully of a bitcoin-native economy where the seller would keep their wealth in bitcoins and use them to pay for regular purchases like food and clothing, but that's purely aspirational at this stage)
+
 Bitcoin is, as Stross describes, a currency designed to facilitate illegal transactions. The most perfect fit would be 
