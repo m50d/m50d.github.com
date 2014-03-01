@@ -14,4 +14,4 @@ Which is all well and good, but it comes at a time when actual cash has been sin
 
 Bitcoin is, as Stross describes, a currency designed to facilitate illegal transactions. The most perfect fit would be 
 
-[1] More or less - cash has serial numbers. Bitcoin goes one better - you can see the whole transaction history of any given "coin". But the "addresses" used in any given transaction are just random strings of numbers - it's not easy to connect them to a legal identity you can file a lawsuit against - and the "community" that sells products for bitcoins seems to have no qualms about accepting stolen bitcoins as payment.
+[1] More or less - cash has serial numbers. Bitcoin goes one better - you can see the whole transaction history of any given "coin". But the "addresses" used in any given transaction are just random strings of numbers - it's not easy to connect them to a legal identity you can file a lawsuit against - and the "community" that sells products for bitcoins seems to have no qualms about accepting stolen bitcoins in payment.
