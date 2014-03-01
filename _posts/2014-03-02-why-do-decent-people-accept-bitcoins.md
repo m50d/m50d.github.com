@@ -10,6 +10,6 @@ Like any currency, a bitcoin behaves like an uncopyable token; the usual economi
 
 The one unique twist is that, being purely mathematical, it's possible to send these tokens over the internet as easily as sending an email - not an instruction for your bank to move money from your account into theirs, but the actual, nonphysical bitcoins. In many ways it behaves like cash - cash you can hand over in cyberspace.
 
-Which is all well and good, but it comes at a time when actual cash has been sinking into obsolesence. Companies hate doing business in cash, [using it only when forced to](http://www.bbc.co.uk/news/business-26248396) - it's bulky, hard to guard
+Which is all well and good, but it comes at a time when actual cash has been sinking into obsolesence. Companies hate doing business in cash, [using it only when forced to](http://www.bbc.co.uk/news/business-26248396) - it's bulky, cumbersome to audit, and easy to steal.
 
 Bitcoin is, as Stross describes, a currency designed to facilitate illegal transactions. The most perfect fit would be 
