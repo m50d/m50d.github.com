@@ -6,4 +6,4 @@ published: false
 
 What I don't get, though, is why any upstanding citizen would want to help them out.
 
-Bitcoin is, as Stross describes, a currency designed to facilitate illegal transactions.
+Bitcoin is, as Stross describes, a currency designed to facilitate illegal transactions. The most perfect fit would be 
