@@ -20,7 +20,7 @@ There's one - or two - more legitimate case for bitcoin I can see - and strangel
 
 The latter case, meanwhile, is less helpful than it might seem. True, a bitcoin donation can disguise which precise cause you're donating to - or the fact that you're donating at all, rather than buying drugs or the like. But all this accomplishes is to entangle your cause with a web of similarly dubious causes and criminal activity. If an advocacy organization is to move from fringe to mainstream, that surely has to include mainstream methods of payment.
 
-Everything I've written above is true even in an imaginary future in which Bitcoin is an established, stable currency. In fact, right now it's enormously volatile, meaning anyone who chooses to conduct business in bitcoin carries what's efectively a massive foreign exchange risk, something that can only be justified if the benefit is correspondingly large.  
+Everything I've written above is true even in an imaginary future in which Bitcoin is an established, stable currency. In fact, right now it's enormously volatile, meaning anyone who chooses to conduct business in bitcoin carries what's efectively a massive foreign exchange risk, something that can only be justified if the benefit is correspondingly large. That rules out people who are gaining a few marginal percentage points by avoiding credit card fees or traditional foreign exchange. No, right now there's only one reason to run your business in bitcoin: if you're a criminal (and even then, only for cases where cash would be incovenient).
 
 Bitcoin, then, is good for one thing: criminal transactions that are conducted or at least arranged over the internet.
 
