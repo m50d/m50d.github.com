@@ -16,7 +16,7 @@ Bitcoin is, as Stross describes, a currency designed to facilitate illegal trans
 
 But as soon as we think about it in those terms the advantage disappears: why not just use Transferwise? True, they change a fee of their own - but so will any service for buying and selling bitcoins, and you'll have to pay two sets of fees doing the transfer the bitcoin way. (You might be able to avoid this by buying and selling bitcoins for cash, but the time and expense of meeting someone to do this will outweigh the Transferwise fees for small amounts - and for larger amounts, meeting a stranger carrying that much cash is rather perilous).
 
-(Surprisingly, I *don't* see bitcoin advocates arguing for using bitcoin to buy embarrassing things online, or donate anonymously. TODO: THINK ABOUT THIS MORE)
+(There's one more legitimate case for bitcoin I can see - and strangely enough I *don't* see bitcoin advocates arguing for it - buying embarrassing things online, or donating anonymously to causes you might not want to admit your support for in public)
 
 Everything I've written above is true for some imaginary future in which Bitcoin is an established, stable currency. In fact, right now it's enormously volatile,
 
