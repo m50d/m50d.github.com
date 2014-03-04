@@ -30,4 +30,4 @@ Bitcoin, then, is good for one thing: criminal transactions that are conducted o
 
 [4] Admittedly it's less physically cumbersome than that much cash - but no less dangerous.
 
-[5] The seller is in some respects safer - so safe, they can take the money and run without delivering a product, as one Silk Road seller did TODO: LINK AND DETAILS. TALK A BIT ABOUT ANTIFRAUD AND JAY'S STUFF FROM AMAZON (GUARANTEED SELLING AT 1% FEE OR SO).
+[5] The seller is in some respects safer - so safe, they can take the money and run without delivering a product, as one Silk Road seller did.
