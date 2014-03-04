@@ -24,6 +24,8 @@ Everything I've written above is true even in an imaginary future in which Bitco
 
 Probably the perfect use case for bitcoin is selling illegal purely-digital goods, which is to say child porn. I am genuinely quite surprised, impressed even, that we haven't seen reports of a bitcoin marketplace for such material. The same can't be said for mail-order drugs, where we've seen the famous Silk Road and subsequent imitators. Silk Road's founder also [tried to hire an assassin through the site](http://www.techdirt.com/articles/20131122/11282025337/apparently-hiring-actual-hitman-online-is-more-difficult-than-dread-pirate-roberts-imagined.shtml). These are the kind of uses the currency is good for; if you meet someone with a lot of bitcoins, odds are they're a drug baron.
 
+Either that, or one of the "miners": 
+
 [1] More or less - cash has serial numbers. Bitcoin goes one better - you can see the whole transaction history of any given "coin". But the "addresses" used in any given transaction are just random strings of numbers - it's not easy to connect them to a legal identity you can file a lawsuit against - and the "community" that sells products for bitcoins seems to have no qualms about accepting stolen bitcoins in payment.
 
 [2] Yes, sellers pay fees to accept credit card payments. But (TODO: LINK TO THAT AUSTRALIA STORY) when those fees go down, they don't pass the savings on to customers. So TODO: FINISH THIS REASONING
