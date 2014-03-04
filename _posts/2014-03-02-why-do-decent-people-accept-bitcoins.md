@@ -22,7 +22,7 @@ The latter case, meanwhile, is less helpful than it might seem. True, a bitcoin 
 
 Everything I've written above is true even in an imaginary future in which Bitcoin is an established, stable currency. In fact, right now it's enormously volatile, meaning anyone who chooses to conduct business in bitcoin carries what's efectively a massive foreign exchange risk, something that can only be justified if the benefit is correspondingly large. That rules out people who are gaining a few marginal percentage points by avoiding credit card fees or traditional foreign exchange. No, right now there's only one reason to run your business in bitcoin: if you're a criminal (and even then, only for cases where cash would be incovenient).
 
-Probably the perfect use case for bitcoin is selling illegal purely-digital goods, which is to say child porn. I am genuinely quite surprised, impressed even, that we haven't seen reports of a bitcoin 
+Probably the perfect use case for bitcoin is selling illegal purely-digital goods, which is to say child porn. I am genuinely quite surprised, impressed even, that we haven't seen reports of a bitcoin marketplace for such material.
 
 [1] More or less - cash has serial numbers. Bitcoin goes one better - you can see the whole transaction history of any given "coin". But the "addresses" used in any given transaction are just random strings of numbers - it's not easy to connect them to a legal identity you can file a lawsuit against - and the "community" that sells products for bitcoins seems to have no qualms about accepting stolen bitcoins in payment.
 
