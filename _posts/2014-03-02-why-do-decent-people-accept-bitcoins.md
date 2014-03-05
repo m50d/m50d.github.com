@@ -28,7 +28,7 @@ Either that, or one of the early-adopter "miners": the original "investors" in a
 
 [1] More or less - cash has serial numbers. Bitcoin goes one better - you can see the whole transaction history of any given "coin". But the "addresses" used in any given transaction are just random strings of numbers - it's not easy to connect them to a legal identity you can file a lawsuit against - and the "community" that sells products for bitcoins seems to have no qualms about accepting stolen bitcoins in payment.
 
-[2] Yes, sellers pay fees to accept credit card payments. But (TODO: LINK TO THAT AUSTRALIA STORY) when those fees go down, they don't pass the savings on to customers. So TODO: FINISH THIS REASONING
+[2] Yes, sellers pay fees to accept credit card payments. But they usually build them into their prices - and as happened in Australia, when those fees go down, they don't pass the savings on to customers. So 
 
 [3] Some advocates say that using a smartphone with bitcoin eliminates the inconvenience of having to withdraw cash. This is true, but only if your phone has access to your entire bitcoin wallet - practically equivalent to carrying around your life's savings in cash[4]. Otherwise, you still have the hassle of remembering to load up your phone wallet with enough bitcoin before you go shopping.
 
