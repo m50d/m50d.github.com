@@ -32,7 +32,7 @@ When a guy walks into a fancy hotel with a duffel bag full of cash, the probabil
 
 And yet we celebrate when a website starts accepting bitcoin, a currency held almost exclusively by criminals and those who abet them. We create companies whose mission is helping them trade this dirty money for clean. We ask reputable sites to legitimize it by treating it as just one more money transfer service, like accepting a new credit card type.
 
-It's time for those of us who believe in the rule of law to put a stop to this. I don't suggest making bitcoin illegal - enforcing such a ban would require truly scary violations of liberty. But 
+It's time for those of us who believe in the rule of law to put a stop to this. I don't suggest making bitcoin illegal - enforcing such a ban would require truly scary violations of liberty. But what we can do is take 
 
 <br />
 <br />
