@@ -28,7 +28,7 @@ Either that, or one of the early-adopter "miners": the original "investors" in a
 
 I suggested to a friend who makes money bitcoin "mining" that he was getting an unearned windfall; he replied that no, he was earning his mining fees by providing a service to other people by validating their transactions[6]. Fine, but who is this service valuable to? Once again, it comes down to criminals - no different from being a bookkeeper for the mob.
 
-When a guy walks into a fancy hotel with a duffel bag full of cash, the probabilities are enough to arouse suspicion - sure, he might've come buy it honestly, but what's the most likely possibility? It might not be grounds to refuse service, but it's grounds to be wary. When a landlord asks to be paid in cash, even the most naive and trusting tenant would assume it's for the sake of tax evasion or worse, and refuse (or else ask for a cut of the profits).
+When a guy walks into a fancy hotel with a duffel bag full of cash, the probabilities are enough to arouse suspicion - sure, he might've come buy it honestly, but what's the most likely possibility? It might not be grounds to refuse service, but we'd treat it as grounds to be wary. When a landlord asks to be paid in cash, even the most naive and trusting tenant would assume it's for the sake of tax evasion or worse, and refuse (or else ask for a cut of the profits).
 
 And yet we celebrate when a website starts accepting bitcoin, a currency held almost exclusively by criminals and those who abet them. We create companies whose mission is helping them trade this dirty money for clean. We ask reputable sites to legitimize it by treating it as just one more money transfer service, like accepting a new credit card type.[7]
 
