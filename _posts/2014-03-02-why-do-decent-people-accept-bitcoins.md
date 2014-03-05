@@ -30,7 +30,7 @@ I suggested to a friend who makes money bitcoin "mining" that he was getting an 
 
 When a guy walks into a fancy hotel with a duffel bag full of cash, the probabilities are enough to arouse suspicion - sure, he might've come buy it honestly, but what's the most likely possibility? It might not be grounds to refuse service, but it's grounds to be wary. When a landlord asks to be paid in cash, even the most naive and trusting tenant would assume it's for the sake of tax evasion or worse, and refuse (or else ask for a cut of the profits).
 
-And yet we celebrate when a website starts accepting bitcoin, a currency held almost exclusively by criminals and those who abet them. We create startups devoted to making it easier to turn this dirty money into clean. We ask other 
+And yet we celebrate when a website starts accepting bitcoin, a currency held almost exclusively by criminals and those who abet them. We create companies whose mission is making it easier to turn this dirty money into clean. We ask other 
 
 <br />
 <br />
