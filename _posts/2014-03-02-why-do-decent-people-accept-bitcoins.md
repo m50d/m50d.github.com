@@ -26,7 +26,7 @@ Probably the perfect use case for bitcoin is selling illegal purely-digital good
 
 Either that, or one of the early-adopter "miners": the original "investors" in a currency that by design concentrates wealth into their hands like a pyramid scheme. The more people use bitcoin, the more the price rises - but for every dollar the bitcoin "market cap" increases by, 25 cents or more of that value goes to its original inventor ("Satoshi"), and the distribution of the other 75 cents is just as inequitable.
 
-I suggested to a friend who makes money bitcoin "mining" that he was getting an unearned windfall; he replied that no, he was earning his mining fees by providing a service to other people by validating the blockchain[6]. Fine, but who is this service valuable to? Once again, it comes down to criminals - no different from being a bookkeeper for the mob.
+I suggested to a friend who makes money bitcoin "mining" that he was getting an unearned windfall; he replied that no, he was earning his mining fees by providing a service to other people by validating their transactions[6]. Fine, but who is this service valuable to? Once again, it comes down to criminals - no different from being a bookkeeper for the mob.
 
 When a guy walks into a fancy hotel with a duffel bag full of cash, the probabilities are enough to arouse suspicion - sure, he might've come buy it honestly, but what's the most likely possibility? It might not be grounds to refuse service, but it's grounds to be wary. When a landlord asks to be paid in cash, even the most naive and trusting tenant would assume it's for the sake of tax evasion or worse, and refuse (or else ask for a cut of the profits).
 
@@ -47,4 +47,4 @@ It's time for those of us who believe in the rule of law to put a stop to this. 
 
 [5] The seller is in some respects safer - so safe, they can take the money and run without delivering a product, as one Silk Road seller did.
 
-[6] "Mining" involves hashing transactions, 
+[6] "Mining" involves hashing transactions; 
