@@ -28,7 +28,7 @@ Either that, or one of the early-adopter "miners": the original "investors" in a
 
 I suggested to a friend who makes money bitcoin "mining" that he was getting an unearned windfall; he replied that no, he was earning his mining fees by providing a service to other people by validating the blockchain. Fine, but who is this service valuable to? Once again, it comes down to criminals - no different from being a bookkeeper for the mob.
 
-When a guy walks into a fancy hotel with a duffel bag full of cash, most of us assume it's ill-gotten
+When a guy walks into a fancy hotel with a duffel bag full of cash, the probabilities are enough to arouse suspicion - sure, he might've come buy it honestly, but
 <br />
 <br />
 [1] More or less - cash has serial numbers. Bitcoin goes one better - you can see the whole transaction history of any given "coin". But the "addresses" used in any given transaction are just random strings of numbers - it's not easy to connect them to a legal identity you can file a lawsuit against - and the "community" that sells products for bitcoins seems to have no qualms about accepting stolen bitcoins in payment.
