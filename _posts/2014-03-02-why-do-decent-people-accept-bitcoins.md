@@ -34,7 +34,7 @@ And yet we celebrate when a website starts accepting bitcoin, a currency held al
 
 It's time for those of us who believe in the rule of law to put a stop to this. I don't suggest making bitcoin illegal - enforcing such a ban would require truly scary violations of liberty. But what we can do is establish a social norm of treating bitcoins like the criminal tokens they are. Don't accept them in payment, and look twice at a seller who accepts them - if you can find a similar business that doesn't take bitcoins, buy from them instead.
 
-It won't stop bitcoin completely - an unforgeable register of who owes how much to whom is valuable enough to the criminal underworld that the gangs will keep the network running, even if noone else is participating. But if decent people don't accept bitcoin, it means the drug dealers and worse will have to spend more effort to cash out their takings, cutting in to their profit margin
+It won't stop bitcoin completely - an unforgeable register of who owes how much to whom is valuable enough to the criminal underworld that the gangs will keep the network running, even if noone else is participating. But if decent people don't accept bitcoin, it means these drug dealers and worse will have to spend more effort to cash out their takings, cutting in to their profit margin. And that, by the simple rules
 
 <br />
 <br />
