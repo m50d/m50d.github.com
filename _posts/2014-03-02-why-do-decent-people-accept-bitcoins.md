@@ -47,4 +47,4 @@ It's time for those of us who believe in the rule of law to put a stop to this. 
 
 [5] The seller is in some respects safer - so safe, they can take the money and run without delivering a product, as one Silk Road seller did.
 
-[6] This is how bitcoin works - to simplify, "mining" involves hashing blocks of transactions, forming a "blockchain" of 
+[6] This is how bitcoin works - to simplify, "mining" involves hashing blocks of transactions, forming a "blockchain" that records every coin's history and, therefore, its current owner.
