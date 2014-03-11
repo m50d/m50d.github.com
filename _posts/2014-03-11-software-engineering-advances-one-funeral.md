@@ -4,4 +4,4 @@ published: false
 
 #Software Engineering Advances One Funeral at a Time
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+[This lament from a Perl programmer](http://www.modernperlbooks.com/mt/2014/02/the-mid-career-crisis-of-the-perl-programmer.html) has been doing the rounds.
