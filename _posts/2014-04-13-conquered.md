@@ -10,4 +10,4 @@ Even such throwaway scenes are carefully put together, and connect in ways that 
 
 The breakneck pace also helps the comedy - make no mistake, this is a very funny series. On paper it's simple stuff - the ridiculous premise played wonderfully straight, secret identity fun and games (the evil world conquest plot and the superheroes who counter them wear masks that are mirror images, played most effectively in the hot springs episode), Yasu's grandstanding episode previews that tell us more about his character than anything else. But I laughed out loud more than for any anime I can remember - and at the same time I truly cared about the characters and their problems. Of all the series I've been watching, it was this that I looked forward to every week.
 
-Maybe the lesson is that, just as great writing is rewriting, great anime is great production. Certainly the visuals, 
+Maybe the lesson is that, just as great writing is rewriting, great anime is great production. Certainly the fantastic opening and ending sequences primed me for something good, 
