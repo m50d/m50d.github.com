@@ -1,5 +1,6 @@
 ---
-published: false
+title: "Conqueored (Sekai Seifuku review)"
+layout: default
 ---
 
 Few studios are less consistent than A1 Pictures. Who would believe that the artsy, provocative *Shinsekai Yori* came from the same place as the pedestrian *Space Brothers* - and those are notionally shows from the same genre. Aside from high-quality animation (a legacy of their days as part of Kyoto Animation), it's not at all clear what A1 stands for.
