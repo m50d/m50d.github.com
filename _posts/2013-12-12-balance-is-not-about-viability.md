@@ -21,7 +21,7 @@ Note that the decision here is never about choosing between "viable options" - o
 
 
 
-[1] Not that I think it's a good game - a game needs more than just balance
-[2] Ignoring the manual dexterity that would be quite central to such a game in real life
-[3] Ok, *technically* if you were in second place and the fourth-place player was close to 0 you might want to lower the value of your hand to avoid wiping them out and ending the game
+[1] Not that I think it's a good game - a game needs more than just balance  
+[2] Ignoring the manual dexterity that would be quite central to such a game in real life  
+[3] Ok, *technically* if you were in second place and the fourth-place player was close to 0 you might want to lower the value of your hand to avoid wiping them out and ending the game  
 [4] With different levels of ability one might reach different conclusions in the same situation. But the subjective feeling is always the same, and I think it reflects objective reality - in the overwhelming majority of game situations, there really will be a single "best" discard that one should be picking
