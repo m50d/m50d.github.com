@@ -14,7 +14,7 @@ It's not cheap, either, although one can see where all the money has gone - the 
 
 *The Drowned Man* overdoes it though. The masks the audience wears, the entrance through a dark and twisting passageway, the group capriciously divided in two at the start are effective haunted-house tricks - but tricks they are, and they cheapen the production. And the fear they inspire isn't always so unreasonable; there were a couple of stubbed toes and scraped elbows on the way in. Less trivially, at one point I (quite a large guy) was following a small woman down a stairwell, noone else in sight, only to find that at the bottom she was trapped between me and a locked door; at that point a fear of the dark starts to seem a bit less silly.
 
-There were certainly moments that meant something to me - the fact that I'm writing this at all is proof of that. But the show's abject failure to cohere into any kind of whole means couldn't recommend it to anyone bar the most devoted dance/physical theatre fans. And to those who find the format intriguing, who felt there was something to it but they wanted more, I urge you: do yourself a favour, put your self-consciousness to one side for a weekend and go to a proper LARP event.
+There were certainly moments that meant something to me - the fact that I'm writing this at all is proof of that. But the show's abject failure to cohere into any kind of whole means couldn't recommend it to anyone bar the most devoted dance/physical theatre fans. And to those who find the format intriguing, who felt there was something to it but they wanted more, I urge you: do yourself a favour, put your self-consciousness to one side for a weekend and go to a proper LARP event. That's the way to get the immersive,  experience.
 
 <br />
 <br />
