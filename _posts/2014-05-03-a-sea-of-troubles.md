@@ -12,6 +12,8 @@ It felt like being a ghost at a LARP event, watching other people have fun but u
 
 It's not cheap, either, although one can see where all the money has gone - the huge number of acrobatically skilled performers and the incredibly detailed sets. One can walk into a caravan that seems like it's just a background shell and discover period books, posters, a diary written in crude ink containing details that (presumably) connect to the wider plot. Buried down a coridor I found a whole chapel made of straw and stone and totally empty. In an empty dressing room three of us pored over a lady's handbag and the note inside it. Even when I caught nothing of the story, the tone and mood are perfect, transporting you very effectively to another time and place[1].
 
+*The Drowned Man* overdoes it though. The masks the audience wears, the entrance through a dark and twisting passageway, the group capriciously divided in two at the start are effective haunted-house tricks - but tricks they are, and they cheapen the production.
+
 
 
 [1] Aside: I think I've figured out why interactive experiences - this, or roleplaying or even videogames - tend to use fantasy or sci-fi settings.
