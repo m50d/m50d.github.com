@@ -16,4 +16,4 @@ It's not cheap, either, although one can see where all the money has gone - the 
 
 
 
-[1] Aside: I think I've figured out why interactive experiences - roleplaying or even videogames - tend to use fantasy or sci-fi settings. In more literary genres the story is driven by the characters - but that's the very piece the participants are supposed to provide themselves.
+[1] Aside: I think I've figured out why interactive experiences - roleplaying or even videogames - tend to use fantasy or sci-fi settings. In more literary genres the story is driven by the characters - but that's the very piece the participants are supposed to provide themselves. So instead we use genres where setting - which can be fully controlled - and plot - which can be at least partially controlled - will drive the story
