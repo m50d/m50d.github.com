@@ -14,7 +14,7 @@ It's not cheap, either, although one can see where all the money has gone - the 
 
 *The Drowned Man* overdoes it though. The masks the audience wears, the entrance through a dark and twisting passageway, the group capriciously divided in two at the start are effective haunted-house tricks - but tricks they are, and they cheapen the production. And the fear they inspire isn't always so unreasonable; there were a couple of stubbed toes and scraped elbows on the way in. Less trivially, at one point I (quite a large guy) was following a small woman down a stairwell, noone else in sight, only to find that at the bottom she was trapped between me and a locked door; at that point a fear of the dark starts to seem a bit less silly.
 
-There were certainly moments that meant something to me - the fact that I'm writing this at all is proof of that. But the show's abject failure to cohere into any kind of whole means couldn't recommend it to any but the most devoted 
+There were certainly moments that meant something to me - the fact that I'm writing this at all is proof of that. But the show's abject failure to cohere into any kind of whole means couldn't recommend it to any but the most devoted dance/physical theatre fans.
 
 
 
