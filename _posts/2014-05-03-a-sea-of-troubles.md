@@ -2,4 +2,4 @@
 published: false
 ---
 
-I trusted Punchdrunk, which was perhaps my first mistake. It could be that their advice and warnings were not meant for people like me; certainly I ment people who'd stuck with their friends, or followed the main characters, and seemed to have a better time of it. A show in this format is more than usually subjective, but I can only review my own experience.
+A show in this format is more than usually subjective, but I can only review my own experience. That said, I trusted Punchdrunk, and followed their advice to the letter; I went alone,  It could be that their advice and warnings were not meant for people like me; certainly I ment people who'd stuck with their friends, or followed the main characters, and seemed to have a better time of it. 
