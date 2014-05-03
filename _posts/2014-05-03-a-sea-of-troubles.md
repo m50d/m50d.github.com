@@ -14,9 +14,10 @@ It's not cheap, either, although one can see where all the money has gone - the 
 
 *The Drowned Man* overdoes it though. The masks the audience wears, the entrance through a dark and twisting passageway, the group capriciously divided in two at the start are effective haunted-house tricks - but tricks they are, and they cheapen the production. And the fear they inspire isn't always so unreasonable; there were a couple of stubbed toes and scraped elbows on the way in. Less trivially, at one point I (quite a large guy) was following a small woman down a stairwell, noone else in sight, only to find that at the bottom she was trapped between me and a locked door; at that point a fear of the dark starts to seem a bit less silly.
 
-There were certainly moments that meant something to me - the fact that I'm writing this at all is proof of that. But the show's abject failure to cohere into any kind of whole means couldn't recommend it to any but the most devoted dance/physical theatre fans.
+There were certainly moments that meant something to me - the fact that I'm writing this at all is proof of that. But the show's abject failure to cohere into any kind of whole means couldn't recommend it to anyone bar the most devoted dance/physical theatre fans. And to those who find the format intriguing, who felt there was something to it but they wanted more, I urge you: get over 
 
-
-
+<br />
+<br />
+<br />
 [1] Aside: I think I've figured out why interactive experiences - roleplaying or even videogames - tend to use fantasy or sci-fi settings. In more literary genres the story is driven by the characters - but that's the very piece the participants are supposed to provide themselves. So instead we use genres where setting - which can be fully controlled - and plot - which can be at least partially controlled - will drive the story, and the players will *hopefully* create something on top but there's some level of fallback to take the pressure off if they're not on best form today.  
 *The Drowned Man* does this to a certain extent, but - if the intro notes are to be believed, with their love triangles and descents into madness - it's trying to be a character piece, which is part of where it falls down.
