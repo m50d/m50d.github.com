@@ -1,6 +1,7 @@
 ---
-title: "A Sea of Troubles (The Drowned Man review)"
+title: A Sea of Troubles (The Drowned Man review)
 layout: default
+published: true
 ---
 
 A show in this format is more than usually subjective, but I can only review my own experience. That said, I listened to Punchdrunk, and followed their advice to the letter; I went alone, I wandered and explored, not systematically but at random, consciously forgetting what I knew about what could be found where. If there was a better way to experience the show (and certainly I ment people who'd stuck with their friends, or followed the main characters, and seemed to have had a better time of it), I feel the fault is with them more than me.
@@ -21,4 +22,4 @@ There were certainly moments that meant something to me - the fact that I'm writ
 <br />
 <br />
 [1] Aside: I think I've figured out why interactive experiences - roleplaying or even videogames - tend to use fantasy or sci-fi settings. In more literary genres the story is driven by the characters - but that's the very piece the participants are supposed to provide themselves. So instead we use genres where setting - which can be fully controlled - and plot - which can be at least partially controlled - will drive the story, and the players will *hopefully* create something on top but there's some level of fallback to take the pressure off if they're not on best form today.  
-*The Drowned Man* does this to a certain extent, but - if the intro notes are to be believed, with their love triangles and descents into madness - it's trying to be a character piece, which is part of where it falls down.
+*The Drowned Man* does this to a certain extent - the time and place it creates are instantly recognizable. But - if the intro notes are to be believed, with their love triangles and descents into madness - it's trying to be a character piece, which is part of where it falls down.
