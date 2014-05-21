@@ -18,3 +18,4 @@ someList.map(this::someFunction).reduce(0, (x, y) -> x + y)
 ````
 which is still a huge improvement over previous versions of Java.
 
+Sadly we haven't seen a similar improvement in the bean conventions;
