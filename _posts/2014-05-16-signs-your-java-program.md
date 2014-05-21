@@ -12,7 +12,9 @@ whereas in Python we would need to write
 ````python
 reduce(lambda x,y: x + y, map(someFunction, someList))
 ````
-In java this might be
+In java 8 this might be
 ````java
 someList.map(this::someFunction).reduce(0, (x, y) -> x + y)
 ````
+which is still a huge improvement over previous versions of Java.
+
