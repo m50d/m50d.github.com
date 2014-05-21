@@ -34,4 +34,4 @@ C# has a syntactic shortcut for properties with trivial getters; I predict that 
 
 ## You're using `instanceof` checks and casts - or using the "visitor pattern" just to avoid them
 
-In classic OO tradition, suppose you have `Dog` and `Cat` classes that extend `Animal`. And you want to print them.
+In classic OO tradition, suppose you have `Dog` and `Cat` classes that extend `Animal`; they conform to the same interface, but have different behaviour. 
