@@ -50,4 +50,20 @@ if(animal instanceof Dog) {
 ````
 The casts are repetitive and error-prone (though a good IDE can help with that), and can seem like a code smell even when they're correct (a cast is usually a big red flag). But worse, when we add `Horse`s to our system, our code will silently start to fail.
 
-There's a standard way to work around this in Java - the "visitor pattern" - which makes the code safer. But it's verbose and syntactically noisy, making this an unpleasant tradeoff in either direction.
+There's a standard way to work around this in Java - the "visitor pattern" - which makes the code safer. But it's verbose and syntactically noisy, making this an unpleasant tradeoff in either direction:
+
+````java
+interface AnimalVisitor<T> {
+    T visitDog(Dog d);
+    T visitCat(Cat c);
+}
+
+animal.visit(new AnimalVisitor<String>(){
+    @Override public String visitDog(Dog d) {
+        //code to print a Dog
+    }
+    @Override public String visitCat(Cat c) {
+        //code to print a Cat
+    }
+});
+````
