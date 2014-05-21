@@ -12,10 +12,10 @@ whereas in Python we would need to write
 ````python
 reduce(lambda x,y: x + y, map(someFunction, someList))
 ````
-In java 8 this might be
+In Java 8 this might be
 ````java
 someList.map(this::someFunction).reduce(0, (x, y) -> x + y)
 ````
 which is still a huge improvement over previous versions of Java.
 
-Sadly we haven't seen a similar improvement in the bean conventions;
+Sadly we haven't seen a similar improvement in the bean conventions; for Java classes that we want to be able to use in child 
