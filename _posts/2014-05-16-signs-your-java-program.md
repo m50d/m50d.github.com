@@ -32,10 +32,6 @@ Thanks to Scala's "uniform access principle", a simple property can be replaced 
 
 C# has a syntactic shortcut for properties with trivial getters; I predict that Java will gain a similar feature in the not too distant future. But even if Java adopted the C# feature, data classes in Java would still more verbose than Scala's case classes - and the latter can be used today.
 
-## You're using the "visitor pattern" a lot to distinguish types
+## You're using `instanceof` checks and casts - or using the "visitor pattern" just to avoid them
 
-In classic OO tradition, suppose you have `Dog` and `Cat` classes that extend `Animal`. And you want
-
-
-
-## You're using `instanceof` checks and casts - or making classes inherit from each other just to avoid this
+In classic OO tradition, suppose you have `Dog` and `Cat` classes that extend `Animal`. And you want to print them.
