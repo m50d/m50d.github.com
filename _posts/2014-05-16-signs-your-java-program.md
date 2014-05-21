@@ -36,4 +36,15 @@ C# has a syntactic shortcut for properties with trivial getters; I predict that 
 
 In classic OO tradition, suppose you have `Dog` and `Cat` classes that extend `Animal`; they conform to the same interface, but have different behaviour. E.g. we might have a `makeNoise()` method that would return "woof" for a `Dog` and "meow" for a `Cat`.
 
-Which is fine for core functionality like this, but what about auxillary functionality like serialization, or persistence, or printing? The printer is its own subsystem (it might even have its own specializations, a `UnicodePrinter` and an `AsciiPrinter` and a `IBMDrawingCharactersPrinter`); the `Animal`s shouldn't have any direct knowledge of printing, it's not their responsibility.
+Which is fine for core functionality like this, but what about auxillary functionality like serialization, or persistence, or printing? The printer is its own subsystem (it might even have its own specializations, a `UnicodePrinter` and an `AsciiPrinter` and a `IBMDrawingCharactersPrinter`). The `Animal`s shouldn't have any direct knowledge of printing, it's not their responsibility. But the code to print them needs to do different things for different types of animal.
+
+The most direct approach is to, well, check the type directly:
+````java
+if(animal instanceof Dog) {
+    Dog d = (Dog) animal;
+    // code to print a Dog
+} else if(animal instanceof Cat) {
+    Cat c = (Cat) animal;
+    //code to print a Cat
+}
+````
