@@ -14,5 +14,5 @@ reduce(lambda x,y: x + y, map(someFunction, someList))
 ````
 In java this might be
 ````java
-someList.map(x -> someFunction(x)).reduce(0, (y, z) -> y + z)
+someList.map(this::someFunction).reduce(0, (x, y) -> x + y)
 ````
