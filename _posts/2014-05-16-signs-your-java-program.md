@@ -81,7 +81,7 @@ animal match {
 ````
 then the code is shorter than the `instanceof` example, with no opportunity to cast to the wrong type since the instance check and the cast have been combined. And provided we declared the `Animal` trait as `sealed`, the compiler will warn us when we add a new case.
 
-What about in a larger codebase, where `Animal`s are in an animal library, and the safari team who've created a `Leopard` in their own library have no idea that they should be talking to the team that makes the printing library? (they might even work in different companies). In Java you hit the limit here; if the animal library includes an AnimalVisitor there's no way for team safari to add a method to it. So the printing library has to use `instanceof`s, and even if they're active in the animal community and add support for any popular extensions they see,
+What about in a larger codebase, where `Animal`s are in an animal library, and the safari team who've created a `Leopard` in their own library have no idea that they should be talking to the team that makes the printing library? (they might even work in different companies). In Java you hit the limit here; if the animal library includes an AnimalVisitor there's no way for team safari to add a method to it. So the printing library has to use `instanceof`s, and even if the printing team are active in the animal community and add support for any popular extensions they see,
 it's easy to miss a few.
 
 //spring aop, hibernate transactions, lombok, jackson module system, those magic files Jersey uses
