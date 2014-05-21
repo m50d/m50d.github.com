@@ -84,7 +84,7 @@ then the code is shorter than the `instanceof` example, with no opportunity to c
 What about in a larger codebase, where `Animal`s are in an animal library, and the safari team who've created a `Leopard` in their own library have no idea that they should be talking to the team that makes the printing library? (they might even work in different companies). In Java you hit the limit here; if the animal library includes an AnimalVisitor there's no way for team safari to add a method to it. So the printing library has to use `instanceof`s, and even if the printing team are active in the animal community and add support for any popular new animals they see,
 it's easy to miss a few.
 
-Scala doesn't make this easy, but it does make it possible with the typeclass pattern. Our printing library might look something like:
+Scala has a better solution: the typeclass pattern. Our printing library might look something like:
 ````scala
 object Printer{
     implicit object DogPrinter extends Printer[Dog] {
@@ -94,7 +94,8 @@ object Printer{
         //code to print a Cat
     }
 }
-def print[A <: Animal: Printer](a: A) = implicitly[Printer[A]].print(a)
+def print[A <: Animal: Printer](a: A) = doOtherPrintingStuff(implicitly[Printer[A]].print(a))
 ````
+If we `print` a `Cat`, the library will use its own `CatPrinter`. If we try and print a `Leopard`, our code won't compile - but we can write our own `LeopardPrinter` to 
 
 //spring aop, hibernate transactions, lombok, jackson module system, those magic files Jersey uses
