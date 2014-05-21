@@ -34,6 +34,8 @@ C# has a syntactic shortcut for properties with trivial getters; I predict that 
 
 ## You're using the "visitor pattern" a lot to distinguish types
 
+In classic OO tradition, suppose you have `Dog` and `Cat` classes that extend `Animal`. 
+
 
 
 ## You're using `instanceof` checks and casts - or making classes inherit from each other just to avoid this
