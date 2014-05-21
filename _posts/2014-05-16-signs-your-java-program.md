@@ -34,4 +34,6 @@ C# has a syntactic shortcut for properties with trivial getters; I predict that 
 
 ## You're using `instanceof` checks and casts - or using the "visitor pattern" just to avoid them
 
-In classic OO tradition, suppose you have `Dog` and `Cat` classes that extend `Animal`; they conform to the same interface, but have different behaviour. For core functionality like 
+In classic OO tradition, suppose you have `Dog` and `Cat` classes that extend `Animal`; they conform to the same interface, but have different behaviour. E.g. we might have a `makeNoise()` method that would return "woof" for a `Dog` and "meow" for a `Cat`.
+
+Which is fine for 
