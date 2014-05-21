@@ -18,4 +18,9 @@ someList.map(this::someFunction).reduce(0, (x, y) -> x + y)
 ````
 which is still a huge improvement over previous versions of Java.
 
-Sadly we haven't seen a similar improvement in the bean conventions; for Java classes that we want to be able to use in child 
+Sadly we haven't seen a similar improvement in the bean conventions; a typical Java codebase still contains thousands of lines of methods like this:
+````java
+public String getName() {
+    return name;
+}
+````
