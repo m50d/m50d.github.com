@@ -84,4 +84,4 @@ then the code is shorter than the `instanceof` example, with no opportunity to c
 What about in a larger codebase, where `Animal`s are in an animal library, and the safari team who've created a `Leopard` in their own library have no idea that they should be talking to the team that makes the printing library? (they might even work in different companies). In Java you hit the limit here; if the animal library includes an AnimalVisitor there's no way for team safari to add a method to it. So the printing library has to use `instanceof`s, and even if they're active in the animal community and add support whenever they see a new extension getting popular,
 it's easy to miss a few.
 
-//spring aop, hibernate transactions, lombok, jackson module system
+//spring aop, hibernate transactions, lombok, jackson module system, those magic files Jersey uses
