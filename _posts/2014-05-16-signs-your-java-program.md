@@ -30,4 +30,4 @@ You may object that it's trivial to autogenerate these methods in an IDE. True, 
 
 Thanks to Scala's "uniform access principle", a simple property can be replaced by accessor methods without changing downstream code - meaning you don't need to add the methods until you actually need them. So when what looks like a simple property access is actually something more complex, the method that does this stands out, rather than being lost in a sea of getters.
 
-C# has a syntactic shortcut for properties with trivial getters; I predict that Java will gain a similar feature in the not too distant future. But even if Java adopted the C# feature, data classes in Java would still more verbose than Scala's case classes, and the latter can be used today.
+C# has a syntactic shortcut for properties with trivial getters; I predict that Java will gain a similar feature in the not too distant future. But even if Java adopted the C# feature, data classes in Java would still more verbose than Scala's case classes - and the latter can be used today.
