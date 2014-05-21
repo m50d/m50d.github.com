@@ -48,4 +48,4 @@ if(animal instanceof Dog) {
     //code to print a Cat
 }
 ````
-The casts are repetitive and error-prone, though a good IDE can help with that. But worse, when we add `Horse`s to our system, 
+The casts are repetitive and error-prone, though a good IDE can help with that. But worse, when we add `Horse`s to our system, our code will silently fail.
