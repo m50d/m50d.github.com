@@ -36,4 +36,4 @@ C# has a syntactic shortcut for properties with trivial getters; I predict that 
 
 In classic OO tradition, suppose you have `Dog` and `Cat` classes that extend `Animal`; they conform to the same interface, but have different behaviour. E.g. we might have a `makeNoise()` method that would return "woof" for a `Dog` and "meow" for a `Cat`.
 
-Which is fine for 
+Which is fine for core functionality like this, but what about auxillary functionality like serialization, or persistence, or printing? 
