@@ -68,4 +68,4 @@ animal.visit(new AnimalVisitor<String>(){
 });
 ````
 
-The extra class is an annoyance if we only have one or two visitors; we also have to add a `<T> visit(AnimalVisitor<T> visitor);` method to `Animal`, and implementations in `Dog` and `Cat` calling `visitor.visitDog(this);` or similar. 
+The extra class is an annoyance if we only have one or two visitors; we also have to add the `<T> visit(AnimalVisitor<T> visitor);` method to the `Animal` interface, and implementations in `Dog` and `Cat`. But everything is typesafe, and when we add `Horse` we add a `visitHorse` method to the 
