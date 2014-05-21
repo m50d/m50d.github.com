@@ -80,3 +80,5 @@ animal match {
 }
 ````
 then the code is shorter than the `instanceof` example, with no opportunity to cast to the wrong type since the instance check and the cast have been combined. And provided we declared the `Animal` trait as `sealed`, the compiler will warn us when we add a new case.
+
+What about in a 
