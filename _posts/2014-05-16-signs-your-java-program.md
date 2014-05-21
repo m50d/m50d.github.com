@@ -70,4 +70,13 @@ animal.visit(new AnimalVisitor<String>(){
 
 The extra class is an annoyance if we only have one or two visitors; we also have to add the `<T> visit(AnimalVisitor<T> visitor);` method to the `Animal` interface, and implementations in `Dog` and `Cat`. But everything is typesafe, and when we add `Horse` we add a `visitHorse` method to `AnimalVisitor` and get compile errors until we define it, so this is often the preferred approach.
 
-In Scala we can do better than either.
+In Scala we can do better than either. If we write
+````scala
+animal match {
+    case d: Dog =>
+        //code to print a Dog
+    case c: Cat =>
+        //code to print a Cat
+}
+````
+then the code is shorter than the `instanceof` example, with 
