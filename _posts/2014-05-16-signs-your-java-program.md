@@ -100,6 +100,6 @@ If we `print` a `Cat`, the library will use its own `CatPrinter`. If we try and 
 
 I won't say it's painless - we have to pass the type information right through our system, so any methods that call `print` will also have the `[A <: Animal: Printer]` type, and what could be a `List[Animal]` in the `sealed trait` scenario will now have to be a `HList`, with a type like `Cat :: Dog :: Leopard :: Cat :: HNil`. But by having both patterns available Scala makes the easy thing easy (like Java) and the hard thing possible (like Haskell).
 
-## You're writing code that looks the same
+## You're writing code that looks the same, but can't quite find a common interface
 
 //spring aop, hibernate transactions, lombok, jackson module system, those magic files Jersey uses
