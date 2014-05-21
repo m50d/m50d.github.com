@@ -68,7 +68,7 @@ animal.visit(new AnimalVisitor<String>(){
 });
 ````
 
-The extra class is an annoyance if we only have one or two visitors; we also have to add the `<T> visit(AnimalVisitor<T> visitor);` method to the `Animal` interface, and implementations in `Dog` and `Cat`. But everything is typesafe, and when we add `Horse` we add a `visitHorse` method to `AnimalVisitor` and get compile errors until we define it, so this is often the preferred approach.
+The extra class is an annoyance if we only have one or two visitors; we also have to add the `<T> visit(AnimalVisitor<T> visitor);` method to the `Animal` interface, and implementations in `Dog` and `Cat`. But everything is typesafe, and when we add `Horse` we add a `visitHorse` method to `AnimalVisitor` and get compile errors until we define it, so this is often the preferred approach on large codebases where people need to be able to change one part of the code without knowing about every other part.
 
 In Scala we can do better than either. If we write
 ````scala
@@ -79,4 +79,4 @@ animal match {
         //code to print a Cat
 }
 ````
-then the code is shorter than the `instanceof` example, with 
+then the code is shorter than the `instanceof` example, with no opportunity to cast to the wrong type since the instance check and the cast have been combined.
