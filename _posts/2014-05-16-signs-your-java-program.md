@@ -102,4 +102,6 @@ I won't say it's painless - we have to pass the type information right through o
 
 ## You're writing code that looks the same, but can't quite find a common interface
 
+## Your async code is hitting the callback pyramid of doom
+
 //spring aop, hibernate transactions, lombok, jackson module system, those magic files Jersey uses
