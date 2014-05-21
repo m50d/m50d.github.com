@@ -68,4 +68,4 @@ animal.visit(new AnimalVisitor<String>(){
 });
 ````
 
-`Animal` will have a `<T> visit(AnimalVisitor<T> visitor);` method which 
+The extra class is an annoyance if we only have one or two visitors; we also have to add a `<T> visit(AnimalVisitor<T> visitor);` method to `Animal`, and implementations in `Dog` and `Cat` calling `visitor.visitDog(this);` or similar. 
