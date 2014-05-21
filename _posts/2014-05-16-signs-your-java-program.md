@@ -26,4 +26,4 @@ public String getName() {
 ````
 While I would argue that internal classes should prefer public fields, there's a legitimate case for these methods in library classes that are exposed to downstream projects; in Java a public field cannot be replaced with a method (e.g. to add a log statement, or compute the value from some other internal state) and maintain even source compatibility.
 
-You may object that it's trivial to autogenerate these methods in an IDE. True, but you still have to read the generated code. Worse, thousands of these simple getters lead to the worst thing in programming - a condition that's almost, but not quite, always true.
+You may object that it's trivial to autogenerate these methods in an IDE. True, but you still have to read the generated code. Worse, thousands of these simple getters hide the occasional more complex implementation - so you know that getter code is [almost, but not quite](http://c2.com/cgi/wiki?AlmostCorrect) always simple.
