@@ -28,4 +28,4 @@ While I would argue that internal classes should prefer public fields, there's a
 
 You may object that it's trivial to autogenerate these methods in an IDE. True, but you still have to read the generated code. Worse, thousands of these simple getters hide the occasional more complex implementation - so you know that getter code is [almost, but not quite](http://c2.com/cgi/wiki?AlmostCorrect) always simple. You start to assume that when splitting up a large class you can delete all the getters and use your IDE to regenerate them - which works great, right until it doesn't.
 
-C# found time to 
+C# has a syntactic shortcut for properties with trivial getters; I would predict that Java will gain a similar feature in the not too distant future.
