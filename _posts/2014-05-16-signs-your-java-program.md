@@ -32,7 +32,7 @@ Thanks to Scala's "uniform access principle", a simple property can be replaced 
 
 C# has a syntactic shortcut for properties with trivial getters; I predict that Java will gain a similar feature in the not too distant future. But even if Java adopted the C# feature, data classes in Java would still more verbose than Scala's case classes - and the latter can be used today.
 
-## You're overusing the "visitor pattern"
+## You're using the "visitor pattern" a lot
 
 
 
