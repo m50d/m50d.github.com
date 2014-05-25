@@ -104,7 +104,7 @@ I won't say it's painless - we have to pass the type information right through o
 
 Class hierachies and generics can take you a long way
 
-##You're putting parts of your code in config files, or other languages
+##You're putting parts of your code in config files, or embedded languages, or annotations
 
 ## Your async code is hitting the callback pyramid of doom
 
