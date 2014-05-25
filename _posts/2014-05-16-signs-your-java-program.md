@@ -104,6 +104,8 @@ I won't say it's painless - we have to pass the type information right through o
 
 Class hierachies and generics can take you a long way
 
+##You're putting parts of your code in config files, or other languages
+
 ## Your async code is hitting the callback pyramid of doom
 
 //spring aop, hibernate transactions, lombok, jackson module system, those magic files Jersey uses
