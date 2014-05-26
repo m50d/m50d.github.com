@@ -173,7 +173,7 @@ This is probably the clearest signal that Java is inadequate for what you're try
 
 # So, should I switch to Scala?
 
-Scala is my go-to language nowadays; I still write Java (and Python, and other languages) for projects where there are specific reasons to prefer it, but for general-purpose programming I default to Scala.
+Scala is my go-to language nowadays; I still write Java (and Python, and other languages) for projects where there are specific reasons to, but for general-purpose programming I default to Scala.
 
 If these problems resonate with you then it's worth a look; you can start small, even with a single class, and you can start by writing code that's very similar to what you'd write in Java - so much so that both major IDEs can convert Java to Scala automatically[3].
 
