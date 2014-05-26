@@ -128,7 +128,7 @@ Making it easy to work with these kind of contexts doesn't just make existing co
 
 What makes Java compelling isn't so much the language itself as the ecosystem around it. Not just libraries and frameworks, but also tooling: first-class IDEs, debuggers, profilers, code analyzers, monitoring tools. The language makes a claim to a certain kind of simplicity (at least if we avoid primitive types and arrays) - everything is an object, all code reuse is through inheritance, all concurrency is ultimately using the same thread primitives - and hiring programmers is easier than for many languages because there's a large pool of programmers available (at various levels of experience, ability and salary).
 
-Many enterprise codebases try to solve the problems of the previous section by externalizing part of the program into annotations or XML - Spring or similar for dependency injection, JDBC annotations for managing database transactions, JAXB or Jackson annotations for serialization, some kind of reflection-based AOP system for audit trails or security.
+Many enterprise codebases try to solve the problems of the previous section by externalizing part of the program into annotations or XML - Spring or similar for dependency injection, JDBC annotations for managing database transactions, JAXB or Jackson annotations for serialization, some kind of reflection-based AOP system for audit trails or security. But these 
 
 //spring aop, hibernate transactions, lombok, jackson module system, those magic files Jersey uses
 
