@@ -167,7 +167,7 @@ Your IDE's Scala support is probably less mature, stable and complete than its J
 
 ## You're extending the language
 
-The extensions in the previous section may be configured through annotations or XML, but they're implemented mostly in Java, with perhaps a little reflection or similar at the boundaries. Some extensions go further than that, adding stages to the compiler or rewriting bytecode on the fly
+The extensions in the previous section may be configured through annotations or XML, but they're implemented mostly in Java, with perhaps a little reflection or similar at the boundaries. Some extensions go further than that, adding stages to the compiler or rewriting bytecode on the fly. I'm thinking of things like Project Lombok, and 
 
 //spring aop, hibernate transactions, lombok, jackson module system, those magic files Jersey uses
 
