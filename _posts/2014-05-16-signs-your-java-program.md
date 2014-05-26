@@ -161,7 +161,7 @@ def fooCorpAuth(companyId: Long) = for {
   _ <- authorize(user.companies.contains(companyId)) & provide({})
 } yield user
 ````
-which we can then use just as 
+which we can then use in a route just as if it were one of Spray's builtin directives. 
 
 //spring aop, hibernate transactions, lombok, jackson module system, those magic files Jersey uses
 
