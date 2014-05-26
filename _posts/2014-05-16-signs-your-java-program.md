@@ -160,6 +160,8 @@ def fooCorpAuth(companyId: Long) = for {
   user <- onSuccess(loadUserFromDatabase(authToken))
   _ <- authorize(user.companies.contains(companyId)) & provide({})
 } yield user
+````
+which we can then use just as 
 
 //spring aop, hibernate transactions, lombok, jackson module system, those magic files Jersey uses
 
