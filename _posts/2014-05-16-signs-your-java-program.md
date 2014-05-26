@@ -130,7 +130,7 @@ What makes Java compelling isn't so much the language itself as the ecosystem ar
 
 Many enterprise codebases try to solve the problems of the previous section by externalizing part of the program into annotations or XML - Spring or similar for dependency injection, JDBC annotations for managing database transactions, JAXB or Jackson annotations for serialization, some kind of reflection-based AOP system for audit trails or security. And while all these approaches work, they spoil the very thing that makes Java great. Once you use a DI framework, your IDE becomes much less dependable, as things like "find usages" of a given class/method can no longer be relied upon (admittedly with Spring most IDEs now have at least some support). Debugging code that uses annotations for transactions is an exercise in frustration, as the stack frames no longer match up to what you see in the code, and I've seen coverage tools break when faced with tests that used such code.
 
-Worse is when these tools break your ability to reason about the code. 
+Even the best annotation-driven enhancements require 
 
 //spring aop, hibernate transactions, lombok, jackson module system, those magic files Jersey uses
 
