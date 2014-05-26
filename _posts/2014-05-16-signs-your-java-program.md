@@ -179,7 +179,7 @@ If you're using vanilla, unextended Java, and not running into difficulty with t
 
 I feel obliged to say a few words on complexity, since most Scala discussions seem to end up there. Scala is a consistent language (more so than Java - e.g. primitives, arrays and operators are much less of a special case in Scala) with a relatively short specification, but it contains many very general features that can interact in complex ways; often something which first glance seems like a complex language feature is actually just a clever use of an existing feature ("ohhhh, so the rule that operators ending in : bind to the right *also* applies to *type-level* operators...").
 
-My view is that complexity largely comes from the domain, and the much-maligned Java programmers manage much more complexity than they're given credit for; at one stage or another inner classes, generics, and lambdas were all seen as too complex for Java programmers.
+My view is that complexity largely comes from the domain, and the much-maligned Java programmers manage much more complexity than they're given credit for; at one stage or another inner classes, generics, and lambdas were all seen as too complex for Java programmers. When the problems are complex, the solutions are often
 <br/>
 <br/>
 <br/>
