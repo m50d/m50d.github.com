@@ -161,7 +161,7 @@ def fooCorpAuth(companyId: Long) = for {
   _ <- authorize(user.companies.contains(companyId)) & provide({})
 } yield user
 ````
-which we can then use in our routes, just as though it were one of Spray's builtin directives. 
+which we can then use in our routes, just as though it were one of Spray's builtin directives. There's no spray-specific logic to learn, no need for explicit IDE support, no awkward boundary between the two languages - it's all just Scala.
 
 //spring aop, hibernate transactions, lombok, jackson module system, those magic files Jersey uses
 
