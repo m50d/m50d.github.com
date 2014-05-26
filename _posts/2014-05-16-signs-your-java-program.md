@@ -114,4 +114,4 @@ The other case where Java's type system starts to creak at the seams is when pas
 
 //spring aop, hibernate transactions, lombok, jackson module system, those magic files Jersey uses
 
-[1] In my opinion checked exceptions were not an inherently bad idea - 
+[1] In my opinion checked exceptions were not an inherently bad idea - keeping track of which errors can occur is valuable, and 
