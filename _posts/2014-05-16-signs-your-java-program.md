@@ -112,7 +112,17 @@ In the case of exceptions we can hack around this with RuntimeException, but wha
 
 In Scala we can write a common "context" interface that's flexible enough to use for exception-like success/failure, async calls, database transactions and more - scalaz's `Monad` is the most popular. And since the interface uses the typeclass pattern, you can not only write your own `Monad`s, you can also write typeclass instances that allow third-party libraries to be used as `Monad`s.
 
-This kind of thing might be theoretically possible in Java, but Scala makes it practical. The second part of the trick is Scala's `for`/`yield` syntax, available to any type that implements the right methods. 
+This kind of thing might be theoretically possible in Java, but Scala makes it practical. The second part of the trick is Scala's `for`/`yield` syntax, available to any type that implements the right methods. If we want to write a series of async calls (or validating methods, or database operations, or...), we can express them like:
+
+````scala
+for {
+    a <- fetchTweet()
+    b = computeRating(a)
+    c <- postReply(a, b)
+    } yield c.status
+````
+
+; the context is explicit, but still lightweight
 
 ##You're putting parts of your code in config files, or embedded languages, or annotations
 
