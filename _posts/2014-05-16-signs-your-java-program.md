@@ -102,7 +102,7 @@ I won't say it's painless - we have to pass the type information right through o
 
 ## You're writing code that looks the same, but can't quite find a common interface
 
-Class hierachies and generics can take you a long way in abstraction. But Java's 
+Class hierachies and generics can take you a long way in abstraction. But Java's approach to generics means
 
 ##You're putting parts of your code in config files, or embedded languages, or annotations
 
