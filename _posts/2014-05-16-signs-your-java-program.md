@@ -153,7 +153,7 @@ But in fact the route definition is just Scala, and rather than having some refl
 ````scala
 def authorize(x: Boolean) = if(x) pass else reject(AuthorizationFailedRejection)
 ````
-and it's easy to see how we might write our own custom directive. Better still, we have the full power of Scala while doing so. So for example at my current job we have a custom access control directive that looks something like:
+and it's easy to see how we might write our own custom directive. Better still, we have the full power of Scala while doing so. So e.g. we can use the `for`/`yield` syntax to construct a custom directive:
 ````
 def fooCorpAuth(companyId: Long) = for {
   authToken <- parameter('token)
