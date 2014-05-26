@@ -106,6 +106,8 @@ Class hierachies and generics can take you a long way in abstraction - further t
 
 (Writers of third-party library *types* have to pay attention to variance, but that's the right tradeoff - it's much more common to pass your own types to a third-party method than to pass a third-party type to your own method).
 
+The other case where 
+
 ##You're putting parts of your code in config files, or embedded languages, or annotations
 
 ## Your async code is hitting the callback pyramid of doom
