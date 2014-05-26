@@ -102,7 +102,7 @@ I won't say it's painless - we have to pass the type information right through o
 
 ## You're writing code that looks the same, but can't quite find a common interface
 
-Class hierachies and generics can take you a long way in abstraction - further than many small codebases need to go. But 
+Class hierachies and generics can take you a long way in abstraction - further than many codebases need to go. But when writing a library for other people to use, it's difficult to figure out the right `<? extends T<? super ...>>` incantation.
 
 ##You're putting parts of your code in config files, or embedded languages, or annotations
 
