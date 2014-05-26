@@ -173,11 +173,12 @@ This is probably the clearest signal that Java is inadequate for what you're try
 
 # So, should I switch to Scala?
 
-Maybe. If these problems resonate with you then it's worth a look; you can start small, even with a single class, and you can start by writing code that's very similar to what you'd write in Java - so much so that both major IDEs can convert Java to Scala automatically (though I wouldn't recommend doing this on a large scale for at least the first few years, as converting back may be harder).
+Maybe. If these problems resonate with you then it's worth a look; you can start small, even with a single class, and you can start by writing code that's very similar to what you'd write in Java - so much so that both major IDEs can convert Java to Scala automatically[3].
 
 If you're using vanilla, unextended Java, and not running into difficulty with the type system, then probably not (at least if you're happy with the level of verbosity). A good indicator might be how you felt about the previous few Java releases - many of their new features had been previously found in Scala (or in Generics Java, its spiritual predecessor). If you were chomping at the bit for lambdas, fork/join, try-with-resources or the <> syntax, Scala gives you much more in the same vein (and if you loved JSR308 then you should switch to Scala right away); if you were indifferent to these changes or worried that they might make code more complicated then Scala may not be for you.
 <br/>
 <br/>
 <br/>
 [1] In my opinion checked exceptions were not an inherently bad idea - keeping track of which errors can occur is valuable, and handling them where they occur is a legitimate strategy in some cases, as we're seeing with the recent popularity of Go. But Java's type system doesn't offer enough power to use them effectively - it's too hard to make a function that's "generic in what exceptions it throws". To be successful again exceptions will need to be a library feature first and syntactic sugar second - compare the `async`/`await` feature introduced in Scala 2.11.  
-[2] And perhaps Quasar, though I don't have the direct experience to comment there
+[2] And perhaps Quasar, though I don't have the direct experience to comment there  
+[3] I wouldn't recommend doing this on a large scale (at least the first few years), as there is no way to convert back, 
