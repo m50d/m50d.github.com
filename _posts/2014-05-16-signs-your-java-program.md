@@ -110,6 +110,8 @@ The other case where Java's type system starts to creak at the seams is when pas
 
 In the case of exceptions we can hack around this with RuntimeException, but what about if we wanted to make an async HTTP call in a callback? That's simply impossible in Java - the library makes a method call and even if we signal another thread to perform the HTTP operation, the library thread has to block until there's a response. Or from the other side, suppose we want our callback to participate in a database transaction; in Java the state associated with the transaction would be stored in a `ThreadLocal`, so if the library uses multiple threads and calls our callback from a different one, we're out of luck.
 
+Scala makes it possible to deal with this kind of context explicitly, 
+
 ##You're putting parts of your code in config files, or embedded languages, or annotations
 
 ## Your async code is hitting the callback pyramid of doom
