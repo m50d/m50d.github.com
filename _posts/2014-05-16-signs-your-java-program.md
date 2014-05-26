@@ -134,4 +134,4 @@ What makes Java compelling isn't so much the language itself as the ecosystem ar
 
 
 [1] In my opinion checked exceptions were not an inherently bad idea - keeping track of which errors can occur is valuable, and handling them where they occur is a legitimate strategy in some cases, as we're seeing with the recent popularity of Go. But Java's type system doesn't offer enough power to use them effectively - it's too hard to make a function that's "generic in what exceptions it throws". To be successful again exceptions will need to be a library feature first and syntactic sugar second - compare the `async`/`await` feature introduced in Scala 2.11.  
-[2] I personally think this focus is misguided - a new programmer should be able to pick up a new language with ease
+[2] I personally think the focus on language experience is misguided - a skilled programmer should be able to pick up a new language with ease
