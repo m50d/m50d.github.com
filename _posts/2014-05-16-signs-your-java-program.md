@@ -126,12 +126,11 @@ Making it easy to work with these kind of contexts doesn't just make existing co
 
 ##You're putting parts of your logic in config files, or embedded languages, or annotations
 
-What makes Java compelling isn't so much the language itself as the ecosystem around it. Not just libraries and frameworks, but also tooling: first-class IDEs, debuggers, profilers, code analyzers, monitoring tools. The language makes a claim to a certain kind of simplicity (at least if we avoid primitive types and arrays) - everything is an object, all code reuse is through inheritance, all concurrency is ultimately using the same thread primitives - and hiring programmers is easier than for many languages[2] because there's a large pool of programmers available (at various levels of experience, ability and salary).
+What makes Java compelling isn't so much the language itself as the ecosystem around it. Not just libraries and frameworks, but also tooling: first-class IDEs, debuggers, profilers, code analyzers, monitoring tools. The language makes a claim to a certain kind of simplicity (at least if we avoid primitive types and arrays) - everything is an object, all code reuse is through inheritance, all concurrency is ultimately using the same thread primitives - and hiring programmers is easier than for many languages because there's a large pool of programmers available (at various levels of experience, ability and salary).
 
 //spring aop, hibernate transactions, lombok, jackson module system, those magic files Jersey uses
 
 # So, should I switch to Scala?
 
 
-[1] In my opinion checked exceptions were not an inherently bad idea - keeping track of which errors can occur is valuable, and handling them where they occur is a legitimate strategy in some cases, as we're seeing with the recent popularity of Go. But Java's type system doesn't offer enough power to use them effectively - it's too hard to make a function that's "generic in what exceptions it throws". To be successful again exceptions will need to be a library feature first and syntactic sugar second - compare the `async`/`await` feature introduced in Scala 2.11.  
-[2] I personally think the focus on language experience is misguided - a skilled programmer should be able to pick up a new language with ease
+[1] In my opinion checked exceptions were not an inherently bad idea - keeping track of which errors can occur is valuable, and handling them where they occur is a legitimate strategy in some cases, as we're seeing with the recent popularity of Go. But Java's type system doesn't offer enough power to use them effectively - it's too hard to make a function that's "generic in what exceptions it throws". To be successful again exceptions will need to be a library feature first and syntactic sugar second - compare the `async`/`await` feature introduced in Scala 2.11.
