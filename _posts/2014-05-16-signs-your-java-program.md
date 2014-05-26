@@ -163,6 +163,12 @@ def fooCorpAuth(companyId: Long) = for {
 ````
 which we can then use in our routes, just as though it were one of Spray's builtin directives. There's no spray-specific logic to learn, no need for explicit IDE support, no awkward boundary between the two languages - it's all just Scala.
 
+Your IDE's Scala support is probably less mature, stable and complete than its Java support. But it may well be better than your IDE's Spring or Drools or
+
+## You're extending the language
+
+Some 
+
 //spring aop, hibernate transactions, lombok, jackson module system, those magic files Jersey uses
 
 # So, should I switch to Scala?
