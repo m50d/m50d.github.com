@@ -173,7 +173,7 @@ This is probably the clearest signal that Java is inadequate for what you're try
 
 # So, should I switch to Scala?
 
-Maybe. If these problems resonate with you then it's worth a look; you can start small, even with a single class, 
+Maybe. If these problems resonate with you then it's worth a look; you can start small, even with a single class, and you can start by writing code that's very similar to what you'd write in Java - so much so that both major IDEs can convert Java to Scala automatically (though I wouldn't recommend doing this on a large scale for at least the first few years, as converting back may be harder).
 
 If you're using vanilla, unextended Java, and not running into difficulty with the type system, then probably not (at least if you're happy with the level of verbosity). A good indicator might be how you felt about the previous few Java releases - many of their new features had been previously found in Scala (or in Generics Java, its spiritual predecessor). If you were chomping at the bit for lambdas, fork/join, try-with-resources or the <> syntax, Scala gives you much more in the same vein (and if you loved JSR308 then you should switch to Scala right away); if you were indifferent to these changes or worried that they might make code more complicated then Scala may not be for you.
 <br/>
