@@ -149,6 +149,7 @@ pathPrefix("orders") {
   }
 }
 ````
+But in fact the route definition is just Scala, 
 
 //spring aop, hibernate transactions, lombok, jackson module system, those magic files Jersey uses
 
