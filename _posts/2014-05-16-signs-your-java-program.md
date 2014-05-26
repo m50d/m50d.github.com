@@ -163,7 +163,7 @@ def fooCorpAuth(companyId: Long) = for {
 ````
 which we can then use in our routes, just as though it were one of Spray's builtin directives. There's no spray-specific logic to learn, no need for explicit IDE support, no awkward boundary between the two languages - it's all just Scala.
 
-Your IDE's Scala support is probably less mature, stable and complete than its Java support. But it may well be better than your IDE's Spring or Drools or
+Your IDE's Scala support is probably less mature, stable and complete than its Java support. But it may well be more mature than your IDE's Spring or Drools or Jersey support.
 
 ## You're extending the language
 
