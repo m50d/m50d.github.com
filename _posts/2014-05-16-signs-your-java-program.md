@@ -167,7 +167,7 @@ Your IDE's Scala support is probably less mature, stable and complete than its J
 
 ## You're extending the language
 
-The extensions in the previous section may be configured through annotations or XML, but they're implemented mostly in Java, with perhaps a little reflection or similar at the boundaries. Some extensions go further than that, adding stages to the compiler or rewriting bytecode on the fly. I'm thinking of Project Lombok, or AspectJ, or Tapestry (and perhaps quasar, though I don't ).
+The extensions in the previous section may be configured through annotations or XML, but they're implemented mostly in Java, with perhaps a little reflection or similar at the boundaries. Some extensions go further than that, adding stages to the compiler or rewriting bytecode on the fly. I'm thinking of Project Lombok, or AspectJ, or Tapestry.[2]
 
 This is probably the clearest signal that Java is inadequate for what you're trying to do with it; everything I've said in the previous section applies triple. At the point where you're running different bytecode from what the Java compiler would generate from your source, you're taking on all the costs and risks associated with adopting a new language - because that's what you're doing. Is that language as popular
 
@@ -176,4 +176,5 @@ This is probably the clearest signal that Java is inadequate for what you're try
 # So, should I switch to Scala?
 
 
-[1] In my opinion checked exceptions were not an inherently bad idea - keeping track of which errors can occur is valuable, and handling them where they occur is a legitimate strategy in some cases, as we're seeing with the recent popularity of Go. But Java's type system doesn't offer enough power to use them effectively - it's too hard to make a function that's "generic in what exceptions it throws". To be successful again exceptions will need to be a library feature first and syntactic sugar second - compare the `async`/`await` feature introduced in Scala 2.11.
+[1] In my opinion checked exceptions were not an inherently bad idea - keeping track of which errors can occur is valuable, and handling them where they occur is a legitimate strategy in some cases, as we're seeing with the recent popularity of Go. But Java's type system doesn't offer enough power to use them effectively - it's too hard to make a function that's "generic in what exceptions it throws". To be successful again exceptions will need to be a library feature first and syntactic sugar second - compare the `async`/`await` feature introduced in Scala 2.11.  
+[2] And perhaps Quasar, though I don't have the direct experience to comment there
