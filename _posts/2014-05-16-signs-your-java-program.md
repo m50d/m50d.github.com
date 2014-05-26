@@ -169,7 +169,7 @@ Your IDE's Scala support is probably less mature, stable and complete than its J
 
 The extensions in the previous section may be configured through annotations or XML, but they're implemented mostly in Java, with perhaps a little reflection or similar at the boundaries. Some extensions go further than that, adding stages to the compiler or rewriting bytecode on the fly. I'm thinking of Project Lombok, or AspectJ, or Tapestry.[2]
 
-This is probably the clearest signal that Java is inadequate for what you're trying to do with it; everything I've said in the previous section applies triple. At the point where you're running different bytecode from what the Java compiler would generate from your source, you're already taking on most of the costs and risks associated with using Scala. (In fact you're probably taking a higher risk - these days application servers, debuggers, profilers and so on will likely have been tested against Scala)
+This is probably the clearest signal that Java is inadequate for what you're trying to do with it; everything I've said in the previous section applies triple. At the point where you're running different bytecode from what the Java compiler would generate from your source, you're already taking on most of the costs and risks associated with using Scala. (In fact you're probably taking a higher risk - these days application servers, debuggers, profilers and so on will likely have been tested against Scala code, and its compiler is likely to be more stable than these extensions simply because it's more mature and has more users).
 
 # So, should I switch to Scala?
 
