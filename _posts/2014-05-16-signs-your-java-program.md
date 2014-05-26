@@ -102,7 +102,7 @@ I won't say it's painless - we have to pass the type information right through o
 
 ## You're writing code that looks the same, but can't quite find a common interface
 
-Class hierachies and generics can take you a long way in abstraction - further than many codebases need to go. But once you start to nest generic types it can be difficult to figure out the right `<? extends T<? super ...>>` incantation, and cumbersome even after you've got it right). In published libraries this kind of flexibility is vital, but in internal code it's often not worth the verbosity, so many Java programmers write code that's less general than it could be (e.g. most methods that take a `List<T>` should really take a `List<? extends T>`) - but 
+Class hierachies and generics can take you a long way in abstraction - further than many codebases need to go. But once you start to nest generic types it can be difficult to figure out the right `<? extends T<? super ...>>` incantation, and cumbersome even after you've got it right). In published libraries this kind of flexibility is vital, but in internal code it's often not worth the verbosity, so many Java programmers write code that's less general than it could be (e.g. most methods that take a `List<T>` should really take a `List<? extends T>`). The Scala style of covariance is easier to think about (variance annotations go on the type rather than on the method, so because List is defined as `List[+A]`, any method that accepts a `List[Animal]` will accept a `List[Cat]` without having to do anything).
 
 ##You're putting parts of your code in config files, or embedded languages, or annotations
 
