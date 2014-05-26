@@ -126,6 +126,8 @@ Making it easy to work with these kind of contexts doesn't just make existing co
 
 ##You're putting parts of your code in config files, or embedded languages, or annotations
 
+
+
 ## Your async code is hitting the callback pyramid of doom
 
 //spring aop, hibernate transactions, lombok, jackson module system, those magic files Jersey uses
