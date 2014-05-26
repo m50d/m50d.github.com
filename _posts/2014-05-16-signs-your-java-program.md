@@ -149,7 +149,7 @@ pathPrefix("orders") {
   }
 }
 ````
-But in fact the route definition is just Scala, and rather than some reflective code that reads annotations and connects them to implementations, if you click on a term like "path" (Spray calls these things "directives") 
+But in fact the route definition is just Scala, and rather than having some reflective code that reads annotations, if you click on a term like "path" (Spray calls these things "directives") you're taken directly to the implementation. Spray is mostly implemented in itself
 
 //spring aop, hibernate transactions, lombok, jackson module system, those magic files Jersey uses
 
