@@ -126,7 +126,7 @@ Making it easy to work with these kind of contexts doesn't just make existing co
 
 ##You're putting parts of your logic in config files, or embedded languages, or annotations
 
-What makes Java compelling isn't so much the language itself as the ecosystem around it. Not just libraries and frameworks, but also tooling: first-class IDEs, debuggers, profilers, code analyzers, monitoring tools. The language makes a claim to a certain kind of simplicity (at least if we avoid primitive types and arrays) - everything is an object, all code reuse is through inheritance, all concurrency is ultimately using the same thread primitives - and hiring is easier than for many languages because there's a large pool of programmers available (at various levels of experience, ability and salary).
+What makes Java compelling isn't so much the language itself as the ecosystem around it. Not just libraries and frameworks, but also tooling: first-class IDEs, debuggers, profilers, code analyzers, monitoring tools. The language makes a claim to a certain kind of simplicity (at least if we avoid primitive types and arrays) - everything is an object, all code reuse is through inheritance, all concurrency is ultimately using the same thread primitives - and hiring programmers is easier than for many languages because there's a large pool of programmers available (at various levels of experience, ability and salary).
 
 //spring aop, hibernate transactions, lombok, jackson module system, those magic files Jersey uses
 
