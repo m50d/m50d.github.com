@@ -120,7 +120,7 @@ for {
     c <- postReply(a, b)
     } yield c.status
 ````
-This is the right balance; unlike a sequence of chained callbacks, the logic is clear and straightforward. But unlike 
+This is the right balance; unlike a sequence of chained callbacks, the logic is clear and straightforward to follow. But unlike e.g. the stack-slicing
 
 ##You're putting parts of your code in config files, or embedded languages, or annotations
 
