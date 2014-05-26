@@ -124,9 +124,9 @@ This is the right balance; unlike a sequence of chained callbacks, the logic is 
 
 Making it easy to work with these kind of contexts doesn't just make existing code simpler, it makes new approaches possible. At my previous job we used these techniques to record an audit trail of when certain actions occurred, without visually cluttering the business logic. A checked approach to error handling or validation becomes practical when only the code that throws and the code that catches need to know the explicit exception types (to the intervening methods, it's just a generic context). I've even seen [this style suggested for dependency injection](http://blog.originate.com/blog/2013/10/21/reader-monad-for-dependency-injection/) - something where traditional Java takes a very different approach...
 
-##You're putting parts of your code in config files, or embedded languages, or annotations
+##You're putting parts of your logic in config files, or embedded languages, or annotations
 
-
+Java 
 
 ## Your async code is hitting the callback pyramid of doom
 
