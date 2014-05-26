@@ -177,7 +177,7 @@ Maybe. If these problems resonate with you then it's worth a look; you can start
 
 If you're using vanilla, unextended Java, and not running into difficulty with the type system, then Scala is probably not worth it (at least if you're happy with the level of Java's verbosity). A good indicator might be how you felt about the previous few Java releases - many of their new features had been previously found in Scala (or in Generics Java, its spiritual predecessor). If you were chomping at the bit for lambdas, fork/join, try-with-resources or the <> syntax, Scala gives you much more in the same vein (and if you loved JSR308 then you should switch to Scala right away); if you were indifferent to these changes or worried that they might make code more complicated then Scala may not be for you.
 
-I feel obliged to say a few words on complexity, since most Scala discussions seem to end up there. My view is that complexity largely comes from the domain, and the much-maligned Java programmers manage much more complexity than they're given credit for; at one stage or another inner classes, generics, and lambdas were all seen as too complex for Java programmers.
+I feel obliged to say a few words on complexity, since most Scala discussions seem to end up there. Scala is a consistent language (in many respects more so than Java - primitives, arrays and operators are much less of a special case). My view is that complexity largely comes from the domain, and the much-maligned Java programmers manage much more complexity than they're given credit for; at one stage or another inner classes, generics, and lambdas were all seen as too complex for Java programmers.
 <br/>
 <br/>
 <br/>
