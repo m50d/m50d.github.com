@@ -126,7 +126,7 @@ Making it easy to work with these kind of contexts doesn't just make existing co
 
 ##You're putting parts of your logic in config files, or embedded languages, or annotations
 
-Java 
+What makes Java compelling isn't the language itself, but the ecosystem around it. Not just in terms of libraries and frameworks, but also tooling: 
 
 ## Your async code is hitting the callback pyramid of doom
 
