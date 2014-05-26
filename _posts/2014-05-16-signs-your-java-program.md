@@ -122,7 +122,7 @@ for {
 ````
 This is the right balance; unlike a sequence of chained callbacks, the logic is clear and the call sequence is straightforward to follow. But unlike the stack-slicing async extensions we see in Python (and I believe Qasar does the same thing in Java?), you won't be surprised by a change of threads in the middle of an innocent-looking method call. Instead there's an explicit distinction between `fetchTweet`, which makes an async call, and `computeRating`, which doesn't, and this distinction is visible both in their method signatures and in the code that calls them.
 
-Making it easy to work with these kind of contexts doesn't just make existing code simpler, it makes new approaches possible. At my previous job we used these techniques to record an audit trail of when certain actions occurred, witohut 
+Making it easy to work with these kind of contexts doesn't just make existing code simpler, it makes new approaches possible. At my previous job we used these techniques to record an audit trail of when certain actions occurred, without 
 
 ##You're putting parts of your code in config files, or embedded languages, or annotations
 
