@@ -120,8 +120,7 @@ for {
     c <- postReply(a, b)
     } yield c.status
 ````
-
-; the context is explicit, but still lightweight
+This is the right balance; unlike a sequence of chained callbacks, the logic is clear and straightforward. But unlike 
 
 ##You're putting parts of your code in config files, or embedded languages, or annotations
 
