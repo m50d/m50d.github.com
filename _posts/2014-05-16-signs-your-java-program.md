@@ -48,7 +48,7 @@ if(animal instanceof Dog) {
     //code to print a Cat
 }
 ````
-The casts are repetitive and error-prone (though a good IDE can help with that), and can seem like a code smell even when they're correct (to the reader, a cast is usually a big red flag - and so it should be). But worse, when we add `Horse`s to our system, our code will silently start to fail.
+The casts are repetitive and error-prone (though a good IDE can help with that), and can seem like a code smell even when they're correct (to the reader, a cast is usually a big red flag). But worse, when we add `Horse`s to our system, our code will silently start to fail.
 
 There's a standard way to work around this in Java - the "visitor pattern" - which makes the code safer. But it's verbose and syntactically noisy, making this an unpleasant tradeoff:
 
