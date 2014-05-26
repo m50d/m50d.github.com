@@ -106,7 +106,7 @@ Class hierachies and generics can take you a long way in abstraction - further t
 
 (Writers of third-party library *types* have to pay attention to variance, but that's the right tradeoff - it's much more common to pass your own types to a third-party method than to pass a third-party type to your own method).
 
-The other case where Java's type system starts to creak at the seams is when passing callbacks, or with more complex interleaving of control flow between library and application. A Java library can accept a callback in the form of an anonymous class or lambda expression implementing a certain interface (perhaps Guava's `Function`, perhaps that library's custom interface), and as long as this is always vanilla code then it will work. But what about 
+The other case where Java's type system starts to creak at the seams is when passing callbacks, or with more complex interleaving of control flow between library and application. A Java library can accept a callback in the form of an anonymous class or lambda expression implementing a certain interface (perhaps Guava's `Function`, perhaps that library's custom interface), and as long as this is always vanilla code then it will work. But if the callback wants to use something as simple as exceptions then we have a problem - I've seen libraries that offered two callback interfaces, one that `throws Exception` and one that does not.
 
 ##You're putting parts of your code in config files, or embedded languages, or annotations
 
