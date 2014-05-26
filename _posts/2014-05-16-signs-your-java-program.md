@@ -132,7 +132,7 @@ Many enterprise codebases try to solve the problems of the previous section by e
 
 Even the best annotation-driven extensions make it harder to reason about the code by reading it, and present a barrier to developers joining the project. (Of course, a skilled developer should be able to pick up a fresh extension fairly quickly - but the same could be said of picking up a new language). Worse, they're circumscribed; there's a huge divide between the annotations used to configure the behaviour and the code used to implement it, making it hard to make the leap from user to developer. Look at something like Jersey - a well-designed, well-regarded framework for REST APIs in Java, and a great improvement over what has gone before. But going beyond using its annotations to define your own represents a massive step in difficulty.
 
-Contrast this with spray-routing, 
+Contrast this with spray-routing, the Scala approach. 
 
 //spring aop, hibernate transactions, lombok, jackson module system, those magic files Jersey uses
 
