@@ -102,7 +102,7 @@ I won't say it's painless - we have to pass the type information right through o
 
 ## You're writing code that looks the same, but can't quite find a common interface
 
-Class hierachies and generics can take you a long way in abstraction - further than many codebases need to go. But once you start to nest generic types it can be difficult to figure out the right `<? extends T<? super ...>>` incantation (and cumbersome even after you've got it right), so many Java programmers write code that's less general than it could be (e.g. most methods that take a `List<T>` should really take a `List<? extends T>`).
+Class hierachies and generics can take you a long way in abstraction - further than many codebases need to go. But once you start to nest generic types it can be difficult to figure out the right `<? extends T<? super ...>>` incantation, and cumbersome even after you've got it right). In published libraries this kind of flexibility is vital, but in internal code it's often not worth the verbosity, so many Java programmers write code that's less general than it could be (e.g. most methods that take a `List<T>` should really take a `List<? extends T>`) - but 
 
 ##You're putting parts of your code in config files, or embedded languages, or annotations
 
