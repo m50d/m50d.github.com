@@ -128,8 +128,6 @@ Making it easy to work with these kind of contexts doesn't just make existing co
 
 What makes Java compelling isn't the language itself, but the ecosystem around it. Not just libraries and frameworks, but also tooling: first-class IDEs, debuggers, profilers, code analyzers, monitoring tools.
 
-## Your async code is hitting the callback pyramid of doom
-
 //spring aop, hibernate transactions, lombok, jackson module system, those magic files Jersey uses
 
 [1] In my opinion checked exceptions were not an inherently bad idea - keeping track of which errors can occur is valuable, and handling them where they occur is a legitimate strategy in some cases, as we're seeing with the recent popularity of Go. But Java's type system doesn't offer enough power to use them effectively - it's too hard to make a function that's "generic in what exceptions it throws". To be successful again exceptions will need to be a library feature first and syntactic sugar second - compare the `async`/`await` feature introduced in Scala 2.11.
