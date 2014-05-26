@@ -110,7 +110,7 @@ The other case where Java's type system starts to creak at the seams is when pas
 
 In the case of exceptions we can hack around this with RuntimeException, but what about if we wanted to make an async HTTP call in a callback? That's simply impossible in Java - the library makes a method call and even if we signal another thread to perform the HTTP operation, the library thread has to block until there's a response. Or from the other side, suppose we want our callback to participate in a database transaction; in Java the state associated with the transaction would be stored in a `ThreadLocal`, so if the library uses multiple threads and calls our callback from a different one, we're out of luck.
 
-In Scala it's possible to write and use a common "context" interface that's flexible enough to use for exception-like success/failure, async calls and more - scalaz's `Monad` is the most popular. And since the interface uses the typeclass pattern, you can write typeclass instances that allow third-party libraries to be used as `Monad`s, as well as writing your own.
+In Scala it's possible to write and use a common "context" interface that's flexible enough to use for exception-like success/failure, async calls and more - scalaz's `Monad` is the most popular. And since the interface uses the typeclass pattern, you can not only write your own `Monad`s, you can also write typeclass instances that allow third-party libraries to be used as `Monad`s.
 
 half of this is Scala's `for`/`yield` syntax, available to any type that implements the right methods.
 
