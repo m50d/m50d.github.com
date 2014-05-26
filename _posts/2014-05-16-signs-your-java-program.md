@@ -106,7 +106,7 @@ Class hierachies and generics can take you a long way in abstraction - further t
 
 (Writers of third-party library *types* have to pay attention to variance, but that's the right tradeoff - it's much more common to pass your own types to a third-party method than to pass a third-party type to your own method).
 
-The other case where Java's type system starts to creak at the seams is when passing callbacks, or with more complex interleaving of control flow between library and application. A Java library can accept a
+The other case where Java's type system starts to creak at the seams is when passing callbacks, or with more complex interleaving of control flow between library and application. A Java library can accept a callback in the form 
 
 ##You're putting parts of your code in config files, or embedded languages, or annotations
 
