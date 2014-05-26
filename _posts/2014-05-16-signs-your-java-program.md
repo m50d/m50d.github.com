@@ -167,7 +167,7 @@ Your IDE's Scala support is probably less mature, stable and complete than its J
 
 ## You're extending the language
 
-Some extensions go beyond 
+The extensions in the previous section usually
 
 //spring aop, hibernate transactions, lombok, jackson module system, those magic files Jersey uses
 
