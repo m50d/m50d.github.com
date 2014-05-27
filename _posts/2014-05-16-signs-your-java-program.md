@@ -1,5 +1,6 @@
 ---
-published: false
+layout: default
+title: Signs your Java program wants to be written in Scala
 ---
 
 ## The code is too verbose / noisy
