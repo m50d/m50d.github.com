@@ -2,6 +2,6 @@
 published: false
 ---
 
-
+Some shows are born controversial, some achieve controversy, and some have controversy thrust upon them.
 
 [1] Mostly
