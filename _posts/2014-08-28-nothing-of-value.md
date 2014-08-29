@@ -8,4 +8,6 @@ This very blandness makes it hard to describe, or even to think about. I'm writi
 
 Characters are one place where the flaws with *Akuma no Riddle* are clearer. I've long thought that thirteen episodes is time for about four fully developed characters; more and you can't characterize them enough, fewer and there's too little to work with. *Akuma no Riddle* makes a valiant attempt to split the difference, with a lead couple supported by a series of one-episode opponents. It ought to work; *Katanagatari*, which we're watching in parallel, pulls this off beautifully (admittedly with twice as much time to work with).
 
+But it falls flat because of the incredibly crude characterization. We 
+
 [1] I'm basing this off five episodes' watching; while I will unfortunately be socially obliged to watch the remainder, I'm happy to declare it irredeemable. More to the point, I need to express my burning rage and hate.
