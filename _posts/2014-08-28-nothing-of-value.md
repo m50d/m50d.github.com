@@ -14,4 +14,4 @@ The situation with the leads is, if anything, even worse. Haru, who I might desc
 
 [1] I'm basing this off five episodes' watching; while I will unfortunately be socially obliged to watch the remainder, I'm happy to declare it irredeemable. More to the point, I need to express my burning rage and hate.
 
-[2] The main cast is exclusively female, but Tokaku, the other lead, is distinctly masculine in appearance and personality, with 
+[2] The main cast is exclusively female, but Tokaku (the other lead) is distinctly masculine in appearance and personality - defined by her fighting prowess and 
