@@ -8,4 +8,4 @@ This very blandness makes it hard to describe, or even to think about. I'm writi
 
 Characters are one place where the flaws with *Akuma no Riddle* are clearer. I've long thought that 
 
-[1] I'm basing this off five episodes' watching. 
+[1] I'm basing this off five episodes' watching; while I will unfortunately be socially obliged to watch the remainder, I'm happy to declare it irredeemable. More to the point, I need to express my burning rage and hate.
