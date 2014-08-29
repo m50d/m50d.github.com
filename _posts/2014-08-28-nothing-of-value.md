@@ -13,3 +13,5 @@ But it falls flat because of the incredibly crude characterization. Everyone, le
 The situation with the leads is, if anything, even worse. Haru, who might be described as the feminine lead[2]
 
 [1] I'm basing this off five episodes' watching; while I will unfortunately be socially obliged to watch the remainder, I'm happy to declare it irredeemable. More to the point, I need to express my burning rage and hate.
+
+[2] 
