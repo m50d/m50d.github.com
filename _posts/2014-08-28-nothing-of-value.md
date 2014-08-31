@@ -12,7 +12,7 @@ But it falls flat because of the incredibly crude characterization. Everyone, le
 
 The situation with the leads is, if anything, even worse. Haru, who I might describe as the feminine lead[2], is an equally blunt character, defined by a naïve friendliness that sees her walking blindly into an assassin's trap in the second episode. And the third episode. And every episode thereafter, until her stupidity becomes not just infuriating but outright unbelievable. A lab mouse would have learned by now. Tokaku is a better character - the last flashback to her family life even managed something that might qualify as nuance - but only by comparison; she's a killing machine, uninterested in anything else, and her protection of - I can't even say "affection for" - Haru feels like plot fiat rather than anything organic.
 
-You can see the formula that's being aimed for - the stiff professional is paired with the friendly ditz, and initial hate becomes respect and friendship, with them ultimately both learning something from each other. But as of almost halfway through they've forgotten about the development.
+You can see the formula they're going for[3] (and I have nothing against formula) - the stiff professional is paired with the friendly ditz, and initial hate becomes respect and friendship, with them ultimately both learning something from each other. But as of almost halfway through they've forgotten about the development.
 
 [1] I'm basing this off five episodes' watching; while I will unfortunately be socially obliged to watch the remainder, I'm happy to declare it irredeemable. More to the point, I need to express my burning rage and hate.
 
