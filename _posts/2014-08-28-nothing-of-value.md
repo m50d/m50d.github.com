@@ -16,8 +16,9 @@ You can see the formula they're going for - the stiff professional is paired wit
 
 The worst part of the
 
-  
-  
+<br />
+<p />
+
 [1] I'm basing this off five episodes' watching; while I will unfortunately be socially obliged to watch the remainder, I'm happy to declare it irredeemable. More to the point, I need to express my burning rage and hate.
 
 [2] The main cast is exclusively female, but Tokaku (the other lead) is distinctly masculine in appearance and personality - defined by her fighting prowess and single-minded focus. More than that, her relationship with Haru is one of pursuit and protectiveness, where Haru is passive and more widely sociable. Of course masculine girls exist and I'm happy to see stories featuring them - but at times it can feel like Tokaku-as-female was pasted on after the fact.
