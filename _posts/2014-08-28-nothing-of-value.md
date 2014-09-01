@@ -33,4 +33,4 @@ And for the other 20 minutes of each episode, there's nothing. This show isn't c
 
 [3] Though maybe I'm being unfair: Tokaku arrives with just as much regularity to save her, turning up in the nick of time with only the flimsiest of plot excuses, so perhaps Haru has realized how little danger she's actually in.
 
-[4] This actually makes sense given that the characters are professional assassins, but emotionally it's very unsatisfying.
+[4] This actually makes sense given that the characters are professional assassins, but emotionally it's very unsatisfying, and the story has already sacrificed plausability by adopting this setting.
