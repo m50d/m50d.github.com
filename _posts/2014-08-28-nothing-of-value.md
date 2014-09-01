@@ -22,7 +22,7 @@ But in fact *Akuma no Riddle* makes very little commitment to its life-and-death
 
 This is not just a by-the-numbers light novel adaptation - it's a show that doesn't understand what it's trying to ape. It knows to give people tragic pasts - but doesn't realize it needs to make us care. It knows you need more than one lead - but not that their relationship needs to develop. It knows assassins make for cool stories - but doesn't realize that they're supposed to kill people. It knows to include a shower or bath scene each episode, but doesn't even think to try to titillate with them, never mind integrating them into the plot. The absolute best I can say for *Akuma no Riddle* is that it can deliver a respectable fight scene - the animation rising above its usual mediocrity, the choreography fitting together, the unique environment of this week's faceoff weaving through both. But without characters or stakes we care about, even the appeal of this is limited.
 
-And for the other 20 minutes of each episode, there's nothing. This show isn't completely without merit, but it's the closest I can remember seeing, certainly the closest I've got this far with. I've dropped better shows than this after half an episode.
+And for the other 20 minutes of each episode, there's nothing. This show isn't completely without merit, but it's the closest I can remember seeing. 
 
 <br />
 <p />
