@@ -14,6 +14,10 @@ The situation with the leads is, if anything, even worse. Haru, who I might desc
 
 You can see the formula they're going for - the stiff professional is paired with the friendly ditz, and initial hate becomes respect and friendship, with them ultimately both learning something from each other. But I'm almost halfway through *Akuma no Riddle* and the leads are no closer than they were at the start. Each episode I find myself wondering where the 23 minutes have gone - if they went towards character development, why are the characters so flat? If they were spent on fleshing out the setting, why does it still feel utterly contrived? A friend insists this is an action show, but the action scenes are usually just a few minutes at the end. The school lessons are shown in more detail than is usual in anime (with good reason - they're irrelevant to plot, characterization, or anything else), but surely that can't be where the time is going?
 
+The worst part of the
+
+
+
 [1] I'm basing this off five episodes' watching; while I will unfortunately be socially obliged to watch the remainder, I'm happy to declare it irredeemable. More to the point, I need to express my burning rage and hate.
 
 [2] The main cast is exclusively female, but Tokaku (the other lead) is distinctly masculine in appearance and personality - defined by her fighting prowess and single-minded focus. More than that, her relationship with Haru is one of pursuit and protectiveness, where Haru is passive and more widely sociable. Of course masculine girls exist and I'm happy to see stories featuring them - but at times it can feel like Tokaku-as-female was pasted on after the fact.
