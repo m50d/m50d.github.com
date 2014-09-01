@@ -16,7 +16,7 @@ You can see the formula they're going for - the stiff professional is paired wit
 
 "Contrived" is perhaps par for the course for a light novel setting, but it's the biggest way that *Akuma no Riddle* misses the point. If you want to tell a story about life-and-death decisions, it's hard to do that in a realistic modern setting. A well-crafted story can make the viewer care about superficially lower stakes (any teenage romance show), or can explain how the specific circumstances the story needs arise naturally from a less contrived universe (*Starship Operators* is my favourite example, but a lot of sci-fi works this way). But some stories (and it seems disproportionately common in light novels) prefer to jump straight in with a detailed, arbitrary premise; they front-load the suspension of disbelief, sacrificing credibility with the viewer, but in return they can get directly to the more interesting parts of the worldbuilding (not so long ago we watched *The Sunday Without God*, which asks us to accept a world where people stopped dying and then explores the consequences), or the life-and-death story itself (*Attack on Titan* comes to mind).
 
-I thought I knew where *Akuma no Riddle* was going with its premise: 
+I thought I knew where *Akuma no Riddle* was going with its premise: an extended metaphor for the teenage mindset, in the same vein as *Mysterious Girlfriend X*.
 
 <br />
 <p />
