@@ -18,7 +18,7 @@ You can see the formula they're going for - the stiff professional is paired wit
 
 I thought I knew where *Akuma no Riddle* was going with its premise: an extended metaphor for the teenage mindset. One problem with telling stories about teenage relationships (romantic or otherwise)is that, from an adult perspective, the problems that dominated our teenage thoughts can seem unimportant, trivial even. So to tell a faithful story of teenage feelings, we need to make it a story about events that make adults feel the same way, about matters of life and death. (This is part of what the *-Monogatari* series do; *Mysterious Girlfriend X* pulls a similar trick with disgust rather than importance). 
 
-But in fact *Akuma no Riddle* makes very little commitment to its life-and-death premise. This may be a class of killers, but its members treat it like any other high school (which may make sense for professional assasins, but is still a waste).
+But in fact *Akuma no Riddle* makes very little commitment to its life-and-death premise. This may be a class of killers, but its members treat it like any other high school[3].
 
 <br />
 <p />
@@ -26,3 +26,5 @@ But in fact *Akuma no Riddle* makes very little commitment to its life-and-death
 [1] I'm basing this off five episodes' watching; while I will unfortunately be socially obliged to watch the remainder, I'm happy to declare it irredeemable. More to the point, I need to express my burning rage and hate.
 
 [2] The main cast is exclusively female, but Tokaku (the other lead) is distinctly masculine in appearance and personality - defined by her fighting prowess and single-minded focus. More than that, her relationship with Haru is one of pursuit and protectiveness, where Haru is passive and more widely sociable. Of course masculine girls exist and I'm happy to see stories featuring them - but at times it can feel like Tokaku-as-female was pasted on after the fact.
+
+[3] This actually makes sense given that the characters are professional assassins, but emotionally it's very unsatisfying.
