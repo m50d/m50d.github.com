@@ -24,6 +24,8 @@ This is not just a by-the-numbers light novel adaptation - it's a show that does
 
 The absolute best I can say for *Akuma no Riddle* is that it can deliver a respectable fight scene - the animation rising above its usual mediocrity, the choreography fitting together, the unique environment of this week's faceoff weaving through both. But without characters or stakes we care about, even the appeal of this is limited.
 
+And for the 
+
 <br />
 <p />
 
