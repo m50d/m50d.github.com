@@ -18,7 +18,7 @@ You can see the formula they're going for - the stiff professional is paired wit
 
 I thought I knew where *Akuma no Riddle* was going with its premise: an extended metaphor for the teenage mindset. One problem with telling stories about teenage relationships (romantic or otherwise)is that, from an adult perspective, the problems that dominated our teenage thoughts can seem unimportant, trivial even. So to tell a faithful story of teenage feelings, we need to make it a story about events that make adults feel the same way, about matters of life and death. (This is part of what the *-Monogatari* series do; *Mysterious Girlfriend X* pulls a similar trick with disgust rather than importance). 
 
-But in fact *Akuma no Riddle* makes very little commitment to its life-and-death premise. This may be a class of killers, but its members treat it like any other high school[3].
+But in fact *Akuma no Riddle* makes very little commitment to its life-and-death premise. This may be a class of killers, but its members treat it like any other high school[3]. The procession of one-week-only antagonists looks like 
 
 <br />
 <p />
