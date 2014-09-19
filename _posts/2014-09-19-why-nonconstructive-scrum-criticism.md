@@ -35,6 +35,6 @@ After all, that's the Agile way.
 <p />
 <br />
 
-[1] In fact I've even worked for a company that pretended it didn't use Scrum, but did.
+[1] In fact I've even worked for a company that pretended it didn't use Scrum, but did, though I only realised this afterwards.
 
 (P.S. Of course in sustainable development you have a backlog on day 1. Your development process needs to work when you have a backlog; that's what makes it sustainable. So why not use it from day 1? I'll admit that "sprint" is a super-dumb term though)
