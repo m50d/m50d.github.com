@@ -6,4 +6,4 @@ Giles Bowkett has mastered opposition, but he's not yet ready for government. In
 
 The most vital part of job satisfaction is the feeling that one is doing something valuable, something that other people want. For an ivory-tower backend programmer like me who spent today switching our monad stack so that other programmers would get better error messages, you can sometimes feel like a lighthouse keeper in the post-apocalypse, unsure whether the ships you're guarding are even out there any more.
 
-Estimating and planning with stakeholders puts the business value front-and-center - and what the business values can often surprise you. I was once on a team that received a cake from another office expressing their heartfelt gratitude for a two-line change that, had we any idea of the value placed on it, 
+Estimating and planning with stakeholders puts the business value front-and-center - and what the business values can often surprise you. I was once on a team that received a cake from another office expressing their heartfelt gratitude for a two-line change that, had we any idea of the value placed on it, we could have made at any point in the previous six months.
