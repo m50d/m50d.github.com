@@ -18,7 +18,7 @@ I've seen scrum estimation work - it's not perfect, but it's one of those "unles
 
 Similarly, the estimates are denominated in abstract points (rather than, say, man-days) precisely to prevent managers doing something silly with them. Evidently in some companies this is insufficient, but again: positive suggestions are constructive, just throwing the whole thing away isn't. And at some point you have to be the change you want to see in the world: if a manager says you can't leave yet because your velocity this week is too low, do what I do. Tell him to fuck off.
 
-Scrum-style estimation is not just good for the company, it's good for developers too. The most vital part of job satisfaction is the feeling that one is doing something valuable, something that other people want. For an ivory-tower backend programmer like me, who spent today switching our monad stack so that other programmers would get better error messages, you can sometimes feel like a lighthouse keeper in the post-apocalypse, unsure whether the ships you're guarding are even out there any more.
+Scrum-style estimation is not just good for the company, it's good for developers too. The most vital part of job satisfaction is the feeling that one is doing something valuable, something that other people want. For an ivory-tower backend programmer like me, who spent today switching our monad stack so that other programmers would get better error messages, you can sometimes feel like a lighthouse keeper in the post-apocalypse, unsure whether the ships you're guarding are even out there any more. Business requirements can sometimes feel perverse - and sometimes that means you've misunderstood them, and sometimes it doesn't. 
 
 
 
