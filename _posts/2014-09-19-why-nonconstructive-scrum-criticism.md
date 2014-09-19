@@ -28,10 +28,12 @@ These problems aren't insoluble, but they need actual solutions, not handwaves. 
 
 Notice how Bowkett's two standupless success stories - Github and Basecamp - are both software for developers. If you're developing fishing software, and everyone on your team is a super-keen, dedicated fisherman, you probably don't need Scrum. You probably don't even need Agile in any flavour. Likewise, if you're developing *software for software developers*, you don't need Scrum. You can get away with doing your development in distributed fashion. But most of us are working in different niches, on things we don't understand as well as we understand software development. Most of us are working on teams of average developers. We need input from domain experts. We need to co-ordinate with each other.
 
-I've worked on companies that used Scrum, and companies that didn't, and companies that pretended they used Scrum but didn't[1]. Scrum is far from perfect; indeed there are specific improvements I'd make (e.g. using Kanban-style flow with ad-hoc planning meetings rather than fixed sprints). 
+I've worked on companies that used Scrum, and companies that didn't, and companies that pretended they used Scrum but didn't[1]. Scrum is far from perfect; indeed there are specific improvements I'd make (e.g. using Kanban-style flow with ad-hoc planning meetings rather than fixed sprints). But the correct response is not to tear it all down. If parts of Scrum aren't working for you, think of possible improvements; try them, and see if they work.
 
-(And of course in sustainable development you have a backlog on day 1. Your development process needs to work when you have a backlog; that's what makes it sustainable. So why not use it all the time?)
+After all, that's the Agile way.
 
-((I'll admit that "sprint" is a super-dumb term though))
+
 
 [1] In fact I've even worked for a company that pretended it didn't use Scrum, but did.
+
+(PS of course in sustainable development you have a backlog on day 1. Your development process needs to work when you have a backlog; that's what makes it sustainable. So why not use it all the time? I'll admit that "sprint" is a super-dumb term though)
