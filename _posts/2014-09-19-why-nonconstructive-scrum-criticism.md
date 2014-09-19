@@ -2,7 +2,7 @@
 published: false
 ---
 
-Giles Bowkett has mastered opposition, but he's not yet ready for government. In [this post](http://gilesbowkett.blogspot.com.au/2014/09/why-scrum-should-basically-just-die-in.html) he tells us Scrum is "conceptually flawed", "bizarre", "condescending" and at best, a "dog-and-pony show". But his only positive prescription, other than "get better at hiring engineers" (gee, I'd never have thought to try that), is the folksy wisdom that we should "treat these workers as adults and trust them to do their jobs." You don't want to do that, and they don't want to do that either.
+Giles Bowkett has mastered opposition, but he's not yet ready for government. In [this post](http://gilesbowkett.blogspot.com.au/2014/09/why-scrum-should-basically-just-die-in.html) he tells us Scrum is "conceptually flawed", "bizarre", "condescending" and at best, a "dog-and-pony show". But his only positive prescription, other than "get better at hiring engineers" (gee, I'd never have thought to try that), is the folksy wisdom that we should "treat these workers as adults and trust them to do their jobs." You don't want to do that, and they don't want that either.
 
 If you tear down Scrum and don't replace it with anything, your developers will refactor the same code as each other and spend days sorting out the merge. Then they'll find out that no-one actually wanted the feature they were working on anyway, and they've wasted the last few weeks. Then they'll realize they have no idea what they're doing, or what anyone else is doing, and that the company isn't making anything anyway because it never does the things that could make it money because noone tells the lowly developers what those things are. And then they'll quit.
 
