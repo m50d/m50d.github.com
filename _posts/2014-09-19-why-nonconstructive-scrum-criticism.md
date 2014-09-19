@@ -28,7 +28,7 @@ These problems aren't insoluble, but they need actual solutions, not handwaves. 
 
 Notice how Bowkett's two standupless success stories - Github and Basecamp - are both software for developers. If you're developing fishing software, and everyone on your team is a super-keen, dedicated fisherman, you probably don't need Scrum. You probably don't even need Agile in any flavour. Likewise, if you're developing *software for software developers*, you don't need Scrum. But most of us are working in different niches, on things we don't understand as well as we understand software development. Most of us are working on teams of average developers. We need input from domain experts. We need to co-ordinate with each other.
 
-I've worked on companies that used Scrum, and companies that didn't, and companies that pretended they used Scrum but didn't[1]. Scrum is far from perfect; indeed there are specific improvements I'd make (e.g. using Kanban-style flow with ad-hoc planning meetings rather than fixed sprints). But the correct response is not to tear it all down. If parts of Scrum aren't working for you, think of possible improvements; try them, and see if they work.
+I've worked on companies that used Scrum, and companies that didn't, and companies that pretended they used Scrum but didn't[1]. Scrum is far from perfect; indeed there are specific changes I'd make to a pure-Scrum process (e.g. using Kanban-style flow with ad-hoc planning meetings rather than fixed sprints). But the correct response is not to tear it all down. If parts of Scrum aren't working for you, think of possible improvements; try them, and see if they work.
 
 After all, that's the Agile way.
 <br />
