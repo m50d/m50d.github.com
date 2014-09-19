@@ -26,7 +26,7 @@ Async-only development by distributed teams may work in some cases, but to claim
 
 These problems aren't insoluble, but they need actual solutions, not handwaves. Daily standups have worked shockingly well in every company I've ever worked for that used them. In fact they're so valuable I'm thinking of switching to twice-daily standups. If you're a distributed business then you don't have that option; in that case all I can say is good luck, and may the best business model win.
 
-
+Notice how Bowkett's two success stories - Github and Basecamp - are both software for developers.
 
 (And of course in sustainable development you have a backlog on day 1. Your development process needs to work when you have a backlog; that's what makes it sustainable. So why not use it all the time?)
 
