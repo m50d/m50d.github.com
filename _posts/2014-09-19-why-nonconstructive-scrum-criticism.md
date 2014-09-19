@@ -8,4 +8,6 @@ If you tear down Scrum and don't replace it with anything, your developers will 
 
 Estimating and planning with stakeholders puts the business value front-and-center - and what the business values can often surprise you. I was once on a team that received a cake from another office expressing their heartfelt gratitude for a two-line change that, had we any idea of the value placed on it, we could have made at any point in the previous six months. They'd assumed it would be months of work, so they never considered it high-priority enough to ask for (we only found out about it at all thanks to a company-wide drinking event, but that's another story...).
 
+Some developers know and understand the business, and they should be treasured. But 
+
 The most vital part of job satisfaction is the feeling that one is doing something valuable, something that other people want. For an ivory-tower backend programmer like me who spent today switching our monad stack so that other programmers would get better error messages, you can sometimes feel like a lighthouse keeper in the post-apocalypse, unsure whether the ships you're guarding are even out there any more.
