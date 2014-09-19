@@ -31,8 +31,8 @@ Notice how Bowkett's two standupless success stories - Github and Basecamp - are
 I've worked on companies that used Scrum, and companies that didn't, and companies that pretended they used Scrum but didn't[1]. Scrum is far from perfect; indeed there are specific improvements I'd make (e.g. using Kanban-style flow with ad-hoc planning meetings rather than fixed sprints). But the correct response is not to tear it all down. If parts of Scrum aren't working for you, think of possible improvements; try them, and see if they work.
 
 After all, that's the Agile way.
-
-
+<br />
+<br />
 
 [1] In fact I've even worked for a company that pretended it didn't use Scrum, but did.
 
