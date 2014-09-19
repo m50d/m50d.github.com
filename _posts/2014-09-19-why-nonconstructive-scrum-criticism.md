@@ -20,7 +20,7 @@ Similarly, estimates are denominated in abstract points (rather than, say, man-d
 
 Scrum-style estimation is not just good for the company, it's good for developers too. The most vital part of job satisfaction is the feeling that one is doing something valuable, something that other people want. For an ivory-tower backend programmer like me, who spent today switching our monad stack so that other programmers would get better error messages, you can sometimes feel like a lighthouse keeper in the post-apocalypse, unsure whether the ships you're guarding are even out there any more. Business requirements can sometimes feel perverse - and sometimes that means you've misunderstood them, and sometimes it doesn't. A planning meeting where you can ask for clarification from the person who actually wants the feature is the easiest way I've found to set my mind at rest.
 
-The rest of Bowkett's attack is focussed on standups - or rather, on standups where managers sat down. Never mind that if that's your problem you could, like, tell them to stand up. Or sit down yourself. That's not even bathwater, that's the 
+The rest of Bowkett's attack is focussed on standups - or rather, on standups where managers sat down. Never mind that if that's your problem you could, like, tell them to stand up. Or sit down yourself. That's not even bathwater, that's, like, the mold that's grown in your bath. But Bowkett is still determined to throw the baby out with it.
 
 (And of course in sustainable development you have a backlog on day 1. Your development process needs to work when you have a backlog; that's what makes it sustainable. So why not use it all the time?)
 
