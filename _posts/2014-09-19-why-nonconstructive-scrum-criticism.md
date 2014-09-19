@@ -32,6 +32,7 @@ I've worked on companies that used Scrum, and companies that didn't, and compani
 
 After all, that's the Agile way.
 <br />
+<p />
 <br />
 
 [1] In fact I've even worked for a company that pretended it didn't use Scrum, but did.
