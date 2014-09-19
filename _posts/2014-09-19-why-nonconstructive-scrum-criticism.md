@@ -22,7 +22,7 @@ Scrum-style estimation is not just good for the company, it's good for developer
 
 The rest of Bowkett's attack is focussed on standups - or rather, on standups where managers sat down. That's not even bathwater, that's, like, the mold that's grown in your bath. But Bowkett is still determined to throw the baby out with it. Never mind that you could, like, tell the manager to stand up. Or sit down yourself.
 
-Async-only development by distributed teams may work in some cases, but to claim it as a panacea is... questionable, to say the least. Bowkett is right that open-source distributed development produces higher-quality code than most software projects. But *Agile isn't about producing high-quality code, it's about delivering business value*. I've seen patch queues accumulate for years with features that users desperately needed, but the maintainer wasn't interested in adding them. 
+Async-only development by distributed teams may work in some cases, but to claim it as a panacea is... questionable, to say the least. Bowkett is right that open-source distributed development produces higher-quality code than most software projects. But *Agile isn't about producing high-quality code, it's about delivering business value*. I've contributed to open source, and all the problems Agile advocates would predict are real. I've seen patch queues accumulate for years with features that users desperately needed, but the maintainer wasn't interested in adding them. 
 
 (And of course in sustainable development you have a backlog on day 1. Your development process needs to work when you have a backlog; that's what makes it sustainable. So why not use it all the time?)
 
