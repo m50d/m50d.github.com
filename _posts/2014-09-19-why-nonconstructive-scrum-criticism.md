@@ -26,7 +26,7 @@ Async-only development by distributed teams may work in some cases, but to claim
 
 These problems aren't insoluble, but they need actual solutions, not handwaves. Daily standups have worked shockingly well in every company I've ever worked for that used them. In fact they're so valuable I'm thinking of switching to twice-daily standups. If you're a distributed business then you don't have that option; in that case all I can say is good luck, and may the best business model win.
 
-Notice how Bowkett's two standupless success stories - Github and Basecamp - are both software for developers. If you're developing fishing software, and everyone on your team is a super-keen, dedicated fisherman, you probably don't need Scrum. You probably don't even need Agile in any flavour. Likewise, if you're developing *software for software developers*, you don't need Scrum. You can get away with doing your development in distributed fashion. But 
+Notice how Bowkett's two standupless success stories - Github and Basecamp - are both software for developers. If you're developing fishing software, and everyone on your team is a super-keen, dedicated fisherman, you probably don't need Scrum. You probably don't even need Agile in any flavour. Likewise, if you're developing *software for software developers*, you don't need Scrum. You can get away with doing your development in distributed fashion. But most of us are working in different niches.
 
 (And of course in sustainable development you have a backlog on day 1. Your development process needs to work when you have a backlog; that's what makes it sustainable. So why not use it all the time?)
 
