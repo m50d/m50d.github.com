@@ -10,4 +10,6 @@ Estimating and planning with stakeholders puts the business value front-and-cent
 
 Some developers know and understand the business, and they should be treasured. But even the best such developer is unlikely to understand a business role as well as someone dedicated to that role - jack of all trades and all that. Making effective use of dedicated developers will make hiring easier and your business more productive than if everyone has to be capable of wearing every hat (and that's not to say you shouldn't encourage growth in that direction). But sometimes decisions need to be made that have both technical and business consequences. And as any economist will tell you, an auction is the best way for differently informed people to come to a consensus.
 
+
+
 The most vital part of job satisfaction is the feeling that one is doing something valuable, something that other people want. For an ivory-tower backend programmer like me who spent today switching our monad stack so that other programmers would get better error messages, you can sometimes feel like a lighthouse keeper in the post-apocalypse, unsure whether the ships you're guarding are even out there any more.
