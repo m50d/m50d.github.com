@@ -8,6 +8,9 @@ So too, I think, it is with essentialism - the misguided philosophical notion th
 
 In the last paragraph I mentioned "operational" definitions, but I could just as well have said "functional". And although the etymology is coincidence, there's a lot of similarity to the programming style; indeed, a newcomer's first questions to an expert can resemble the "sandwich argument":
 
-> <student> Is a taco a sandwich?
-> <expert> I don't know, is it?
+> Student: Is this taco a sandwich?
+
+> Teacher: I don't know, is it?
+
+> Student: Can't I taco.equals(sandwich)?
 
