@@ -17,3 +17,4 @@ In the last paragraph I mentioned "operational" definitions, but I could just as
 > Teacher: There are prism typeclass instances for them, what more do you want?
 
 > Student: Is a loaf of bread a monoid?
+
