@@ -10,9 +10,9 @@ In the last paragraph I mentioned "operational" definitions, but I could just as
 
 > Student: Is this taco a sandwich?
 
-> Teacher: I don't know, is it?
+> Teacher: Well, there's an Edible typeclass instance for it
 
-> Student: Can't I taco.equals(sandwich)?
+> Student: 
 
 > Teacher: Why don't you implement that then?
 
