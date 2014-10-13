@@ -19,3 +19,5 @@ In the last paragraph I mentioned "operational" definitions, but I could just as
 > Student: Is a loaf of bread a monoid?
 
 But like the mathematicians who pour scorn on the notion of infinitesimals, functional programmers have lost sight of the fact that with object-oriented programming methods, the essentialist fallacy can be made rigorous, even *true*.
+
+What's a `Bat`? It's a `Bird`, because I've declared it one. We can see from its class what methods it has; it implements `.fly()` and the rest of the `Bird` interface.
