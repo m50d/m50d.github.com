@@ -14,3 +14,6 @@ In the last paragraph I mentioned "operational" definitions, but I could just as
 
 > Student: Can't I taco.equals(sandwich)?
 
+> Teacher: Why don't you implement that then?
+
+> Student: 
