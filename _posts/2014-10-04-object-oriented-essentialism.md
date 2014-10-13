@@ -18,3 +18,4 @@ In the last paragraph I mentioned "operational" definitions, but I could just as
 
 > Student: Is a loaf of bread a monoid?
 
+Many functional programmers 
