@@ -10,10 +10,8 @@ In the last paragraph I mentioned "operational" definitions, but I could just as
 
 > Student: Is this taco a sandwich?
 
-> Teacher: Well, there's an Edible typeclass instance for it if you tag it as EdibleTaco
+> Teacher: Well, there's an Edible typeclass instance for it if you tag it as BigEndEdibleTaco or LittleEndEdibleTaco
 
-> Student: But EdibleTaco isn't the same thing as Taco
+> Student: But neither of those things is the same as Taco
 
 > Teacher: There's a prism instance for them, what more do you want?
-
-> Student: 
