@@ -13,9 +13,9 @@ But a money gap of the size described doesn't appear out of nowhere. To understa
     labor_force = 154e6
     disabled_adults = 21e6
     current_wealth_transfers = 3369e9
-     
+    
     def basic_income_cost_benefit():
         return num_adults * basic_income
-     
+    
     def basic_job_cost_benefit():
-        return (num_adults * labor_force) * basic_income
+        return (num_adults - labor_force) * basic_income
