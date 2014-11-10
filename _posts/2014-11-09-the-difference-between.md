@@ -19,3 +19,7 @@ But a money gap of the size described doesn't appear out of nowhere. To understa
     
     def basic_job_cost_benefit():
         return (num_adults - labor_force) * basic_income
+
+
+
+
