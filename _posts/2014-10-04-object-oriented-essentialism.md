@@ -22,6 +22,6 @@ But like the mathematicians who pour scorn on the notion of infinitesimals, func
 
 What's a `Bat`? It's a `Bird`, because I've declared it one. We can see from its class what methods it has; it implements `.fly()` and the rest of the `Bird` interface. How do I know what I can do with a `Taco`? A function that accepts it could be just about anywhere - but if all my important `Taco`-manipulation functions are on the `Taco` itself, as *methods*, then knowing what something *is* - its very essence - gives me an enormous amount of power and control.
 
-If anything, where OOP tends to hit problems 
+OOP advocates tend to point to its ability to model the real world - to manipulate `Car`s and `Bus`es and `Bicycle`s 
 
 http://www.shirky.com/writings/ontology_overrated.html
