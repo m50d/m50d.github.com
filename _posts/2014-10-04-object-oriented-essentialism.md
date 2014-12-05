@@ -24,4 +24,6 @@ What's a `Bat`? It's a `Bird`, because I've declared it one. We can see from its
 
 OOP advocates tend to point to its ability to model the real world - to have a population of `Car`s and `Bus`es and `Bicycle`s that are gradually mutated through their interactions with other things, as happens in reality. But ironically the biggest failings of OOP tend to happen when reality - where essentialism is false - imposes itself. Perhaps the `Bat` really does need to be a `Bird` and a `Mammal`, because we want to use implementation from both. Perhaps our `Taco extends Sandwich` because it shares most of the implementation, but has to `throw MethodNotSupported` when we try to `getTopSlice()`. Perhaps our `Garage` is a place to `park(Vehicle v)`, but you better not try with a `Bus`. We face, in short, all the problems of taxonomy - but without the benefit of cladistics.
 
-Which brings me to [this piece on ontology](http://www.shirky.com/writings/ontology_overrated.html). The difference between object-oriented and functional style is, almost exactly, the difference between categorization and tagging, which suggests the same reasons to pick one or the other should apply.
+Which brings me to [this piece on ontology](http://www.shirky.com/writings/ontology_overrated.html). The difference between object-oriented and functional style is, almost exactly, the difference between categorization and tagging, which suggests the same reasons to pick one or the other should apply. An object-oriented approach is appropriate when:
+ * Working with a small amount of data
+ * 
