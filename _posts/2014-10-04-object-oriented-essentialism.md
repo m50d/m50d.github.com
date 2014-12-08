@@ -18,7 +18,7 @@ I speak of "operational" definitions, but I could just as well have said "functi
 
 > Student: But neither of those things is the same as Taco
 
-> Teacher: There are prism typeclass instances for them, what more do you want?
+> Teacher: What's this "is"? There are prism typeclass instances for them, what more do you want?
 
 > Student: Is a loaf of bread a monoid?
 
