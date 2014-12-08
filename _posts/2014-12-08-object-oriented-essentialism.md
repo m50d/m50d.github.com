@@ -1,4 +1,5 @@
 ---
+title: Object Oriented Essentialism
 published: false
 ---
 
