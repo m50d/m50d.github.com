@@ -32,7 +32,7 @@ Which brings me to [this piece on ontology](http://www.shirky.com/writings/ontol
 
 Is this borne out in practice? Maybe; in the functional world I notice a wider range of "micro-libs", a handful of classes bundled up as a project like `libfoo-bar`, with a limited scope ("extends `libfoo` to support `libbar`"). In OO-land it's more likely that `libfoo`, `libbar` and `libfoo-bar` would be released together as a single framework; there are OO microframeworks as well, but I've never heard of a functional "macroframework" with the all-encompassing scope of Spring or Rails.
 
-And the "big data" world seems to gravitate inevitably to functional ideas like MapReduce - partly because of the execution model, but also because big data is rarely perfectly schematized. More often we find malformed or overlapping entries, and one of the hardest parts of a big data pipeline is handling these outliers, ensuring that these ontological arguments - when `Supercell` performed as `Egoist`, were they the same band or a new one?[1] - can be handled or at least contained.
+And the "big data" world seems to gravitate inevitably to functional ideas like MapReduce - partly because of the execution model, but also because big data is rarely perfectly schematized. More often we find malformed or overlapping entries, and one of the hardest parts of a big data pipeline is handling these outliers, ensuring that these ontological arguments - when `Supercell` performed as `Egoist`, were they the same band or a new one?[1] - can be handled or at least contained. Many of Shirky's predictions are already coming true: 
 
 But we should not be too quick to cast aside our OO tools.
 <br/>
