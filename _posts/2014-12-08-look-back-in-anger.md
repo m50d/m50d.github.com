@@ -2,4 +2,4 @@
 published: false
 ---
 
-With TheFluff's recent departure 
+I came to animé late; 
