@@ -1,5 +1,6 @@
 ---
 title: Object Oriented Essentialism
+layout: default
 ---
 
 Many mathematics students have disproportionate trouble learning non-standard analysis. The concepts are not difficult; indeed, they align with many freshmen's naive intuitions about calculus: there's a new kind of number, infinitesimals; any number of infinitesimals will never add up to an ordinary positive number; an infinitesimal squared is doubly infinitesimal, and so on.
