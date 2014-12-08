@@ -10,4 +10,4 @@ I got into animé relatively late; I'd watched a handful of movies in high schoo
 
 But hopefully it's still the show I remember. Perhaps I can even begin to rehabilitate it, to introduce a fresh generation to the wonders of- well, wait and see. Either way, it should be an adventure - or at least, something to make me think.
 
-In a bit of synchronicity, I'm also returning to Fate-Stay Night in parallel. 
+In a bit of synchronicity, I'm also returning to Fate-Stay Night in parallel. My introduction to animé is entangled with the lesser-known visual novel medium; 2005 was also 
