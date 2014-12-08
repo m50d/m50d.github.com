@@ -21,8 +21,6 @@ I speak of "operational" definitions, but I could just as well have said "functi
 
 > Teacher: What's this "is"? There are prism typeclass instances for them, what more do you want?
 
-> Student: Is a loaf of bread a monoid?
-
 But like the mathematicians who pour scorn on the notion of infinitesimals, many functional programmers miss that with object-oriented programming methods, the essentialist fallacy can be made rigorous, even *true*.
 
 What's a `Bat`, in an OO program? If we declare it `extends Bird`, then it *is* a `Bird`. In the functional world there could be functions that work with `Bat`s just about anywhere - but in the OO world they're all on the `Bat` itself, as *methods*. Then knowing what the `Bat` *is* - its very essence - gives us an enormous amount of power and control; we know it must implement `fly()` and the rest of the `Bird` interface, because, in a fully rigorous sense, *it really is a `Bird`*.
