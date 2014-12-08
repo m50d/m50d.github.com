@@ -22,7 +22,7 @@ I speak of "operational" definitions, but I could just as well have said "functi
 
 > Student: Is a loaf of bread a monoid?
 
-But like the mathematicians who pour scorn on the notion of infinitesimals, functional programmers have lost sight of the fact that with object-oriented programming methods, the essentialist fallacy can be made rigorous, even *true*.
+But like the mathematicians who pour scorn on the notion of infinitesimals, many functional programmers have lost sight of the fact that with object-oriented programming methods, the essentialist fallacy can be made rigorous, even *true*.
 
 What's a `Bat`? It's a `Bird`, because I've declared it one. We can see from its class what methods it has; it implements `.fly()` and the rest of the `Bird` interface. How do I know what I can do with a `Taco`? A function that accepts it could be just about anywhere - but if all my important `Taco`-manipulation functions are on the `Taco` itself, as *methods*, then knowing what something *is* - its very essence - gives me an enormous amount of power and control.
 
