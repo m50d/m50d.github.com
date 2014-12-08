@@ -30,4 +30,4 @@ Is this borne out in practice? Maybe; in the functional world I notice a wider r
 <br/>
 <p/>
 <br/>
-[1] This was one of my favourite examples from my brief stint at last.fm, because there are (at least) two other unrelated artists called `Egoist` and `Supercell`.
+[1] This was one of my favourite examples from my brief stint at last.fm, because there are (at least) two other unrelated artists called `Egoist` and `Supercell`. Our SQL schema didn't allow us to distinguish between multiple artists with the same name (there were ad-hoc hacks such as tagging one ｓｕｐｅｒｃｅｌｌ); it was hoped that 
