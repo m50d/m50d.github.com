@@ -39,4 +39,4 @@ Fortunately, using Scala lets me have both OO and functional styles in my toolbo
 <br/>
 <p/>
 <br/>
-[1] This was one of my favourite examples from my brief stint at last.fm, because there are (at least) two other unrelated artists called `Egoist` and `Supercell`. Our SQL schema didn't allow us to distinguish between multiple artists with the same name (there were ad-hoc hacks such as tagging one ｓｕｐｅｒｃｅｌｌ); it was hoped that a more service-oriented structure would allow us to make that distinction, though I left before the project came to fruition.
+[1] This was one of my favourite examples from my brief stint at last.fm, because there are (at least) two other unrelated artists called `Egoist` and `Supercell`. Our SQL schema didn't allow us to distinguish between multiple artists with the same name (there were ad-hoc hacks such as tagging one `ｓｕｐｅｒｃｅｌｌ`); it was hoped that a more service-oriented structure would allow us to make that distinction, though I left before the project came to fruition.
