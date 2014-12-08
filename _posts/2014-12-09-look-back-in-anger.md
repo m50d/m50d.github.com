@@ -13,3 +13,5 @@ But hopefully it's still the show I remember. Perhaps I can even begin to rehabi
 In a bit of synchronicity, I'm also returning to *Fate-Stay Night*. My introduction to animé is entangled with the lesser-known visual novel medium; in the next year (2006) I played the newly-translated *Tsukihime*. Due to various reasons I completed the first two routes of *F/SN* but never the third. I might mention how that's going in some of my posts.
 
 But for now, *Gundam Seed*. It starts... pretty well, actually. Opening with a narrated backstory is never an ideal choice, but this show makes the best of it, giving a light sketch of events, a loose impression of the variety of nations in its world, the *Gundam*-standard "war is hell" slant present but not overbearing.
+
+And then we get what I see now as a 
