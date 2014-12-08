@@ -6,4 +6,4 @@ I've read of two departures from the animé scene in the last couple of weeks: T
 
 I got into animé relatively late; I'd watched a handful of movies in high school (borrowing DVDs from my local library - my family never had Sky), but it wasn't until university that I really started to acquire and watch animé the way we now recognize it - which means in 2015 it'll be 10 years since I started. So I've decided to rewatch (the HD remake of) my first "proper" animé series: *Mobile Suit Gundam SEED*.
 
-*Seed* is a show I retain a lot of fondness for, partly because I won't be troubled by comparisons to other Gundams (I dropped *00* early on, and aside from a couple of OVAs, never really tried any others).
+I look fondly on this show, partly because I wasn't be troubled by comparisons to other Gundams. (That will still be the case; I dropped *00* early on, and while I enjoyed the *War in the Pocket* OVA, I haven't even started any other *Gundam*. I might pick up *Build Fighters* and/or *Unicorn* at some point during this series). *Seed* wa
