@@ -36,7 +36,7 @@ And the "big data" world seems to gravitate inevitably to functional ideas like 
 
 But we should not be too quick to cast aside our OO tools. For an internal business tool, we can be the American Psychiatric Association - forcing users to agree on a single unambiguous classifaction, to draw lines in the sand that are arbitrary ("5 months of grief is normal, 6 months is depression") but nonetheless very useful. In some organizations I've found that the very process of codifying the rules - forcing business users to agree once and for all on whether the tripartite division of a Hong Kong contract is the same thing as the bipartite split of a three-part London contract or a different kind of thing - is more useful than the working software we produce.
 
-Fortunately, using Scala lets me have both OO and functional styles in my toolbox. I've found Shirky's criteria useful when deciding which approach is best for a particular business problem; maybe you will too.
+Fortunately, using Scala lets me have both OO and functional styles in my toolbox. When deciding which approach is best for a particular business problem, I've found it helpful to think about Shirky's criteria. Maybe they'll be useful for you, too.
 <br/>
 <p/>
 <br/>
