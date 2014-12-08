@@ -2,7 +2,7 @@
 published: false
 ---
 
-Many mathematics students have disproportionate trouble with non-standard analysis. The concepts are not difficult; indeed, they align with many freshmen's naive intuitions about calculus: there's a new kind of number, infinitesimals; any number of infinitesimals will never add up to an ordinary positive number; an infinitesimal squared is doubly infinitesimal, and so on.
+Many mathematics students have disproportionate trouble learning non-standard analysis. The concepts are not difficult; indeed, they align with many freshmen's naive intuitions about calculus: there's a new kind of number, infinitesimals; any number of infinitesimals will never add up to an ordinary positive number; an infinitesimal squared is doubly infinitesimal, and so on.
 
 But paradoxically it's *because* these ideas are so obvious that they're so difficult to accept - to get to this stage, the student has spent months beating the intuitive notion of infinitesimals out of himself, in favour of the rigorous Weierstraussian notion of limits of epsilons and deltas. He scoffs at the notion of infinitesimals - the very idea! - with the righteous zeal of the fresh convert.
 
