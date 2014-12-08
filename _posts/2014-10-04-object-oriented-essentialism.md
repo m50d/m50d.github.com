@@ -10,7 +10,7 @@ So too, I think, it is with essentialism - the misguided philosophical notion th
 
 The slightly more experienced student realises that this is nonsense; there's no sharp line between a sandwich and a wrap, or mammal and bird, or even alive and dead. Instead, *operational* definitions take precedence: if you want to eat it, an open sandwich is a perfectly cromulent sandwich. If you want to put it on a shop shelf, maybe not so much. If you're looking at evolutionary history, a bat is emphatically not a bird - but if you want to know whether it flies, maybe the Aristotlean definition is appropriate. Earlier this year, Richard Dawkins (suggested)[http://www.theguardian.com/science/2014/jan/12/what-scientific-idea-is-ready-for-retirement-edge-org] essentialism was the scientific idea most in need of retirement.
 
-I speak of "operational" definitions, but I could just as well have said "functional". And although the etymology is (probably) coincidence, there's a lot of similarity to the programming style; indeed, a newcomer's first questions to an expert can resemble the "sandwich argument":
+I speak of "operational" definitions, but I could just as well have said "functional". And although the etymology is (I assume) coincidence, there's a lot of similarity to the programming style; indeed, a newcomer's first questions to an expert can resemble the "sandwich argument":
 
 > Student: Is this taco a sandwich?
 
