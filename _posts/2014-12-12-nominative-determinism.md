@@ -2,4 +2,4 @@
 published: false
 ---
 
-Despite the combat elements
+Despite the combat elements, this is a calmer episode, 
