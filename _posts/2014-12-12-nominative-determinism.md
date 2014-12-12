@@ -2,4 +2,4 @@
 published: false
 ---
 
-Despite the combat elements, this is a calmer episode, giving us some breathing room to process the events of last week. The pretentious episode previews can be irritating, but they speak to a series that's thinking about its themes, even philosophies; 
+Despite the combat elements, this is a calmer episode; almost everything is an inevitable consequence of the events of last week. The pretentious episode previews can be irritating, but they speak to a series that's thinking about its themes, even philosophies; 
