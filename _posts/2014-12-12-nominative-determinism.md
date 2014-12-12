@@ -4,6 +4,6 @@ published: false
 
 Despite the combat elements, this is a calmer episode; almost everything is an inevitable consequence of the events of last week, giving us time to relax (and enjoy the - still excellent - musical score). The one pivotal scene was one I'd entirely forgotten - not-yet-Captain Ramius taking her rescuers hostage at gunpoint, insisting that - despite all that's happened - they've seen a military secret and can't be allowed to walk free. It's farcical and grotesque and tragic all at once; Ramius can barely lift her own weapon, owes them her life, and is acting like a classic military antagonist, the officer too stupid to realise that this situation is beyond the rules.
 
-What's most interesting
+What's most interesting on a second watch is how closely these kids' viewpoint - that the Earth military shouldn't be here, 
 
 The pretentious episode previews can be irritating, but they speak to a series that's thinking about its themes, even philosophies; 
