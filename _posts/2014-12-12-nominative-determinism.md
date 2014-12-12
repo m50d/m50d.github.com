@@ -2,6 +2,6 @@
 published: false
 ---
 
-Despite the combat elements, this is a calmer episode; almost everything is an inevitable consequence of the events of last week, giving us time to relax (and enjoy the - still excellent - musical score). The one pivotal scene was one I'd entirely forgotten - not-yet-Captain Ramius 
+Despite the combat elements, this is a calmer episode; almost everything is an inevitable consequence of the events of last week, giving us time to relax (and enjoy the - still excellent - musical score). The one pivotal scene was one I'd entirely forgotten - not-yet-Captain Ramius taking her rescuers hostage at gunpoint, 
 
 The pretentious episode previews can be irritating, but they speak to a series that's thinking about its themes, even philosophies; 
