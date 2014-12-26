@@ -11,3 +11,5 @@ In the '90s, sites would be written for a single display resolution. Some even o
 Today's sites don't have the ruler, but they have the same restriction: the site is designed to be a particular width. If you want to make your browser wider, too bad! No more site for you.
 
 ## Font Size Inflation
+
+## Videos and music
