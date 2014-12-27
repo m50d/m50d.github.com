@@ -1,5 +1,5 @@
 ---
-title: "Look Back in Anger (Gundam Seed - 01)"
+title: "Look Back in Anger (Gundam Seed 01)"
 layout: default
 ---
 
