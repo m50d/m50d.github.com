@@ -1,5 +1,5 @@
 ---
-title: "You Win This Round (Gundam Seed 03)
+title: "You Win This Round (Gundam Seed 03)"
 layout: default
 ---
 
