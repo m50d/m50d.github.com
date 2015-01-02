@@ -2,4 +2,4 @@
 published: false
 ---
 
-If we're living in a functional programming renaissance, no word emblemizes it more than "monad" - for fans and skeptics alike.
+If we're living in a functional programming renaissance, no word emblemizes it more than "monad" - for fans and skeptics alike. This is unfortunate, as we tend to create a 
