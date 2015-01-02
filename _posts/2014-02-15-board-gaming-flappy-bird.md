@@ -8,4 +8,4 @@ I've been thinking about board game mechanics since watching [this fascinating t
 
 *Keyflower* is one of the more interesting titles of the present golden age. In a way, it feels like the compressed essence of board gaming. The pieces are many but they're remarkably small and flimsy. For those who subscribe to the notion that board games are about evaluating, making tough choices, this... What this game does is make you decide, turn after turn, what certain things are worth to you. The themeing is pretty enough, but fundamentally it's nothing more than a repeated auction.
 
-I'm not sure how to improve on this when even *Keyflower* is sometimes criticized as "too euro". I guess the non-euro mechanic is guessing what your opponents are doing, bluffing and the like.
+I'm not sure how to improve on this when even *Keyflower* is sometimes criticized as "too euro". The distinction is normally one of themeing I guess the non-euro mechanic is guessing what your opponents are doing, bluffing and the like.
