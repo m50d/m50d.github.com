@@ -8,4 +8,4 @@ As regular readers will know, I'm a huge fan of Scala; I think it's the best lan
 
 ## First-class "ADT"/"Union type"/"Sum type" support
 
-Scala kinda-sorta has union types by 
+Scala kinda-sorta has union types by means of 
