@@ -10,7 +10,7 @@ I've been thinking about board game mechanics since watching [this fascinating t
 
 Indeed the usual criticism of *Keyflower* is that it's "too euro"; the physical components are on the cheap side (though thankfully the cost benefit is passed on to the customer), and it's a purely economic game; while there is some hidden information it would take very accomplished and subtle players to make bluffing worthwhile, and memory or varied tactics don't come into it at all; once you understand auctions, you understand the game. But perhaps the biggest practical problem is that of a runaway leader; sometimes, it's clear by summer that someone has cornered the market in some vital resource, and the game will be theirs; even a dedicated "spoiler" player has no real way of stopping them[2].
 
-What we really need is the opposite of a "legacy" game: a game that "resets" partway through, where an advantage in the early part of the gamhe 
+What we really need is the opposite of a "legacy" game: a game that "resets" partway through, where an advantage in the early part of the gamhe doesn't lead to an advantage in the later part of the game. 
 
 <br />
 <p />
