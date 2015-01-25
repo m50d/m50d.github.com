@@ -8,7 +8,7 @@ I've been thinking about board game mechanics since watching [this fascinating t
 
 *Keyflower* is one of the more interesting titles of the present golden age. With its colonial-pastoral theme and indirect competition through auctions, it's like the distilled essence of the "eurogame". For those who subscribe to the notion that board games are about evaluating, making tough choices, this is perfection: what this game does is make you decide, turn after turn, what certain things are worth to you[1]. Every action is the small contest of bidding on a single tile, slotting into the wider contest that is the game.
 
-Indeed the usual criticism of *Keyflower* is that it's "too euro"; the physical components are on the cheap side (the cost benefit is passed on to the custome)
+Indeed the usual criticism of *Keyflower* is that it's "too euro"; the physical components are on the cheap side (the cost benefit is passed on to the customer)
 
 <br />
 <p />
