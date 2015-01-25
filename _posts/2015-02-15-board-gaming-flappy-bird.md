@@ -12,7 +12,7 @@ Indeed the usual criticism of *Keyflower* is that it's "too euro"; the physical 
 
 What we really need is the opposite of a "legacy" game: a game that "resets" partway through, where an advantage in the early part of the gamhe doesn't lead to an advantage in the later part of the game. A game where you get better at playing, but still have to work your way up from zero every time. A game like *Flappy Bird*.
 
-Followup: since I first started writing this piece we've seen a rise in short-round party games that are intended to be played repeatedly - the likes of *Love Letter*, *One Night Ultimate Werewolf*, or *Skull*.
+Followup: since I first started writing this piece we've seen a rise in short-round party games that are intended to be played repeatedly - the likes of *Love Letter*, *One Night Ultimate Werewolf*, or *Skull*. To a certain extent these are the 
 
 <br />
 <p />
