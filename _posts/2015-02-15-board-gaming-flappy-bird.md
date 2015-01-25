@@ -8,6 +8,9 @@ I've been thinking about board game mechanics since watching [this fascinating t
 
 *Keyflower* is one of the more interesting titles of the present golden age. With its colonial-pastoral theme and indirect competition through auctions, it's like the distilled essence of the "eurogame". For those who subscribe to the notion that board games are about evaluating, making tough choices, this is perfection: what this game does is make you decide, turn after turn, what certain things are worth to you[1]. Every action is the small contest of bidding on a single tile, slotting into the wider contest that is the game.
 
-[1] Players each secretly know some of the scoring tiles that will be available in the final, winter turn - on some level the whole game is an expression of the economical dictum that markets function as a price-discovery mechanism. But unlike the straightforward hidden scoring mechanisms of e.g. *Archipelago*, *Keyflower*'s purity is such that even these scoring tiles will be put up for auction.
-
 Indeed the usual criticism of *Keyflower* is that it's "too euro". The distinction is normally one of themeing, but  I guess the non-euro mechanic is guessing what your opponents are doing, bluffing and the like.
+
+<br />
+<p />
+
+[1] Players each secretly know some of the scoring tiles that will be available in the final, winter turn - on some level the whole game is an expression of the economical dictum that markets function as a price-discovery mechanism. But unlike the straightforward hidden scoring mechanisms of e.g. *Archipelago*, *Keyflower*'s purity is such that even these scoring tiles will be put up for auction.
