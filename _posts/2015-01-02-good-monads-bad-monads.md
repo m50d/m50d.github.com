@@ -11,3 +11,6 @@ As Alan Perlis said, a language that doesn't affect the way you think about prog
  1. Most of the time, when there is a bug in a program, it involves a certain effect. If we knew what effects every method had, we would be able to narrow down most bugs very quickly
  1. Using our structure libraries, it actually takes very little effort to track most of the effects we might be interested in
  1. Therefore, we should always write code that keeps track of all possible effects
+
+## Reading and debugging
+
