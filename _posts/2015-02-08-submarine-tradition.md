@@ -12,4 +12,6 @@ A more interesting break is Badriguel's near-arguments with the Captain, in publ
 
 Flay, in yet another piece of irony (this one not available to first-time viewers), is the odd one out. We don't (yet) see her in uniform, and around the dining table the camera makes a point of avoiding her, boxing her out of the frame as we flick between each of the friends nodding to their plan. There's also one clever cut a little earlier, where we go from Flay's face to Mu's words about doing what you can with the skills you have, which again take on a completely different meaning in her context, before cutting onwards to Kira. (It's almost good enough to justify the cardinal sin of flashing back to a scene that's just happened).
 
+But for all these clever points, this episode is slow; it's a bridging episode where the previous one was already that, and a lot of time is spent reiterating the basic points that we've already covered last time.
+
 I noticed the EVA-style flashing text in the opening - just a couple of frames each. First time before EVA etc.
