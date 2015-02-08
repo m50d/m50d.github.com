@@ -2,7 +2,7 @@
 published: false
 ---
 
-The silent run - and corresponding countermeasures - is a 
+The silent run - and corresponding countermeasures - has a glorious space opera history. 
 
 I noticed the EVA-style flashing text in the opening - just a couple of frames each. First time before EVA etc.
 
