@@ -10,8 +10,6 @@ A more interesting break is Badriguel's near-arguments with the Captain, in publ
 
 I noticed the EVA-style flashing text in the opening - just a couple of frames each. First time before EVA etc.
 
-The public discussion about Artemis is interesting. For all Badriguel's militarity, etc.
-
 Flay
 
 Only mobile suits
