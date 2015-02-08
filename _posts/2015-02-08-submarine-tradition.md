@@ -8,6 +8,8 @@ The silent run - and corresponding countermeasures - has a glorious space opera 
 
 A more interesting break is Badriguel's near-arguments with the Captain, in public and on the bridge. Badriguel has been the voice of militarism, but at the same time she's undermining the military hierachy - something that's only emphasised when Kira's friends join up. As university students, they're comfortably of age (compared to e.g. WWII pilots), and from the technical background we saw in episode 1, it's plausible that they could be able to contribute to running a warship. But it all adds up to a strange sense of amateurism, of children playing at war when they don't really understand it - an ironic counterpart to Ramius' earlier complaints at their pacifism.
 
+Flay, of course, is the odd one out ()
+
 I noticed the EVA-style flashing text in the opening - just a couple of frames each. First time before EVA etc.
 
 Flay
