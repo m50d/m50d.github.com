@@ -14,4 +14,4 @@ Flay, in yet another piece of irony (this one not available to first-time viewer
 
 But for all these clever points, this episode is slow; it's a bridging episode where the previous one was already that, and a lot of time is spent reiterating the basic points that we've already covered last time - Kira's willingness to fight, Athrun's willingness to kill him and so on. The large number of character scenes - which haven't been rerendered in HD - make this the worst-looking episode so far, with faces that while less pixellated (perhaps more blurry) are no more detailed than I remember from 2005.
 
-I noticed the EVA-style flashing text in the opening - just a couple of frames each. First time before EVA etc.
+Though one thing I didn't appreciate at the time was the white-on-black text cards in the opening. They're pretty subtle - one or two frames each, in a relatively conventional show-the-characters-one-at-a-time opening - and I wouldn't have got the Evangelion reference even if I had noticed them.
