@@ -1,5 +1,6 @@
 ---
-published: false
+layout: default
+title: "Submarine Tradition"
 ---
 
 The silent run - and corresponding countermeasures - has a glorious space opera history. It formed one of the central scenes in the glorious *Starship Operators*, still one of my all-time favourite shows. More recently, a frankly laughable example was one of many things that kept *Space Battleship Yamato 2199* from being something my group could take seriously.
