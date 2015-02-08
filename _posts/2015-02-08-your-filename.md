@@ -11,3 +11,5 @@ Flay
 Only mobile suits
 
 Zero-G. Rusty and Miguel.
+
+Clever Flay/Flashback/Kira cut.
