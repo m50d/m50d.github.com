@@ -1,5 +1,6 @@
 ---
-published: false
+layout: default
+title: "Lethal Weapon (Gundam Seed 05)"
 ---
 
 Action! And not before time. There are many strands to *Gundam*, but the most fundamental is very simple: giant robot fights are cool. And while this iteration is not the hardest of sci-fi, the 3D tactics shown are at least somewhat plausible, adding up to some quite satisfying fight choreography. Admittedly we already see a powerful beam weapon that undermines the more interesting physical combat - something that will come to mar the late-series fights, and especially those of the sequel series.
