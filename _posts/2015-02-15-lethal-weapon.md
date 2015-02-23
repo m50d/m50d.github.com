@@ -10,4 +10,4 @@ But a more important flaw is already starting to make itself apparent: teenage d
 
 But again this is one of those things that works better in a sports animé than in a story that's supposed to be life-and-death. The fundamental problem is the one highlighted by Yzak - the ZAFT forces went out with four suits against one, and failed to kill Kira (and not because Kira killed all, or even any, of them). Even once, this is stretching plausibility, and I fear several iterations are in store for us. Though for now it must be said that the show is conscious of this problem and trying to avert it with the coming storyline, pulling Rau, Athrun and the gang out of the action with barely-plausible politics to give us a few episodes of breathing room as the Earth forces' own politics come into play. I've honestly forgotten what happens in this mini-arc, so we'll see what Artemis has in store.
 
-Nikolai totally gay for Athrun - calling his name all the time.
+One thing I didn't pick up the first time around is some more subtle characterization - or perhaps fanservice. Throughout the battle and its aftermath, Nikolai totally gay for Athrun - calling his name all the time.
