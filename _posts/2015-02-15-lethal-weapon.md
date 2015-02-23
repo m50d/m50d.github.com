@@ -8,4 +8,6 @@ But a more important flaw is already starting to make itself apparent: teenage d
 
 *Gundam Seed* is trying to walk a third path, that of recurring rivals who improve in step with each other. It fits well with Kira and Athrun's dynamic - they're mirror images who grew up together before one simple choice pulled them apart, to the extent that they're now on opposite sides of the battlefield - there's a real "there but-for-fortune go I" feeling to some of their interactions. For Mu or Rau to suddenly power up would be implausible (and instead we'll see both start to take more of a back seat as the series progresses), but it makes sense for Kira and Athrun to pace each other.
 
+But again this is one of those things that works better in a sports animé than one that's supposed to be life-and-death.
+
 Nikolai totally gay for Athrun - calling his name all the time.
