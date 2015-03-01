@@ -126,4 +126,4 @@ It's clear that Scala is not entirely suited to this kind of work. Lifting an op
 
 In a language with first-class support for type-level programming, a lot of these issues go away; I look forward to seeing an Idris implementation of provably-correct-TimSort, and would expect it to be of a similar length and performance to the Java/KeY implementation.
 
-What's the fair comparison? I picked Scala because it's a production-ready language usable today, even in situations where the JVM is a hard requirement - 
+What's the fair comparison? I picked Scala because it's a production-ready language usable today, even in situations where the JVM is a hard requirement - in 99% of the cases where you could use Java, you can use Scala, which is not (yet) something you can say for Idris.
