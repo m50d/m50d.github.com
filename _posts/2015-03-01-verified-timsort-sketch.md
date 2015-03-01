@@ -127,3 +127,5 @@ But even if the code were more idiomatic, it's clear that Scala is not entirely 
 In a language with first-class support for type-level programming, a lot of these issues go away; I look forward to seeing an Idris implementation of provably-correct-TimSort, and would expect it to be of a similar length and performance to the Java/KeY implementation.
 
 What's the fair comparison? I picked Scala because it's a production-ready language usable today, even in situations where the JVM is a hard requirement - in 99% of the cases where you could use Java, you can use Scala, which is not (yet) something you can say for Idris. While I believe there are some production users already, Idris remains experimental and academic; tooling support is quite limited, and the standards for even quite basic functionality like dependency management are in a state of flux.
+
+But while Java is a production-ready language, the same can't really be said for KeY; 
