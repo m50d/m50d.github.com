@@ -4,7 +4,7 @@ published: false
 
 Some commentors on [this lobste.rs story](https://lobste.rs/s/blokto/an_haskell_implementation_of_timsort_exhibits_the_same_bug_as_python_and_java_implementations) were interested in what an implementation of TimSort that was verified at the (language) type level would look like; as a Scala programmer I volunteered to provide one. This is *not* a full proof like the [published paper](http://www.envisage-project.eu/timsort-specification-and-verification/); rather it's a sketch of what the critical example might look like in Scala.
 
-Recall that the loop invariant is given as
+Recall that the loop invariant is given in KeY as
 
 ````java
 /*@ private invariant 
@@ -35,6 +35,8 @@ trait LoopInvariant[RunLen <: HList, StackSize <: Nat] {
 ````
 
 Please don't think every encoding of that invariant into a type system must look like this! Type-level functions are not a first-class feature in Scala, so we have to encode each one as a pair: a `type` showing the output value, and a `val` that's an instance of a suitable type which "witnesses" that our output value is the output of the function that we want it to be.
+
+On to the implementation, which in 
 
 The if-else branches are another piece that's a poor fit for Scala. To know which branch is taken at the type level, we have to move each branch into its own implicit instance of a new trait:
 
