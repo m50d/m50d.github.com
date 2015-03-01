@@ -130,4 +130,4 @@ What's the fair comparison? I picked Scala because it's a production-ready langu
 
 But while Java is a production-ready language, the same can't really be said for KeY; do IDEs understand the KeY comment format correctly? Will they include the correct KeY comments when performing automated refactorings (e.g. "extract method")? If your proof is encoded as part of the type system then you get this for free: any Scala or Idris IDE would handle such a refactoring correctly, because at a minimum an "extract method" extracts a method of appropriate type.
 
-If KeY is not part of the workflow, but merely an external step that's run once, then its results are ultimately of limited value. Based on my experience with the [checker framework](http://types.cs.washington.edu/checker-framework/)
+If KeY is not part of the workflow, but merely an external step that's run once, then its results are ultimately of limited value. Based on my professional experience with the [checker framework](http://types.cs.washington.edu/checker-framework/)
