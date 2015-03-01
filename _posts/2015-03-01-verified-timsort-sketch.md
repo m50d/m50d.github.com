@@ -37,3 +37,49 @@ This is a very concise notation that Scala doesn't have. I've opted to go the ot
 Please don't think every encoding of that invariant into a type system must look like this! Type-level functions are not a first-class feature in Scala, so we have to encode each one as a pair: a `type` showing the output value, and a `val` that's an instance of a suitable type which "witnesses" that our output value is the output of the function that we want it to be.
 
 The if-else branches are another piece that's a poor fit for Scala. To know which branch is taken at the type level, we have to move each branch into its own implicit instance of a new trait:
+
+````
+    trait LoopStep[RunLen <: HList, StackSize <: Nat, N <: Nat] {
+      type NewRunLen <: HList
+      type NewStackSize <: Nat
+      def doLoop(runLen: RunLen, stackSize: StackSize, currentInvariant: LoopInvariant[RunLen, StackSize]): (NewRunLen, NewStackSize, LoopInvariant[NewRunLen, NewStackSize])
+    }
+
+    implicit def ZeroCase[RunLen <: HList, StackSize <: Nat] = new LoopStep[RunLen, StackSize, _0] {
+      type NewRunLen = RunLen
+      type NewStackSize = StackSize
+      def doLoop(runLen: RunLen, stackSize: StackSize, currentInvariant: LoopInvariant[RunLen, StackSize]) =
+        (runLen, stackSize, currentInvariant)
+    }
+
+    implicit def InvariantEstablishedCase[RunLen <: HList, StackSize <: Nat, N <: Nat, RunLenN <: Nat, RunLenNPlusOne <: Nat](
+      implicit runLenNWitness: Selector[RunLen, N] { type Out = RunLenN }, runLenNPlusOneWitness: Selector[RunLen, Succ[N]] { type Out = RunLenNPlusOne },
+      ltWitness: LT[RunLenNPlusOne, RunLenN]) = new LoopStep[RunLen, StackSize, N] {
+      type NewRunLen = RunLen
+      type NewStackSize = StackSize
+      def doLoop(runLen: RunLen, stackSize: StackSize, currentInvariant: LoopInvariant[RunLen, StackSize]) =
+        (runLen, stackSize, currentInvariant)
+    }
+
+    implicit def FirstCollapseCase[RunLen <: HList, StackSize <: Nat, N <: Nat, NMinusOne <: Nat, NMinusTwo <: Nat, RunLenNMinusOne <: Nat, RunLenN <: Nat, RunLenNPlusOne <: Nat,
+      NextRunLen <: HList, NextStackSize <: Nat](
+      implicit nMinusOneWitness: Pred[N] { type Out = NMinusOne },
+      nMinusTwoWitness: Pred[NMinusOne]{ type Out = NMinusTwo },
+      runLenNMinusOneWitness: Selector[RunLen, NMinusOne] { type Out = RunLenNMinusOne },
+      runLenNWitness: Selector[RunLen, N] { type Out = RunLenN },
+      runLenNPlusOneWitness: Selector[RunLen, Succ[N]] { type Out = RunLenNPlusOne },
+      mergeAtCase: MergeAtCase[RunLen, StackSize, N] {
+        type NewRunLen = NextRunLen
+        type NewStackSize = NextStackSize
+      },
+      nextLoopStep: LoopStep[NextRunLen, NextStackSize, NMinusTwo]
+      ) = new LoopStep[RunLen, StackSize, N]{
+      type NewRunLen = nextLoopStep.NewRunLen
+      type NewStackSize = nextLoopStep.NewStackSize
+        
+      def doLoop(runLen: RunLen, stackSize: StackSize, currentInvariant: LoopInvariant[RunLen, StackSize]) = {
+        val (nextRunLen, nextStackSize, nextInvariant) = mergeAtCase.mergeAt(runLen, stackSize, null.asInstanceOf[N])
+        nextLoopStep.doLoop(nextRunLen, nextStackSize, nextInvariant)
+      }
+    }
+````
