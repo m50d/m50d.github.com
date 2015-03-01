@@ -121,3 +121,5 @@ But in practice if we care about the invariants we would probably call the impli
 ## Thoughts
 
 This was a purely mechanical port - nothing "hard" about it - but it was more tedious than I was expecting. Mainly I put this down to the original Java code being very non-scala-idiomatic; it's full of arrays, if/else, and increment/decrement operations. In Scala it would be more natural to write immutable code, and use polymorphism for branches rather than conditionals; this would have removed the need to have separate implicit `LoopStep` instances as the cases could be moved into the polymorphic types.
+
+It's clear that Scala is not entirely suited to this kind of work. Lifting an operation as simple as `n = stacksize - 2` up to the type level requires 
