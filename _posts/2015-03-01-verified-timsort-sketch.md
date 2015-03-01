@@ -120,4 +120,4 @@ But in practice if we care about the invariants we would probably call the impli
 
 ## Thoughts
 
-This was a purely mechanical port - nothing "hard" about it - but it was more tedious than I was expecting. Mainly I put this down to the original Java code being very non-scala-idiomatic; it's full of arrays, if/else, and increment/decrement operations. 
+This was a purely mechanical port - nothing "hard" about it - but it was more tedious than I was expecting. Mainly I put this down to the original Java code being very non-scala-idiomatic; it's full of arrays, if/else, and increment/decrement operations. In Scala it would be more natural to write immutable code, and use polymorphism for branches rather than conditionals; this 
