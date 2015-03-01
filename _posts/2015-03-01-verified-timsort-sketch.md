@@ -124,4 +124,4 @@ This was a purely mechanical port - nothing "hard" about it - but it was more te
 
 It's clear that Scala is not entirely suited to this kind of work. Lifting an operation as simple as `n = stacksize - 2` up to the type level requires adding two type parameters to the function and passing two implicit witness parameters to guide the inference of these to the correct types. And since we encode proven results as the existence of implicit parameters, it's impossible to talk about results being true "for all `N`". Had TimSort been originally implemented like this, we would have found out at compile time that the code was incorrect - but only when someone tried to compile a call to sort a sufficiently large array.
 
-Would a fairer comparison be Idris (or Dotty)? In a language with first-class support for type-level programming, a lot of these issues go away; 
+Would a fairer comparison be Idris (or Dotty)? In a language with first-class support for type-level programming, a lot of these issues go away; I look forward to seeing an Idris implementation of this problem, and would expect it to be of a similar conciseness to the Java/KeY implementation.
