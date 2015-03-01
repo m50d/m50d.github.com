@@ -36,7 +36,23 @@ trait LoopInvariant[RunLen <: HList, StackSize <: Nat] {
 
 Please don't think every encoding of that invariant into a type system must look like this! Type-level functions are not a first-class feature in Scala, so we have to encode each one as a pair: a `type` showing the output value, and a `val` that's an instance of a suitable type which "witnesses" that our output value is the output of the function that we want it to be.
 
-On to the implementation, which in 
+On to the implementation, which in Java looks like:
+
+````java
+private void newMergeCollapse() {
+  while (stackSize > 1) {
+    int n = stackSize - 2;
+    if (n > 0   && runLen[n-1] <= runLen[n] + runLen[n+1] || 
+        n-1 > 0 && runLen[n-2] <= runLen[n] + runLen[n-1]) {
+      if (runLen[n - 1] < runLen[n + 1])
+        n--;
+    } else if (n<0 || runLen[n] > runLen[n + 1]) {
+      break; // Invariant is established
+    }
+    mergeAt(n);
+  }
+}
+````
 
 The if-else branches are another piece that's a poor fit for Scala. To know which branch is taken at the type level, we have to move each branch into its own implicit instance of a new trait:
 
