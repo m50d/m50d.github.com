@@ -11,3 +11,23 @@ Recall that the loop invariant is given as
   @                      runLen[i] > runLen[i+1] + runLen[i+2]))
   @*/
 ````
+
+This is a very concise notation that Scala doesn't have. I've opted to go the other way and produce a very explicit invariant-witness type.
+````scala
+  trait LoopInvariant[RunLen <: HList, StackSize <: Nat] {
+    type StackSizeMinusFour <: Nat
+    val witness: Diff[StackSize, _4] { type Out = StackSizeMinusFour }
+    def at[I <: Nat](i: I)(lt: LT[I, StackSizeMinusFour]): {
+      type RunLenI <: Nat
+      val runLenIWitness: Selector[RunLen, I] { type Out = RunLenI }
+      type RunLenIPlusOne <: Nat
+      val runLenIPlusOneWitness: Selector[RunLen, Succ[I]] { type Out = RunLenIPlusOne }
+      type RunLenIPlusTwo <: Nat
+      val runLenIPlusTwoWitness: Selector[RunLen, Succ[Succ[I]]] { type Out = RunLenIPlusTwo }
+      type RunLenIPlusOnePlusRunLenIPlusTwo <: Nat
+      val runLenIPlusOnePlusRunLenIPlusTwoWitness: Sum[RunLenIPlusOne, RunLenIPlusTwo] { type Out = RunLenIPlusOnePlusRunLenIPlusTwo }
+
+      val witness: LT[RunLenIPlusOnePlusRunLenIPlusTwo, RunLenI]
+    }
+  }
+````
