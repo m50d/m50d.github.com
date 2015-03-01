@@ -38,7 +38,7 @@ Please don't think every encoding of that invariant into a type system must look
 
 The if-else branches are another piece that's a poor fit for Scala. To know which branch is taken at the type level, we have to move each branch into its own implicit instance of a new trait:
 
-````
+````scala
     trait LoopStep[RunLen <: HList, StackSize <: Nat, N <: Nat] {
       type NewRunLen <: HList
       type NewStackSize <: Nat
