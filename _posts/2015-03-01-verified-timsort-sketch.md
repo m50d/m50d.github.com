@@ -104,4 +104,22 @@ implicit def FirstCollapseCase[RunLen <: HList, StackSize <: Nat, N <: Nat, NMin
 ...
 ````
 
-I haven't covered all the paths through this branching code, but hopefully the principle is clear. Note the recursion in FirstCollapseCase - rather than a while loop, each `LoopStep` knows either that it's the termination of the iteration, or what the next `LoopStep` is.
+I haven't covered all the paths through this branching code, but hopefully the principle is clear. Note the recursion in FirstCollapseCase - rather than a while loop, each `LoopStep` knows either that it's the termination of the iteration, or what the next `LoopStep` is. We can write a wrapper function that will actually call the loop cases:
+
+````scala
+private void newMergeCollapse() {
+  while (stackSize > 1) {
+    int n = stackSize - 2;
+    if (n > 0   && runLen[n-1] <= runLen[n] + runLen[n+1] || 
+        n-1 > 0 && runLen[n-2] <= runLen[n] + runLen[n-1]) {
+      if (runLen[n - 1] < runLen[n + 1])
+        n--;
+    } else if (n<0 || runLen[n] > runLen[n + 1]) {
+      break; // Invariant is established
+    }
+    mergeAt(n);
+  }
+}
+````
+
+But in practice if we care about the invariants we 
