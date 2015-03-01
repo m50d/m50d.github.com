@@ -101,3 +101,5 @@ implicit def FirstCollapseCase[RunLen <: HList, StackSize <: Nat, N <: Nat, NMin
   }
 }
 ````
+
+Note the recursion in FirstCollapseCase
