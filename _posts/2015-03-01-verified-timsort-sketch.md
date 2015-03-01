@@ -128,4 +128,4 @@ In a language with first-class support for type-level programming, a lot of thes
 
 What's the fair comparison? I picked Scala because it's a production-ready language usable today, even in situations where the JVM is a hard requirement - in 99% of the cases where you could use Java, you can use Scala, which is not (yet) something you can say for Idris. While I believe there are some production users already, Idris remains experimental and academic; tooling support is quite limited, and the standards for even quite basic functionality like dependency management are in a state of flux.
 
-But while Java is a production-ready language, the same can't really be said for KeY; do IDEs understand the KeY comment format correctly? Will they pass 
+But while Java is a production-ready language, the same can't really be said for KeY; do IDEs understand the KeY comment format correctly? Will they include the correct KeY comments when performing automated refactorings (e.g. "extract method")? If your proof is encoded as part of the type system then you get this for free: any Scala IDE would be able to 
