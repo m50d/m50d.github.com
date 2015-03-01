@@ -119,3 +119,5 @@ def mergeCollapse[RunLen <: HList, StackSize <: Nat, StackSizeMinusOne <: Nat, S
 But in practice if we care about the invariants we would probably call the implicit `LoopStep` instances directly wherever we want to call `mergeCollapse`.
 
 ## Thoughts
+
+This was a purely mechanical port, but it was more tedious than I was expecting.
