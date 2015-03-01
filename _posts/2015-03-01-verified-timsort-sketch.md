@@ -36,4 +36,4 @@ This is a very concise notation that Scala doesn't have. I've opted to go the ot
 
 Please don't think every encoding of that invariant into a type system must look like this! Type-level functions are not a first-class feature in Scala, so we have to encode each one as a pair: a `type` showing the output value, and a `val` that's an instance of a suitable type which "witnesses" that our output value is the output of the function that we want it to be.
 
-The if-else branches are another piece that's a poor fit for Scala
+The if-else branches are another piece that's a poor fit for Scala. To know which branch is taken at the type level, we have to move each branch into its own implicit instance of a new trait:
