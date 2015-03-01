@@ -104,4 +104,4 @@ implicit def FirstCollapseCase[RunLen <: HList, StackSize <: Nat, N <: Nat, NMin
 ...
 ````
 
-I haven't covered all the paths through this branching code, but hopefully the principle is clear. Note the recursion in FirstCollapseCase - rather than a while loop, each `LoopStep` knows either that it's the termination of the iteration, or how to 
+I haven't covered all the paths through this branching code, but hopefully the principle is clear. Note the recursion in FirstCollapseCase - rather than a while loop, each `LoopStep` knows either that it's the termination of the iteration, or what the next `LoopStep` is.
