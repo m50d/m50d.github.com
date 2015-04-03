@@ -10,4 +10,6 @@ Objectively, this is perhaps unwise. Social exclusion and, ultimately, death are
 
 But politics aside, it works because we care for them. There's a very slow start, with a repetitive structure to the early episodes and a decoy couple who are ultimately discarded unseemingly thoroughly, but for me all that was swept away by the naked, futile, but thoroughly romantic heroism of second lead Ginko. This is old-fashioned, childish, fairy-tale stuff, but told with incredible conviction that has the scent of truth - because don't relationships mean the world to you when you're a teenager?
 
+The production values help too. 
+
 A relationship drama for people who don't like relationship dramas. An 
