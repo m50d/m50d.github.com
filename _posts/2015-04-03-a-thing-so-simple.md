@@ -14,4 +14,4 @@ The production values help too. Everything is beautiful - bright colours, elabor
 
 But these are intellectual complaints about a scene that was, at the very least, a massive emotional high (and with a delicately timed *Madoka* reference that was natural enough to not offend my sensibilities). Going back and thinking about it, I remember the awkward start, the points in the second and third episodes where I almost dropped it. I see loose ends and politics. But at the time I was in love, with the depth and purity that only a teenager can be.
 
-It doesn't - quite - dethrone *Madoka* as the best show I've seen, but *Yuri Kuma Arashi* is a monumental show, and quite unlike anything else I've watched. 
+It doesn't - quite - dethrone *Madoka* as the best show I've seen, but *Yuri Kuma Arashi* is a monumental show, and quite unlike anything else I've watched. Not everyone will enjoy it, but I recommend it to anyone willing to step outside their comfort zone.
