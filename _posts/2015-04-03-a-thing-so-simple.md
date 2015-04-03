@@ -8,4 +8,6 @@ Stripped of embellishment, the plot is simple enough for a picture book - and in
 
 Objectively, this is perhaps unwise. Social exclusion and, ultimately, death are the result; the bears are real and dangerous, as are our gun-wielding classmates. Prior to the ending I entertained the notion that this was more warning than celebration of love: our culture declares love the be-all and end-all, the epitome of human achievement, even when that love is unnatural, destructive, and wrong. But even though our leads ultimately (if I'm understanding correctly - remember my views on metaphors) sacrifice themselves on the altar of their childhood (childish?) romance, this show seems to have nothing but praise for the act.
 
+But politics aside, it works because we care for them. There's a very slow start, with a repetitive structure to the early episodes and a decoy couple who are ultimately discarded unseemingly clearly.
+
 A relationship drama for people who don't like relationship dramas. An 
