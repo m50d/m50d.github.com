@@ -1,5 +1,6 @@
 ---
-published: false
+title: "Stars and Bars (Gundam Seed 07)"
+layout: default
 ---
 
 
