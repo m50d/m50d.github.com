@@ -13,4 +13,4 @@ I enjoyed the other morsel of romantic subplot too: Flay gradually working up th
 
 The *Archangel*'s main plot, I sadly can't say as much for. This is the third ruined colony we've seen in quick succession - and while I can maybe see the need to be evenhanded (Heliopolis was an Orb colony, Artemis was Earth Alliance, Junius Seven is ZAFT), repetition makes the tragedy lose its meaning. Likewise the space "battle" - at this point Kira should really be moving past his objections to killing, and it's especially frustrating when his hesitation endangers the lives of his friends. Again, what was an interesting moral dilemma the first time around is rapidly losing its impact as it is repeated.
 
-And then Lacus, another element I'd forgotten. Meeting her in space is an impossible coincidence, but 
+And then Lacus, another element I'd forgotten. Meeting her in space is an impossible coincidence, but one I'm willing to suspend disbelief on. 
