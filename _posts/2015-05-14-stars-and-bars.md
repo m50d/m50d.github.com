@@ -9,4 +9,4 @@ Athrun's encouter with his father was a real highlight, feeling astonishingly tr
 
 Again I'm impressed at the political pieces being put into place early - both Orb's reaction to the destruction of their colony and Athrun's engagement to Lacus are threads we will be picking up later. I've always felt their relationship was underdeveloped, but I suppose that's largely the point - theirs is a political union, not the fire of true love. It underscores how important Athrun is - raising the question of what he's doing on the front lines, but maybe there are principles at stake here. Regardless, I'm really liking what I see of his character this time around; he's reasonable and competent, without ever seeming overpowered.
 
-Elsewhere in relationship subplots, the interaction between Flay and Kira was also handled well; 
+I enjoyed the other morsel of romantic subplot too: Flay gradually working up the nerve (more-or-less forced by her friends) to apologize to Kira. 
