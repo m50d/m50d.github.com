@@ -1,5 +1,6 @@
 ---
-published: false
+layout: default
+title: "Slippery Slope  (Gundam Seed 09)"
 ---
 
 A much more enjoyable episode. Either *Gundam Seed* has found its feet, or it does combat much better than it does plot. Sadly I fear it's the latter.
