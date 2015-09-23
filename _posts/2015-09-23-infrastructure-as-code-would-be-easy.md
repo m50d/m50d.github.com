@@ -27,7 +27,7 @@ What if I told you:
        * Knows what their acceptable defect rate is
        * Is already operating at it
      * So: defect rate homeostasis
-     * The real value proposition is "work faster and have the same number of defects"
+     * The real value proposition is "move faster and have the same number of defects"
      * But we treat a nonzero defect rate as a moral failing
  * Big companies already adjust e.g. twitter:
    * Initially written in Ruby
