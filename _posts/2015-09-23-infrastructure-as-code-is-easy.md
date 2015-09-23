@@ -12,7 +12,7 @@ What if I told you:
  * Some languages are perceived as terribly difficult, but are easy.
  * I'm not surprised MRI is buggy. It's written in C.
  * I'm not surprised apt is buggy. It's written in C.
-   * Actually I am slightly surprised, but only because Dr Jackson is a genius.
+   * Actually I am slightly surprised, but only because its original author is very smart.
  * You don't have to read every line to understand code if you:
    * Understand the *laws* the code obeys
    * Require [proof](https://gist.github.com/alanpog/3316784)
