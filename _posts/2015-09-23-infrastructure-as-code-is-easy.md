@@ -12,6 +12,7 @@ What if I told you:
  * Some languages are perceived as terribly difficult, but are easy.
  * I'm not surprised MRI is buggy. It's written in C.
  * I'm not surprised apt is buggy. It's written in C.
+   * Actually I am slightly surprised, but only because Dr Jackson is a genius.
  * You don't have to read every line to understand code if you:
    * Understand the *laws* the code obeys
    * Require [proof](https://gist.github.com/alanpog/3316784)
@@ -19,5 +20,6 @@ What if I told you:
  * Abstraction works
    * The "law" of leaky abstractions is false
    * Worse, it's convinced a generation of engineers that broken abstractions are acceptable.
+ *
  
  
