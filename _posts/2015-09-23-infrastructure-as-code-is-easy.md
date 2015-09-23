@@ -29,7 +29,7 @@ What if I told you:
      * So: defect rate homeostasis
      * The real value proposition is "write fewer tests and have the same number of defects"
      * But no-one wants to admit that a nonzero defect rate is acceptable to them
- * Big companies already adjust e.g. twitter
+ * Big companies already adjust e.g. twitter:
    * Initially written in Ruby
    * Fail whale
    * Rewritten in Scala as correctness became important
