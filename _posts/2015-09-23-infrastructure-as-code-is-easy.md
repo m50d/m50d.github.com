@@ -26,7 +26,7 @@ What if I told you:
      * But any real business:
        * Knows what their acceptable defect rate is
        * Is already operating at it
-     * So: defect rate hysteresis
+     * So: defect rate homeostasis
      * The real value proposition is "write fewer tests and have the same number of defects"
      * But no-one wants to admit that a nonzero defect rate is acceptable to them
  * Big companies already adjust 
