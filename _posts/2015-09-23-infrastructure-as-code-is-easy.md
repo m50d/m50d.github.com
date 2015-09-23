@@ -31,7 +31,7 @@ What if I told you:
      * But no-one wants to admit that a nonzero defect rate is acceptable to them
  * Big companies already adjust 
  * Thinking bigger is already happening
-   * nix/nixos is the bigger solution you were asking for
+   * nix/nixos is the bigger solution to package management you were asking for
    * (but it's written in C++, so it's probably still buggy)
  * If reducing your defect rate is important to you:
    * Stop using Ruby
