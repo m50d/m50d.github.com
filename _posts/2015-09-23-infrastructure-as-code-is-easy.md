@@ -10,4 +10,5 @@ A response to [Infrastructure as code might be literally impossible
 
  * Some languages are perceived as terribly difficult, but are easy.
  * What if I told you: MRI was obsolete before it was written
+   * (at least when correctness is more important than time-to-market, which is true approximately never, but that's another talk)
  
