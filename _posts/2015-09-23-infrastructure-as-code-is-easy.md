@@ -32,7 +32,7 @@ What if I told you:
  * Big companies already adjust e.g. twitter:
    * Initially written in Ruby
    * Fail whale
-   * Rewritten in Scala as correctness became important
+   * Rewritten in Scala as correctness became more important
  * Thinking bigger is already happening
    * nix/nixos is the bigger solution to package management you were asking for
    * (but it's written in C++, so it's probably still buggy)
