@@ -38,7 +38,7 @@ What if I told you:
    * (but it's written in C++, so it's probably still buggy)
  * If reducing your defect rate is important to you:
    * Stop using Ruby
-   * Stop using C
+   * Stop using C tools
  * It's not impossible to do it right. It's not even hard
    * We just don't care enough (economic incentives)
  
