@@ -22,12 +22,12 @@ What if I told you:
  * We need to be realistic about how much we care about correctness
    * If you're using ruby, you've already put a lower bound on your defect rate
    * Functional-language marketing is dishonest:
-     * We say "write the same number of tests and have fewer defects"
+     * We say "spend the same amount of time and have fewer defects"
      * But any real business:
        * Knows what their acceptable defect rate is
        * Is already operating at it
      * So: defect rate homeostasis
-     * The real value proposition is "write fewer tests and have the same number of defects"
+     * The real value proposition is "work faster and have the same number of defects"
      * But we treat a nonzero defect rate as a moral failing
  * Big companies already adjust e.g. twitter:
    * Initially written in Ruby
