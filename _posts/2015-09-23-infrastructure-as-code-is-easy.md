@@ -16,5 +16,8 @@ What if I told you:
    * Understand the *laws* the code obeys
    * Require [proof](https://gist.github.com/alanpog/3316784)
  * We *already know* better ways of building computer systems
+ * Abstraction works
+   * The "law" of leaky abstractions is false
+   * Worse, it's convinced a generation of engineers that broken abstractions are acceptable.
  
  
