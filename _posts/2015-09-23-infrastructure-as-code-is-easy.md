@@ -41,5 +41,6 @@ What if I told you:
    * Stop using C
  * But you won't, because you don't really care about defect rate
  * Software will continue to be buggy as long as there are economic incentives for software to be buggy
+ * Stop pretending we couldn't write non-buggy software if we wanted to, though.
  
  
