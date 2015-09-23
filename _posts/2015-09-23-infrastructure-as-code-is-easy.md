@@ -21,7 +21,7 @@ What if I told you:
    * Worse, it's convinced a generation of engineers that broken abstractions are ok
  * We need to be realistic about how much we care about correctness
    * If you're using ruby, you've already put a lower bound on your defect rate
-   * Those of us in functional-land are equally dishonest
+   * Functional-language marketing is dishonest:
      * We say "write the same number of tests and have fewer defects"
      * But any real business:
        * Knows what their acceptable defect rate is
