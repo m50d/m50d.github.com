@@ -20,5 +20,6 @@ What if I told you:
    * The "law" of leaky abstractions is false
    * Worse, it's convinced a generation of engineers that broken abstractions are acceptable.
  * We need to be realistic about how much we care about correctness
+   * If you're using ruby, you've already put a lower bound on your defect rate
  
  
