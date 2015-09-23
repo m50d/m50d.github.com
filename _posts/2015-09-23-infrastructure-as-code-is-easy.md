@@ -19,6 +19,6 @@ What if I told you:
  * Abstraction works
    * The "law" of leaky abstractions is false
    * Worse, it's convinced a generation of engineers that broken abstractions are acceptable.
- *
+ * We need to be more honest about how much we care about
  
  
