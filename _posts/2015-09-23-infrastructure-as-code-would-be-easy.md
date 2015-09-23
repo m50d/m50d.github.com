@@ -1,6 +1,6 @@
 ---
 published: false
-title: Infrastructure as code would be easy if we actually cared
+title: Infrastructure as code would be easy if we cared
 layout: default
 ---
 
