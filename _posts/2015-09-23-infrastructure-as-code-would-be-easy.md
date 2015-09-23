@@ -42,6 +42,6 @@ What if I told you:
    * Idris if you really care
    * Haskell/F#/OCaml/Scala if you care a bit
  * It's not impossible to do it right. It's not even hard
-   * We just don't care enough (and that's probably the right call; economic incentives)
+   * We just don't care enough (and that's probably the right call; the free market works)
    * Let's be honest about this
  
