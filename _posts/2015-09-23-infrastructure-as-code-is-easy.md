@@ -28,5 +28,8 @@ What if I told you:
        * Is already operating at it
      * So the real value proposition is "write fewer tests and have the same number of defects"
      * But no-one wants to admit that a nonzero defect rate is acceptable to them
+ * Thinking bigger is already happening
+   * nix/nixos is the bigger solution you were asking for
+   * (but it's written in C++, so it's probably still buggy)
  
  
