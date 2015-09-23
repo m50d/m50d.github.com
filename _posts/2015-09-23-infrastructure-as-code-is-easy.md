@@ -43,4 +43,5 @@ What if I told you:
    * Haskell/F#/OCaml/Scala if you care a bit
  * It's not impossible to do it right. It's not even hard
    * We just don't care enough (economic incentives)
+   * Let's be honest about this
  
