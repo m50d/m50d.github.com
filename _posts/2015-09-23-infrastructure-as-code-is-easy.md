@@ -9,17 +9,24 @@ A response to [Infrastructure as code might be literally impossible
 ](http://blog.packagecloud.io/eng/2015/09/15/automacon-infrastructure-as-code-might-be-literally-impossible/)
 
 What if I told you:
- * Some languages are perceived as terribly difficult, but are easy.
- * I'm not surprised MRI is buggy. It's written in C.
- * I'm not surprised apt is buggy. It's written in C.
+ * Some languages are perceived as terribly difficult, but are easy
+ * I'm not surprised MRI is buggy. It's written in C
+ * I'm not surprised apt is buggy. It's written in C
  * You don't have to read every line to understand code if you:
    * Understand the *laws* the code obeys
    * Require [proof](https://gist.github.com/alanpog/3316784)
  * We *already know* better ways of building computer systems
  * Abstraction works
    * The "law" of leaky abstractions is false
-   * Worse, it's convinced a generation of engineers that broken abstractions are acceptable.
+   * Worse, it's convinced a generation of engineers that broken abstractions are acceptable
  * We need to be realistic about how much we care about correctness
    * If you're using ruby, you've already put a lower bound on your defect rate
+   * Those of us in functional-land are equally dishonest.
+     * We say "write the same number of tests and have fewer defects"
+     * But any real business:
+       * Knows what their acceptable defect rate is
+       * Is already operating at it
+     * So the real value proposition is "write fewer tests and have the same number of defects"
+     * But no-one wants to admit that a nonzero defect rate is acceptable to them.
  
  
