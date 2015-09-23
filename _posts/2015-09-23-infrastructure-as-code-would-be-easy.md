@@ -28,7 +28,7 @@ What if I told you:
        * Is already operating at it
      * So: defect rate homeostasis
      * The real value proposition is "write fewer tests and have the same number of defects"
-     * But no-one wants to admit to a nonzero defect rate
+     * But we treat a nonzero defect rate as a moral failing
  * Big companies already adjust e.g. twitter:
    * Initially written in Ruby
    * Fail whale
