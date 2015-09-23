@@ -46,5 +46,5 @@ What if I told you:
      * And there's nothing wrong with that!
      * Users value features more than correctness
      * The free market works
-   * Let's be honest about this
+   * But let's be honest about it
  
