@@ -29,7 +29,10 @@ What if I told you:
      * So: defect rate homeostasis
      * The real value proposition is "write fewer tests and have the same number of defects"
      * But no-one wants to admit that a nonzero defect rate is acceptable to them
- * Big companies already adjust 
+ * Big companies already adjust, like twitter
+   * Initially written in Ruby
+   * Fail whale
+   * Rewritten in Scala as correctness became important
  * Thinking bigger is already happening
    * nix/nixos is the bigger solution to package management you were asking for
    * (but it's written in C++, so it's probably still buggy)
