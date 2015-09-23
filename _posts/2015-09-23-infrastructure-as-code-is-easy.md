@@ -28,9 +28,13 @@ What if I told you:
        * Is already operating at it
      * So the real value proposition is "write fewer tests and have the same number of defects"
      * But no-one wants to admit that a nonzero defect rate is acceptable to them
+ * Big companies already 
  * Thinking bigger is already happening
    * nix/nixos is the bigger solution you were asking for
    * (but it's written in C++, so it's probably still buggy)
- * If reducing your defect rate is important, stop using ruby
+ * If reducing your defect rate is important to you:
+   * Stop using Ruby
+   * Stop using C
+ * But you won't, because it isn't.
  
  
