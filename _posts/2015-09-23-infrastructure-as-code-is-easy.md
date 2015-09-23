@@ -15,7 +15,6 @@ What if I told you:
  * You don't have to read every line to understand code if you:
    * Understand the *laws* the code obeys
    * Require [proof](https://gist.github.com/alanpog/3316784)
- * What if I told you: MRI was obsolete before it was written
-   * (at least when correctness is more important than time-to-market, which is true approximately never, but that's another talk)
+ * We *already know* better ways of building computer systems
  
  
