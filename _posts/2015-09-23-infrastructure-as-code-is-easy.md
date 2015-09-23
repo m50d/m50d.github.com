@@ -31,5 +31,6 @@ What if I told you:
  * Thinking bigger is already happening
    * nix/nixos is the bigger solution you were asking for
    * (but it's written in C++, so it's probably still buggy)
+ * If reducing your defect rate is important, stop using ruby
  
  
