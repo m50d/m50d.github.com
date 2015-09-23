@@ -39,6 +39,6 @@ What if I told you:
  * If reducing your defect rate is important to you:
    * Stop using Ruby
    * Stop using C
- * It's not impossible to do these things right. It's not even hard
+ * It's not impossible to do it right. It's not even hard
    * We just don't care enough
  
