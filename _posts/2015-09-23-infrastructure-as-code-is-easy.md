@@ -5,3 +5,4 @@ layout: default
 ---
 
 
+Some languages are perceived as terribly difficult, but are easy.
