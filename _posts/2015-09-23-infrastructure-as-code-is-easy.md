@@ -40,5 +40,5 @@ What if I told you:
    * Stop using Ruby
    * Stop using C
  * It's not impossible to do it right. It's not even hard
-   * We just don't care enough
+   * We just don't care enough (economic incentives)
  
