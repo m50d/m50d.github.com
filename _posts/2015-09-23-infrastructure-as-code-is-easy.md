@@ -39,8 +39,9 @@ What if I told you:
  * If reducing your defect rate is important to you:
    * Stop using Ruby
    * Stop using C
- * But you won't, because you don't really care about defect rate
- * Software will continue to be buggy as long as there are economic incentives for software to be buggy
- * Stop pretending we couldn't write non-buggy software if we wanted to, though.
+ * You won't, because you don't really care about defect rate
+   * Which is fine, other things are more economically valuable
+   * But it wouldn't be impossible to write much less buggy software
+   * It wouldn't even be hard
  
  
