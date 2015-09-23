@@ -12,6 +12,9 @@ What if I told you:
  * Some languages are perceived as terribly difficult, but are easy
  * I'm not surprised MRI is buggy. It's written in C
  * I'm not surprised apt is buggy. It's written in C
+ * Think about recent famous security vulnerabilities
+   * How many were subtle flaws that would have happened in any language?
+   * How many were the painfully predictable result of a program being written in C?
  * You don't have to read every line to understand code if you:
    * Understand the *laws* the code obeys
    * Require [proof](https://gist.github.com/alanpog/3316784)
