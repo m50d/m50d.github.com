@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Infrastructure as code would be easy if we cared
 layout: default
 ---
@@ -47,4 +47,3 @@ What if I told you:
      * Users value features more than correctness
      * The free market works
    * But let's be honest about it
- 
