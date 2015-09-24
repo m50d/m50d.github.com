@@ -5,10 +5,12 @@ layout: default
 ---
 
 
+
 A response to [Infrastructure as code might be literally impossible
 ](http://blog.packagecloud.io/eng/2015/09/15/automacon-infrastructure-as-code-might-be-literally-impossible/)
 
 What if I told you:
+
  * Some languages are perceived as terribly difficult, but are easy
  * I'm not surprised MRI is buggy. It's written in C
  * I'm not surprised apt is buggy. It's written in C
