@@ -24,6 +24,8 @@ What if I told you:
    * Require [proof](https://gist.github.com/alanpog/3316784)
 
  * We *already know* better ways of building computer systems
+ 
+   * (I do work that requires a lower defect rate than a lot of software)
 
  * Abstraction works
  
