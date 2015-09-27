@@ -12,4 +12,4 @@ But then I tried to put myself in their position, and survey the landscape of ma
 
 ## Haskell
 
-The 800lb gorilla, with a reputation matched only 
+The 800lb gorilla - 
