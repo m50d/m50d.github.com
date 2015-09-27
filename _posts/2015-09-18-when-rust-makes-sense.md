@@ -26,11 +26,11 @@ But for a solo programmer, or one outside the Java ecosystem? It's only then you
 
 .net is a parallel world, not just a different language and VM but a foreign operating system. I've heard less criticism of it than the rest of my list, but I'm not sure whether that's a testament to its elegant design or an indication that it's one of Stroustup's second kind of languages. Scala struggles to combine `extends` inheritance with type inference, particularly in the presence of covariance - but if F# had solved this properly I'd expect to hear more about it.
 
-Writing this I'm realising just how little I know about F#; the grass is greener over there, but it's hard, not to mention hypocritical, to recommend such a dramatic shift in ecosystem.
+Writing this I'm realising just how little I know about F# in practice; the grass is greener over there, but it's hard, not to mention hypocritical, to recommend such a dramatic shift in ecosystem.
 
 ## OCaml
 
-Perhaps the closest to what Rust offers - it's no coincidence the first Rust compiler was written in it. 
+Perhaps the closest to what Rust offers - it's no coincidence the first Rust compiler was written in it. There's a lot to like about OCaml - proper typing but a simpler implementation and better performance-analysis story than Haskell. 
 
 [1] No doubt to the horror of purists. But I think it's important to provide an incremental migration path; until someone has seen the difficulties with unmanaged side effects - or rather, the advantages of pure code *in a language that takes advantage of it* - for themselves, asking them to do a lot of bookkeeping for no visible benefit is not going to be persuasive.
 
