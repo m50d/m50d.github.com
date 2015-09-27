@@ -36,7 +36,7 @@ Complaints about the syntax are legitimate, even if shallow - likewise the fact 
 
 ## So where are we?
 
-A new language is a huge undertaking, and popularity depends on many factors, so on some level it shouldn't be surprising when no (mainstream-ish) language has some precise combination of features. Even so, the popularity of Rust is an indictment of 
+A new language is a huge undertaking, and popularity depends on many factors, so on some level it shouldn't be surprising when no (mainstream-ish) language has some precise combination of features. Even so, the way each of these languages manages to get something wrong feels like an indictment of the functional[4] community.
 
 <br />
 <p />
@@ -46,3 +46,5 @@ A new language is a huge undertaking, and popularity depends on many factors, so
 [2] "Social issues" being a euphemism for one particular individual. But that's another topic.
 
 [3] Ish - I couldn't live without higher-kinded types these days, so I find it hard to recommend a language without them, even for a beginner dipping their first toe in the functional waters.
+
+[4] That is to say, typed-and-immutable.
