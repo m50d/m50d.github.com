@@ -20,7 +20,7 @@ The 800lb gorilla - and for the most part it deserves its reputation - but very 
 
 My own weapon of choice, with much to recommend it: familiar syntax (even `extends` inheritance), a corporate-branded ecosystem, and the shallowest migration path around. For an organization that's already committed to the JVM it offers an unbeatable proposition: use your existing IDE, libraries, and codebase; migrate one class at a time if you want to, and even code in Java style to start with, introducing safer or higher-level constructs only as you need them.
 
-But for a solo programmer, or one outside the Java ecosystem? Th
+But for a solo programmer, or one outside the Java ecosystem? It's only then you realise how many compromises there are in Scala's design; how many "you can do that but you shouldn't, it's just there for Java compatibility" or "yeah there's a JVM restriction that means you can't do that".
 
 ## F#
 
