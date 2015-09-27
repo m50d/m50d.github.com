@@ -14,7 +14,7 @@ But then I tried to put myself in their position, and survey the landscape of ma
 
 The 800lb gorilla - and for the most part it deserves its reputation - but very much a leap off the deep end. The syntax is alien, even by functional standards. Worse for a beginner is laziness, and the resulting need to explicitly sequence I/O operations. In some theoretical "strict Haskell" I might[1] tell beginners to use `unsafePerformIO` everywhere until they became comfortable with constructs like `sequence`, but in the Haskell we have you can't implement a simple unix utility like, I don't know, `sort` without understanding `do` notation and the difference between `<-` and `=`.
 
-Finally, performance - especially memory and "space leaks". A lot of these concerns feel overblown, FUD-like even - 
+Finally, performance - especially memory and "space leaks". A lot of these concerns feel overblown, FUDish even - 
 
 ## Scala
 
