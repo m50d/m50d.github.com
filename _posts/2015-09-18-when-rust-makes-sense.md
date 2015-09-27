@@ -51,7 +51,7 @@ It would be facile to propose new language - there are thousands out there, and 
 
 Maybe Rust can and should become the best language in this space. Evidently for some people it already is.
 
-I take a rather Whiggish view - I genuinely believe we're converging on the best design for a general-purpose programming language, and I expect these five languages and their successors to grow closer as time goes by.
+I take a rather Whiggish view - I genuinely believe we're converging on the best design for a general-purpose programming language, and I expect these five languages and their successors to grow closer as time goes by. But right now each offers something that the others don't, and there's something to be learned from all of them. It's an exciting time to be programming.
 
 <br />
 <p />
