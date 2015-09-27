@@ -2,8 +2,6 @@
 published: false
 ---
 
-
-
 Even as I've admired the design work going into Rust, I've been confused by its growing popularity. A language without garbage collection, in 2015? There are use cases where you need that, and a replacement for C++ in its remaining niches is a worthy goal, but for most developers managing one's own memory is an extravagance, akin to growing one's own food - something you might do on a hobby project, but never for a paying client.
 
 It seemed bizzare that users of Python or Ruby looking for an ordinary, general-purpose language with a decent type system would fall on this systems language. Rust's spectacular engineering makes memory management far less of a chore than it's predecessors - but a chore it remains. The language puts an emphasis on memory usage that- well, saving memory is never unwelcome, but for general-purpose languages there are generally better places to spend your budget.
@@ -18,15 +16,15 @@ Finally, performance - especially memory and "space leaks". A lot of these conce
 
 ## Scala
 
-My own weapon of choice, with much to recommend it: familiar syntax (even `extends` inheritance), a corporate-branded ecosystem, and the shallowest migration path around. For an organization that's already committed to the JVM it offers an unbeatable proposition: use your existing IDE, libraries, and codebase; migrate one class at a time if you want to, and even code in Java style to start with, introducing safer or higher-level constructs only as you need them.
+My own weapon of choice, with much to recommend it: familiar syntax (even `extends` inheritance), a corporate-branded ecosystem, a great performance and concurrency story and the shallowest migration path around. For an organization that's already committed to the JVM it offers an unbeatable proposition: use your existing IDE, libraries, and codebase; migrate one class at a time if you want to, and even code in Java style to start with, introducing safer or higher-level constructs only as you need them.
 
 But for a solo programmer, or one outside the Java ecosystem? It's only then you realise how many compromises there are in Scala's design; how many times you say "you can do that but you shouldn't, it's just there for Java compatibility" or "yeah there's a JVM restriction that means you can't do that". Many tutorials explain Scala constructs in terms of Java ones - a pragmatic approach, but one that can leave a new programmer feeling like they're learning two languages rather than one.
 
-(There are more specific issues, technical and social[2], that make me cautious about recommending Scala to newcomers, even as my favourite language. But I don't know the rest of these languages well enough to compare - I could put a section about SBT here, but I don't know whether Cabal or Crate are better or worse)
+(There are more specific issues, technical and social[2], that make me cautious about recommending Scala to newcomers, even as my favourite language. But I don't know the rest of these languages well enough to compare - I could put a section about SBT here, but I don't know enough do the same for Cabal or Crate)
 
 ## F#
 
-I've played with F# but I don't know 
+.net is a parallel world, not just a different language and VM but a different operating system from mine, so 
 
 ## OCaml
 
