@@ -12,7 +12,7 @@ But then I tried to put myself in their position, and survey the landscape of ma
 
 ## Haskell
 
-The 800lb gorilla - and for the most part it deserves its reputation. But at the same time it's hard to recommend to a newcomer given laziness, and the corresponding need to explicitly sequence I/O operations. 
+The 800lb gorilla - and for the most part it deserves its reputation. But at the same time it's hard to recommend to a newcomer given laziness, and the corresponding need to explicitly sequence I/O operations.
 
 ## Scala
 
