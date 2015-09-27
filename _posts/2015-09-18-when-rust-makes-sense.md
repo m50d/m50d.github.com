@@ -24,7 +24,7 @@ But for a solo programmer, or one outside the Java ecosystem? It's only then you
 
 (There are more specific issues, technical and social[2], that prevent me recommending )
 
-[2] Ok, not "social issues" so much as one specific individual.
+[2] Ok, not "social issues" so much as one particular individual. But that's a separate conversation.
 
 ## F#
 
