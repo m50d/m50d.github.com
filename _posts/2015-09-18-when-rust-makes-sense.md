@@ -34,7 +34,7 @@ Perhaps the closest to what Rust offers - it's no coincidence the first Rust com
 
 Complaints about the syntax are legitimate, even if shallow - likewise the fact that much of the early documentation was in French. Of late this has been addressed, and the language has put together a much better packaging/library story - having used it in the mid '00s, the language's recent popularity feels like that rarest of things, a comeback.
 
-## Which leaves us with...
+## So where are we?
 
 
 
