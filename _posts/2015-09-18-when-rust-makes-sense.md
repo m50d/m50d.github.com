@@ -22,7 +22,9 @@ My own weapon of choice, with much to recommend it: familiar syntax (even `exten
 
 But for a solo programmer, or one outside the Java ecosystem? It's only then you realise how many compromises there are in Scala's design; how many times you say "you can do that but you shouldn't, it's just there for Java compatibility" or "yeah there's a JVM restriction that means you can't do that". Many tutorials explain Scala constructs in terms of Java ones - a pragmatic approach, but one that can leave a new programmer feeling like they're learning two languages rather than one.
 
-(There are more specific issues, technical and social, that prevent me recommending )
+(There are more specific issues, technical and social[2], that prevent me recommending )
+
+[2] Ok, not "social issues" so much as one specific individual.
 
 ## F#
 
