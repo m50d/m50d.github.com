@@ -49,7 +49,7 @@ It would be facile to propose new language - there are thousands out there, and 
  * Rust developers still seem interested in making some form of automatic memory management available, though it's not their primary focus. It's still a young language; not every language ends up in the niche its creators intended. Maybe it can be the best option.
  * From the other side, [this](http://okmij.org/ftp/Haskell/extensible/more.pdf) result reads like we've solved how to represent effects, including "region" effects like those needed for Rust-style manual-but-checked memory management. It raises the prospect of implementing Rust-like memory management as an ordinary library (built on something like `Unsafe` buffers in Scala) where needed.
 
-Maybe Rust can become the best language in this space - evidently for some people it already is.
+Maybe Rust can and should become the best language in this space. Evidently for some people it already is.
 
 I take a rather Whiggish view - I genuinely believe we're converging on the best design for a general-purpose programming language, and I expect these five languages and their successors to grow closer as time goes by.
 
