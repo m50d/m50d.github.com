@@ -47,7 +47,7 @@ It would be facile to propose new language - there are thousands out there, and 
  * The opening up of .net is extremely exciting - I can start to imagine using F# in a unix-based project, initially for standalone tools like [Flow](https://code.facebook.com/posts/1505962329687926/flow-a-new-static-type-checker-for-javascript/).
  * OCaml... I'm not sure. While I think in many ways it's the best option today, syntax is impractical to change, and writing a first-rate concurrency-friendly runtime would require massive investment that's hard to justify when F# and Haskell exist already. It's lead many of us towards the promised land, but I fear it may not live to see it.4
  * Rust developers still seem interested in making some form of automatic memory management available, though it's not their primary focus. It's still a young language; not every language ends up in the niche its creators intended. Maybe it can be the best option.
- * From the other side, [this](http://okmij.org/ftp/Haskell/extensible/more.pdf) result reads like we've solved how to represent effects, including "region" effects like those needed for Rust-style manual-but-checked memory management. It raises the prospect of implementing Rust-like memory management as an ordinary library (built on something like `Unsafe` buffers in Scala, but )
+ * From the other side, [this](http://okmij.org/ftp/Haskell/extensible/more.pdf) result reads like we've solved how to represent effects, including "region" effects like those needed for Rust-style manual-but-checked memory management. It raises the prospect of implementing Rust-like memory management as an ordinary library (built on something like `Unsafe` buffers in Scala)
 
 <br />
 <p />
