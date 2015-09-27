@@ -64,4 +64,4 @@ I take a rather Whiggish view - I genuinely believe we're converging on the best
 
 [3] Ish - I couldn't live without higher-kinded types these days, so I find it hard to recommend a language without them, even for a beginner dipping their first toe in the functional waters.
 
-[4] That is to say, typed-and-immutable.
+[4] That is to say, typed-and-immutable - the lisp tradition has every right to the name but is a quite different cluster of languages from the one I'm talking about. I have a post on this in the pipeline.
