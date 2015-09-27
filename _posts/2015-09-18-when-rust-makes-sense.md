@@ -30,7 +30,7 @@ Writing this I'm realising just how little I know about F#; the grass is greener
 
 ## OCaml
 
-
+Perhaps the closest to what Rust offers - it's no coincidence the first Rust compiler was written in it. 
 
 [1] No doubt to the horror of purists. But I think it's important to provide an incremental migration path; until someone has seen the difficulties with unmanaged side effects - or rather, the advantages of pure code *in a language that takes advantage of it* - for themselves, asking them to do a lot of bookkeeping for no visible benefit is not going to be persuasive.
 
