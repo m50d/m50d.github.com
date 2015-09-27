@@ -33,7 +33,7 @@ Writing this I'm realising just how little I know about F# in practice; the gras
 
 Perhaps the closest to what Rust offers - it's no coincidence the first Rust compiler was written in it. There's a lot to like about OCaml - decent[3] typing but a simpler implementation and better performance-analysis story than Haskell, and none of the compromises that come with running on someone else's VM and ecosystem. One downside is the lack of a good concurrency story - something I see as more a matter of perception than reality (if you're doing linear algebra you're doing so via bindings that can release the "GIL"; if you're not number crunching then async I/O is probably more important than true parallelism). Still, not ideal.
 
-Complaints about the syntax are legitimate, even if shallow - likewise the fact that much of the early documentation was in French. Of late this has been addressed, and the language has put together a much better packaging/library story - having used it in the mid '00s, the language's recent popularity feels like that rarest of things, a comeback.
+Complaints about the syntax are legitimate, even if shallow - likewise the fact that much of the early documentation was in French. Of late this has been addressed, and the language has put together a much better packaging/library story - having used it in the mid '00s, the language's recent popularity feels like that rarest of things in the programming world, a comeback.
 
 ## So where are we?
 
@@ -45,6 +45,7 @@ It would be facile to propose new language - there are thousands out there, and 
  * From the other side, we're seeing Haskell-like languages with strict evaluation. Idris (my pet hope) is in many ways an even stricter, purer Haskell. But it could actually prove a more accessible environment for `unsafePerformIO`-style, imperative programming because of strict evaluation.
  * Scala.js implies that Java interoperability is less vital to Scala than it was (partly because of the maturity of the scala-native libary ecosystem). Dotty represents at least some interest in a Scala that sacrifices some compatability in the interest of simplicity/clarity/consistency.
  * The opening up of .net is extremely exciting - I can start to imagine using F# in a unix-based project, initially for standalone tools like [Flow](https://code.facebook.com/posts/1505962329687926/flow-a-new-static-type-checker-for-javascript/).
+ * OCaml... I'm not sure. While I think in many ways it's the best option today, 
 
 <br />
 <p />
