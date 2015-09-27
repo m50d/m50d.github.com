@@ -36,7 +36,7 @@ Complaints about the syntax are legitimate, even if shallow - likewise the fact 
 
 ## So where are we?
 
-A new language is a huge undertaking, especially if it is to be standalone.
+A new language is a huge undertaking, and popularity depends on many factors, so on some level it shouldn't be surprising when no (mainstream-ish) language has some precise combination of features. At the same time, it seems obvious 
 
 <br />
 <p />
