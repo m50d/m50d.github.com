@@ -36,7 +36,10 @@ Complaints about the syntax are legitimate, even if shallow - likewise the fact 
 
 ## So where are we?
 
+A new language is a huge undertaking, especially if it is to be standalone.
 
+<br />
+<p />
 
 [1] No doubt to the horror of purists. But I think it's important to provide an incremental migration path; until someone has seen the difficulties with unmanaged side effects - or rather, the advantages of pure code *in a language that takes advantage of it* - for themselves, asking them to do a lot of bookkeeping for no visible benefit is not going to be persuasive.
 
