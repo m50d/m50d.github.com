@@ -38,7 +38,9 @@ Complaints about the syntax are legitimate, even if shallow - likewise the fact 
 
 A new language is a huge undertaking, and popularity depends on many factors, so on some level it shouldn't be surprising when no (mainstream-ish) language has some precise combination of features. Even so, the way each of these languages manages to get something wrong feels like an indictment of the functional[4] community.
 
-It would be facile to propose new language - there are thousands out there, and no doubt one of them already ticks all my boxes. I have hope for all these languages, 
+It would be facile to propose new language - there are thousands out there, and no doubt one of them already ticks all my boxes. I have hope for all these languages, and I see some encouraging trends:
+
+ * 
 
 <br />
 <p />
