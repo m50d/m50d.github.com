@@ -30,7 +30,7 @@ Writing this I'm realising just how little I know about F# in practice; the gras
 
 ## OCaml
 
-Perhaps the closest to what Rust offers - it's no coincidence the first Rust compiler was written in it. There's a lot to like about OCaml - decent[3] typing but a simpler implementation and better performance-analysis story than Haskell, and none of the compromises that come with running on someone else's VM and ecosystem. One downside is the lack of a good concurrency story - something I see as more a matter of perception than reality (if you're doing linear algebra you're doing so via bindings that can release the "GIL"; if you're not number crunching then async I/O is probably more important than true parallelism).
+Perhaps the closest to what Rust offers - it's no coincidence the first Rust compiler was written in it. There's a lot to like about OCaml - decent[3] typing but a simpler implementation and better performance-analysis story than Haskell, and none of the compromises that come with running on someone else's VM and ecosystem. One downside is the lack of a good concurrency story - something I see as more a matter of perception than reality (if you're doing linear algebra you're doing so via bindings that can release the "GIL"; if you're not number crunching then async I/O is probably more important than true parallelism). Still, not ideal.
 
 Complaints about the syntax are legitimate, even if shallow - likewise the fact that much of the early documentation was in French. Of late this has been addressed, and the language has put together a much better packaging/library story - having used it in the mid '00s, the language's recent popularity feels like that rarest of things, a comeback.
 
