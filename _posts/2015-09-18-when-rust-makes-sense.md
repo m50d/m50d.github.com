@@ -36,4 +36,4 @@ Perhaps the closest to what Rust offers - it's no coincidence the first Rust com
 
 [2] "Social issues" being a euphemism for one particular individual. But that's another topic.
 
-[3] Ish - I couldn't live without higher-kinded types these days, so 
+[3] Ish - I couldn't live without higher-kinded types these days, so I find it hard to recommend a language without them, even for a beginner dipping their first toe in the functional waters.
