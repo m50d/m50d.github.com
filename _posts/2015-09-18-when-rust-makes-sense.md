@@ -43,8 +43,8 @@ It would be facile to propose new language - there are thousands out there, and 
 
  * Tooling and performance analysis in Haskell are starting to get some attention. I'm not sure anyone has a solution to space leaks yet, but we're starting to admit there's a problem.
  * From the other side, we're seeing Haskell-like languages with strict evaluation. Idris (my pet hope) is in many ways an even stricter, purer Haskell. But it could actually prove a more accessible environment for `unsafePerformIO`-style, imperative programming because of strict evaluation.
- * Dotty represents at least some interest in a Scala without some of its compatibility side.
- * Scala.js suggests that the scala-native library ecosystem is mature enough to stand alone, 
+ * Scala.js implies that Java interoperability is less vital to Scala than it was (partly because of the maturity of the scala-native libary ecosystem). Dotty represents at least some interest in a Scala that sacrifices some compatability in the interest of simplicity/clarity/consistency.
+ * The opening up of .net is extremely exciting - I can start to imagine using F# in a unix-based project, initially for standalone tools like [Flow](https://code.facebook.com/posts/1505962329687926/flow-a-new-static-type-checker-for-javascript/).
 
 <br />
 <p />
