@@ -13,3 +13,11 @@ But then I tried to put myself in their position, and survey the landscape of ma
 ## Haskell
 
 The 800lb gorilla - 
+
+## Scala
+
+My own weapon of choice.
+
+## F#
+
+I've played with F# but I don't know 
