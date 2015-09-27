@@ -30,8 +30,10 @@ Writing this I'm realising just how little I know about F# in practice; the gras
 
 ## OCaml
 
-Perhaps the closest to what Rust offers - it's no coincidence the first Rust compiler was written in it. There's a lot to like about OCaml - proper typing but a simpler implementation and better performance-analysis story than Haskell. 
+Perhaps the closest to what Rust offers - it's no coincidence the first Rust compiler was written in it. There's a lot to like about OCaml - decent[3] typing but a simpler implementation and better performance-analysis story than Haskell. 
 
 [1] No doubt to the horror of purists. But I think it's important to provide an incremental migration path; until someone has seen the difficulties with unmanaged side effects - or rather, the advantages of pure code *in a language that takes advantage of it* - for themselves, asking them to do a lot of bookkeeping for no visible benefit is not going to be persuasive.
 
 [2] "Social issues" being a euphemism for one particular individual. But that's another topic.
+
+[3] Ish - I couldn't live without higher-kinded types these days, so 
