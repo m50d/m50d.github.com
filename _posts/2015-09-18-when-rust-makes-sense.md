@@ -24,7 +24,7 @@ But for a solo programmer, or one outside the Java ecosystem? It's only then you
 
 ## F#
 
-.net is a parallel world, not just a different language and VM but a foreign operating system. 
+.net is a parallel world, not just a different language and VM but a foreign operating system. I've heard less criticism of it than the rest of my list, but I'm not sure whether that's a testament to its elegant design
 
 ## OCaml
 
