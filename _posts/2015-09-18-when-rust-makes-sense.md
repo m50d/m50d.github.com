@@ -14,8 +14,6 @@ But then I tried to put myself in their position, and survey the landscape of ma
 
 The 800lb gorilla - and for the most part it deserves its reputation - but very much a leap off the deep end. The syntax is alien enough, but the worst problem for a beginner is laziness, and the resulting need to explicitly sequence I/O operations. In some theoretical "strict Haskell" I might[1] tell beginners to use `unsafePerformIO` everywhere until they became comfortable with constructs like `sequence`, but in the Haskell we have you can't implement a simple unix utility like, I don't know, `sort` without understanding `do` notation and the difference between `<-` and `=`.
 
-[1] No doubt to the horror of purists. But I think it's important to provide an incremental migration path; until someone has seen the difficulties with unmanaged side effects - or rather, the advantages of pure code *in a language that takes advantage of it* - for themselves, asking them to do a lot of bookkeeping for no visible benefit is not going to be persuasive.
-
 ## Scala
 
 My own weapon of choice, with much to recommend it: familiar syntax (even `extends` inheritance), a corporate-branded ecosystem, and the shallowest migration path around. For an organization that's already committed to the JVM it offers an unbeatable proposition: use your existing IDE, libraries, and codebase; migrate one class at a time if you want to, and even code in Java style to start with, introducing safer or higher-level constructs only as you need them.
@@ -24,8 +22,10 @@ But for a solo programmer, or one outside the Java ecosystem? It's only then you
 
 (There are more specific issues, technical and social[2], that make me cautious about recommending Scala to newcomers, even as my favourite language. But )
 
-[2] Ok, less "social issues" than one particular individual. But that's a separate conversation.
-
 ## F#
 
 I've played with F# but I don't know 
+
+[1] No doubt to the horror of purists. But I think it's important to provide an incremental migration path; until someone has seen the difficulties with unmanaged side effects - or rather, the advantages of pure code *in a language that takes advantage of it* - for themselves, asking them to do a lot of bookkeeping for no visible benefit is not going to be persuasive.
+
+[2] Ok, less "social issues" than one particular individual. But that's a separate conversation.
