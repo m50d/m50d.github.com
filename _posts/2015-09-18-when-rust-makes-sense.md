@@ -12,7 +12,7 @@ But then I tried to put myself in their position, and survey the landscape of ma
 
 ## Haskell
 
-The 800lb gorilla - and for the most part it deserves its reputation - but very much a leap off the deep end. The syntax is alien enough, but the worst problem for a beginner is laziness, and the resulting need to explicitly sequence I/O operations. In some theoretical "strict Haskell" I might[1] tell beginners to use `unsafePerformIO` everywhere until they became comfortable with constructs like `sequence`.
+The 800lb gorilla - and for the most part it deserves its reputation - but very much a leap off the deep end. The syntax is alien enough, but the worst problem for a beginner is laziness, and the resulting need to explicitly sequence I/O operations. In some theoretical "strict Haskell" I might[1] tell beginners to use `unsafePerformIO` everywhere until they became comfortable with constructs like `sequence`, but in the Haskell we have it's necessary to get 
 
 [1] No doubt to the horror of purists. But I think it's important to provide an incremental migration path; until someone has seen the difficulties with unmanaged side effects - or rather, the advantages of pure code *in a language that takes advantage of it* - for themselves, asking them to do a lot of bookkeeping for no visible benefit is not going to be persuasive.
 
