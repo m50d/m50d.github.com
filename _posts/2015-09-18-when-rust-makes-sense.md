@@ -18,7 +18,7 @@ The 800lb gorilla - and for the most part it deserves its reputation - but very 
 
 ## Scala
 
-My own weapon of choice, 
+My own weapon of choice, and
 
 ## F#
 
