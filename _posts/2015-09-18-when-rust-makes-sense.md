@@ -20,7 +20,7 @@ My own weapon of choice, with much to recommend it: familiar syntax (even `exten
 
 But for a solo programmer, or one outside the Java ecosystem? It's only then you realise how many compromises there are in Scala's design; how many times you say "you can do that but you shouldn't, it's just there for Java compatibility" or "yeah there's a JVM restriction that means you can't do that". Many tutorials explain Scala constructs in terms of Java ones - a pragmatic approach, but one that can leave a new programmer feeling like they're learning two languages rather than one.
 
-(There are more specific issues, technical and social[2], that make me cautious about recommending Scala to newcomers, even as my favourite language. But I don't know the rest of these languages well enough to compare - I could put a section about SBT here, but I've heard enough complaints about Cabal)
+(There are more specific issues, technical and social[2], that make me cautious about recommending Scala to newcomers, even as my favourite language. But I don't know the rest of these languages well enough to compare - I could put a section about SBT here, but I don't know whether Cabal or Crate are better or worse)
 
 ## F#
 
