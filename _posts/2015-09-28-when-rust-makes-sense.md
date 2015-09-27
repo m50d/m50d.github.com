@@ -1,5 +1,7 @@
 ---
 published: false
+title: When Rust Makes Sense
+layout: default
 ---
 
 
