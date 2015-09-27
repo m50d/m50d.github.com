@@ -41,7 +41,7 @@ A new language is a huge undertaking, and popularity depends on many factors, so
 It would be facile to propose new language - there are thousands out there, and no doubt one of them already ticks all my boxes. I have hope for all these languages, and I see some encouraging trends:
 
  * Tooling and performance analysis in Haskell are starting to get some attention. I'm not sure anyone has a solution to space leaks yet, but we're starting to admit there's a problem.
- * From the other side, we're seeing Haskell-like languages with strict evaluation. Idris (my pet hope) is in many ways an even stricter, purer Haskell. But 
+ * From the other side, we're seeing Haskell-like languages with strict evaluation. Idris (my pet hope) is in many ways an even stricter, purer Haskell. But it could actually prove a more accessible environment for `unsafePerformIO`-style, imperative programming because of strict evaluation.
 
 <br />
 <p />
