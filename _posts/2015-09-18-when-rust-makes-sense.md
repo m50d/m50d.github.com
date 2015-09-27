@@ -43,7 +43,8 @@ It would be facile to propose new language - there are thousands out there, and 
 
  * Tooling and performance analysis in Haskell are starting to get some attention. I'm not sure anyone has a solution to space leaks yet, but we're starting to admit there's a problem.
  * From the other side, we're seeing Haskell-like languages with strict evaluation. Idris (my pet hope) is in many ways an even stricter, purer Haskell. But it could actually prove a more accessible environment for `unsafePerformIO`-style, imperative programming because of strict evaluation.
- * In Dotty there seems to be at least some interest in a Scala without some of its compatibility side. Scala.js also suggests the language is becoming less attached to the JVM.
+ * Dotty represents at least some interest in a Scala without some of its compatibility side.
+ * Scala.js suggests that the scala-native library ecosystem is mature enough to stand alone, 
 
 <br />
 <p />
