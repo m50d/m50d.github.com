@@ -26,6 +26,8 @@ But for a solo programmer, or one outside the Java ecosystem? It's only then you
 
 I've played with F# but I don't know 
 
+## OCaml
+
 [1] No doubt to the horror of purists. But I think it's important to provide an incremental migration path; until someone has seen the difficulties with unmanaged side effects - or rather, the advantages of pure code *in a language that takes advantage of it* - for themselves, asking them to do a lot of bookkeeping for no visible benefit is not going to be persuasive.
 
 [2] "Social issues" being a euphemism for one particular individual. But that's another topic.
