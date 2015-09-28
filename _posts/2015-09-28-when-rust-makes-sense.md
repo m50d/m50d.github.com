@@ -25,7 +25,7 @@ But for a solo programmer, or one outside the Java ecosystem? It's only then you
 
 (There are more specific issues, technical and social[2], that make me cautious about recommending Scala to newcomers, even as my favourite language. But I don't know the rest of these languages well enough to compare - I could put a section about SBT here, but I don't know enough do the same for Cabal or Crate)
 
-## F\#
+## F# ##
 
 .net is a parallel world, not just a different language and VM but a foreign operating system. I've heard less criticism of it than the rest of my list, but I'm not sure whether that's a testament to its elegant design or an indication that it's one of Stroustup's second kind of languages. Scala struggles to combine `extends` inheritance with type inference, particularly in the presence of covariance - but if F# had solved this properly I'd expect to hear more about it.
 
