@@ -10,4 +10,4 @@ In many ways this episode is the mirror of the previous one: combat instead of f
 
 A better show would contrast the two approaches - Lacus' absolutist idealism, Flay's ruthless pragmatism - like Suzaku and Lelouch in *Code Geass*. Both have (notionally) the same goal, but both take different approaches to achieving it. And while Suzaku ultimately fails, he fails nobly.
 
-Flay's fall will not be noble. The series will tell us to hate her - and too many of the fans will listen.
+Flay's fall will not be noble. The series will tell us to hate her - and too many of its fans will listen.
