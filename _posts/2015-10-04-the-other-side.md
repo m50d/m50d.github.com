@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: default
 title: The Other Side (Gundam Seed 11)
 ---
