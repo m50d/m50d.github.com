@@ -10,4 +10,4 @@ In many ways this episode is the mirror of the previous one: combat instead of f
 
 A better show would contrast the two approaches - Lacus' absolutist idealism, Flay's ruthless pragmatism - like Suzaku and Lelouch in *Code Geass*. Both have (notionally) the same goal, but both take different approaches to achieving it. And while Suzaku ultimately fails, he fails nobly. Flay's fall will not be noble. The series will tell us to hate her - and too many of its fans will listen.
 
-On the other side, Yzak continues to bully Nikolai. 
+On the other side, Yzak continues to bully Nikolai. I would say that the series should show rather than telling, but honestly I'm just happy that this point looks to now be resolved. Neither character gains anything from this. Athrun's absence should give the others a chance to shine, but instead it simply highlights how uninteresting they are, and how 
