@@ -22,7 +22,7 @@ between explicitness and conciseness; in a construct like:
       b = method2(a)
       c <- method3(b)
       _ <- if(c < 0) "Something's gone wrong".left else {}.right
-      d <- (catching(classOf[SomeException]) either someJavaMethod(c)).asDisjunction
+      d <- (catching(classOf[SomeException]) either someJavaMethod(c)).disjunction
     } yield d
     
 we can see clearly that `method1` and `method3` might error but `method2` never will,
@@ -30,6 +30,13 @@ but we can still write our code in "straight-through" style without polluting th
 "happy path" with error handling.
 Best of all our errors are just values, so they're guaranteed to refactor correctly -
 and if not, the compiler will catch us.
+
+I follow a similar set of rules regarding exceptions:
+
+ 1. Never `throw`
+ 2. Where possible, don't call a method that might throw
+ (e.g. use `.headOption` on a `List` instead of `.head` - [wartremover](https://github.com/puffnfresh/wartremover) can enforce this)
+ 3. When using a library that might throw, wrap it with the `catching` construct
 
 [1] It's aliased as `Disjunction`, but aliases have their own issues
 e.g. they don't show up in type errors.
