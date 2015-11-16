@@ -17,3 +17,5 @@ But let me give my views from my own 5.5 years of Scala, as they have been rathe
     obj.doSomething({_.value})
     obj doSomething {_.value}
     obj.doSomething({x => x.value})
+
+There really are 
