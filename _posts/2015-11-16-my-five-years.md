@@ -79,7 +79,7 @@ I'd say a similar thing about ScalaTest.
 If you find Cucumber-like frameworks useful, then ScalaTest is a great one.
 But if you don't like that kind of framework, it's fine to keep using JUnit.
 
-## You don't need to learn, you don't need a book
+## You don't need to learn much to get started
 
 If you want to approach Scala as a new language then you can.
 But if you're not going to maintain an existing Scala codebase,
