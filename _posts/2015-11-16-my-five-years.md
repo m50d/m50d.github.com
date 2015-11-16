@@ -14,28 +14,22 @@ Avoiding NPEs is a great first step, but my Scala idiom applies the same reasoni
 to all Exceptions. Even fans of exceptions advise against using them for control flow;
 they make it much harder to reason about code you're reading, and even in a good IDE,
 automated refactoring will often leave you with unwarranted `throws` declarations.
+Using scalaz's unfortunately-named[1] `\/` type and `for`/`yield` is the perfect balance
+between explicitness and conciseness; in a construct like:
 
-### Four or more ways to write the same thing
-
-    obj.doSomething(_.value)
-    obj.doSomething({_.value})
-    obj doSomething {_.value}
-    obj.doSomething({x => x.value})
-
-There really are many syntactic ways to write the same expression in Scala.
-But these are fundamentally superficial and syntactic.
-Flexibility in bracketing exists in many languages:
-
-    obj.doSomething(a, b);
-    (obj).doSomething(a, b);
-    (obj).doSomething((a), (b));
+    for {
+      a <- method1()
+      b = method2(a)
+      c <- method3(b)
+      _ <- if(c < 0) "Something's gone wrong".left else {}.right
+      d <- (catching(classOf[SomeException]) either someJavaMethod(c)).asDisjunction
+    } yield d
     
-and few find this an issue.
-Scala goes further than most (braces and brackets offer overlapping semantics, and the `_` syntax for lambdas is unique to Scala).
-I find the value of `_` far outweighs the inconsistency it induces;
-I miss it when working without it
-(e.g. Python's `lambda x: x.value`, or Javascript's `function(x){ return x.value;}`).
-(Some libraries offer the same functionality through libraries,
-of lesser or greater hackishness -
-the reflection-based FunctionalJava is thankfully less necessary post-Java-8,
-but many Python or Javascript options operate in similar fashion).
+we can see clearly that `method1` and `method3` might error but `method2` never will,
+but we can still write our code in "straight-through" style without polluting the
+"happy path" with error handling. Best of all our errors are just values
+
+[1] It's aliased as `Disjunction`, but aliases have their own issues
+e.g. they don't show up in type errors.
+Worse is the inconsistency: the corresponding monad transformer is isn't `\/T` -
+and it isn't `DisjunctionT` either.
