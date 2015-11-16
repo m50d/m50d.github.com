@@ -27,7 +27,9 @@ between explicitness and conciseness; in a construct like:
     
 we can see clearly that `method1` and `method3` might error but `method2` never will,
 but we can still write our code in "straight-through" style without polluting the
-"happy path" with error handling. Best of all our errors are just values
+"happy path" with error handling.
+Best of all our errors are just values, so they're guaranteed to refactor correctly -
+and if not, the compiler will catch us.
 
 [1] It's aliased as `Disjunction`, but aliases have their own issues
 e.g. they don't show up in type errors.
