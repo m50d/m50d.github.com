@@ -91,6 +91,8 @@ Save your semicolon finger, and then learn more as and when you need to.
 
 Play is a fine framework.
 But personally I prefer to stick with Wicket, and Scala makes that easy.
+In my early days of Scala I kept using Spring,
+and even today I still use Hibernate.
 
 ## Pair-programming and code reviews
 
