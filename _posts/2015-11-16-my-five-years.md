@@ -66,7 +66,13 @@ and explicit delegating method implementations.
 
 ## SBT really is an undocumented mess, but you don't have to use it
 
-The most unfortunate 
+SBT offers precisely one compelling feature: cross-building for multiple Scala versions.
+If you need this, there's sadly no alternative.
+But for anything other than publicly-released libraries,
+you can get away with supporting only one Scala major version,
+and at that point you can stick with the wonderful Maven.
+Just enable the maven scala plugin (and m2eclipse-scala if using eclipse)
+and you're good to go, with all the 
 
 ## Notes
 
