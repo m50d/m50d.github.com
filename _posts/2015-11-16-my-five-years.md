@@ -102,10 +102,13 @@ I'd point to things like [treelog](http://typelevel.org/blog/2013/10/18/treelog.
 that simply couldn't be implemented in any other mainstream language except Haskell[3].
 
 The really wonderful part? Both of these things work with ordinary values.
-So if I want to integrate them with e.g. spray, I can make a routing directive
+So if I want to integrate them with e.g. Spray, I can make a routing directive
 that says to perform the database operation that a given value represents.
 And this will be a first-class directive, that I can use in a route definition
-exactly like any of the built-in spray directives. 
+exactly like any of the built-in spray directives.
+(Indeed the built-in spray directives are just code, and you can click through
+to their definitions in your IDE and see exactly how they're implemented -
+very different from working with JAX-RS annotations).
 
 ## Pair-programming and code reviews
 
