@@ -108,7 +108,7 @@ there can be a wide range of skill levels,
 and this goes triple when just adopting Scala.
 I've found pair-programming the best way to learn, and probably the best way to teach.
 And for an experienced dev chomping at the bit to use advanced libraries or features,
-the most effective case you can make is to look at some code under review,
+the most effective argument you can make is to look at some code under review,
 and explain exactly how using an applicative functor (for example)
 would save lines of code.
 
