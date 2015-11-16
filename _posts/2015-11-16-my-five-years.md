@@ -10,3 +10,10 @@ But let me give my views from my own 5.5 years of Scala, as they have been rathe
 # Myths, or not
 
 ## True Tradeoffs
+
+### Four or more ways to write the same thing
+
+    obj.doSomething(_.value)
+    obj.doSomething({_.value})
+    obj doSomething {_.value}
+    obj.doSomething({x => x.value})
