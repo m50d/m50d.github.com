@@ -96,7 +96,7 @@ and even today I still use Hibernate.
 
 ## ...but do adopt idiomatic things eventually
 
-
+Writing Scala in one or two files is an easy first step, but getting
 
 ## Pair-programming and code reviews
 
