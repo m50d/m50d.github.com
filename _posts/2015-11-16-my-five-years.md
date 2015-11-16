@@ -8,7 +8,7 @@ Scala is a broad church, as any general-purpose programming language ultimately 
 But let me give my views from my own 5.5 years of Scala,
 as they have been rather different from [those described here](http://manuel.bernhardt.io/2015/11/13/5-years-of-scala-and-counting-debunking-some-myths-about-the-language-and-its-environment/).
 
-# Myths, or not
+# Myths and nonmyths
 
 ## True Tradeoffs
 
