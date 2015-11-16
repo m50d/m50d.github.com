@@ -59,6 +59,8 @@ As with any `null`, in the worst cases you may not get an error until much later
 
 I won't say to avoid multiple inheritance entirely, but I do think 
 
+## Notes
+
 [1] It's aliased as `Disjunction`, but aliases have their own issues
 e.g. they don't show up in type errors.
 Worse is the inconsistency: the corresponding monad transformer is isn't `\/T` -
