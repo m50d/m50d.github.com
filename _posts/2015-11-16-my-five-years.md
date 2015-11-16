@@ -48,7 +48,8 @@ used explicitly.
 
 ## If mixing in traits, be very careful about initialization order
 
-
+Scala avoids the [biggest pitfall of multiple inheritance](https://fuhm.net/super-harmful/) elegantly,
+by simply banning 
 
 [1] It's aliased as `Disjunction`, but aliases have their own issues
 e.g. they don't show up in type errors.
