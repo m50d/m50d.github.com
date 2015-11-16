@@ -89,7 +89,8 @@ Save your semicolon finger, and then learn more as and when you need to.
 
 ## Use the frameworks you're used to...
 
-
+Play is a fine framework.
+But personally I prefer to stick with Wicket, and Scala makes that easy.
 
 ## Pair-programming and code reviews
 
