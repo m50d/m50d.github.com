@@ -5,12 +5,12 @@ title: My Five Years of Scala
 ---
 
 Scala is a broad church, as any general-purpose programming language ultimately must be.
-But let me give my views from my own 5.5 years of Scala,
+But let me give my advice from my own 5.5 years of Scala,
 as they have been rather different from [those described here](http://manuel.bernhardt.io/2015/11/13/5-years-of-scala-and-counting-debunking-some-myths-about-the-language-and-its-environment/).
 
-# Myths and nonmyths
+## Avoid NPEs, avoid Exceptions generally
 
-## True Tradeoffs
+Exceptions are an unpleasant surprise; even their biggest fans
 
 ### Four or more ways to write the same thing
 
