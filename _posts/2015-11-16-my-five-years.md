@@ -75,6 +75,10 @@ Just enable the maven scala plugin (and m2eclipse-scala if using eclipse)
 and you're good to go, with declarative builds, well-documented configuration,
 and perfect, instant IDE integration.
 
+## You don't need to learn, you don't need a book
+
+
+
 ## Notes
 
 [1] It's aliased as `Disjunction`, but aliases have their own issues
