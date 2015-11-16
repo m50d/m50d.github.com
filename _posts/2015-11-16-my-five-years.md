@@ -57,7 +57,12 @@ Unfortunately this doesn't mean they don't need to be initialized; in particular
 in an earlier constructor.[2]
 As with any `null`, in the worst cases you may not get an error until much later on.
 
-I won't say to avoid multiple inheritance entirely, but I do think 
+I won't say to avoid multiple inheritance entirely, but use it sparingly,
+and only when little initialization is required.
+I find the "cake pattern" to be far more trouble than it's worth,
+and while I still value composition over inheritance,
+often I'll implement it the same way I would in Java - with composed objects as fields,
+and explicit delegating method implementations.
 
 ## Notes
 
