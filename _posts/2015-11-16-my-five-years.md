@@ -77,7 +77,11 @@ and perfect, instant IDE integration.
 
 ## You don't need to learn, you don't need a book
 
-
+If you want to approach Scala as a new language then you can.
+But if you're not going to maintain an existing Scala codebase,
+it's fine to just make a `.scala` file in your IDE and start typing Java there.
+(I guess you need to learn `val` and `def`, but that's about it)
+Save your semicolon finger, and then work your way up 
 
 ## Notes
 
