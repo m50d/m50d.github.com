@@ -18,4 +18,14 @@ But let me give my views from my own 5.5 years of Scala, as they have been rathe
     obj doSomething {_.value}
     obj.doSomething({x => x.value})
 
-There really are 
+There really are many syntactic ways to write the same expression in Scala.
+But these are fundamentally superficial and syntactic.
+Flexibility in bracketing exists in many languages:
+
+    obj.doSomething(a, b);
+    (obj).doSomething(a, b);
+    (obj).doSomething((a), (b));
+    
+and few find this an issue.
+Scala goes further than most (braces and brackets offer overlapping semantics, and the `_` syntax for lambdas is unique to Scala).
+Personally I wish 
