@@ -1,5 +1,4 @@
 ---
-published: false
 layout: default
 title: My Five Years of Scala
 ---
@@ -116,7 +115,8 @@ Similarly, I can write a spray `Marshaller` for a treelog-logged value
 that performs content negotiation to decide whether to render the log
 and this will integrate perfectly with the rest of spray's system e.g. `complete`.
 
-I don't have to know anything about the internals of Treelog, Doobie or Spray. Everything is just an ordinary value, and I can tie them together using ordinary Scala.
+I don't have to know anything about the internals of Treelog, Doobie or Spray.
+Everything is just an ordinary value, and I can tie them together using ordinary Scala.
 
 ## Pair-programming and code reviews
 
