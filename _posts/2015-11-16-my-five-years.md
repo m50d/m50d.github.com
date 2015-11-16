@@ -38,6 +38,18 @@ I follow a similar set of rules regarding exceptions:
  (e.g. use `.headOption` on a `List` instead of `.head` - [wartremover](https://github.com/puffnfresh/wartremover) can enforce this)
  3. When using a library that might throw, wrap it with the `catching` construct
 
+## One class should = one file
+
+This is one case where I think Scala is a step backwards from the more opinionated Java.
+The "one class = one file" rule makes it easy to find where any code is located.
+Exceptions are `sealed` internal-only classes (similar to Java inner classes)
+and `sealed trait`/`case class` patterns where the subclasses aren't intended to be
+used explicitly.
+
+## If mixing in traits, be very careful about initialization order
+
+
+
 [1] It's aliased as `Disjunction`, but aliases have their own issues
 e.g. they don't show up in type errors.
 Worse is the inconsistency: the corresponding monad transformer is isn't `\/T` -
