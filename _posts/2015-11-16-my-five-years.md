@@ -98,7 +98,7 @@ Writing Scala in one or two files is an easy first step, but getting a team onbo
 is a big investment, particularly if you have coverage tools, runtime instrumentation
 and the like. So you should get your money's (well, time's) worth,
 and take advantage of the full power of Scala.
-I'd point to things like [treelog](http://typelevel.org/blog/2013/10/18/treelog.html) and [doobie](https://www.youtube.com/watch?v=M5MF6M7FHPo)
+I'd point to things like [Treelog](http://typelevel.org/blog/2013/10/18/treelog.html) and [Doobie](https://www.youtube.com/watch?v=M5MF6M7FHPo)
 that simply couldn't be implemented in any other mainstream language except Haskell[3].
 
 The really wonderful part? Both of these things work with ordinary values.
@@ -112,6 +112,11 @@ very different from working with JAX-RS annotations).
 So I have database-session-in-view, but in a principled, refactor-safe way.
 And I can tell whether I need to spin up an in-memory database for
 one of my unit tests by simply reading it off from the type.
+Similarly, I can write a spray `Marshaller` for a treelog-logged value
+that performs content negotiation to decide whether to render the log
+and this will integrate perfectly with the rest of spray's system e.g. `complete`.
+
+I don't have to know anything about the internals of Treelog, Doobie or Spray. Everything is just an ordinary value, and I can tie them together using ordinary Scala.
 
 ## Pair-programming and code reviews
 
