@@ -72,7 +72,8 @@ But for anything other than publicly-released libraries,
 you can get away with supporting only one Scala major version,
 and at that point you can stick with the wonderful Maven.
 Just enable the maven scala plugin (and m2eclipse-scala if using eclipse)
-and you're good to go, with all the 
+and you're good to go, with declarative builds, well-documented configuration,
+and perfect, instant IDE integration.
 
 ## Notes
 
