@@ -87,6 +87,10 @@ it's fine to just make a `.scala` file in your IDE and start typing Java there.
 (I guess you need to learn `val` and `def`, but that's about it)
 Save your semicolon finger, and then learn more as and when you need to.
 
+## Use the frameworks you're used to...
+
+
+
 ## Pair-programming and code reviews
 
 There's a lot of variety in 
