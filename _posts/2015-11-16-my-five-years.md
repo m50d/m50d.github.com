@@ -5,7 +5,8 @@ title: My Five Years of Scala
 ---
 
 Scala is a broad church, as any general-purpose programming language ultimately must be.
-But let me give my views from my own 5.5 years of Scala, as they have been rather different from [those described here](http://manuel.bernhardt.io/2015/11/13/5-years-of-scala-and-counting-debunking-some-myths-about-the-language-and-its-environment/).
+But let me give my views from my own 5.5 years of Scala,
+as they have been rather different from [those described here](http://manuel.bernhardt.io/2015/11/13/5-years-of-scala-and-counting-debunking-some-myths-about-the-language-and-its-environment/).
 
 # Myths, or not
 
@@ -28,4 +29,6 @@ Flexibility in bracketing exists in many languages:
     
 and few find this an issue.
 Scala goes further than most (braces and brackets offer overlapping semantics, and the `_` syntax for lambdas is unique to Scala).
-Personally I wish 
+I find the value of `_` far outweighs the inconsistency it induces;
+I miss it when working without it
+(e.g. Python's `lambda x: x.value`, or Javascript's `function(x){ return x.value;}`)
