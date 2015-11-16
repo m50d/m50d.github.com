@@ -100,7 +100,12 @@ and the like. So you should get your money's (well, time's) worth,
 and take advantage of the full power of Scala.
 I'd point to things like [treelog](http://typelevel.org/blog/2013/10/18/treelog.html) and [doobie](https://www.youtube.com/watch?v=M5MF6M7FHPo)
 that simply couldn't be implemented in any other mainstream language except Haskell[3].
-If you really want to blow your mind, 
+
+The really wonderful part? Both of these things work with ordinary values.
+So if I want to integrate them with e.g. spray, I can make a routing directive
+that says to perform the database operation that a given value represents.
+And this will be a first-class directive, that I can use in a route definition
+exactly like any of the built-in spray directives. 
 
 ## Pair-programming and code reviews
 
