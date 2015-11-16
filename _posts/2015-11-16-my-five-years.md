@@ -79,7 +79,7 @@ I'd say a similar thing about ScalaTest.
 If you find Cucumber-like frameworks useful, then ScalaTest is a great one.
 But if you don't like that kind of framework, it's fine to keep using JUnit.
 
-## You don't need to learn much to get started
+## You don't need to learn much to get started...
 
 If you want to approach Scala as a new language then you can.
 But if you're not going to maintain an existing Scala codebase,
@@ -87,22 +87,24 @@ it's fine to just make a `.scala` file in your IDE and start typing Java there.
 (I guess you need to learn `val` and `def`, but that's about it)
 Save your semicolon finger, and then learn more as and when you need to.
 
-## Use the frameworks you're used to...
-
 Play is a fine framework.
 But personally I prefer to stick with Wicket, and Scala makes that easy.
 In my early days of Scala I kept using Spring,
 and even today I still use Hibernate.
 
-## ...but do adopt idiomatic things eventually
+## ...but do adopt the idioms eventually
 
-Writing Scala in one or two files is an easy first step, but getting
+Writing Scala in one or two files is an easy first step, but getting 
 
 ## Pair-programming and code reviews
 
 Even on teams where everyone was hired as a Scala developer,
 there can be a wide range of skill levels,
 and this goes triple when just adopting Scala.
+I've found pair-programming the best way to learn, and probably the best way to teach.
+And for an experienced dev chomping at the bit to use advanced libraries or features,
+the most effective case is to be able to look at some code under review,
+and then
 
 ## Notes
 
