@@ -96,7 +96,8 @@ and even today I still use Hibernate.
 
 Writing Scala in one or two files is an easy first step, but getting a team onboard
 is a big investment, particularly if you have coverage tools, runtime instrumentation
-and the like. So you should get your money's worth, and do 
+and the like. So you should get your money's (well, time's) worth,
+and take advantage of the things that are only possible in Scala.
 
 ## Pair-programming and code reviews
 
