@@ -110,7 +110,10 @@ I've found pair-programming the best way to learn, and probably the best way to 
 And for an experienced dev chomping at the bit to use advanced libraries or features,
 the most effective argument you can make is to look at some code under review,
 and explain exactly how using an applicative functor (for example)
-would save lines of code.
+would save lines of code,
+or how ordinary good engineering practices like factoring out repeated code
+naturally lead to using a datatype that already exists in ScalaZ
+(which happens extremely often).
 
 ## Notes
 
@@ -124,4 +127,7 @@ but I doubt that could be introduced in a backwards-compatible way.
 
 [3] Should you adopt Haskell instead? Maybe. After five years' experience,
 you'll probably be in a better place with Haskell than with Scala.
-But it's very hard to get to there from here; 
+But it's very hard to get to there from here;
+you can't write "Java in Haskell" to start with,
+you can't reuse familiar frameworks,
+and rightly or wrongly, many employers are less willing to try Haskell than Scala.
