@@ -76,7 +76,7 @@ and you're good to go, with declarative builds, well-documented configuration,
 and perfect, instant IDE integration.
 
 I'd say a similar thing about ScalaTest.
-If you find Cucumber-like frameworks useful, then ScalaTest is a great implementation.
+If you find Cucumber-like frameworks useful, then ScalaTest is a great one.
 But if you don't like that kind of framework, it's fine to keep using JUnit.
 
 ## You don't need to learn, you don't need a book
