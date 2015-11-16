@@ -31,4 +31,8 @@ and few find this an issue.
 Scala goes further than most (braces and brackets offer overlapping semantics, and the `_` syntax for lambdas is unique to Scala).
 I find the value of `_` far outweighs the inconsistency it induces;
 I miss it when working without it
-(e.g. Python's `lambda x: x.value`, or Javascript's `function(x){ return x.value;}`)
+(e.g. Python's `lambda x: x.value`, or Javascript's `function(x){ return x.value;}`).
+Some libraries offer the same functionality through libraries,
+of lesser or greater hackishness
+(the reflection-based FunctionalJava is thankfully less necessary post-Java-8,
+but many Python or Javascript options operate in similar fashion).
