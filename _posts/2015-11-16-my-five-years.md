@@ -94,7 +94,9 @@ and even today I still use Hibernate.
 
 ## ...but do adopt the idioms eventually
 
-Writing Scala in one or two files is an easy first step, but getting 
+Writing Scala in one or two files is an easy first step, but getting a team onboard
+is a big investment, particularly if you have coverage tools, runtime instrumentation
+and the like. So you should get your money's worth, and do 
 
 ## Pair-programming and code reviews
 
