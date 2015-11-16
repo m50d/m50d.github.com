@@ -98,7 +98,8 @@ Writing Scala in one or two files is an easy first step, but getting a team onbo
 is a big investment, particularly if you have coverage tools, runtime instrumentation
 and the like. So you should get your money's (well, time's) worth,
 and take advantage of the full power of Scala.
-I'd point to things like [treelog](http://typelevel.org/blog/2013/10/18/treelog.html) and [doobie](https://www.youtube.com/watch?v=M5MF6M7FHPo) for 
+I'd point to things like [treelog](http://typelevel.org/blog/2013/10/18/treelog.html) and [doobie](https://www.youtube.com/watch?v=M5MF6M7FHPo)
+that simply couldn't be implemented in any other mainstream language except Haskell[3]
 
 ## Pair-programming and code reviews
 
@@ -119,3 +120,7 @@ and it isn't `DisjunctionT` either.
 
 [2] Really Scala's type system should be able to prevent this,
 but I doubt that could be introduced in a backwards-compatible way.
+
+[3] Should you adopt Haskell instead? Maybe. After five years' experience,
+you'll probably be in a better place with Haskell than with Scala.
+But it's very hard to get to there from here; 
