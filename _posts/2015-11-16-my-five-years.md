@@ -64,6 +64,10 @@ and while I still value composition over inheritance,
 often I'll implement it the same way I would in Java - with composed objects as fields,
 and explicit delegating method implementations.
 
+## SBT really is an undocumented mess, but you don't have to use it
+
+The most unfortunate 
+
 ## Notes
 
 [1] It's aliased as `Disjunction`, but aliases have their own issues
