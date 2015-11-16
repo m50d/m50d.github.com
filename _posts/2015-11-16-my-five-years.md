@@ -8,9 +8,9 @@ Scala is a broad church, as any general-purpose programming language ultimately 
 But let me give my advice from my own 5.5 years of Scala,
 as they have been rather different from [those described here](http://manuel.bernhardt.io/2015/11/13/5-years-of-scala-and-counting-debunking-some-myths-about-the-language-and-its-environment/).
 
-## Avoid NPEs, avoid Exceptions generally
+## Avoid NPEs, avoid Exceptions
 
-Exceptions are an unpleasant surprise; even their biggest fans
+Avoiding NPEs is a great first step, but 
 
 ### Four or more ways to write the same thing
 
