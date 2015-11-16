@@ -54,10 +54,15 @@ by only allowing one parent to have a constructor;
 that take arguments.
 Unfortunately this doesn't mean they don't need to be initialized; in particular,
 `val`s in a mixed-in `trait` will be `null` if you try to access them
-in an earlier constructor.
+in an earlier constructor.[2]
 As with any `null`, in the worst cases you may not get an error until much later on.
+
+I won't say to avoid multiple inheritance entirely, but I do think 
 
 [1] It's aliased as `Disjunction`, but aliases have their own issues
 e.g. they don't show up in type errors.
 Worse is the inconsistency: the corresponding monad transformer is isn't `\/T` -
 and it isn't `DisjunctionT` either.
+
+[2] Really Scala's type system should be able to prevent this,
+but I doubt that could be introduced in a backwards-compatible way.
