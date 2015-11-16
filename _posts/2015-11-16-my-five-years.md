@@ -75,6 +75,11 @@ Just enable the maven scala plugin (and m2eclipse-scala if using eclipse)
 and you're good to go, with declarative builds, well-documented configuration,
 and perfect, instant IDE integration.
 
+I'd say a similar thing about ScalaTest.
+If you find Cucumber-like tools useful, then ScalaTest is a great implementation
+that embeds the DSL in the language.
+But if you don't like that kind of tool, it's fine to keep using JUnit.
+
 ## You don't need to learn, you don't need a book
 
 If you want to approach Scala as a new language then you can.
