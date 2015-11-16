@@ -10,7 +10,10 @@ as they have been rather different from [those described here](http://manuel.ber
 
 ## Avoid NPEs, avoid Exceptions
 
-Avoiding NPEs is a great first step, but 
+Avoiding NPEs is a great first step, but my Scala idiom applies the same reasoning
+to all Exceptions. Even fans of exceptions advise against using them for control flow;
+they make it much harder to reason about code you're reading, and even in a good IDE,
+automated refactoring will often leave you with unwarranted `throws` declarations.
 
 ### Four or more ways to write the same thing
 
