@@ -99,7 +99,8 @@ is a big investment, particularly if you have coverage tools, runtime instrument
 and the like. So you should get your money's (well, time's) worth,
 and take advantage of the full power of Scala.
 I'd point to things like [treelog](http://typelevel.org/blog/2013/10/18/treelog.html) and [doobie](https://www.youtube.com/watch?v=M5MF6M7FHPo)
-that simply couldn't be implemented in any other mainstream language except Haskell[3]
+that simply couldn't be implemented in any other mainstream language except Haskell[3].
+If you really want to blow your mind, 
 
 ## Pair-programming and code reviews
 
@@ -126,7 +127,8 @@ and it isn't `DisjunctionT` either.
 but I doubt that could be introduced in a backwards-compatible way.
 
 [3] Should you adopt Haskell instead? Maybe. After five years' experience,
-you'll probably be in a better place with Haskell than with Scala.
+on a green field project,
+you would probably be in a better place with Haskell than with Scala.
 But it's very hard to get to there from here;
 you can't write "Java in Haskell" to start with,
 you can't reuse familiar frameworks,
