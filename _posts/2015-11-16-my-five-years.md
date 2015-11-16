@@ -100,7 +100,7 @@ Writing Scala in one or two files is an easy first step, but getting
 
 ## Pair-programming and code reviews
 
-There's a lot of variety in 
+Even on teams where everyone was hired as a Scala developer, there can be a wide range of skill levels.
 
 ## Notes
 
