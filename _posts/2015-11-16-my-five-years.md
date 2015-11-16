@@ -109,6 +109,9 @@ exactly like any of the built-in spray directives.
 (Indeed the built-in spray directives are just code, and you can click through
 to their definitions in your IDE and see exactly how they're implemented -
 very different from working with JAX-RS annotations).
+So I have database-session-in-view, but in a principled, refactor-safe way.
+And I can tell whether I need to spin up an in-memory database for
+one of my unit tests by simply reading it off from the type.
 
 ## Pair-programming and code reviews
 
