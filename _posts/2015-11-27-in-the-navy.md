@@ -6,4 +6,4 @@ layout: default
 
 In which Kira joins up.
 
-
+I liked this episode, and based on my recent reading it's more plausible than you might think.
