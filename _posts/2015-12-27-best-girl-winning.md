@@ -8,4 +8,4 @@ Episode 13 is traditionally a climax of some sort, and this doesn't disappoint. 
 
 There's slight disappointment in the descent physics with the engines firing the wrong way (can you tell I've been playing Kerbal Space Program?). More serious are the military matters, but I'm honestly not sure what to think here - Badriguel's conduct evidently amounts to gross insubordination (again), but Ramius must realize that her attention to Kira was dereliction of her own duties. It makes quite a contrast from the tough realist we were originally introduced to, and honestly the transition is pretty jarring.
 
-The main transition this episode though is Kira's - and, more generally, ours - and this the show manages smoothly; 
+The main transition this episode though is Kira's - and, more generally, ours - and this the show manages smoothly. Le Creuset has always been more militaristic than 
