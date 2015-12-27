@@ -12,4 +12,4 @@ The main transition this episode though is Kira's - and, more generally, ours - 
 
 The last and strongest thread, as always, is the red one. Flay honestly does everything right here - daring first to try to fly the gundam (though I wish we could see what would have happened had Kira not arrived), and then leaping further with Kira than many a romance-animé heroine manages in a whole series. There's a wonderful touch of ambiguity after, as we see her putting a finger to her lips in thought - is this the next step in her dastardly plot, or is she genuinely falling for Kira (who, let's not forget, she had some feelings for all along)? Does it even matter?
 
-I remember enough to know this relationship is doomed. But 
+I remember enough to know this relationship is doomed. But for the time being I am genuinely, unironically cheering them, and hoping against hope that this time will somehow be different.
