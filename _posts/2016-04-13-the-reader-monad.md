@@ -57,3 +57,10 @@ authorService: AuthorService[H])(implicit fg: MonadPartialOrder[F, G], fh: Monad
             books <- fg(author.books.traverse(booksService.get))
         } yield books
 ````
+
+The end result is that we make testing very easy: our unit tests can follow the exact same code paths as live code, but without having to worry about any effects.
+
+````scala
+class AggregateBooksService2Test {
+    val 
+}
