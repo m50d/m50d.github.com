@@ -45,4 +45,15 @@ class AggregateBooksService[F[_]: Monad](booksService: BooksService[F], authorSe
         } yield books
 ````
 
-If we want to use different
+What if `booksService` and `authorService` use different effect stacks? No problem, we can use `MonadPartialOrder` to handle both:
+
+````scala
+class AggregateBooksService2[F[_]: Monad, G[_], H[_]](booksService: BooksService[G], 
+authorService: AuthorService[H])(implicit fg: MonadPartialOrder[F, G], fh: MonadPartialOrder[F, G]) extends IAggregateBooksService[F] {
+    def fetchAllBooksBySameAuthorAs(bookId: Int): F[Vector[Book]] =
+    	for {
+        	book <- fg(booksService.get(bookId))
+            author <- fh(authorService.get(book.authorId))
+            books <- fg(author.books.traverse(booksService.get))
+        } yield books
+````
