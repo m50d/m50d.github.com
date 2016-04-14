@@ -15,4 +15,10 @@ class CacheingBooksService extends BooksService[Reader[CacheApi, ?]] {
 }
 ````
 
+This is a general pattern: there are many other "effects" that we might want to keep track of in different implementations of an interface:
 
+````scala
+class RemotedBooksService extends BooksService[Future] {
+    def get(id: Int): 
+}
+````
