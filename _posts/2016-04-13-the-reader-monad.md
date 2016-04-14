@@ -62,5 +62,11 @@ The end result is that we make testing very easy: our unit tests can follow the 
 
 ````scala
 class AggregateBooksService2Test {
-    val 
+    val stubBooksService: BooksService[Id] = ...
+    val stubAuthorService: AuthorService[Id] = ...
+    val aggregateBooksService2 = new AggregateBooksService2[Id, Id, Id](stubBooksService, stubAuthorService)
+    ...
 }
+````
+
+And while effects - such as dependencies
