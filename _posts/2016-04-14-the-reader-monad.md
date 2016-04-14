@@ -1,5 +1,5 @@
 ---
-published: false
+layout: default
 title: The Reader Monad is a Monad
 ---
 
