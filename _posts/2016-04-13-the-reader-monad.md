@@ -31,3 +31,15 @@ class AuthorizedDoobieBookService extends BooksService[EitherT[ConnectionIO, Una
     def get(id: Int): EitherT[ConnectionIO, Unauthorized, Book] = ...
 }
 ````
+
+We can use all these implementations and more with the same client code, because all these things are monads:
+
+````scala
+class AggregateBooksService[F[_]: Monad](booksService: BooksService[F], authorService: AuthorService[F])
+    def fetchAllBooksBySameAuthorAs(bookId: Int): F[Vector[Book]] =
+    	for {
+        	book <- booksService.get(bookId)
+            author <- authorService.get(book.authorId)
+            books <- author.books.traverse(booksService.get)
+        } yield books
+````
