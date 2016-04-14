@@ -19,6 +19,15 @@ This is a general pattern: there are many other "effects" that we might want to 
 
 ````scala
 class RemotedBooksService extends BooksService[Future] {
-    def get(id: Int): 
+    def get(id: Int): Future[Book] = ...
+}
+class TreelogBookService extends BooksService[DescribedComputation] {
+    def get(id: Int): DescribedComputation[Book] = ...
+}
+class DoobieBookService extends BooksService[ConnectionIO] {
+    def get(id: Int): ConnectionIO[Book] = ...
+}
+class AuthorizedDoobieBookService extends BooksService[EitherT[ConnectionIO, Unauthorized, ?]] {
+    def get(id: Int): EitherT[ConnectionIO, Unauthorized, Book] = ...
 }
 ````
