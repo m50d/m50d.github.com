@@ -7,7 +7,7 @@ I took a [Category Theory course](http://gopher.srcf.net:70/users/md401/pt3notes
 
 Fortunately, in software we know how to avoid this: Agile. So let's talk through (an anonymized version of) a real-life problem I had at work, and the abstraction that can be used to solve it - no theory, just programming.
 
-##Level 1: Flatmap that Shit
+## Level 1: Flatmap that Shit
 
 Suppose we have a series of functions that might fail - perhaps they're calls to remote webservices that could go down.
 
@@ -33,7 +33,7 @@ Even typing this makes me feel ill - and replacing the ifs and gets with cases a
     def doFunctionsInSequence2(): Option[Set[Int]] =
       f1(null) flatMap f2 flatMap f3
 
-##Level 2: "for", not just for collections any more
+## Level 2: "for", not just for collections any more
 
 Flatmap is great when each step is an existing function - but when each stage is a handful of statements that don't make sense as a function in their own right, we can easily end-up in callback hell with the so-called [pyramid of doom](http://raynos.github.com/presentation/shower/controlflow.htm?full#PyramidOfDoom)
 
@@ -85,7 +85,7 @@ I've seen worse code in my time, but this is pretty nasty. We can make it cleare
 
 Still not the nicest function in the world, but it's a definite improvement.
 
-##Level 3: Let's traverse a collection
+## Level 3: Let's traverse a collection
 
 I left the Set\[Int\] 'til last in the previous example, because using it presents a problem. Often we want to fetch a set (or list, or map... but let's not get ahead of ourselves) from one web service, and then call another service for each element - imagine a twitter-like service where we fetch all the tweets for a given user by calling one service to get their IDs, and then call another service with each ID to fetch the tweets themselves. So we want to write something like this:
 
@@ -150,7 +150,7 @@ When working with several APIs of this form, we might find ourselves wanting to 
           addToFutureTL)
     }
 
-##Level 4: Genericity in the context itself
+## Level 4: Genericity in the context itself
 
 Now we know how to handle collections when we're working with Futures. But we might hit the same problem when working with Options as before:
 
