@@ -124,7 +124,7 @@ This is the right balance; unlike a sequence of chained callbacks, the logic is 
 
 Making it easy to work with these kind of contexts doesn't just make existing code simpler, it makes new approaches possible. Possibly Scala's greatest advantage is that it gives you the power to handle cross-cutting concerns, by expressing them in the type system. At my previous job we used monad techniques to record an audit trail of when certain actions occurred, without visually cluttering the business logic. A checked approach to error handling or validation becomes practical when only the code that throws and the code that catches need to know the explicit exception types (to the intervening methods, it's just a generic context). I've even seen [this style suggested for dependency injection](http://blog.originate.com/blog/2013/10/21/reader-monad-for-dependency-injection/) - something where traditional Java takes a very different approach...
 
-##You're putting parts of your logic in config files, or embedded languages, or annotations
+## You're putting parts of your logic in config files, or embedded languages, or annotations
 
 What makes Java compelling isn't so much the language itself as the ecosystem around it. Not just libraries and frameworks, but also tooling: first-class IDEs, debuggers, profilers, code analyzers, monitoring tools. The language makes a claim to a certain kind of simplicity (at least if we avoid primitive types and arrays) - everything is an object, all code reuse is through inheritance, all concurrency is ultimately using the same thread primitives - and hiring programmers is easier than for many languages because there's a large pool of programmers available (at various levels of experience, ability and salary).
 
