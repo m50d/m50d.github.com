@@ -1,5 +1,4 @@
 ---
-published: false
 layout: default
 title: Strength of Character (Gundam Seed 18)
 ---
