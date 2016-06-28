@@ -13,3 +13,7 @@ Partly it's the gratuitous fanservice. But mostly, I think, it's the characteriz
 Not that control always works out for *Gundam* characters. I'm currently near the end of *Iron Blooded Orphans*, where the princess-type character starts the conflict - only to find the exigencies of war push her further into a particular role. *Gundam* has always been anti-war, and one side of that is the belief that no-one (or very few people) actually wants it. This necessarily leads to a certain weakness of character - people don't want to fight but have let themselves be swept along with it - just as Kira has in this series. One could argue that's realism at work, but it doesn't make for great viewing.
 
 Kira, then, is the weakest link here. An episode or two ago I was talking about how interesting his conflicts were - but that only holds if we can see them. Today he feels like a blank slate (or the notorious self-insert harem lead archetype) that the plot moves around - not helped by what's hard not to read as a totally unnecessary attempt to set up a love triangle with Cagalli. Everyone worrying about his mental state was one thing; everyone worrying about his love life is quite another.
+
+![](/asg3.jpg)
+
+There was 
