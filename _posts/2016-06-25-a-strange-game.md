@@ -16,4 +16,4 @@ Kira, then, is the weakest link here. An episode or two ago I was talking about 
 
 ![](/asg3.jpg)
 
-And yet somehow, it didn't matter. There were a bunch of clever allusions and callbacks here - Kira again surprised that Cagalli is a girl, La Flaga unwilling to really take issue with Kira's fraternization when really it's Ramius who has no leg to stand on, Flay cleaning up the Gundam cockpit just in time for Sai to jump in.
+And yet somehow, it didn't matter. There were a bunch of clever allusions and callbacks here - Kira is again surprised that Cagalli is a girl, their dialogue mirroring the first time they met. La Flaga (very much the flamboyant womanizer who never actually does anything) is unwilling to make an issue of Kira's fraternization when really it's Ramius who's being hypocritical. , Flay cleaning up the Gundam cockpit just in time for Sai to jump in.
