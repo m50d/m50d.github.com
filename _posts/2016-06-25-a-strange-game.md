@@ -8,6 +8,6 @@ And yet somehow it manages to be utterly compelling. Indeed this is one of the f
 
 ![](/asg1.jpg)
 
-Partly it's the gratuitous fanservice. But mostly, I think, it's the characterization. Wartfeld is this mass of contradictions but somehow consistent about it; at the very least, this particular act fits his personality perfectly. Cagalli clings to her anger because it's the only control she has - "If you didn't talk, you'd be the perfect woman" is crasser than the way the resistance idolises her, but both are coming from the same place.
+Partly it's the gratuitous fanservice. But mostly, I think, it's the characterization. Wartfeld is this mass of contradictions but somehow consistent about it; at the very least, this particular act fits his personality perfectly. Cagalli clings to her anger because it's the only control she has - Wartfeld's "if you didn't talk, you'd be the perfect woman" is crasser than the way the resistance idolises her, but both are coming from the same place.
 
 I'm currently near the end of *Iron Blooded Orphans* - it's interesting to see how much has changed and how much has stayed the same. *Gundam* has always prided itself on its realism,
