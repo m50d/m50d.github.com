@@ -17,3 +17,8 @@ Kira, then, is the weakest link here. An episode or two ago I was talking about 
 ![](/asg3.jpg)
 
 And yet somehow, it didn't matter. There were a bunch of clever allusions and callbacks here - Kira is again surprised that Cagalli is a girl, their dialogue mirroring the first time they met. La Flaga (very much the flamboyant womanizer who never actually does anything) is unwilling to make an issue of Kira's fraternization when really it's Ramius who's being hypocritical. Flay cleans out the Gundam cockpit just in time for Sai to jump in - do we think perhaps he might have hesitated if it had been more lived in?
+
+Nah, probably not. It's Sai.
+
+![](/asg2.jpg)
+
