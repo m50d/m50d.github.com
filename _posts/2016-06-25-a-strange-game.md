@@ -16,4 +16,4 @@ Kira, then, is the weakest link here. An episode or two ago I was talking about 
 
 ![](/asg3.jpg)
 
-There was 
+And yet somehow, it didn't matter. There were a bunch of clever allusions and callbacks here - Kira again surprised that Cagalli is a girl, 
