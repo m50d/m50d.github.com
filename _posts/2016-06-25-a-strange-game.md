@@ -1,6 +1,7 @@
 ---
-published: false
+published: true
 title: A Strange Game (Gundam Seed 19)
+layout: default
 ---
 On paper this is a bridging episode - filler even. There are no robot fights, no real plot developments (buying new munitions could easily be done offscreen, or even ignored entirely), and the "villains out shopping" gimmick is implausible at the best of times. Sure, Wartfeld gets a chance to expound on the show's themes - human development and the avoidability of conflict - but he's not saying anything we haven't heard already.
 
