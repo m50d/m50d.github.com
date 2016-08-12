@@ -9,4 +9,6 @@ This is a return not just to plot but to action - something I feel predictably l
 
 The trouble is none of this is new. Every character is doing what we'd expect of them - and while consistent characterization is good, we're not learning anything. In this whole battle it feels like there was not one important decision, not one place where the outcome hung in the balance and could have turned out very differently. Even Wartfeld's death felt like the inevitable result of his character and his actions before this point - he cannot return in failure, but neither can he stand to kill Kira, so this is the only route that remains.
 
+So while in a strict sense this episode advanced the plot - Wartfeld was alive before, and is dead now - in another sense it feels like we haven't made any progress. I'm actually looking forward to the coming beach episode - it seems likely to contain more meaningful developments than this one. Plus, Best Girl returns.
+
 ![](/eob.jpg)
