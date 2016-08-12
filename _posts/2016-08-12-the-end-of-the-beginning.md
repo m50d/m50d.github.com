@@ -3,4 +3,4 @@ published: false
 layout: default
 title: The End of the Beginning (Gundam Seed 21)
 ---
-So, farewell then, Wartfeld. Honestly I wasn't expecting to lose him so soon - his popularity belies how few episodes he's present for. 
+So, farewell then, Wartfeld. Honestly I wasn't expecting to lose him so soon - his popularity belies how few episodes he's present for. Like Lancer in *Fate/Stay Night*, he turns up, is very cool, and dies before he can start to grate.
