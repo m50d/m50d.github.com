@@ -8,8 +8,8 @@ There's [a good explanation of the equivalence between monads and monoids in the
     }
     type Id[A] = A
     trait Monoid[A] {
-      def zero: Unit => A
-      def plus: (a1: Unit => A, a2: Unit => A): Unit => A
+      def zero: A
+      def plus(as: (A, A)): A
     }
     trait MonoidE[F[_]] {
       def zero: Id ~> F
