@@ -1,6 +1,6 @@
 ---
 layout: default
-title: You Could Have Invented the Validation Monad
+title: You Could Have Invented the Disjunction Monad
 published: true
 ---
 
@@ -13,7 +13,7 @@ Imagine you have a bunch of functions that might return success or error. Go has
     
     def readFile(filename: String): Success[File] | Error
 
-The | is made up syntax, unfortunately (at least for now) - to declare a function like this we need an inheritance hierarchy:
+The \| is made up syntax, unfortunately (at least for now) - to declare a function like this we need an inheritance hierarchy:
 
     sealed trait SuccessOrError[A]
     case class Error[A](e: Exception) extends SuccessOrError[A]
@@ -38,7 +38,7 @@ And we use it something like this:
             
 Even with only two uses, we're clearly heading towards a pyramid of doom. Some Go advocates suggest moving the error branches as early as possible, using short-circuit return to leave the function in the error case, leaving the rest of the body to handle only the success path. This improves the superficial appearance of the code, but the fundamental problem remains: this function has a far too high branching factor, too many code paths for what it's doing, making it harder to test, harder to reason about, and harder to refactor.
 
-Let's take another look at those pattern matches. We're matching two subtypes of a common interface, and doing something fundamental to that common type - "do this if it's a success, if it's an error do nothing". Like many naive uses of pattern matching, it's a better fit for polymorphism:
+Let's take another look at those pattern matches. We're matching two subtypes of a common interface, and doing something fundamental to that common type - "do this if it's a success, if it's an error do nothing". Like many naïve uses of pattern matching, it's a better fit for polymorphism:
 
     sealed trait SuccessOrError[A] {
         def runIfSuccess(f: A => Unit): Unit
@@ -72,7 +72,7 @@ Actually we want to do a little more than just "run" f for side effects - we wan
             }
     }
 
-Unfortunately this gives us a SuccesOrError[SuccessOrError[Result]]. We need to be able to handle the "inner" method returning a SuccessOrError, so we need two methods:
+Unfortunately this gives us a `SuccesOrError[SuccessOrError[Result]]`. We need to be able to handle the "inner" method returning a `SuccessOrError`, so we need two methods:
 
     sealed trait SuccessOrError[A] {
         def map[B](f: A => B): SuccessOrError[B]
@@ -87,7 +87,7 @@ Unfortunately this gives us a SuccesOrError[SuccessOrError[Result]]. We need to 
         def flatMap[B](f: A => SuccessOrError[B]) = f(result)
     }
 
-Regular readers will know that these method names are special to scala, allowing us to use these types in a for comprehension:
+Regular readers will know that these method names are special to Scala, allowing us to use these types in a for comprehension:
 
     for {
        file1 <- readFile("filename1")
@@ -95,4 +95,4 @@ Regular readers will know that these method names are special to scala, allowing
        file2 <- readFile(filename2)
     } yield computeFinalResultFromFiles(file1, file2)
 
-And there we have it. You'll find this type in Scalaz as "Validation".
+And there we have it. You'll find this type in Scalaz as `Disjunction`.
