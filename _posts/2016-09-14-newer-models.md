@@ -11,4 +11,4 @@ The romance in *Gundam Seed* is strangely bloodless throughout; even when explic
 
 Or else this scene is supposed to be another indication of Flay's gradual descent into madness. That's fine in itself, just as one can justify Athrun and Lacus' friendzonetastic betrothal, or Ramius' barely-shown fraternization, in isolation. But put it all together and we have a show where a key aspect of human life is missing. And a show about teenagers at that. The conspiracy theory - that *Gundam* doesn't want to alienate the post-*Wing* core audience of yaoi fangirls by showing hetrosexual romance - is pretty implausible, but it's enough to make one think.
 
-The remainder of the episode 
+The remainder of the episode is lukewarm in a different way: we start with a celebration/funeral for the end of the previous arc, and 
