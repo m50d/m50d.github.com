@@ -7,4 +7,4 @@ title: Newer Models (Gundam Seed 22)
 
 I think I would've preferred a beach episode.
 
-The romance in *Gundam Seed* is strangely bloodless throughout; even when explicitly sleeping together, Kira and Flay feel curiously uninvolved. But it's worst of all with Cagalli; Kira has some half-baked inclination to protect her, 
+The romance in *Gundam Seed* is strangely bloodless throughout; even when explicitly sleeping together, Kira and Flay feel curiously uninvolved. But it's worst with Cagalli; Kira has some barely-sketched half-baked inclination to protect her, and the series seems to think that constitutes a relationship.
