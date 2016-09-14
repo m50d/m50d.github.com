@@ -7,4 +7,4 @@ title: Newer Models (Gundam Seed 22)
 
 I think I would've preferred a beach episode.
 
-The romance in *Gundam Seed* is strangely bloodless throughout. 
+The romance in *Gundam Seed* is strangely bloodless throughout; nowhere is this more keenly felt than with Cagalli. 
