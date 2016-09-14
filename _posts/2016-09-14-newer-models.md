@@ -1,5 +1,4 @@
 ---
-published: false
 layout: default
 title: Newer Models (Gundam Seed 22)
 ---
