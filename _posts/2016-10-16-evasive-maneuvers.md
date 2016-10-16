@@ -1,5 +1,6 @@
 ---
-published: false
+layout: default
+title: "Evasive Maneuvers (Gundam Seed 23)"
 ---
 ![](/aileron-roll-barrel-roll-differences.jpg)
 
