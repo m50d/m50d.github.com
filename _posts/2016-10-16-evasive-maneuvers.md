@@ -5,4 +5,4 @@ published: false
 
 The Earth Forces' training has some serious deficiencies.
 
-Military discipline breaks down further this episode - we open with La Flaga disrespecting his commanding officer, and concluding with Cagalli 
+Military discipline breaks down further this episode - we open with La Flaga disrespecting his commanding officer and Kira's friends contemplating desertion, and conclude with the civilian Cagalli 
