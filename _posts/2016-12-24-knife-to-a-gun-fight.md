@@ -6,4 +6,4 @@ title: Knife to a Gun Fight (Gundam Seed 24)
 
 Sometimes it's about knowing when to relax.
 
-What I loved about this episode was how it subtly showed how dangerous Coordinators are. Cagalli has Athrun at gunpoint more than once, but it's never more than a minor inconvenience: 
+What I loved about this episode was how it subtly showed how dangerous Coordinators are. Cagalli has Athrun at gunpoint more than once, but it's never more than a minor inconvenience: he can't quite dodge bullets, but he can run so fast as to be close enough.
