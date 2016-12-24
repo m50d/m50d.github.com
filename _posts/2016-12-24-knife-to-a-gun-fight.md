@@ -1,6 +1,5 @@
 ---
-published: false
-title: Knife to a Gun Fight (Gundam Seed 24)
+title: "Knife to a Gun Fight (Gundam Seed 24)"
 layout: default
 ---
 ![](/kgf.jpg)
