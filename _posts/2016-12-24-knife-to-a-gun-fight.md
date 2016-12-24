@@ -12,7 +12,7 @@ It's a good episode on the surface level too. Recapitulating the essential plot 
 
 Like the show as a whole it's moving - and flawed. Even for someone as young and impulsive as Cagalli has been shown to be, her flip from hostility to friendliness during the climax strains belief. This episode's conclusion, with both pilots going their separate ways, is unsatisfying, and, well, inconclusive, as far too many episodes of this show are forced to be: it's very hard to tell what's fundamentally a war story if you're unwilling to kill your characters.
 
-But in every other respect this episode is a triumph - especially the role of Cagalli. Uncomfortable in a possible-romance last episode, here she's in her element: a talented fighter who works incredibly hard at trying to escape and win, even when the situation has her doomed from the start. 
+But in every other respect this episode is a triumph - especially the role of Cagalli. Uncomfortable in a possible-romance last episode, here she's in her element: a talented fighter who works incredibly hard at trying to escape and win, even when the situation leaves her doomed from the start. 
 
 One more highlight: there's the briefest scene of fun role-reversal immedately following the fight - Athrun underdressed and vulnerable, being restrained by a soldierly Cagalli.
 
