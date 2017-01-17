@@ -2,7 +2,7 @@
 published: false
 title: Becoming More Functional
 ---
-This has come up a few times on reddit.
+A few times on reddit, people have asked how to
 
 Your list is pretty good, and I think the best practices you link is good. Some next steps I'd say are:
 
