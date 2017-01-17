@@ -6,7 +6,7 @@ People on [/r/scala](https://www.reddit.com/r/scala/) sometimes ask how to make 
 
  * `reduce` should often be `suml` - you may need to define a `Monoid` instance for your type, or use [shapeless-scalaz](https://github.com/typelevel/shapeless-contrib) to derive one.
  * `map` followed by `sum` is `foldMap`.
- * foldLeft where the body includes a flatMap should be written as traverse
+ * `foldLeft` where the body includes a `flatMap` should usually be `traverse` (or `sequence`)
  * map(_.map(...)) (or similarly with flatMap) probably indicates you should be using a monad transformer
  * if a parameter is passed down untouched through several layers of function calls it might be better for those functions to return Reader
  * if you pass a "secondary" parameter in and out (by returning tuples) of a series of functions it might be better for those functions to return State
@@ -19,8 +19,6 @@ People on [/r/scala](https://www.reddit.com/r/scala/) sometimes ask how to make 
  * if you have some construct that needs to only be "executed" in a particular context (i.e. certain things need to happen before and after) consider introducing a monad
  * if you have a sealed set of "commands" but also want to allow arbitrary pure functions that should be part of the same "execution", consider a free monad
  * if you're stacking a lot of "unrelated" monads maybe you want a free coproduct (kind of an open "research" area in Scala as in there are a bunch of libraries being written in search of the right way to do this - freek sounds promising)
- * reduce is often a sign that you should define a monoid and use monoid sum.
- * `map` followed by sum is `foldMap`
  * folds that use `flatMap`s can usually be replaced with `traverse`/`sequence`
  * other folds can sometimes be replaced by specific methods e.g. `find`, `exists`, `groupBy`. Basically `foldLeft` is a very general/powerful method which makes it hard to reason about, it's best to use more specific things whenever you can.
  * `match` constructs are easy to write unsafely and can often be replaced with `fold` (e.g. never `match` an `Option` or an `Either` (unless you need to for `@tailrec`))
