@@ -2,7 +2,7 @@
 published: false
 title: Becoming More Functional
 ---
-People on [/r/scala](https://www.reddit.com/r/scala/) sometimes ask how to make their Scala
+People on [/r/scala](https://www.reddit.com/r/scala/) sometimes ask how to make their Scala more functional, or about what "advanced" techniques they should learn.
 
 http://twitter.github.io/effectivescala/
 Your list is pretty good, and I think the best practices you link is good. Some next steps I'd say are:
