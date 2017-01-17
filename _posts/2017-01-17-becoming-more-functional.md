@@ -2,8 +2,9 @@
 published: false
 title: Becoming More Functional
 ---
-A few times on reddit, people have asked how to
+A couple of times now people have asked on reddit about few times on reddit, people have asked how to
 
+http://twitter.github.io/effectivescala/
 Your list is pretty good, and I think the best practices you link is good. Some next steps I'd say are:
 
  * reduce should often be sum (introducing a monoid instance for that type)
