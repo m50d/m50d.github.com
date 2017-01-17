@@ -8,7 +8,7 @@ People on [/r/scala](https://www.reddit.com/r/scala/) sometimes ask how to make 
 
 `foldLeft` is [a very general/powerful method which makes it hard to reason about](http://www.lihaoyi.com/post/StrategicScalaStylePrincipleofLeastPower.html) - it's more or less as powerful as a general imperative `for` loop - though at least it reduces the scope of the "variables" and makes it explicit exactly what is being threaded through each iteration. Still, it's best to use more specific constructs when you can:
 
- * Sometimes there is simply a method for your case e.g. `find`, `exists`, `groupBy`, `partition`.
+ * Sometimes there is simply a method for your case e.g. `find`, `forall` `exists`, `groupBy`, `min`, `max` and `partition`. ScalaZ `separate` also sees some use.
 
  * `reduce` should often be `suml` - you may need to define a `Monoid` instance for your type, or use [shapeless-scalaz](https://github.com/typelevel/shapeless-contrib) to derive one.
  * `map` followed by `sum` is `foldMap`.
