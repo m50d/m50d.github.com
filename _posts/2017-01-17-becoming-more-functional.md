@@ -2,7 +2,7 @@
 published: false
 title: Becoming More Functional
 ---
-I've been doing Scala for 7 years now and I'm still figuring out new things. I think it's important to realise that a codebase is never "done", and that this year's code will always be better than last year's code - rather than trying to do a bunch of up-front refactorings it's better to adopt an idea of continuous improvement where as and when you work in a given area you bring it up to the current standards.
+This has come up a few times on reddit.
 
 Your list is pretty good, and I think the best practices you link is good. Some next steps I'd say are:
 
