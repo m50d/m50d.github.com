@@ -2,7 +2,7 @@
 published: false
 title: Becoming More Functional
 ---
-A couple of times now people have asked on reddit about few times on reddit, people have asked how to
+People on [/r/scala](https://www.reddit.com/r/scala/) sometimes ask how to make their Scala
 
 http://twitter.github.io/effectivescala/
 Your list is pretty good, and I think the best practices you link is good. Some next steps I'd say are:
