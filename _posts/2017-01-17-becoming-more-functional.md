@@ -4,8 +4,8 @@ title: Becoming More Functional
 ---
 People on [/r/scala](https://www.reddit.com/r/scala/) sometimes ask how to make their Scala more functional, or about what "advanced" techniques they should learn. This is a list aimed at people who already follow the [twitter Scala style guide](http://twitter.github.io/effectivescala/), and want to know where to go from there. I'll assume [ScalaZ](https://github.com/scalaz/scalaz) is in scope (because I can't find the scaladocs for Cats); [learning ScalaZ](http://eed3si9n.com/learning-scalaz/7.0/) may be a useful reference for some things.
 
- * `reduce` should often be sum (introducing a monoid instance for that type)
- * map followed by sum is foldMap
+ * `reduce` should often be `suml` - you may need to define a `Monoid` instance for your type, or use [shapeless-scalaz](https://github.com/typelevel/shapeless-contrib) to derive one.
+ * `map` followed by `sum` is `foldMap`.
  * foldLeft where the body includes a flatMap should be written as traverse
  * map(_.map(...)) (or similarly with flatMap) probably indicates you should be using a monad transformer
  * if a parameter is passed down untouched through several layers of function calls it might be better for those functions to return Reader
