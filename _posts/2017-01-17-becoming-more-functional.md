@@ -19,7 +19,6 @@ People on [/r/scala](https://www.reddit.com/r/scala/) sometimes ask how to make 
  * if you have some construct that needs to only be "executed" in a particular context (i.e. certain things need to happen before and after) consider introducing a monad
  * if you have a sealed set of "commands" but also want to allow arbitrary pure functions that should be part of the same "execution", consider a free monad
  * if you're stacking a lot of "unrelated" monads maybe you want a free coproduct (kind of an open "research" area in Scala as in there are a bunch of libraries being written in search of the right way to do this - freek sounds promising)
- * folds that use `flatMap`s can usually be replaced with `traverse`/`sequence`
  * other folds can sometimes be replaced by specific methods e.g. `find`, `exists`, `groupBy`. Basically `foldLeft` is a very general/powerful method which makes it hard to reason about, it's best to use more specific things whenever you can.
  * `match` constructs are easy to write unsafely and can often be replaced with `fold` (e.g. never `match` an `Option` or an `Either` (unless you need to for `@tailrec`))
  * `if`/`else` is generally a sign that you want an ADT (`sealed trait`). So is a datastructure full of `Option`s or `Either`s, especially if there are invariants that relate them (e.g. "if `a` is `Some` then `b` is `Left`"). Define a `fold` method on your ADT
