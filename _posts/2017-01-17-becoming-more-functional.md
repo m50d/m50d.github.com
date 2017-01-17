@@ -2,9 +2,11 @@
 published: false
 title: Becoming More Functional
 ---
-People on [/r/scala](https://www.reddit.com/r/scala/) sometimes ask how to make their Scala more functional, or about what "advanced" techniques they should learn. I've posted the same list often enough that I figured it was worth giving it a more permanent home.
+People on [/r/scala](https://www.reddit.com/r/scala/) sometimes ask how to make their Scala more functional, or about what "advanced" techniques they should learn. It's aimed at people who already follow the [twitter Scala style guide](http://twitter.github.io/effectivescala/)
 
-http://twitter.github.io/effectivescala/
+I've posted the same list often enough that I figured it was worth giving it a more permanent home.
+
+
 Your list is pretty good, and I think the best practices you link is good. Some next steps I'd say are:
 
  * reduce should often be sum (introducing a monoid instance for that type)
