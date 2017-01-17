@@ -2,7 +2,7 @@
 published: false
 title: Becoming More Functional
 ---
-People on [/r/scala](https://www.reddit.com/r/scala/) sometimes ask how to make their Scala more functional, or about what "advanced" techniques they should learn. This is a list aimed at people who already follow the [twitter Scala style guide](http://twitter.github.io/effectivescala/), and want to know where to go from there.
+People on [/r/scala](https://www.reddit.com/r/scala/) sometimes ask how to make their Scala more functional, or about what "advanced" techniques they should learn. This is a list aimed at people who already follow the [twitter Scala style guide](http://twitter.github.io/effectivescala/), and want to know where to go from there. I'll assume the use of [cats](http://typelevel.org/cats/).
 
  * reduce should often be sum (introducing a monoid instance for that type)
  * map followed by sum is foldMap
@@ -40,7 +40,6 @@ People on [/r/scala](https://www.reddit.com/r/scala/) sometimes ask how to make 
  
  # Things to not bother with
  
-   * Don't change IDE at the same time as introducing scala - if you're used to eclipse, stick with it
    * Don't bother with sbt - use maven (until you need to cross-build libraries)
    * Don't bother with scalatest, or any fancy "tests in plain english" library - use plain junit
    * Don't use the cake pattern or reader monad. If you're using Spring or similar, keep using it for now - just make sure you use constructor injection rather than field injection.
