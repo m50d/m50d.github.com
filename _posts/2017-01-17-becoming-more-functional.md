@@ -21,9 +21,11 @@ People on [/r/scala](https://www.reddit.com/r/scala/) sometimes ask how to make 
   * This is particularly useful for structured logging, possibly with the [treelog](https://github.com/lancewalton/treelog) library
  * If you want to thread a secondary value through a series of function calls that also need to change that secondary value, use `State`
  * For validation-like code:
-  * Want fail-fast? Use `Either` (or in pre-2.12 Scala, ScalaZ `\/` or Cats `Xor`).
+  * Want fail-fast? Use `Either` (or in pre-2.12 Scala, ScalaZ `\/` or Cats `Xor`)
   * Want to accumulate all failures? Use `Validation` and accept that you won't be able to use `for`/`yield`
-  * Want to accumulate failures but still return a result value even if there are failures? Use `Writer`.
+   * `for`/`yield` can't accumulate all errors, because later validations are allowed to depend on the successful results of earlier ones
+   * Look at applicative chaining (using `*>`) or "applicative builder syntax" (using `|@|`/`⊛`) instead.
+  * Want to accumulate failures but still return a result value even if there are failures? Use `Writer`
  
 # Use ADTs and avoid branching
 
