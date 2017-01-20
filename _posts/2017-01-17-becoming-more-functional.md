@@ -19,8 +19,8 @@ People on [/r/scala](https://www.reddit.com/r/scala/) sometimes ask how to make 
 
  * Code that produces a value and accumulate a secondary value (often a list) should be represented as `Writer`
   * This is particularly useful for structured logging, possibly with the [treelog](https://github.com/lancewalton/treelog) library
- * Any construction that threads a secondary "state" value through should be represented as `State` 
- * Cheat sheet for validation-like code:
+ * If you want to thread a secondary value through a series of function calls that also need to change that secondary value, use `State`
+ * For validation-like code:
   * Want fail-fast? Use `Either` (or in pre-2.12 Scala, `\/` or `Xor`)
   * Want to accumulate all failures? Use `Validation` and accept that you won't be able to use `for`/`yield`
   * Want to accumulate failures but still return a value in the failure case? Use `Writer`
