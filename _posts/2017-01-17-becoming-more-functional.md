@@ -17,7 +17,7 @@ People on [/r/scala](https://www.reddit.com/r/scala/) sometimes ask how to make 
  
 # Use standard `for`/`yield`-enabled types for "secondary" parameters and concerns
 
-Often code has to manage a secondary concern as well as the primary thing it does. Often these are application-wide "cross-cutting concerns", e.g. audit logging, database transaction management, async I/O, or error handling.
+Often code has to manage a secondary concern as well as the primary thing it does. Often these are application-wide "cross-cutting concerns", e.g. audit logging, database transaction management, async I/O, or error handling. There is a tension between making these things explicit enough that the reader understands what the code is "actually" doing (and isn't [confused by "magic"](http://thecodelesscode.com/case/211)), and ensuring that the "happy path" and primary concern of the code remains clear.
 
  * Code that produces a value and accumulate a secondary value (often a list) should be represented as `Writer`
   * This is particularly useful for structured logging, possibly with the [treelog](https://github.com/lancewalton/treelog) library
