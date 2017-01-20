@@ -23,10 +23,11 @@ People on [/r/scala](https://www.reddit.com/r/scala/) sometimes ask how to make 
  * For validation-like code:
   * Want fail-fast? Use `Either` (or in pre-2.12 Scala, ScalaZ `\/` or Cats `Xor`)
   * Want to accumulate all failures? Use `Validation` and accept that you won't be able to use `for`/`yield`
-   * `for`/`yield` can't accumulate all errors, because later validations are allowed to depend on the successful results of earlier ones
+   * `for`/`yield` can't accumulate all errors, because later validations are allowed to depend on the results of earlier ones, but if an earlier validation fails there's no input value for the later validation.
    * Look at applicative chaining (using `*>`) or "applicative builder syntax" (using `|@|`/`⊛`) instead.
   * Want to accumulate failures but still return a result value even if there are failures? Use `Writer`
- 
+   * `Writer` *can* use `for`/`yield` and accumulate all failures, because earlier validations always return a value even when there's a failure.
+   
 # Use ADTs and avoid branching
 
  * `match` constructs are [easy to write unsafely](http://typelevel.org/blog/2014/11/10/why_is_adt_pattern_matching_allowed.html#a-selector-subtlety) and can often be replaced with `fold` (e.g. never `match` an `Option` or an `Either` (unless you need to for `@tailrec`))
