@@ -9,12 +9,16 @@ People on [/r/scala](https://www.reddit.com/r/scala/) sometimes ask how to make 
 `foldLeft` is [a very general/powerful method which makes it hard to reason about](http://www.lihaoyi.com/post/StrategicScalaStylePrincipleofLeastPower.html) - it's more or less as powerful as a general imperative `for` loop - though at least it reduces the scope of the "variables" and makes it explicit exactly what is being threaded through each iteration. Still, it's best to use more specific constructs when you can:
 
  * Sometimes there is simply a method for your case e.g. `find`, `forall` `exists`, `groupBy`, `min`, `max` and `partition`. ScalaZ `separate` also sees some use.
- * `foldLeft` where the body includes a `flatMap` should usually be `traverse` (or `sequence`)
- * `reduce` should often be `suml` - you may need to define a `Monoid` instance for your type, or use [shapeless-scalaz](https://github.com/typelevel/shapeless-contrib) to derive one.
- * `map` followed by `sum` is `foldMap`
+ * `reduce` should often be `suml` - you may need to define a `Monoid` instance for your type, or use [shapeless-scalaz](https://github.com/typelevel/shapeless-contrib) to derive one
+ * `map` followed by `suml` is `foldMap`
+ * `foldLeft` where the body includes a `flatMap` should usually be `traverse` (or `sequence`). This can sometimes be simplified further:
+  * `traverse` followed by `map(_.suml)` is `foldMapM`
+  * `traverse` followed by `map(_.flatten)` is `traverseM`
  
 # Use standard types for "secondary" parameters and concerns
-*  folds (or just regular code flow) that produce a value and accumulate a secondary value (e.g. a list) should be represented as `Writer`
+
+ * Code that produces a value and accumulate a secondary value (often a list) should be represented as `Writer`
+  * This is particularly useful for structured logging, possibly with the [treelog](https://github.com/lancewalton/treelog) library
  * Any construction that threads a secondary "state" value through should be represented as `State`
  
 # Use ADTs and avoid branching
