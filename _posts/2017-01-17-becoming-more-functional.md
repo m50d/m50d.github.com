@@ -39,7 +39,7 @@ People on [/r/scala](https://www.reddit.com/r/scala/) sometimes ask how to make 
  * Proxies/interceptors should be avoided. Any kind of "block" or "context" construct (e.g. a database transaction) should probably be represented as a value that you pass into a single method that does the open/close, so that you can't have a path where you forget to match them up. The free monad can give you a more lightweight way to represent your commands
  * double-`flatMap` (`flatMap { _.flatMap {... }}` or `flatMap { _.map { ... } }`) is sometimes a sign you should be using a monad transformer. Alternatively, if you're struggling to combine stacks of effects and nest `flatMap`s correctly, consider using a free coproduct approach instead.
  * if you're defining a lot of tree-like structures and find yourself repeating a lot of traversal code boilerplate, consider recursion-schemes style with fixed-point types.
- * map(_.map(...)) (or similarly with flatMap) probably indicates you should be using a monad transformer
+ * `map(_.map(...))` (or similarly with flatMap) probably indicates you should be using a monad transformer
  * if a parameter is passed down untouched through several layers of function calls it might be better for those functions to return Reader
  * if you pass a "secondary" parameter in and out (by returning tuples) of a series of functions it might be better for those functions to return State
  * if a bunch of functions have "secondary" return values that are merged to be the "secondary" return value of their parent it might be better for them to return Writer
