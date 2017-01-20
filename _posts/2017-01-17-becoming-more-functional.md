@@ -17,13 +17,17 @@ People on [/r/scala](https://www.reddit.com/r/scala/) sometimes ask how to make 
  
 # Use standard `for`/`yield`-enabled types for "secondary" parameters and concerns
 
-Often code has a secondary, cross-cutting concern 
+Often code has a secondary concern as well as 
 
  * Code that produces a value and accumulate a secondary value (often a list) should be represented as `Writer`
   * This is particularly useful for structured logging, possibly with the [treelog](https://github.com/lancewalton/treelog) library
  * If you want to thread a secondary value through a series of function calls that also need to change that secondary value, use `State`
  * For validation-like code:
   * Want fail-fast? Use `Either` (or in pre-2.12 Scala, ScalaZ `\/` or Cats `Xor`)
+   * If you need to integrate with a library that uses exceptions for failures, you can convert these into `Either` values using the constructs in `scala.util.control.Exception._`:
+    * `catching(classOf[SomeSpecificException]) either someLibraryMethod` (returns `Either[SomeSpecificException, ...]`)
+    * `nonFatalCatch either someLibraryMethod` (catches all the exceptions that are sensible to retry - everything except fatal system errors)
+    * `catching(classOf[SomeSpecificException]) opt someLibraryMethod` (returns `Option[...]`)
   * Want to accumulate all failures? Use `Validation` and accept that you won't be able to use `for`/`yield`
    * `for`/`yield` can't accumulate all errors, because later validations are allowed to depend on the results of earlier ones, but if an earlier validation fails there's no input value for the later validation.
    * Look at applicative chaining (using `*>`) or "applicative builder syntax" (using `|@|`/`⊛`) instead.
