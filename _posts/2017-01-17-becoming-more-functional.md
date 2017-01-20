@@ -19,18 +19,18 @@ People on [/r/scala](https://www.reddit.com/r/scala/) sometimes ask how to make 
 
  * Code that produces a value and accumulate a secondary value (often a list) should be represented as `Writer`
   * This is particularly useful for structured logging, possibly with the [treelog](https://github.com/lancewalton/treelog) library
- * Any construction that threads a secondary "state" value through should be represented as `State`
+ * Any construction that threads a secondary "state" value through should be represented as `State` 
+ * Cheat sheet for validation-like code:
+  * Want fail-fast? Use `Either` (or in pre-2.12 Scala, `\/` or `Xor`)
+  * Want to accumulate all failures? Use `Validation` and accept that you won't be able to use `for`/`yield`
+  * Want to accumulate failures but still return a value in the failure case? Use `Writer`
  
 # Use ADTs and avoid branching
 
  * `match` constructs are [easy to write unsafely](http://typelevel.org/blog/2014/11/10/why_is_adt_pattern_matching_allowed.html#a-selector-subtlety) and can often be replaced with `fold` (e.g. never `match` an `Option` or an `Either` (unless you need to for `@tailrec`))
  * `if`/`else` is generally a sign that you want an ADT (`sealed trait`). So is a datastructure full of `Option`s or `Either`s, especially if there are invariants that relate them (e.g. "if `a` is `Some` then `b` is `Left`"). I recommend defining a `fold` method on your ADT as in the previous point.
  * If there are two different states, make them two different types (e.g. a few months ago I had a bug where I passed a graph to a function that expected that graph to have been filtered by another function first. Solution: make the filtered graph and the unfiltered graph different types).
- 
- * Cheat sheet for validation-like code:
-   * Want fail-fast? Use `Either` (or in pre-2.12 Scala, `\/` or `Xor`)
-   * Want to accumulate all failures? Use `Validation` and accept that you won't be able to use `for`/`yield`
-   * Want to accumulate failures but still return a value in the failure case? Use `Writer`
+
  * Avoid reflection. Things that use reflection to walk the object graph (e.g. serialization) are usually best replaced with typeclasses; use shapeless-based typeclass derivation to avoid the overhead of writing them by hand.
  * Proxies/interceptors should be avoided. Any kind of "block" or "context" construct (e.g. a database transaction) should probably be represented as a value that you pass into a single method that does the open/close, so that you can't have a path where you forget to match them up. The free monad can give you a more lightweight way to represent your commands
  * `foreach` should usually be replaced by `traverse`/`sequence` using a value to represent the effect (e.g. `Task`)
