@@ -17,6 +17,8 @@ People on [/r/scala](https://www.reddit.com/r/scala/) sometimes ask how to make 
  
 # Use standard `for`/`yield`-enabled types for "secondary" parameters and concerns
 
+Often code has a secondary, cross-cutting concern 
+
  * Code that produces a value and accumulate a secondary value (often a list) should be represented as `Writer`
   * This is particularly useful for structured logging, possibly with the [treelog](https://github.com/lancewalton/treelog) library
  * If you want to thread a secondary value through a series of function calls that also need to change that secondary value, use `State`
