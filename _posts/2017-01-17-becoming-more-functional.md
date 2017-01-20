@@ -15,7 +15,7 @@ People on [/r/scala](https://www.reddit.com/r/scala/) sometimes ask how to make 
   * `traverse` followed by `map(_.suml)` is `foldMapM`
   * `traverse` followed by `map(_.flatten)` is `traverseM`
  
-# Use standard types for "secondary" parameters and concerns
+# Use standard `for`/`yield`-enabled types for "secondary" parameters and concerns
 
  * Code that produces a value and accumulate a secondary value (often a list) should be represented as `Writer`
   * This is particularly useful for structured logging, possibly with the [treelog](https://github.com/lancewalton/treelog) library
