@@ -13,13 +13,16 @@ People on [/r/scala](https://www.reddit.com/r/scala/) sometimes ask how to make 
  * `reduce` should often be `suml` - you may need to define a `Monoid` instance for your type, or use [shapeless-scalaz](https://github.com/typelevel/shapeless-contrib) to derive one.
  * `map` followed by `sum` is `foldMap`
  
+# Use standard types for "secondary" parameters and concerns
+*  folds (or just regular code flow) that produce a value and accumulate a secondary value (e.g. a list) should be represented as `Writer`
+ * Any construction that threads a secondary "state" value through should be represented as `State`
+ 
 # Use ADTs and avoid branching
 
  * `match` constructs are [easy to write unsafely](http://typelevel.org/blog/2014/11/10/why_is_adt_pattern_matching_allowed.html#a-selector-subtlety) and can often be replaced with `fold` (e.g. never `match` an `Option` or an `Either` (unless you need to for `@tailrec`))
  * `if`/`else` is generally a sign that you want an ADT (`sealed trait`). So is a datastructure full of `Option`s or `Either`s, especially if there are invariants that relate them (e.g. "if `a` is `Some` then `b` is `Left`"). I recommend defining a `fold` method on your ADT as in the previous point.
  * If there are two different states, make them two different types (e.g. a few months ago I had a bug where I passed a graph to a function that expected that graph to have been filtered by another function first. Solution: make the filtered graph and the unfiltered graph different types).
- *  folds (or just regular code flow) that produce a value and accumulate a secondary value (e.g. a list) should be represented as `Writer`
- * Any construction that threads a secondary "state" value through should be represented as `State`
+ 
  * Cheat sheet for validation-like code:
    * Want fail-fast? Use `Either` (or in pre-2.12 Scala, `\/` or `Xor`)
    * Want to accumulate all failures? Use `Validation` and accept that you won't be able to use `for`/`yield`
