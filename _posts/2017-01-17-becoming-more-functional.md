@@ -39,6 +39,7 @@ Scala's `for`/`yield` offers a useful "third way": one can write a chain of `for
  * Want to do async I/O? Use ScalaZ `Task`.
   * You can also use (standard library) `Future`, but beware that it *doesn't* control when the effects happen
    * `Future`s with effects inside them aren't generally values you can pass around and control when they actually happen - rather the effects (e.g. a web request) start immediately when the `Future` is instantiated
+   * `Future` would make sense for pure computations. But async in general probably has more overhead than it's worth for cases where you're [working simultaneously rather than waiting simultaneously](http://yosefk.com/blog/working-simultaneously-vs-waiting-simultaneously.html) - where async shines is things like external web requests - and in those cases you usually want to control when the I/O happens.
    
 # Use types to represent data, avoid branching
 
