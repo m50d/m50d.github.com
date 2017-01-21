@@ -15,7 +15,6 @@ Types help you keep track of distinctions in your code - if a value has two diff
   * Particularly applicable to "walk the object graph"-like problems e.g. JSON serialization.
   * This is much safer than reflection (and higher-performance too) since it happens at compile time rather than run time, and can give you an error if you try to e.g. include a `File` in your JSON output.
  * Tentative: Use [matryoshka](https://github.com/slamdata/matryoshka) to avoid boilerplate for custom tree-like datatypes
-  * Enables traversals for 
 
 # Replace general `foldLeft` and friends with more specific operations
 
