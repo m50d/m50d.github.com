@@ -53,8 +53,8 @@ Scala's `for`/`yield` offers a useful "third way": one can write a chain of `for
    * `Future` would make sense for pure computations. But async in general probably has more overhead than it's worth for cases where you're [working simultaneously rather than waiting simultaneously](http://yosefk.com/blog/working-simultaneously-vs-waiting-simultaneously.html) - where async shines is things like external web requests - and in those cases you usually want to control when the I/O happens.
  * Have operations that need to happen in some kind of "block" or "context"? (e.g. a database transaction) Represent the operations as a value that you pass into a single method that does the open/close, so that you can't have a path where you forget to match them up.
   * At its simplest the value could just be a function (or a `Task` created using `Task.delay`) - in that case you have to be careful not to allow the context to escape (e.g. a file handle that will be closed at the end of the block)
-   *
- The free monad can give you a more lightweight way to represent your commands
+   * Experimental/research: there is a [theoretical technique for avoiding this](https://apocalisp.wordpress.com/2010/07/02/higher-rank-polymorphism-in-scala/), but I don't think there's a production implementation
+ * Or defineThe free monad can give you a more lightweight way to represent your commands
 
  * Proxies/interceptors should be avoided. 
  * double-`flatMap` (`flatMap { _.flatMap {... }}` or `flatMap { _.map { ... } }`) is sometimes a sign you should be using a monad transformer. Alternatively, if you're struggling to combine stacks of effects and nest `flatMap`s correctly, consider using a free coproduct approach instead.
