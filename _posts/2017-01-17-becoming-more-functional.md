@@ -14,8 +14,8 @@ Types help you keep track of distinctions in your code - if a value has two diff
  * Use shapeless-based typeclass derivation to avoid having to write boilerplate for custom datatypes
   * Particularly applicable to "walk the object graph"-like problems e.g. JSON serialization.
   * This is much safer than reflection (and higher-performance too) since it happens at compile time rather than run time, and can give you an error if you try to e.g. include a `File` in your JSON output.
- * Use [matryoshka](https://github.com/slamdata/matryoshka) to avoid boilerplate for custom tree-like datatypes
-  * Enables traversals
+ * Tentative: Use [matryoshka](https://github.com/slamdata/matryoshka) to avoid boilerplate for custom tree-like datatypes
+  * Enables traversals for 
 
 # Replace general `foldLeft` and friends with more specific operations
 
@@ -55,7 +55,7 @@ Scala's `for`/`yield` offers a useful "third way": one can write a chain of `for
    * `Future` would make sense for pure computations. But async in general probably has more overhead than it's worth for cases where you're [working simultaneously rather than waiting simultaneously](http://yosefk.com/blog/working-simultaneously-vs-waiting-simultaneously.html) - where async shines is things like external web requests - and in those cases you usually want to control when the I/O happens.
  * Have operations that need to happen in some kind of "block" or "context"? (e.g. a database transaction) Represent the operations as a value that you pass into a single method that does the open/close, so that you can't have a path where you forget to match them up.
   * At its simplest the value could just be a function (or a `Task` created using `Task.delay`) - in that case you have to be careful not to allow the context to escape (e.g. a file handle that will be closed at the end of the block)
-   * Experimental/research: there is a [theoretical technique for avoiding this](https://apocalisp.wordpress.com/2010/07/02/higher-rank-polymorphism-in-scala/), but I don't think there's any real implementation of this, certainly not a mature one.
+   * Tentative: there is a [theoretical technique for avoiding this](https://apocalisp.wordpress.com/2010/07/02/higher-rank-polymorphism-in-scala/), but I don't think there's a practical library for it yet.
   * If you want a more declarative/
  The free monad can give you a more lightweight way to represent your commands
 
