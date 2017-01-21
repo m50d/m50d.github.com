@@ -14,7 +14,7 @@ Types help you keep track of distinctions in your code - if a value has two diff
  * Use shapeless-based typeclass derivation to avoid having to write boilerplate for custom datatypes
   * Particularly applicable to "walk the object graph"-like problems e.g. JSON serialization.
   * This is much safer than reflection (and higher-performance too) since it happens at compile time rather than run time, and can give you an error if you try to e.g. include a `File` in your JSON output.
- * Tentative: Use [matryoshka](https://github.com/slamdata/matryoshka) to avoid boilerplate for custom tree-like datatypes where you want to support standard tree traversals.
+ * Tentative: Use [matryoshka](https://github.com/slamdata/matryoshka) to avoid boilerplate for custom tree-like datatypes where you want to enable traversal
 
 # Replace general `foldLeft` and friends with more specific operations
 
@@ -31,11 +31,11 @@ Types help you keep track of distinctions in your code - if a value has two diff
 
 Often code has to manage a secondary concern as well as the primary thing it does. Often these are application-wide "cross-cutting concerns", e.g. audit logging, database transaction management, async I/O, or error handling - we can think of these as "effects". There is a tension between making these things explicit enough that the reader understands what the code is "actually" doing (and isn't [confused by "magic"](http://thecodelesscode.com/case/211) as in AOP approaches), and ensuring that the "happy path" and primary concern of the code remains clear (a difficulty in "handle errors where they happen" approaches).
 
-Scala's `for`/`yield` offers a useful "third way": one can write a chain of `for { a <- f(); b = g(); c <- h() } yield ...` where the reader can clearly see where the secondary concerns are happening (the `<-` calls) but they don't obscure the straight-through control flow (and the function can remain single-entry/single-exit).
-
-To sequence effectful operations on collections, use the operations from the pervious section.
+Scala's `for`/`yield` offers a useful "third way": one can write a chain of `for { a <- f(); b = g(); c <- h() } yield ...` where the reader can clearly see where the secondary concerns are happening (the `<-` calls) but they don't obscure the straight-through control flow (and the function can remain single-entry/single-exit). We can shift seamlessly between the "value perspective" (where the full effectful value is an ordinary value that we can reason about like any other value) and the "happy path perspective" (where we write our code in "straight through style" and trust (in a compiler-verified way) that the secondary effects will be handled somewhere) as appropriate for a given piece of code.
 
 Better still, there's a well-known library of these types that have already been written, covering many of the common cases and ensuring that 
+
+To sequence effectful operations on collections, use the operations from the pervious section.
 
  * Code that produces a value and accumulate a secondary value (often a list) should be represented as ScalaZ `Writer`
   * This is particularly useful for structured logging, possibly with the [treelog](https://github.com/lancewalton/treelog) library
