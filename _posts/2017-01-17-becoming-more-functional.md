@@ -44,8 +44,10 @@ Scala's `for`/`yield` offers a useful "third way": one can write a chain of `for
 # Use types to represent data, avoid branching
 
 Types help you keep track of distinctions in your code - if a value has two different states, make them two different types. e.g. a few months ago I had a bug where I passed a graph to a function that expected that graph to have been filtered by another function first. Solution: make the filtered graph and the unfiltered graph different types.
- * Use shapeless-based typeclass derivation to avoid having to write any boilerplate for custom datatypes, freeing you to use as many types as you 
- * Avoid reflection. Things that use reflection to walk the object graph (e.g. serialization) are usually best replaced with typeclasses; use shapeless-based typeclass derivation to avoid the overhead of writing them by hand.
+
+ * Use shapeless-based typeclass derivation to avoid having to write boilerplate for custom datatypes
+  * Particularly applicable to "walk the object graph"-like problems e.g. JSON serialization.
+  * This is much safer than reflection (and higher-performance too) since it happens at compile time rather than run time, and can give you an error if you try to e.g. include a `File` in your JSON output.
  * `match` constructs are [easy to write unsafely](http://typelevel.org/blog/2014/11/10/why_is_adt_pattern_matching_allowed.html#a-selector-subtlety) and can often be replaced with `fold` (e.g. never `match` an `Option` or an `Either` (unless you need to for `@tailrec`))
  * `if`/`else` is generally a sign that you want an ADT (`sealed trait`). So is a datastructure full of `Option`s or `Either`s, especially if there are invariants that relate them (e.g. "if `a` is `Some` then `b` is `Left`"). I recommend defining a `fold` method on your ADT as in the previous point.
 
