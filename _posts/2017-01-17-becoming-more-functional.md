@@ -43,8 +43,7 @@ Scala's `for`/`yield` offers a useful "third way": one can write a chain of `for
    
 # Use types to represent data, avoid branching
 
-A If a value has two different states, make them two different types
-  * e.g. a few months ago I had a bug where I passed a graph to a function that expected that graph to have been filtered by another function first. Solution: make the filtered graph and the unfiltered graph different types
+Types help you keep track of distinctions in your code - if a value has two different states, make them two different types. e.g. a few months ago I had a bug where I passed a graph to a function that expected that graph to have been filtered by another function first. Solution: make the filtered graph and the unfiltered graph different types.
  * Use shapeless-based typeclass derivation to avoid having to write any boilerplate for custom datatypes, freeing you to use as many types as you 
  * Avoid reflection. Things that use reflection to walk the object graph (e.g. serialization) are usually best replaced with typeclasses; use shapeless-based typeclass derivation to avoid the overhead of writing them by hand.
  * `match` constructs are [easy to write unsafely](http://typelevel.org/blog/2014/11/10/why_is_adt_pattern_matching_allowed.html#a-selector-subtlety) and can often be replaced with `fold` (e.g. never `match` an `Option` or an `Either` (unless you need to for `@tailrec`))
