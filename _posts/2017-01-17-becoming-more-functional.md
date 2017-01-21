@@ -43,7 +43,7 @@ Scala's `for`/`yield` offers a useful "third way": one can write a chain of `for
    
 # Use types to represent data, avoid branching
 
- * If an object has two different states, make them two different types
+A If a value has two different states, make them two different types
   * e.g. a few months ago I had a bug where I passed a graph to a function that expected that graph to have been filtered by another function first. Solution: make the filtered graph and the unfiltered graph different types
  * Use shapeless-based typeclass derivation to avoid having to write any boilerplate for custom datatypes, freeing you to use as many types as you 
  * Avoid reflection. Things that use reflection to walk the object graph (e.g. serialization) are usually best replaced with typeclasses; use shapeless-based typeclass derivation to avoid the overhead of writing them by hand.
@@ -82,5 +82,3 @@ Scala's `for`/`yield` offers a useful "third way": one can write a chain of `for
  * pattern matching and multiple inheritance promote bad habits and may be worth just avoiding entirely.
  * fancier functions/types found in cats/scalaz need care. I wouldn't say ban them; I would say require code review (and maybe an explicit example of what the code would look like without that function/type) for each new concept so that you're only introducing new constructs where they pay their way.
  * This is doubly true of streaming libraries or anything else very advanced. They're very much worthwhile where needed, but make sure you're justifying them rather than cargo-culting.
- * Shapeless is mostly hacks around stuff that should have been in the language; when you need it you need it, and it's relatively "non-infectious", so don't worry much about using it.
- 
