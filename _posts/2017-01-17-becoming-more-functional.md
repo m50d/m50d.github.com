@@ -19,7 +19,7 @@ People on [/r/scala](https://www.reddit.com/r/scala/) sometimes ask how to make 
 
 Often code has to manage a secondary concern as well as the primary thing it does. Often these are application-wide "cross-cutting concerns", e.g. audit logging, database transaction management, async I/O, or error handling. There is a tension between making these things explicit enough that the reader understands what the code is "actually" doing (and isn't [confused by "magic"](http://thecodelesscode.com/case/211) as in AOP approaches), and ensuring that the "happy path" and primary concern of the code remains clear (a difficulty in "handle errors where they happen" approaches).
 
-Scala's `for`/`yield` offers a useful "third way": one can write a chain of `for { a <- f(); b = g(); c <- h() } yield ...` where the reader can clearly see where the secondary concerns are happening (the `<-` calls) but they don't obscure the straight-through control flow (and the function can remain single-entry/single-exit). When dealing with effectful operations on collections, use the techniques from the pervious section.
+Scala's `for`/`yield` offers a useful "third way": one can write a chain of `for { a <- f(); b = g(); c <- h() } yield ...` where the reader can clearly see where the secondary concerns are happening (the `<-` calls) but they don't obscure the straight-through control flow (and the function can remain single-entry/single-exit). To sequence effectful operations on collections, use the operations from the pervious section.
 
  * Code that produces a value and accumulate a secondary value (often a list) should be represented as `Writer`
   * This is particularly useful for structured logging, possibly with the [treelog](https://github.com/lancewalton/treelog) library
