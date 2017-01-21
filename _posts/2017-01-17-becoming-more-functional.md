@@ -36,7 +36,8 @@ Scala's `for`/`yield` offers a useful "third way": one can write a chain of `for
   * Want to accumulate failures but still return a result value even if there are failures? Use ScalaZ `Writer`
    * `Writer` *can* use `for`/`yield` and accumulate all failures, because earlier validations always return a value even when there's a failure.
  * Have a piece of effectful code that you can't or won't model in detail, but still want to be able to pass around as a value (i.e. control when the effects happen)? Use ScalaZ `Task`.
- * 
+ * Want to do async I/O? Use ScalaZ `Task`.
+  * You can also use (standard library) `Future`, but it *doesn't* control when the effects happen (meaning `Future`s aren't generally values you can pass around - usually )
    
 # Use types to represent data, avoid branching
 
