@@ -21,21 +21,22 @@ Often code has to manage a secondary concern as well as the primary thing it doe
 
 Scala's `for`/`yield` offers a useful "third way": one can write a chain of `for { a <- f(); b = g(); c <- h() } yield ...` where the reader can clearly see where the secondary concerns are happening (the `<-` calls) but they don't obscure the straight-through control flow (and the function can remain single-entry/single-exit). To sequence effectful operations on collections, use the operations from the pervious section.
 
- * Code that produces a value and accumulate a secondary value (often a list) should be represented as `Writer`
+ * Code that produces a value and accumulate a secondary value (often a list) should be represented as ScalaZ `Writer`
   * This is particularly useful for structured logging, possibly with the [treelog](https://github.com/lancewalton/treelog) library
- * If you want to thread a secondary value through a series of function calls that also need to change that secondary value, use `State`
+ * If you want to thread a secondary value through a series of function calls that also need to change that secondary value, use ScalaZ `State`
  * For validation-like code:
   * Want fail-fast? Use `Either` (or in pre-2.12 Scala, ScalaZ `\/` or Cats `Xor`)
    * If you need to integrate with a library that uses exceptions for failures, you can convert these into `Either` values using the constructs in `scala.util.control.Exception._`:
     * `catching(classOf[SomeSpecificException]) either someLibraryMethod` (returns `Either[SomeSpecificException, ...]`)
     * `nonFatalCatch either someLibraryMethod` (catches all the exceptions that are sensible to retry - everything except fatal system errors)
     * `catching(classOf[SomeSpecificException]) opt someLibraryMethod` (returns `Option[...]`)
-  * Want to accumulate all failures? Use `Validation` and accept that you won't be able to use `for`/`yield`
+  * Want to accumulate all failures? Use ScalaZ `Validation` and accept that you won't be able to use `for`/`yield`
    * `for`/`yield` can't accumulate all errors, because later validations are allowed to depend on the results of earlier ones, but if an earlier validation fails there's no input value for the later validation.
    * Look at applicative chaining (using `*>`) or "applicative builder syntax" (using `|@|`/`⊛`) instead.
-  * Want to accumulate failures but still return a result value even if there are failures? Use `Writer`
+  * Want to accumulate failures but still return a result value even if there are failures? Use ScalaZ `Writer`
    * `Writer` *can* use `for`/`yield` and accumulate all failures, because earlier validations always return a value even when there's a failure.
- * If you have a piece of effectful code that you can't or won't model in detail, but still want to be able to pass around as a value (i.e. control when the effects happen), use `Task`.
+ * Have a piece of effectful code that you can't or won't model in detail, but still want to be able to pass around as a value (i.e. control when the effects happen)? Use ScalaZ `Task`.
+ * 
    
 # Use ADTs and avoid branching
 
