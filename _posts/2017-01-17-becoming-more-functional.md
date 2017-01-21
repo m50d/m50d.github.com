@@ -33,9 +33,7 @@ Often code has to manage a secondary concern as well as the primary thing it doe
 
 Scala's `for`/`yield` offers a useful "third way": one can write a chain of `for { a <- f(); b = g(); c <- h() } yield ...` where the reader can clearly see where the secondary concerns are happening (the `<-` calls) but they don't obscure the straight-through control flow (and the function can remain single-entry/single-exit). We can shift seamlessly between the "value perspective" (where the full effectful value is an ordinary value that we can reason about like any other value) and the "happy path perspective" (where we write our code in "straight through style" and trust (in a compiler-verified way) that the secondary effects will be handled somewhere) as appropriate for a given piece of code.
 
-Better still, there's a well-known library of these types that have already been written, covering many of the common cases and making it easy for your colleagues to know what a given type does.
-
-To sequence effectful operations on collections, use the operations from the pervious section.
+Better still, there are well-known libraries of these types that have already been written, covering many of the common cases and making it easy for your colleagues to know exactly what any given effectful value represents. There are also library functions for managing effects. E.g. to sequence effectful operations on collections, use operations like `traverse` mentioned in the pervious section; and if you've defined a treelike datatype using matyroshka, the standard traversal operations on it will also come in "monadic" form that can be used with any of these well-known effects, and also any custom effects that conform to the standard interfaces.
 
  * Code that produces a value and accumulate a secondary value (often a list) should be represented as ScalaZ `Writer`
   * This is particularly useful for structured logging, possibly with the [treelog](https://github.com/lancewalton/treelog) library
