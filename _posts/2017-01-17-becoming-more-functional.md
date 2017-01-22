@@ -69,7 +69,6 @@ Better still, there are well-known libraries of these types that have already be
  * if you pass a "secondary" parameter in and out (by returning tuples) of a series of functions it might be better for those functions to return State
  * if a bunch of functions have "secondary" return values that are merged to be the "secondary" return value of their parent it might be better for them to return Writer
  * if you're foldLefting with a secondary state value that functions like any of the above types that's probably better expressed as foldMapA
- * anything that iterates over a collection can be expressed as foldLeft (and then apply the above)
  * anything that pattern matches on a sealed trait can be expressed as fold
  * if you do this and end up with `identity` or `{}` anywhere there might well be a more specialized method (e.g. `option.fold(...)(identity)` is just `option.getOrElse(...)`)
  * if you have a custom recursive data structure (e.g. a specialized tree) and traverse it in a way that ends up as a lot of nested flatmap calls it might be better to express the data structure as a fixed point and then use a standard traversal on it (recursion-schemes style). There's a lot of code overhead to using those techniques in Scala though, so it's probably not worth doing for a simple catamorphism etc.
