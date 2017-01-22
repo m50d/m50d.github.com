@@ -18,7 +18,7 @@ Types help you keep track of distinctions in your code - if a value has two diff
 
 # Replace general `foldLeft` and friends with more specific operations
 
-`foldLeft` is [a very general/powerful method which makes it hard to reason about](http://www.lihaoyi.com/post/StrategicScalaStylePrincipleofLeastPower.html) - it's more or less as powerful as a general imperative `for` loop - though at least it reduces the scope of the "variables" and makes it explicit exactly what is being threaded through each iteration. Still, it's best to use more specific constructs when you can:
+`foldLeft` is [a very general/powerful method which makes it hard to reason about](http://www.lihaoyi.com/post/StrategicScalaStylePrincipleofLeastPower.html) - it's more or less as powerful as a general imperative `for` loop - though at least it reduces the scope of the "variables" and makes it explicit exactly what is being threaded through each iteration. So while one of the first steps in making a codebase more functional is replacing looping constructs with `foldLeft` calls, a next step is often to replace that with a more specific/constrained construct:
 
  * Sometimes there is simply a method for your case e.g. `find`, `forall` `exists`, `groupBy`, `min`, `max` and `partition`. ScalaZ `separate` also sees some use.
  * `reduce` should often be `suml` - you may need to define a `Monoid` instance for your type, or use [shapeless-scalaz](https://github.com/typelevel/shapeless-contrib) to derive one
