@@ -92,4 +92,5 @@ The techniques in the previous section provide a huge advance over this, because
    * `type Action[A] = EitherT[WriterT[Task, Vector[AuditEvent], ?], ValidationError, A]`
    * `def log(ae: AuditEvent): Action[Unit] = EitherT.rightU[ValidationError](WriterT.put(Task.now({}))(Vector(ae)))`
  * If you need to write code that can be reused in different effect stacks (in different parts of your application which have different effect stacks e.g. with/without database access, or because you're writing a library that will be used with a user-provided effect stack), you can write it in a "stack-generic" form using a typeclass constraint:
-  * `def log[F[_]: ]
+  * `def log[F[_]](ae: AuditEvent)(implicit mt: MonadTell[F, Vector[AuditEvent]]): F[Unit] = mt.tell(Vector(ae))`
+  * You can also put the `F[_]` type parameter on a containing `abstract class`. 
