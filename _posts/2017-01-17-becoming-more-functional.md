@@ -8,7 +8,7 @@ People on [/r/scala](https://www.reddit.com/r/scala/) sometimes ask how to make 
 
 Types help you keep track of distinctions in your code - if a value has two different states, make them two different types. e.g. a few months ago I had a bug where I passed a graph to a function that expected that graph to have been filtered by another function first. Solution: make the filtered graph and the unfiltered graph different types.
 
- * `if`/`else` is generally a sign that you want an ADT (`sealed trait`). So is a datastructure full of `Option`s or `Either`s, especially if the state of one field affects that of another (e.g. "if `a` is `Some` then `b` is `Left`")
+ * `if`/`else` is generally a sign that you want an "ADT" (`sealed trait`). So is a datastructure full of `Option`s or `Either`s, especially if the state of one field affects that of another (e.g. "if `a` is `Some` then `b` is `Left`")
  * `match` constructs are [easy to write unsafely](http://typelevel.org/blog/2014/11/10/why_is_adt_pattern_matching_allowed.html#a-selector-subtlety) and can often be replaced with `fold` (e.g. never `match` an `Option` or an `Either` (unless you need to for `@tailrec`))
   * It might be worth defining your own `fold` methods on any custom `sealed trait`s.
  * Use shapeless-based typeclass derivation to avoid having to write boilerplate for custom datatypes
@@ -55,8 +55,9 @@ Better still, there are well-known libraries of these types that have already be
    * `Future`s with effects inside them aren't generally values you can pass around and control when they actually happen - rather the effects (e.g. a web request) start immediately when the `Future` is instantiated
    * `Future` would make sense for pure computations. But async in general probably has more overhead than it's worth for cases where you're [working simultaneously rather than waiting simultaneously](http://yosefk.com/blog/working-simultaneously-vs-waiting-simultaneously.html) - where async shines is things like external web requests - and in those cases you usually want to control when the I/O happens.
  * Have operations that need to happen in some kind of "block" or "context"? (e.g. a database transaction) Represent the operations as a value that you pass into a single method that does the open/close, so that you can't have a path where you forget to match them up.
-  * At its simplest the value could just be a function (or a `Task` created using `Task.delay`) - in that case you have to be careful not to allow the context to escape (e.g. a file handle that will be closed at the end of the block)
-   * Tentative: there is a [theoretical technique for avoiding this](https://apocalisp.wordpress.com/2010/07/02/higher-rank-polymorphism-in-scala/), but I don't think there's a practical library for it yet.
+  * At its simplest the value could just be a function (or a `Task` created using `Task.delay`)
+   * In that case you have to be careful not to allow the context to escape (e.g. a file handle that will be closed at the end of the block)
+    * Tentative: there is a [theoretical technique for avoiding this](https://apocalisp.wordpress.com/2010/07/02/higher-rank-polymorphism-in-scala/), but I don't think there's a practical library for it yet.
   * If you want a more declarative/introspectable/testable way to express them 
  The free monad can give you a more lightweight way to represent your commands
 
