@@ -39,6 +39,7 @@ Better still, there are well-known libraries of these types that have already be
  * Code that produces a value and accumulate a secondary value (often a list) should be represented as ScalaZ `Writer`
   * This is particularly useful for structured logging, possibly with the [treelog](https://github.com/lancewalton/treelog) library
  * If you want to thread a secondary value through a series of function calls that also need to change that secondary value, use ScalaZ `State`
+  * One especially clear sign of this is if you're passing the secondary value into functions and getting a tuple of (primary result, new secondary value) back.
  * For validation-like code:
   * Want fail-fast? Use `Either` (or in pre-2.12 Scala, ScalaZ `\/` or Cats `Xor`)
    * If you need to integrate with a library that uses exceptions for failures, you can convert these into `Either` values using the constructs in `scala.util.control.Exception._`:
@@ -74,8 +75,6 @@ Better still, there are well-known libraries of these types that have already be
 
   * double-`flatMap` (`flatMap { _.flatMap {... }}` or `flatMap { _.map { ... } }`) is sometimes a sign you should be using a monad transformer. Alternatively, if you're struggling to combine stacks of effects and nest `flatMap`s correctly, consider using a free coproduct approach instead.
  * `map(_.map(...))` (or similarly with flatMap) probably indicates you should be using a monad transformer
- * if a parameter is passed down untouched through several layers of function calls it might be better for those functions to return Reader
- * if you pass a "secondary" parameter in and out (by returning tuples) of a series of functions it might be better for those functions to return State
  * if a bunch of functions have "secondary" return values that are merged to be the "secondary" return value of their parent it might be better for them to return Writer
  * if you're foldLefting with a secondary state value that functions like any of the above types that's probably better expressed as foldMapA
  * anything that pattern matches on a sealed trait can be expressed as fold
