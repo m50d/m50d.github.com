@@ -63,8 +63,7 @@ Better still, there are well-known libraries of these types that have already be
   * If you want a more declarative/introspectable/testable way to express your commands, define a custom ADT (`sealed trait`).
   * If you need to compose The free monad can give you a more lightweight way to represent your commands
 
- * Proxies/interceptors should be avoided. 
- * double-`flatMap` (`flatMap { _.flatMap {... }}` or `flatMap { _.map { ... } }`) is sometimes a sign you should be using a monad transformer. Alternatively, if you're struggling to combine stacks of effects and nest `flatMap`s correctly, consider using a free coproduct approach instead.
+  * double-`flatMap` (`flatMap { _.flatMap {... }}` or `flatMap { _.map { ... } }`) is sometimes a sign you should be using a monad transformer. Alternatively, if you're struggling to combine stacks of effects and nest `flatMap`s correctly, consider using a free coproduct approach instead.
  * if you're defining a lot of tree-like structures and find yourself repeating a lot of traversal code boilerplate, consider recursion-schemes style with fixed-point types.
  * `map(_.map(...))` (or similarly with flatMap) probably indicates you should be using a monad transformer
  * if a parameter is passed down untouched through several layers of function calls it might be better for those functions to return Reader
