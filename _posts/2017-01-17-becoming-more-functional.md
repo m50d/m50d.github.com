@@ -63,6 +63,8 @@ Better still, there are well-known libraries of these types that have already be
   * I appreciate the theoretical elegance of the "cake pattern", but I find it's too much (code-level) overhead to use in practice.
  * Have a piece of effectful code that you can't or won't model in detail, but still want to be able to pass around as a value (i.e. control when the effects happen)? Use ScalaZ `Task`.
  * Want to do async I/O? Use ScalaZ `Task`.
+  * This is usually better than using actors, since `Task` is typesafe and you can keep reasoning about functions rather than having to think about messages.
+   * 
   * You can also use (standard library) `Future`, but beware that it *doesn't* control when the effects happen
    * `Future`s with effects inside them aren't generally values you can pass around and control when they actually happen - rather the effects (e.g. a web request) start immediately when the `Future` is instantiated
    * `Future` would make sense for pure computations. But async in general probably has more overhead than it's worth for cases where you're [working simultaneously rather than waiting simultaneously](http://yosefk.com/blog/working-simultaneously-vs-waiting-simultaneously.html) - where async shines is things like external web requests - and in those cases you usually want to control when the I/O happens.
