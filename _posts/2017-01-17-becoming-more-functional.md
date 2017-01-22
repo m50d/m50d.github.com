@@ -93,4 +93,6 @@ The techniques in the previous section provide a huge advance over this, because
    * `def log(ae: AuditEvent): Action[Unit] = EitherT.rightU[ValidationError](WriterT.put(Task.now({}))(Vector(ae)))`
  * If you need to write code that can be reused in different effect stacks (in different parts of your application which have different effect stacks e.g. with/without database access, or because you're writing a library that will be used with a user-provided effect stack), you can write it in a "stack-generic" form using a typeclass constraint:
   * `def log[F[_]](ae: AuditEvent)(implicit mt: MonadTell[F, Vector[AuditEvent]]): F[Unit] = mt.tell(Vector(ae))`
-  * You can also put the `F[_]` type parameter on an `abstract class`.
+  * You can also put the `F[_]` type parameter on a service class.
+   * Accept dependencies parameterized by the same `F`: `class MyService[F[_]: MonadTell[?, AuditEvent](dependentService: DependentService[F])`
+   * This also lets you instantiate with a minimal `F` when testing (e.g. just `Writer[Vector[AuditEvent], ?]` in this case), and then the full `F` for "live". 
