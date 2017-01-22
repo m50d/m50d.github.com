@@ -75,7 +75,7 @@ Better still, there are well-known libraries of these types that have already be
    * In that case you have to be careful not to allow the context to escape (e.g. a file handle that will be closed at the end of the block)
     * Tentative: there is a [theoretical technique for avoiding this](https://apocalisp.wordpress.com/2010/07/02/higher-rank-polymorphism-in-scala/), but I don't think there's a practical library for it yet.
   * If you want a more declarative/introspectable/testable way to express your commands, define a custom ADT (`sealed trait`).
-  * If you want to allow "composite" commands connected by functions, the Free monad is a lightweight way to do this. E.g. for database access that needs to happen inside a transaction you can define an ADT with load/save operations and then 
+  * If you want to allow "composite" commands connected by functions (so that you can pass around e.g. a series of database operations to be executed in a single transaction), the Free monad is a lightweight way to do this (using `for`/`yield` syntax). You define the "primitive" operations in your ADT (e.g. `Load`/`Save`) and then you can write 
 
   * double-`flatMap` (`flatMap { _.flatMap {... }}` or `flatMap { _.map { ... } }`) is sometimes a sign you should be using a monad transformer. Alternatively, if you're struggling to combine stacks of effects and nest `flatMap`s correctly, consider using a free coproduct approach instead.
  * `map(_.map(...))` (or similarly with flatMap) probably indicates you should be using a monad transformer
