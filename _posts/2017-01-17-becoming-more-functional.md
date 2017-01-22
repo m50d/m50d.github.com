@@ -2,7 +2,7 @@
 published: false
 title: Becoming More Functional
 ---
-People on [/r/scala](https://www.reddit.com/r/scala/) sometimes ask how to make their Scala more functional, or about what "advanced" techniques they should learn. This is a list aimed at people who already follow the [twitter Scala style guide](http://twitter.github.io/effectivescala/), and want to know where to go from there. I'll assume [ScalaZ](https://github.com/scalaz/scalaz) is in scope (because I can't find the scaladocs for Cats); [learning ScalaZ](http://eed3si9n.com/learning-scalaz/7.0/) may be a useful reference for some things.
+People on [/r/scala](https://www.reddit.com/r/scala/) sometimes ask how to make their Scala more functional, or about what "advanced" techniques they should learn. This is a list aimed at people who already follow the [twitter Scala style guide](http://twitter.github.io/effectivescala/), and want to know where to go from there. I'll assume [ScalaZ](https://github.com/scalaz/scalaz) is in scope (because I can't find the scaladocs for Cats); [learning ScalaZ](http://eed3si9n.com/learning-scalaz/7.0/) may be a useful reference for some things. I will also use [kind-projector](https://github.com/non/kind-projector) syntax as this tends to be more readable even if one isn't actually using kind-projector.
 
 # Use types to represent data, avoid branching
 
@@ -87,6 +87,7 @@ The techniques in the previous section provide a huge advance over this, because
 
  * Double-`flatMap` (`flatMap { _.flatMap {... }}`, or similar constructs involving `map` e.g. `flatMap { _.map { ... } }`) is often a sign that you should be using a monad transformer.
  * The simplest way to work with monad transformers is usually to define a single consistent "stack" that you can use throughout your application.
+  * E.g. `EitherT[
  
  Alternatively, if you're struggling to combine stacks of effects and nest `flatMap`s correctly, consider using a free coproduct approach instead.
  * if you're stacking a lot of "unrelated" monads maybe you want a free coproduct (kind of an open "research" area in Scala as in there are a bunch of libraries being written in search of the right way to do this - freek sounds promising)
