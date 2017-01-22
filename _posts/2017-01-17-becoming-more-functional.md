@@ -96,3 +96,4 @@ The techniques in the previous section provide a huge advance over this, because
   * You can also put the `F[_]` type parameter on a service class.
    * Accept dependencies parameterized by the same `F`: `class MyService[F[_]: MonadTell[?, AuditEvent](dependentService: DependentService[F])`
    * This also lets you instantiate with a minimal `F` in unit tests (e.g. `Writer[Vector[AuditEvent], ?]`), and then the full "stack" (as required by the real `DependentService`) for the "real" service.
+* Alternatively, look into one of the various "free coproduct" libraries - [FreeK](https://github.com/ProjectSeptemberInc/freek) seems to have the most momentum behind it. ([Paperdoll](https://github.com/m50d/paperdoll) is my own effort).
