@@ -91,7 +91,5 @@ The techniques in the previous section provide a huge advance over this, because
   * You can define type aliases for your stack, and helper methods for "lifting" single effects into a complete stack:
    * `type Action[A] = EitherT[WriterT[Task, Vector[AuditEvent], ?], ValidationError, A]`
    * `def log(ae: AuditEvent): Action[Unit] = EitherT.rightU[ValidationError](WriterT.put(Task.now({}))(Vector(ae)))`
- * If you need to write code that can be reused in different effect stacks (in different parts of your application which have different effect stacks e.g. with/without database access, or because you're writing a library that will be used with a user-provided effect stack), Write it
- 
- Alternatively, if you're struggling to combine stacks of effects and nest `flatMap`s correctly, consider using a free coproduct approach instead.
- * if you're stacking a lot of "unrelated" monads maybe you want a free coproduct (kind of an open "research" area in Scala as in there are a bunch of libraries being written in search of the right way to do this - freek sounds promising)
+ * If you need to write code that can be reused in different effect stacks (in different parts of your application which have different effect stacks e.g. with/without database access, or because you're writing a library that will be used with a user-provided effect stack), you can write it in a "stack-generic" form using a typeclass constraint:
+  * `def log[F[_]: ]
