@@ -83,20 +83,3 @@ Better still, there are well-known libraries of these types that have already be
  * `map(_.map(...))` (or similarly with flatMap) probably indicates you should be using a monad transformer
  * if a bunch of functions have "secondary" return values that are merged to be the "secondary" return value of their parent it might be better for them to return Writer
  * if you're stacking a lot of "unrelated" monads maybe you want a free coproduct (kind of an open "research" area in Scala as in there are a bunch of libraries being written in search of the right way to do this - freek sounds promising)
- 
- # Things to not bother with
- 
- * Don't bother with sbt - use maven (until you need to cross-build libraries)
- * Don't bother with scalatest, or any fancy "tests in plain english" library - use plain junit
- * Don't use the cake pattern or reader monad. If you're using Spring or similar, keep using it for now - just make sure you use constructor injection rather than field injection.
- * Do make sure that you complete migrations of components, and have a clear border between Scala and Java. Jumping back and forth repeatedly in the same project seems fine to start with, but brings trouble in the long run
- * At the very start, keep all your existing libraries - once you have a component that's solidly on Scala you can start looking for better replacements for libraries that component uses.
- * The most useful libraries to change are anything you're currently using annotations for - you'll see an immediate return by removing the amount of "magic" in your codebase. Web backends and database access are good candidates.
- * Spark is great but only if you have so much data that you can't use anything else.
- * IMO there are no good web UI libraries for Scala - I stick to Wicket. There are excellent web API libraries though - my favourite is Spray.
- * I wouldn't use play, akka actors (except as an implementation detail that you never directly touch), or anything that uses typesafe-config if you can help it. These libraries have very poor typesafety which destroys the main advantage of using Scala. More generally any library designed to be used from Java is probably not worth bothering with.
- * If you think you want Actors you probably just want Futures.
- * `case class`es and type inference are common-sense and you can use them basically immediately.
- * pattern matching and multiple inheritance promote bad habits and may be worth just avoiding entirely.
- * fancier functions/types found in cats/scalaz need care. I wouldn't say ban them; I would say require code review (and maybe an explicit example of what the code would look like without that function/type) for each new concept so that you're only introducing new constructs where they pay their way.
- * This is doubly true of streaming libraries or anything else very advanced. They're very much worthwhile where needed, but make sure you're justifying them rather than cargo-culting.
