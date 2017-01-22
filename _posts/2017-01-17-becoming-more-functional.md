@@ -57,7 +57,7 @@ Better still, there are well-known libraries of these types that have already be
  * Have operations that need to happen in some kind of "block" or "context"? (e.g. a database transaction) Represent the operations as a value that you pass into a single method that does the open/close, so that you can't have a path where you forget to match them up.
   * At its simplest the value could just be a function (or a `Task` created using `Task.delay`) - in that case you have to be careful not to allow the context to escape (e.g. a file handle that will be closed at the end of the block)
    * Tentative: there is a [theoretical technique for avoiding this](https://apocalisp.wordpress.com/2010/07/02/higher-rank-polymorphism-in-scala/), but I don't think there's a practical library for it yet.
-  * If you want a more declarative/introspectable/testable way to exrpess them 
+  * If you want a more declarative/introspectable/testable way to express them 
  The free monad can give you a more lightweight way to represent your commands
 
  * Proxies/interceptors should be avoided. 
