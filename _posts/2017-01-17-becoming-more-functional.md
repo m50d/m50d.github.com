@@ -81,7 +81,7 @@ Better still, there are well-known libraries of these types that have already be
     
 # Tentative: Combining multiple `for`/`yield`-oriented types
 
-
+A theory I'm considering lately is that effects are only ever problematic when two or more effects interact. E.g. implicit, pervasive, unmanaged state mutation is fine on its own. Implicit, pervasive, unmanaged asynchronicity is fine on its own. But [the interaction of both is extremely difficult to debug](https://glyph.twistedmatrix.com/2014/02/unyielding.html).
 
   * double-`flatMap` (`flatMap { _.flatMap {... }}` or `flatMap { _.map { ... } }`) is sometimes a sign you should be using a monad transformer. Alternatively, if you're struggling to combine stacks of effects and nest `flatMap`s correctly, consider using a free coproduct approach instead.
  * `map(_.map(...))` (or similarly with flatMap) probably indicates you should be using a monad transformer
