@@ -11,6 +11,7 @@ Types help you keep track of distinctions in your code - if a value has two diff
  * `if`/`else` is generally a sign that you want an "ADT" (`sealed trait`). So is a datastructure full of `Option`s or `Either`s, especially if the state of one field affects that of another (e.g. "if `a` is `Some` then `b` is `Left`")
  * `match` constructs are [easy to write unsafely](http://typelevel.org/blog/2014/11/10/why_is_adt_pattern_matching_allowed.html#a-selector-subtlety) and can often be replaced with `fold` (e.g. never `match` an `Option` or an `Either` (unless you need to for `@tailrec`))
   * It might be worth defining your own `fold` methods on any custom `sealed trait`s.
+ * If you find yourself writing a `fold` with `identity` or `{}` in one of the branches, see whether the datatype defines a more specialized method for that use case (e.g. `Option#getOrElse`).
  * Use shapeless-based typeclass derivation to avoid having to write boilerplate for custom datatypes
   * Particularly applicable to "walk the object graph"-like problems e.g. JSON serialization.
   * This is much safer than reflection (and higher-performance too) since it happens at compile time rather than run time, and can give you an error if you try to e.g. include a `File` in your JSON output.
@@ -76,8 +77,6 @@ Better still, there are well-known libraries of these types that have already be
   * double-`flatMap` (`flatMap { _.flatMap {... }}` or `flatMap { _.map { ... } }`) is sometimes a sign you should be using a monad transformer. Alternatively, if you're struggling to combine stacks of effects and nest `flatMap`s correctly, consider using a free coproduct approach instead.
  * `map(_.map(...))` (or similarly with flatMap) probably indicates you should be using a monad transformer
  * if a bunch of functions have "secondary" return values that are merged to be the "secondary" return value of their parent it might be better for them to return Writer
- * if you're foldLefting with a secondary state value that functions like any of the above types that's probably better expressed as foldMapA
- * anything that pattern matches on a sealed trait can be expressed as fold
  * if you do this and end up with `identity` or `{}` anywhere there might well be a more specialized method (e.g. `option.fold(...)(identity)` is just `option.getOrElse(...)`)
  * if you have a custom recursive data structure (e.g. a specialized tree) and traverse it in a way that ends up as a lot of nested flatmap calls it might be better to express the data structure as a fixed point and then use a standard traversal on it (recursion-schemes style). There's a lot of code overhead to using those techniques in Scala though, so it's probably not worth doing for a simple catamorphism etc.
  * if you have some construct that needs to only be "executed" in a particular context (i.e. certain things need to happen before and after) consider introducing a monad
