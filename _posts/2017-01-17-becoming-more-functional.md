@@ -87,7 +87,7 @@ The techniques in the previous section provide a huge advance over this, because
 
  * Double-`flatMap` (`flatMap { _.flatMap {... }}`, or similar constructs involving `map` e.g. `flatMap { _.map { ... } }`) is often a sign that you should be using a monad transformer.
  * The simplest way to work with monad transformers is usually to define a single consistent "stack" that you can use throughout your application.
-  * E.g. `EitherT[
+  * E.g. `EitherT[WriterT[Task, Vector[AuditEvent], ?], ValidationError, ?]` for an application that can
  
  Alternatively, if you're struggling to combine stacks of effects and nest `flatMap`s correctly, consider using a free coproduct approach instead.
  * if you're stacking a lot of "unrelated" monads maybe you want a free coproduct (kind of an open "research" area in Scala as in there are a bunch of libraries being written in search of the right way to do this - freek sounds promising)
