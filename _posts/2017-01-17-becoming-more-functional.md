@@ -88,6 +88,4 @@ The techniques in the previous section provide a huge advance over this, because
  * Double-`flatMap` (`flatMap { _.flatMap {... }}`, or similar constructs involving `map` e.g. `flatMap { _.map { ... } }`) is often a sign that you should be using a monad transformer.
  
  Alternatively, if you're struggling to combine stacks of effects and nest `flatMap`s correctly, consider using a free coproduct approach instead.
- * `map(_.map(...))` (or similarly with flatMap) probably indicates you should be using a monad transformer
- * if a bunch of functions have "secondary" return values that are merged to be the "secondary" return value of their parent it might be better for them to return Writer
  * if you're stacking a lot of "unrelated" monads maybe you want a free coproduct (kind of an open "research" area in Scala as in there are a bunch of libraries being written in search of the right way to do this - freek sounds promising)
