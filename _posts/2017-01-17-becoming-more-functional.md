@@ -26,6 +26,7 @@ Types help you keep track of distinctions in your code - if a value has two diff
  * `foldLeft` where the body includes a `flatMap` should usually be `traverse` (or `sequence`). This can sometimes be simplified further:
   * `traverse` followed by `map(_.suml)` is `foldMapM`
   * `traverse` followed by `map(_.flatten)` is `traverseM`
+ * If a `foldLeft` accumulates or modifies a "secondary" parameter, this is often best expressed using `Writer` or `State` as described in the next section - at which point the `foldLeft` can often be rewritten as a `traverse` as above.
  
 # Use standard `for`/`yield`-enabled types for "secondary" parameters and concerns
 
