@@ -58,6 +58,7 @@ Better still, there are well-known libraries of these types that have already be
    * Spring example: `@Component class MyService @Autowired (someDependency: SomeDependency)`
    * For a "green field" project, [MacWire](https://github.com/adamw/macwire) is a good pure-Scala option.
   * That said, manual object construction is lightweight enough in Scala that I generally prefer to do my DI "by hand".
+  * I appreciate the theoretical elegance of the "cake pattern", but I find it's too much (code-level) overhead to use in practice.
  * Have a piece of effectful code that you can't or won't model in detail, but still want to be able to pass around as a value (i.e. control when the effects happen)? Use ScalaZ `Task`.
  * Want to do async I/O? Use ScalaZ `Task`.
   * You can also use (standard library) `Future`, but beware that it *doesn't* control when the effects happen
