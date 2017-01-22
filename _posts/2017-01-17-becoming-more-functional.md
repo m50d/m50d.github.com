@@ -76,7 +76,8 @@ Better still, there are well-known libraries of these types that have already be
     * Tentative: there is a [theoretical technique for avoiding this](https://apocalisp.wordpress.com/2010/07/02/higher-rank-polymorphism-in-scala/), but I don't think there's a practical library for it yet.
   * If you want a more declarative/introspectable/testable way to express your commands, define a custom ADT (`sealed trait`).
   * If you want to allow "composite" commands connected by functions (so that you can pass around e.g. a series of database operations to be executed in a single transaction), the Free monad is a way to do this without any boilerplate. You define the "primitive" operations in your ADT (e.g. `Load`/`Save`), and then building composite operations out of them (using `for`/`yield` syntax) is supported without any further code.
-   * Tentative: If these composite commands need to be parallelizable
+   * Tentative: If you want to allow composite commands but ensure they can be executed in parallel, consider `FreeAp`.
+    * Good ways of writing "partially parallel" command structures are an open research area. [Fetch](http://www.47deg.com/blog/fetch-scala-library/) is probably the current state of the art; I'm hoping to explore some of the possibilities in my coming [tierney](https://github.com/m50d/tierney) project.
 
   * double-`flatMap` (`flatMap { _.flatMap {... }}` or `flatMap { _.map { ... } }`) is sometimes a sign you should be using a monad transformer. Alternatively, if you're struggling to combine stacks of effects and nest `flatMap`s correctly, consider using a free coproduct approach instead.
  * `map(_.map(...))` (or similarly with flatMap) probably indicates you should be using a monad transformer
