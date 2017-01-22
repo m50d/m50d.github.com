@@ -56,7 +56,7 @@ Better still, there are well-known libraries of these types that have already be
    * `Future`s with effects inside them aren't generally values you can pass around and control when they actually happen - rather the effects (e.g. a web request) start immediately when the `Future` is instantiated
    * `Future` would make sense for pure computations. But async in general probably has more overhead than it's worth for cases where you're [working simultaneously rather than waiting simultaneously](http://yosefk.com/blog/working-simultaneously-vs-waiting-simultaneously.html) - where async shines is things like external web requests - and in those cases you usually want to control when the I/O happens.
  * Have operations that need to happen in some kind of "block" or "context"? (e.g. a database transaction) Represent the operations as a value that you pass into a single method that does the open/close, so that you can't have a path where you forget to match them up.
-  * This is often a good replacement for "magic" proxies/interceptors (based on method annotations) or other AOP-style approaches.
+  * This is often a good replacement for "magic" proxies/interceptors (based on method annotations, XML pointcuts or similar)
   * At its simplest the value could just be a function (or a `Task` created using `Task.delay`)
    * In that case you have to be careful not to allow the context to escape (e.g. a file handle that will be closed at the end of the block)
     * Tentative: there is a [theoretical technique for avoiding this](https://apocalisp.wordpress.com/2010/07/02/higher-rank-polymorphism-in-scala/), but I don't think there's a practical library for it yet.
