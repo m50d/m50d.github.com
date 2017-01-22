@@ -14,7 +14,7 @@ Types help you keep track of distinctions in your code - if a value has two diff
  * Use shapeless-based typeclass derivation to avoid having to write boilerplate for custom datatypes
   * Particularly applicable to "walk the object graph"-like problems e.g. JSON serialization.
   * This is much safer than reflection (and higher-performance too) since it happens at compile time rather than run time, and can give you an error if you try to e.g. include a `File` in your JSON output.
- * Tentative: Use [matryoshka](https://github.com/slamdata/matryoshka) to avoid boilerplate for custom tree-like datatypes where you want to enable traversal
+ * Tentative: Use [matryoshka](https://github.com/slamdata/matryoshka) to avoid boilerplate for custom tree-like datatypes where you want to enable traversal.
 
 # Replace general `foldLeft` and friends with more specific operations
 
@@ -57,7 +57,7 @@ Better still, there are well-known libraries of these types that have already be
  * Have operations that need to happen in some kind of "block" or "context"? (e.g. a database transaction) Represent the operations as a value that you pass into a single method that does the open/close, so that you can't have a path where you forget to match them up.
   * At its simplest the value could just be a function (or a `Task` created using `Task.delay`) - in that case you have to be careful not to allow the context to escape (e.g. a file handle that will be closed at the end of the block)
    * Tentative: there is a [theoretical technique for avoiding this](https://apocalisp.wordpress.com/2010/07/02/higher-rank-polymorphism-in-scala/), but I don't think there's a practical library for it yet.
-  * If you want a more declarative/
+  * If you want a more declarative/introspectable/testable way to exrpess them 
  The free monad can give you a more lightweight way to represent your commands
 
  * Proxies/interceptors should be avoided. 
