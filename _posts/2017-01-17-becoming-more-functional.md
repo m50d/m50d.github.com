@@ -50,6 +50,7 @@ Better still, there are well-known libraries of these types that have already be
    * Look at applicative chaining (using `*>`) or "applicative builder syntax" (using `|@|`/`⊛`) instead.
   * Want to accumulate failures but still return a result value even if there are failures? Use ScalaZ `Writer`
    * `Writer` *can* use `for`/`yield` and accumulate all failures, because earlier validations always return a value even when there's a failure.
+ * Need to pass a read-only "context" value down through your business-logic layers even though it's only going to be used at low level? ScalaZ `Reader` might be appropriate.
  * Have a piece of effectful code that you can't or won't model in detail, but still want to be able to pass around as a value (i.e. control when the effects happen)? Use ScalaZ `Task`.
  * Want to do async I/O? Use ScalaZ `Task`.
   * You can also use (standard library) `Future`, but beware that it *doesn't* control when the effects happen
