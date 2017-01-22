@@ -63,7 +63,7 @@ Better still, there are well-known libraries of these types that have already be
   * I appreciate the theoretical elegance of the "cake pattern", but I find it's too much (code-level) overhead to use in practice.
  * Have a piece of effectful code that you can't or won't model in detail, but still want to be able to pass around as a value (i.e. control when the effects happen)? Use ScalaZ `Task`.
  * Want to do async I/O? Use ScalaZ `Task`.
-  * This is usually better than using actors, since `Task` is typesafe and you can keep reasoning about functions rather than having to think about messages.
+  * This is usually better than using akka actors, since `Task` is typesafe and you can keep reasoning about functions rather than having to think about messages.
    * If your async tasks need to access isolated pieces of state concurrently, they can safely use traditional Java tools e.g. `AtomicInteger`, `LongAdder`, `ConcurrentHashMap`, `AtomicReference`.
    * Actors are only useful if you have two or more pieces of state that you need to access concurrently but also always keep in sync, IME. (Or if you need akka's distribution functionality)
   * You can also use (standard library) `Future`, but beware that it *doesn't* control when the effects happen
