@@ -55,7 +55,9 @@ Better still, there are well-known libraries of these types that have already be
   * IMO conventional dependency injection can be a relatively benign form of "magic" provided you:
    * Use constructor injection (rather than field injection), so that object constructors and fields still behave as expected. In Scala this is if anything more concise, and it ensures that objects can still easily be constructed "normally" e.g. for unit testing.
    * If there is the possibility of tooling (e.g. "find references") not knowing about the DI mechanism, ensure that there is some visible marker on classes that are constructed through DI so that a reader can immediately see this class is instantiated in a non-standard way.
-   * Spring example: 
+   * Spring example: `@Component class MyService @Autowired (someDependency: SomeDependency)`
+   * For a "green field" project, [MacWire](https://github.com/adamw/macwire) is a good pure-Scala option.
+  * That said, manual object construction is lightweight enough in Scala that I generally prefer to do my DI "by hand".
  * Have a piece of effectful code that you can't or won't model in detail, but still want to be able to pass around as a value (i.e. control when the effects happen)? Use ScalaZ `Task`.
  * Want to do async I/O? Use ScalaZ `Task`.
   * You can also use (standard library) `Future`, but beware that it *doesn't* control when the effects happen
