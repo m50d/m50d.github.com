@@ -1,5 +1,5 @@
 ---
-published: false
+layout: default
 title: Becoming More Functional
 ---
 People on [/r/scala](https://www.reddit.com/r/scala/) sometimes ask how to make their Scala more functional, or about what "advanced" techniques they should learn. This is a list aimed at people who already follow the [twitter Scala style guide](http://twitter.github.io/effectivescala/), and want to know where to go from there. I'll assume [ScalaZ](https://github.com/scalaz/scalaz) is in scope (because I can't find the scaladocs for Cats); [learning ScalaZ](http://eed3si9n.com/learning-scalaz/7.0/) may be a useful reference for some things. I will also use [kind-projector](https://github.com/non/kind-projector) syntax as this tends to be more readable even if one isn't actually using kind-projector.
