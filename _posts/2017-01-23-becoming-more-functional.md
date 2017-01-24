@@ -42,7 +42,7 @@ Better still, there are well-known libraries of these types that have already be
  * If you want to thread a secondary value through a series of function calls that also need to change that secondary value, use ScalaZ `State`
   * One especially clear sign of this is if you're passing the secondary value into functions and getting a tuple of (primary result, new secondary value) back.
  * For validation-like code:
-  * Want fail-fast? Use `Either` (or in pre-2.12 Scala, ScalaZ `\/` or Cats `Xor`)
+  * Want fail-fast? Use `Either` (in pre-2.12 Scala use ScalaZ `\/` or the `Either` enhancements from recent Cats)
    * If you need to integrate with a library that uses exceptions for failures, you can convert these into `Either` values using the constructs in `scala.util.control.Exception._`:
     * `catching(classOf[SomeSpecificException]) either someLibraryMethod` (returns `Either[SomeSpecificException, ...]`)
     * `nonFatalCatch either someLibraryMethod` (catches all the exceptions that are sensible to retry - everything except fatal system errors)
