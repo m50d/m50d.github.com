@@ -1,3 +1,4 @@
 markdown: kramdown
+markdown_ext: ""
 gems:
   - jekyll-feed
