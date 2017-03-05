@@ -1,6 +1,6 @@
 ---
 published: true
-title: "When Rust Makes Sense, or The State of Typed Languages"
+title: 'When Rust Makes Sense, or The State of Typed Languages'
 layout: default
 ---
 
@@ -15,7 +15,7 @@ But then I tried to put myself in their position, and survey the landscape of ma
 
 The 800lb gorilla - and for the most part it deserves its reputation - but very much a leap off the deep end. The syntax is alien, even by functional standards. Worse for a beginner is laziness, and the resulting need to explicitly sequence I/O operations. In some theoretical "strict Haskell" I might[1] tell beginners to use `unsafePerformIO` everywhere until they became comfortable with constructs like `sequence`, but in the Haskell we have you can't implement a simple unix utility like, I don't know, `sort` without understanding `do` notation and the difference between `<-` and `=`.
 
-Finally, performance - especially memory and "space leaks". A lot of these concerns feel overblown, FUDish even - I've never heard of serious performance issues with a Haskell program or a failure of profiling in practice, certainly not to the extent of an organization abandoning Haskell for performance reasons. But the narrative is unsatisfactory; 
+Finally, performance - especially memory and "space leaks". A lot of these concerns feel overblown, FUDish even - I've never heard of serious performance issues with a Haskell program or a failure of profiling in practice, certainly not to the extent of an organization abandoning Haskell for performance reasons. But the narrative is unsatisfactory; Haskell is the language of principle, theory and reasoning, but one can't reason compositionally about the performance of a Haskell program. 
 
 ## Scala
 
