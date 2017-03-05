@@ -1,4 +1,5 @@
 markdown: kramdown
 markdown_ext: ""
+permalink: pretty
 gems:
   - jekyll-feed
