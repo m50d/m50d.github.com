@@ -6,4 +6,4 @@ title: Three Way Rivalry (Gundam Seed 25)
 
 Also there was some stuff with mobile suits.
 
-In 
+In all seriousness this was an excellent episode. I was worried I'd've lost track of the plot 
