@@ -14,4 +14,4 @@ That, and teenage interpersonal drama. Flay and Kira finally have time to relax 
 
 On the other side of the fence, we're finally getting a bit of real fleshing out of the "Zala squad". Athrun displays admirable skill and resolve, even as he doesn't quite keep Yzak under control the way he should. But perhaps that's realistic; when I read *Generation Kill* I was struck by the strange cocktail of competence and immaturity shown by the Marines - something that seemed to get worse higher up in the ranks. One wonders how many battles hinged less on planning and logistics than on the dynamics of personal relationships between commanders and subordinates - something that probably never makes it as far as the clean historical narratives we think of.
 
-I'm writing this en route to a friend's 30th birthday, and 
+I'm writing this en route to a friend's 30th birthday, with my own not far away; 
