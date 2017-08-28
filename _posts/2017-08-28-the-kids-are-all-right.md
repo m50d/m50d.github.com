@@ -1,6 +1,6 @@
 ---
+title: "The Kids are All Right (Gundam Seed 29)"
 layout: default
-title: The Kids are All Right (Gundam Seed 29)
 ---
 ![](/unrealistic.jpg)
 
