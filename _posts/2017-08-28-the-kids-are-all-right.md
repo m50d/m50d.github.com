@@ -1,10 +1,10 @@
 ---
-published: false
-title: Know When to Walk Away (Gundam Seed 29)
+layout: default
+title: The Kids are All Right (Gundam Seed 29)
 ---
 ![](/unrealistic.jpg)
 
-Isn't it frustrating how no-one listens to you when you're a kid?
+Isn't it frustrating how no-one listens to you when you're a kid? It's only now that adults are talking about the value of peace that Ramius is willing to listen to what the kids have been saying all along.
 
 In many ways this episode feels like a call back to episode 2 - which makes a certain amount of sense at this point in the season. Orb is a mirror for Heliopolis, and we now understand the political situation well enough to see why building the Gundams in their colony was such an issue. The decision to shelter the Archangel here was the same kind of impossible choice as the decision to build it in the first place. And in place of the colony's destruction, we conclude with what's intended as a more direct, personal tragedy.
 
