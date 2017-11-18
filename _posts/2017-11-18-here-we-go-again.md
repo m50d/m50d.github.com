@@ -11,4 +11,4 @@ In this episode the problem is particularly stark, since there are no allied for
 
 ![](/winnerface.jpg)
 
-Killing Tolle notionally tips the scales back - 
+Killing Tolle notionally puts the scales back into balance after the loss of Nikolai, but if that's the intention it's a wasted effort; this show's powerlevels 
