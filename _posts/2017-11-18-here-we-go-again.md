@@ -15,4 +15,4 @@ Killing Tolle notionally puts the scales back into balance after the loss of Nik
 
 ![](/emotion.jpg)
 
-The one bright patch in an otherwise weak episode is Flay's sequence.
+The one bright patch in an otherwise weak episode is - who else but Best Girl? - Flay's sequence. 
