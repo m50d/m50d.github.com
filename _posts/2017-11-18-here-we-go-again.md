@@ -15,4 +15,4 @@ Killing Tolle notionally puts the scales back into balance after the loss of Nik
 
 ![](/emotion.jpg)
 
-The one bright patch in an otherwise weak episode is - who else but Best Girl? - Flay's sequence. Milly's line that "we've gotten used to our tasks" takes an interesting turn when applied to Flay (who is once again watching from the doorway, isolated from the people she used to know): unlike the others we never see her at any military duties. Perhaps a simple oversight, or perhaps the crew have, however tacitly, acknowledged that keeping Kira happy is more vital to their survival than anything else she might do.
+The one bright patch in an otherwise weak episode is - who else but Best Girl? - Flay's sequence. Milly's line that "we've gotten used to our tasks" takes an interesting turn when applied to Flay (who is once again watching from the doorway, isolated from the people she used to know): unlike the others we never see her at any military duties. Perhaps she has a job offscreen - or perhaps the crew have, however tacitly, acknowledged that keeping Kira happy is more vital to their survival than anything else she might do.
