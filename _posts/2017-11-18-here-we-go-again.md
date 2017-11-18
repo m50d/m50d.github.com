@@ -11,3 +11,4 @@ In this episode the problem is particularly stark, since there are no allied for
 
 ![](/winnerface.jpg)
 
+Killing Tolle notionally tips the scales back - 
