@@ -5,4 +5,4 @@ layout: default
 ---
 ![](/destined.jpg)
 
-*Gundam Seed*'s original sin, at least when seen as a fight show, is that it tries to 
+Seen as a fight show, *Gundam Seed*'s original sin is that it tries to have repeated fights between the same two teams.
