@@ -11,4 +11,4 @@ In this episode the problem is particularly stark, since there are no allied for
 
 ![](/winnerface.jpg)
 
-Killing Tolle notionally puts the scales back into balance after the loss of Nikolai, but if that's the intention it's a wasted effort; this show already has zero powerlevel credibility. Likewise, if this is an effort to establish stakes, it's too little, too late. No-one cares about Tolle except Milly, and no-one cares about Milly; honestly Kira being upset over killing Nicol is far more affecting than Tolle's death.
+Killing Tolle notionally puts the scales back into balance after the loss of Nikolai, but if that's the intention it's a wasted effort; this show already has zero powerlevel credibility. Likewise, if this is an effort to establish stakes, it's too little, too late. No-one cares about Tolle except Milly, and no-one cares about Milly; honestly Kira being upset over killing Nicol is far more affecting than Tolle's death. It's the same problem as always: too many characters, too little characterization spread between them, especially with what feels like a cynical choice to kill off the least established characters.
