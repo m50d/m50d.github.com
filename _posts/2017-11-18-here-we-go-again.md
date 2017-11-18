@@ -15,4 +15,4 @@ Killing Tolle notionally puts the scales back into balance after the loss of Nik
 
 ![](/emotion.jpg)
 
-The one bright patch in an otherwise weak episode is - who else but Best Girl? - Flay's sequence. Milly's line that "we've gotten used to our tasks" takes an interesting turn when applied to Flay (who is once again watching from the doorway, isolated from the people she used to know): 
+The one bright patch in an otherwise weak episode is - who else but Best Girl? - Flay's sequence. Milly's line that "we've gotten used to our tasks" takes an interesting turn when applied to Flay (who is once again watching from the doorway, isolated from the people she used to know): unlike all the rest we never see her at her duties, as though 
