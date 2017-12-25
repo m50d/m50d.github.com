@@ -1,4 +1,4 @@
 ---
 published: false
 ---
-I've figured out who should've been more of a character in *Gundam Seed*: Badriguel.
+Of all the secondary characters in *Gundam Seed*, I wish we saw more of Badriguel.
