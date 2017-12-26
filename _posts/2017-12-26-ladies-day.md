@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Ladies' Day (Gundam Seed 31)
 layout: default
 ---
@@ -19,4 +19,4 @@ Which brings us to the elephant in the previous episode's room, Kira's apparent 
 
 ![](/isolated.jpg)
 
-And once again, Best Girl steals the show. Still reeling with the realisation that she genuinely cares for Kira, Flay is suddenly forced to confront his (assumed) death - alone. The above (all too brief) shot beautifully sums it up, and the contrast is shown in much more detail through her and Milly's conversations with the other cadets - Sai comforts Milly and shepherds her into the cafeteria to be around others, while Kuzzey angrily spits the minimum of information at Flay, wanting nothing to do with her, the monster's concubine who's selling herself in return for all their lives. It's tragic and painful (for the viewer even) and I can see the seeds of her ironic fall being sown; it's everything that art should be.
+And once again, Best Girl steals the show. Still reeling with the realisation that she genuinely cares for Kira, Flay is suddenly forced to confront his (assumed) death - alone. The above (all too brief) shot beautifully sums it up, and the contrast is shown in much more detail through her and Milly's conversations with the other cadets - Sai comforts Milly and shepherds her into the cafeteria to be around others, while Kuzzey angrily spits the minimum of information at Flay, wanting nothing to do with her, the monster's concubine who's selling herself in return for all their lives. It's tragic and painful (for the viewer even) and I can see the seeds of her ironic fall being sown; it's everything that art should be. Even though I already know how this story ends, I can't wait to see more.
