@@ -9,6 +9,6 @@ The dichotomy between the younger and older "generations" (probably less than te
 
 ![](/lives.jpg)
 
-Ramius is, more or less, a real character - in the sense that I as a viewer care about her, in contrast to Badriguel or Mu or Rau or any other "grownup". She's on fine form this episode, treading a delicate path between caring for her 
+Ramius is, more or less, a real character - in the sense that I as a viewer care about her, in contrast to Badriguel or Mu or Rau or any other "grownup". She's on fine form this episode, treading a delicate path between caring for her crew and making the tough choices that are necessary for survival.
 
 Kuzzey
