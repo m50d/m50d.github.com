@@ -9,6 +9,6 @@ The dichotomy between the younger and older "generations" (probably less than te
 
 ![](/lives.jpg)
 
-Ramius is, more or less, a real character - in the sense that I as a viewer care about her, in contrast to Badriguel or Mu or Rau or any other "grownup". She's on fine form this episode, treading a delicate path between caring for her crew and making the tough choices that are necessary for survival. Her conversation with Mu - tears in her eyes, but still ultimately giving an order - was genuinely touching. But even in her case I wish we had more time for characterisation. The conversation between her and the engineering chief should be informed by 
+Ramius is, more or less, a real character - in the sense that I as a viewer care about her, in contrast to Badriguel or Mu or Rau or any other "grownup". She's on fine form this episode, treading a delicate path between caring for her crew and making the tough choices that are necessary for survival. Her conversation with Mu - tears in her eyes, but still ultimately giving an order - was genuinely touching. But even in her case I wish we had more time for characterisation. The conversation between her and the engineering chief takes on a different cast if they're still sleeping together, but 
 
 Kuzzey
