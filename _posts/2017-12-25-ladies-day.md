@@ -19,4 +19,4 @@ Which brings us to the elephant in the previous episode's room, Kira's apparent 
 
 ![](/isolated.jpg)
 
-Kuzzey
+And once again, Best Girl steals the show. 
