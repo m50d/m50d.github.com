@@ -19,4 +19,4 @@ Which brings us to the elephant in the previous episode's room, Kira's apparent 
 
 ![](/isolated.jpg)
 
-And once again, Best Girl steals the show. Still reeling with the realisation that she genuinely cares for Kira, Flay is suddenly forced to confront his (assumed) death.
+And once again, Best Girl steals the show. Still reeling with the realisation that she genuinely cares for Kira, Flay is suddenly forced to confront his (assumed) death - alone.
