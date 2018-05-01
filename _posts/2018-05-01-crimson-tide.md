@@ -21,6 +21,6 @@ Deakka's behaviour is confusing here - he seems to regret having provoked Milly,
 
 And worst of all, our main character - the one who should be carrying the characterization side of things - is sitting on the sidelines. I'm no great fan of Kira, but with so few primary characters, the show can't afford to be without him (especially having lost Cagalli, and with Athrun also being away from the Archangel's plotline).
 
-![](stay.jpg)
+![](/stay.jpg)
 
 NO IT WOULDN'T LACUS, THAT WOULD BE THE WORST THING THIS SHOW COULD DO.
