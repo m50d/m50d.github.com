@@ -11,4 +11,4 @@ Much of this episode felt like a mix of marking time and recap, which I guess ma
 
 I'm genuinely unsure what a realistic outcome looks like here. Ramius has overseen a series of shocking breakdowns in military discipline, mistreatment of a prisoner (a genuine war crime) being only the most recent and most obviously avoidable example. At the same time, her ship has won repeatedly against impossible odds; had Archangel successfully delivered the Strike to Alaska, I suspect that success would have outweighed any failure to follow procedures.
 
-But with the Strike lost, all Ramius has achieved is staying alive. 
+But with the Strike lost, all Ramius has actually achieved is staying alive, preserving the archangel, and rescuing a few Orb civilians - this last a mixed blessing, 
