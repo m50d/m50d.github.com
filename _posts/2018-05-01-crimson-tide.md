@@ -17,4 +17,4 @@ At least it felt like progress was being made, and the tribunal reached some kin
 
 ![](/bingo.jpg)
 
-Deakka's behaviour is confusing here - he seems to regret having provoked Milly, but wasn't that exactly what he was trying to do?
+Deakka's behaviour is confusing here - he seems to regret having provoked Milly, but wasn't that exactly what he was trying to do? Perhaps to him this is a prank gone too far, but he seems remarkably willing to accept execution at her hands if that's what she wants.
