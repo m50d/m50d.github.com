@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: default
 title: Crimson Tide (Gundam Seed 33)
 ---
