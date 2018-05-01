@@ -15,4 +15,6 @@ But with the Strike lost, all Ramius has actually achieved is staying alive, pre
 
 At least it felt like progress was being made, and the tribunal reached some kind of confusion. Less can be said for Milly and Best Girl, who seem stuck in a holding pattern this week. Milly is incoherent, alternately angry and weepy - not an unreasonable way for someone who's just lost her lover to behave, but Flay is rightfully angry that the crew is being sympathetic to Milly and not to her.
 
-Deakka's behaviour is confusing here - he seems to regret having provoked Milly, but it's hard to see what else he intended to achieve.
+![](/bingo.jpg)
+
+Deakka's behaviour is confusing here - he seems to regret having provoked Milly, but wasn't that exactly what he was trying to do?
