@@ -19,4 +19,8 @@ At least it felt like progress was being made, and the tribunal reached some kin
 
 Deakka's behaviour is confusing here - he seems to regret having provoked Milly, but wasn't that exactly what he was trying to do? Perhaps to him this is a prank gone too far, but he seems remarkably willing to accept execution at her hands if that's what she wants. It's possible there's a really interesting character inside his head - but if so, the show hasn't shown us it, so instead he just comes across as inconsistent. Once again, the series' fundamental flaw is simply trying to bring in too many characters with not enough screentime to develop them all.
 
-And worst of all, our main character - the one who should be carrying the characterization side of things - is sitting on the sidelines. I'm no fan of Kira, but with so few primary characters, the show can't afford to be without him (especially having lost Cagalli, and with Athrun also being away from the Archangel scenes).
+And worst of all, our main character - the one who should be carrying the characterization side of things - is sitting on the sidelines. I'm no great fan of Kira, but with so few primary characters, the show can't afford to be without him (especially having lost Cagalli, and with Athrun also being away from the Archangel's plotline).
+
+![](stay.jpg)
+
+NO IT WOULDN'T LACUS, THAT WOULD BE THE WORST THING THIS SHOW COULD DO.
