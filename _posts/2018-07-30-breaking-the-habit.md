@@ -12,3 +12,5 @@ Yet another transition episode, but it held my attention - it feels like action 
 With Badriguel gone - the visual of the hatch closing over her face is a powerful one - Ramius is forced to be the harsh voice of military authority, which is probably for the best in the long run. One of this episode's motifs seemed to be pairs - Athrun and Izak's dynamic has its similarities with Ramius/Badriguel, and we get another great visual as they say their goodbyes in a sunset that washes out everything else.
 
 ![](/handshake.jpg)
+
+Izak is too tsundere to say what he feels directly, but as he and Athrun walk in opposite directions he manages to make himself understood.
