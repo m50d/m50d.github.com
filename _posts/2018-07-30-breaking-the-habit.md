@@ -1,6 +1,6 @@
 ---
 published: false
-title: Breaking the Habit (Gundam Seed 34)
+title: We Are Never Ever Ever Getting Back Together (Gundam Seed 34)
 layout: default
 ---
 ![](/closing.jpg)
@@ -13,4 +13,4 @@ With Badriguel gone - the visual of the hatch closing over her face is a powerfu
 
 ![](/handshake.jpg)
 
-Izak is too tsundere to say what he feels directly, but as he and Athrun walk in opposite directions he manages to make himself understood.
+Izak is too tsundere to say what he feels directly, but as he and Athrun walk in opposite directions he manages to make himself understood. I wonder if there's a subtle point here about the wisdom of sending teenagers into battle -
