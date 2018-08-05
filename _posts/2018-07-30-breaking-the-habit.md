@@ -13,4 +13,4 @@ With Badriguel gone - the visual of the hatch closing over her face is a powerfu
 
 ![](/handshake.jpg)
 
-Izak is too tsundere to say what he feels directly, but as he and Athrun walk in opposite directions he manages to make himself understood. I wonder if there's a subtle point here about the wisdom of sending teenagers into battle -
+Izak is too tsundere to say what he feels directly, but as he and Athrun walk in opposite directions he manages to make himself understood. I wonder if there's a subtle point here about the wisdom of sending teenagers into battle - these two's arguments and insubordination have compromised their effectiveness, whereas Ramius and Badriguel disagree just as much but have the experience to work through their conflicts more effectively.
