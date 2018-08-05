@@ -21,4 +21,4 @@ Le Cruset and La Flaga are a more directly opposite kind of pair, and still seem
 
 ![](/thankyou.jpg)
 
-And finally, Kira and Lacus. 
+And finally, Kira and Lacus. The rousing music and cool Gundam were enough to carry this scene emotionally for the time being, though I can't help noticing that there's 
