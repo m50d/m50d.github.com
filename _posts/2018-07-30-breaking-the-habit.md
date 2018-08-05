@@ -25,4 +25,4 @@ Flay is the new element this time around. Her and Mu were never on the best of t
 
 And finally, Kira and Lacus. The rousing music and cool Gundam were enough to carry this scene emotionally for the time being, though I can't help noticing that there's very little substance to his plans.
 
-Most conspicuous about this whole arc is the dog that doesn't bark: there's simply no trace of romance between these two, yet alone any possibility of a love triangle. If anything Kira has more chemistry with Lacus than Athrun does (not hard), but 
+Most conspicuous about this whole arc is the dog that doesn't bark: there's simply no trace of romance between these two, yet alone any possibility of a love triangle. If anything Kira has more chemistry with Lacus than Athrun does (not hard), but it's clear they've done nothing more than drink tea and talk all day.
