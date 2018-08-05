@@ -19,6 +19,8 @@ Izak is too tsundere to say what he feels directly, but as he and Athrun walk in
 
 Le Cruset and La Flaga are a more directly opposite kind of pair, and still seem to have fallen out of another series. I love the ambition of giving them their own backstory, but sadly it never quite works; worlds happening offscreen are expected at the setting level, but the viewer expects to eventually find out about more personal backstory. All I can think is: did I miss an episode? What happened at Endymion, and why can't I remember it?
 
+Flay has the potential to make this a little more interesting, though here and Mu were never on the best of terms.
+
 ![](/thankyou.jpg)
 
 And finally, Kira and Lacus. The rousing music and cool Gundam were enough to carry this scene emotionally for the time being, though I can't help noticing that there's 
