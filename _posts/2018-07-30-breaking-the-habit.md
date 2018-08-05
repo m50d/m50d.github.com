@@ -23,4 +23,4 @@ Flay is the new element this time around. Her and Mu were never on the best of t
 
 ![](/thankyou.jpg)
 
-And finally, Kira and Lacus. The rousing music and cool Gundam were enough to carry this scene emotionally for the time being, though I can't help noticing that there's 
+And finally, Kira and Lacus. The rousing music and cool Gundam were enough to carry this scene emotionally for the time being, though I can't help noticing that there's very little substance to his plans.
