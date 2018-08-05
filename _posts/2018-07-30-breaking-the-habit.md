@@ -19,7 +19,7 @@ Izak is too tsundere to say what he feels directly, but as he and Athrun walk in
 
 Le Cruset and La Flaga are a more directly opposite kind of pair, and still seem to have fallen out of another series. I love the ambition of giving them their own backstory, but sadly it never quite works; worlds happening offscreen are expected at the setting level, but the viewer expects to eventually find out about more personal backstory. All I can think is: did I miss an episode? What happened at Endymion, and why can't I remember it?
 
-Flay has the potential to make this a little more interesting, though here and Mu were never on the best of terms.
+Flay is the new element this time around. Her and Mu were never on the best of terms, but hopefully he feels enough affinity for her to shake up
 
 ![](/thankyou.jpg)
 
