@@ -17,4 +17,4 @@ Izak is too tsundere to say what he feels directly, but as he and Athrun walk in
 
 ![](/endymion.jpg)
 
-Le Cruset and La Flaga are a more directly opposite kind of pair 
+Le Cruset and La Flaga are a more directly opposite kind of pair, and still seem to have fallen out of another series.
