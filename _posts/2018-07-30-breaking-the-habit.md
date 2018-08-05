@@ -5,6 +5,6 @@ layout: default
 ---
 ![](/closing.jpg)
 
-Goodnight, sweet princess. I fear we shall not see her like again.
+Goodnight, sweet prince. I fear we shall not see her like again. The visual of the hatch closing over her face is a powerful one.
 
 Yet another transition episode, but this time it worked: 
