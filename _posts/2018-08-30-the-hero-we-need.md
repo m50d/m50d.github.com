@@ -13,4 +13,6 @@ Sadly, the other side drops the ball. Where Ramius, La Flaga and even Badriguel 
 
 In fairness he has to make do without much of his squad - but in practice that only compounds the problem. With Athrun elsewhere for plot reasons that were surely avoidable, Deakka captured, and Nikolai dead, only the one-note Yzak is around on the ZAFT side. With the Federation forces lack Kira, Cagalli or Flay, this makes the fights in the early part of the episode feel strangely bloodless - plenty of well-choreographed animation and explosions, but too little involvment from anyone we care about at the character level. La Flaga mostly rescues this as soon as he steps in, but this is one case where I wish they'd carried through the mirroring and had Le Creuset fight him again.
 
-Another broken symmetry rounds out the episode. 
+![](/impossible.jpg)
+
+Another broken symmetry rounds out the episode. Athrun's reaction here is striking in its childish, almost animal immediacy - its impact blunted only by how slight the relationship we've seen between him and Lacus actually is. 
