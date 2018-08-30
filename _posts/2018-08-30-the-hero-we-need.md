@@ -15,4 +15,4 @@ In fairness he has to make do without much of his squad - but in practice that o
 
 ![](/impossible.jpg)
 
-Another broken symmetry rounds out the episode. Athrun's reaction here is striking in its childish, almost animal immediacy - its impact blunted only by how slight the relationship we've seen between him and Lacus actually is. Again this is a case where committing more completely to the parallels would enhance the show: 
+Another broken symmetry rounds out the episode. Athrun's reaction here is striking in its childish, almost animal immediacy - its impact blunted only by how slight the relationship we've seen between him and Lacus actually is. Again this is a case where committing more completely to the parallels would enhance the show: Kira's conversations with Lacus held a trust and tenderness that would make a betrayal between them seem sincerely painful. Athrun's... didn't.
