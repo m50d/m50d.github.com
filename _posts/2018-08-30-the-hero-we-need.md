@@ -7,4 +7,4 @@ This is La Flaga's episode - and Ramius' as well. Weeks of expectation and build
 
 More subtly, Ramius first leads the Archangel forward to cover a gap in the line, and then takes clear personal responsibility for ordering the retreat at the peak of the episode. What's particularly interesting here is that Milly's fatalistic suggestion is born of the same impulse: in directly contradicting her, Ramius makes the case for a more flexible and personal sense of duty and also, indirectly, for the wisdom of experience. Note the reversed echo of episode 2, where Ramius told these naïve kids to shut up and follow orders; age alone didn't grant her wisdom, but it seems to have made her more able to learn and mature through experiences that the younger characters have experienced simply as trauma. La Flaga's conversation in the hanger gives a blunter rendition of the same dynamic.
 
-Sadly, the other side drops the ball. 
+Sadly, the other side drops the ball. Where Ramius, La Flaga and even Badriguel are stepping up 
