@@ -21,4 +21,4 @@ In contrast, Kira shows a maturity beyond his years - and far beyond anything we
 
 ![](/wanted.jpg)
 
-And then, suddenly, the spell is broken. The man dies and Kira punches the ground in frustration, still human after all. We're reminded that many have died, and left to wonder whether those we've seen and care about (Badriguel? Deakka?) are among them. Lacus is under investigation, the Archangel is seriously damaged.  As glad a moment as Kira's return is (and while the show milks it a little too hard, the fundamental storytelling principle is more than sound).
+And then, suddenly, the spell is broken. The man dies and Kira punches the ground in frustration, still human after all. We're reminded that many have died, and left to wonder whether those we've seen and care about (Badriguel? Deakka?) are among them. Lacus is under investigation, the Archangel is seriously damaged.  As glad a moment as Kira's return is (and while the show milks it a little too hard, the fundamental storytelling principle is sound enough to lift even my heart), the situation is still distinctly dire.
