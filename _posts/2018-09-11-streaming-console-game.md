@@ -34,3 +34,5 @@ val inputHandling = Stream.repeatEval(IO {
     else Left(c match { case op: Operation => op })
   })
 ````
+
+We've now got a standalone value that we could test in isolation. I'm normally skeptical about the value of the `IO` monad - I find most of the effects that one cares about sequencing are more specific than I/O, and in a lot of typical programming contexts one doesn't particularly care about the sequencing of I/O (e.g. logging or reading from a "static" filesystem )
