@@ -39,3 +39,7 @@ I was confused by the use of a single `Future` that never actually completes, an
 We've now got a standalone value that we could test in isolation.
 
 I'm normally skeptical about the value of the `IO` monad - I find most of the effects that one cares about sequencing are more specific than I/O, and in a lot of typical programming contexts one doesn't particularly care about the sequencing of I/O (e.g. one usually doesn't care about the order in which logging or reading from a "static" filesystem happens). But a console game is exactly the environment where `IO` shines: we have a lot of operations that interact with stdout/stdin, and we care deeply about interleaving them in the correct order.
+
+## Terminating the stream rather than global `isGameOn`
+
+The original code relies on a global `AtomicBoolean` called `isGameOn`, which other threads then check to see if they should terminate. Again it's unclear what the flow of logic and data is here.
