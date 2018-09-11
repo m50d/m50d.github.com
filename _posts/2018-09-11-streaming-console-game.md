@@ -137,3 +137,16 @@ val inputAndTicks = inputHandling map Left.apply mergeHaltL (ticks map Right.app
 ````
 
 (Note the `mergeHaltL`: we want the combined stream to halt as soon as the input halts i.e. when the user presses `q`)
+
+Now the actual game loop can be very simple: we start from the starting game state, if we have an input step we update the game step, if we have a tick then we (sometimes) build an info message and draw the game.
+
+````scala
+val gameAnsis = inputAndTicks.mapAccumulate(GameState(pos = (6, 7))) {
+    case (gameState, Left(step)) =>
+      (step(gameState), Seq.empty)
+    case (gameState, Right(tick)) =>
+      (gameState, (if (tick % 10 == 0)
+        Seq(info("something ".concat(tick.toString)))
+      else Seq.empty) :+ drawGame(gameState))
+  }
+````
