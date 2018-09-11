@@ -170,4 +170,4 @@ We put off actually running our effects until the last possible moment, just a c
 
 ## Final thoughts
 
- * I was expecting to have to add a lot of boilerplate to sequence effects carefully, and justify the value in terms of maintainability. I was pleasantly surprised, 
+ * I was expecting to have to add a lot of boilerplate to sequence effects carefully, and justify the value in terms of maintainability. While that's definitely true of the `handleKeypress` changes, for the most part I was pleasantly surprised: 
