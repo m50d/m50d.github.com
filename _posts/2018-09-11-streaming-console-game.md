@@ -71,7 +71,7 @@ and again this becomes something we can test in isolation, without even needing 
 
 ## Unpicking the main loop
 
-The original code combines several concerns - updating the game state, displaying the current state, handling the ticking, and waiting for the next tick (via a blocking `Thread.sleep`!) - in a single `while` loop:
+The original code combines several concerns - updating the game state, displaying the current state, and waiting for the next tick (via a blocking `Thread.sleep`!) - in a single `while` loop:
 
 ````scala
   while (isGameOn.get) {
