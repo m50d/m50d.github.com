@@ -97,3 +97,11 @@ val ticks = Stream.unfoldEval[IO, Int, Int](0) { tick => IO.sleep(100 millisecon
 
 (unfortunately it seems like we have to repeat the `tick + 1`, as there's no variant of `unfold` that uses the emitted value as the next input).
 
+Then we can examine and test the `ticks` stream alone. That said, we do want to combine it with the input stream for use:
+
+````scala
+val inputAndTicks = inputHandling map Left.apply mergeHaltL (ticks map Right.apply)
+````
+
+Note the use of `mergeHaltL`: we want the combined stream to halt as soon as the input halts (because the user pressed `q`).
+
