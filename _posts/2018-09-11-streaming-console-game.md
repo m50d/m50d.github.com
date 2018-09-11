@@ -69,6 +69,24 @@ Our input stream can now be transformed to terminate appropriately:
 
 and again this becomes something we can test in isolation, without even needing access to the game state. Conversely we can test whether a keypress translates into the correct operation on a game state without involving the global `isGameOn` variable.
 
-## Ticks in a stream rather than a `while` loop
+## Unpicking the main loop
+
+The original code combines several concerns - updating the game state, displaying the current state, handling the ticking, and waiting for the next tick (via a blocking `Thread.sleep`!) - in a single `while` loop:
+
+````scala
+  while (isGameOn.get) {
+    while (!keyPressses.isEmpty) {
+      Option(keyPressses.poll) foreach { k =>
+        gameState = handleKeypress(k, gameState)
+      }
+    }
+    tick += 1
+    if (tick % 10 == 0) {
+      info("something ".concat(tick.toString))
+    }
+    drawGame(gameState)
+    Thread.sleep(100)
+  }
+````
 
 
