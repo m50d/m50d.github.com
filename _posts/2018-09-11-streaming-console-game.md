@@ -159,4 +159,11 @@ Even this far out into the "shell" of our program, we're still mostly in a world
   }
 ````
 
-And then we 
+We put off actually running our effects until the last possible moment, just a couple of lines of plumbing:
+
+````scala
+  Stream.emit(eraseScreen).append(gameAnsis)
+    .observe1(ansi => IO {
+    AnsiConsole.out.println(ansi)
+  }).compile.drain.unsafeRunSync()
+````
