@@ -25,4 +25,4 @@ eed3si9n's original code looked like this.
   }
 ````
 
-I was confused by the 
+I was confused by the use of a single `Future` that never actually completes, and by the global `keyPressses` (sic) queue. Looking it up it turned out to be `val keyPressses = new ArrayBlockingQueue[Either[Operation, String]](128)`, which could then be read from anywhere - who's to say it gets read in the right order? 
