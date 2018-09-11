@@ -69,6 +69,34 @@ Our input stream can now be transformed to terminate appropriately:
 
 and again this becomes something we can test in isolation, without even needing access to the game state. Conversely we can test whether a keypress translates into the correct operation on a game state without involving the global `isGameOn` variable.
 
+## Pass `Ansi` values around until we're ready to print them
+
+The original code has some nicely structured logic to build up a `drawing` value. Sadly there's no way to access that value, as the function immediately calls a global `println` function:
+
+````scala
+  def drawGame(g: GameState): Unit = {
+    val drawing: BuilderHelper[Ansi, Unit] =
+      for {
+        _ <- Draw.drawBox(2, 2, 20, 10)
+        _ <- Draw.drawBlock(g.pos._1, g.pos._2)
+        _ <- Draw.drawText(2, 12, "press 'q' to quit")
+      } yield ()
+    val result = drawing.run(Ansi.ansi())._1
+    AnsiConsole.out.println(result)
+  }
+````
+
+In general there are parts of the code that pass `Ansi` values and parts that print immediately, mixed more or less indiscriminately. Let's rewrite this function to return the value, making it more testable, and we'll look to have a single controlled place where we use that global `AnsiConsole`:
+
+````scala
+  def drawGame(g: GameState): Ansi =
+    (for {
+      _ <- Draw.drawBox(2, 6, 20, 6)
+      _ <- Draw.drawBlock(g.pos._1, g.pos._2)
+      _ <- Draw.drawText(2, 12, "press 'q' to quit")
+    } yield ()).run(Ansi.ansi()).value._1
+````
+
 ## Unpicking the main loop
 
 The original code combines several concerns - updating the game state, displaying the current state, and waiting for the next tick (via a blocking `Thread.sleep`!) - in a single `while` loop:
@@ -104,4 +132,3 @@ val inputAndTicks = inputHandling map Left.apply mergeHaltL (ticks map Right.app
 ````
 
 (Note the `mergeHaltL`: we want the combined stream to halt as soon as the input halts i.e. when the user presses `q`)
-
