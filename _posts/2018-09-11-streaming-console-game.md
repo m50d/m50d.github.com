@@ -103,5 +103,5 @@ Then we can examine and test the `ticks` stream alone. That said, we do want to 
 val inputAndTicks = inputHandling map Left.apply mergeHaltL (ticks map Right.apply)
 ````
 
-Note the `mergeHaltL`: we want the combined stream to halt as soon as the input halts (when the user presses `q`).
+(Note the `mergeHaltL`: we want the combined stream to halt as soon as the input halts i.e. when the user presses `q`).
 
