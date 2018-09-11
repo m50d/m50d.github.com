@@ -28,6 +28,7 @@ eed3si9n's original code looked like this.
 I was confused by the use of a single `Future` that never actually completes, and by the global `keyPressses` (sic) queue. Looking it up it turned out to be `val keyPressses = new ArrayBlockingQueue[Either[Operation, String]](128)`, which could then be read from anywhere, bypassing the usual function call input/output relationship. I rewrote this as a stream that simply emits the `Either` values:
 
 ````scala
+val km = KeyMap.keyMaps().get("vi-insert")
 val inputHandling = Stream.repeatEval(IO {
     val c = reader.readBinding(km)
     if (c == Operation.SELF_INSERT) Right(reader.getLastBinding)
