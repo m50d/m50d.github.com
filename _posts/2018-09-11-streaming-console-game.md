@@ -97,6 +97,9 @@ In general there are parts of the code that pass `Ansi` values and parts that pr
     } yield ()).run(Ansi.ansi()).value._1
 ````
 
+(Note also a slight change as I replaced the custom `BuilderHelper` type with standard `State`).
+
+
 ## Unpicking the main loop
 
 The original code combines several concerns - updating the game state, displaying the current state, and waiting for the next tick (via a blocking `Thread.sleep`!) - in a single `while` loop:
