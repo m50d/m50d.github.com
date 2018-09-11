@@ -99,6 +99,8 @@ In general there are parts of the code that pass `Ansi` values and parts that pr
 
 (Note also a slight change as I replaced the custom `BuilderHelper` type with standard `State`).
 
+Similarly, the `info` function can return an `Ansi` value rather than doing an uncontrolled `println`.
+
 
 ## Unpicking the main loop
 
@@ -128,7 +130,7 @@ val ticks = Stream.unfoldEval[IO, Int, Int](0) { tick => IO.sleep(100 millisecon
 
 (unfortunately it seems like we have to repeat the `tick + 1`, as there's no variant of `unfold` that uses the emitted value as the next input).
 
-Then we can examine and test the `ticks` stream alone. That said, we do want to combine it with the input stream for use - let's form a merged stream of `Left`s and `Right`s:
+Then we can examine and test the `ticks` stream alone. That said, we do want to combine it with the input stream for use - let's form a merged stream of `Left`s and `Right`s (I'm surprised the `merge` functions don't do this wrapping for us):
 
 ````scala
 val inputAndTicks = inputHandling map Left.apply mergeHaltL (ticks map Right.apply)
