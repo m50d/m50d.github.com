@@ -10,7 +10,7 @@ I was pleased to see the library introduction in [eed3si9n's post about console 
 eed3si9n's original code looked like this.
 
 ````scala
-// inside a background thread
+  // inside a background thread
   val inputHandling = Future {
     val km = KeyMap.keyMaps().get("vi-insert")
     while (isGameOn.get) {
@@ -25,4 +25,12 @@ eed3si9n's original code looked like this.
   }
 ````
 
-I was confused by the use of a single `Future` that never actually completes, and by the global `keyPressses` (sic) queue. Looking it up it turned out to be `val keyPressses = new ArrayBlockingQueue[Either[Operation, String]](128)`, which could then be read from anywhere - who's to say it gets read in the right order? 
+I was confused by the use of a single `Future` that never actually completes, and by the global `keyPressses` (sic) queue. Looking it up it turned out to be `val keyPressses = new ArrayBlockingQueue[Either[Operation, String]](128)`, which could then be read from anywhere, bypassing the usual function call input/output relationship. I rewrote this as a stream that simply emits the `Either` values:
+
+````scala
+val inputHandling = Stream.repeatEval(IO {
+    val c = reader.readBinding(km)
+    if (c == Operation.SELF_INSERT) Right(reader.getLastBinding)
+    else Left(c match { case op: Operation => op })
+  })
+````
