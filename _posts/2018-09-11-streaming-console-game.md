@@ -138,7 +138,7 @@ val inputAndTicks = inputHandling map Left.apply mergeHaltL (ticks map Right.app
 
 (Note the `mergeHaltL`: we want the combined stream to halt as soon as the input halts i.e. when the user presses `q`)
 
-Now the actual game loop can be very simple: we start from the starting game state, if we have an input step we update the game step, if we have a tick then we (sometimes) build an info message and draw the game.
+Now the actual game loop can be very simple: we start from the starting game state, if we have an input step we update the game step, if we have a tick then we (sometimes) build an info message and draw the game. Building the info message should probably be pushed into its own function - in this example I'd move it into the `ticks` stream, but in a real codebase I'm assuming we'd want to have access to the `gameState` to build the `info` message.
 
 ````scala
 val gameAnsis = inputAndTicks.mapAccumulate(GameState(pos = (6, 7))) {
@@ -151,4 +151,12 @@ val gameAnsis = inputAndTicks.mapAccumulate(GameState(pos = (6, 7))) {
   }
 ````
 
-Even this far out into the "shell" of our program, we're still mostly in a world of functions and values: this is a stream of `IO` effects that can yield sequences of `Ansi`s.
+Even this far out into the "shell" of our program, we're still mostly in a world of functions and values: this is a stream of `IO` effects that can yield sequences of `Ansi`s. I found it easiest to emit sequences here and then have a tiny tidy-up step to turn this into a stream of `Ansi`s:
+
+````scala
+  .flatMap {
+    case (_, ansis) => Stream.emits(ansis)
+  }
+````
+
+And then we 
