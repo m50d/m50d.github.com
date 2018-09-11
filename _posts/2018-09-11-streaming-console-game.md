@@ -89,4 +89,9 @@ The original code combines several concerns - updating the game state, displayin
   }
 ````
 
+Better to pull these out into individual functions and values that can be inspected and tested separately. We can form the ticks into a stream, eliminating the `tick` global variable:
+
+````scala
+val ticks = Stream.unfoldEval[IO, Int, Int](0) { tick => IO.sleep(100 milliseconds).map(_ => Some((tick + 1, tick + 1))) }
+````
 
