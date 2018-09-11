@@ -45,5 +45,17 @@ I'm normally skeptical about the value of the `IO` monad - I find most of the ef
 The original code relies on a global `AtomicBoolean` called `isGameOn`, which other threads then check to see if they should terminate. Again it's unclear what the flow of logic and data is here. The difficulty in factoring this more cleanly is that the logic for determining whether it's time to quit is entangled with the logic for determining a change to the game state. I resolved this by making `handleKeypress` return an `Option`:
 
 ````scala
-
+  def handleKeypress(k: Either[Operation, String]): Option[GameState => GameState] =
+    k match {
+      case Right("q") | Left(Operation.VI_EOF_MAYBE) =>
+        None
+      // Left arrow
+      case Left(Operation.BACKWARD_CHAR) =>
+        Some { g =>
+          val pos0 = g.pos
+          g.copy(pos = (pos0._1 - 1, pos0._2))
+        }
+      ...
 ````
+
+This does add a bit of boilerplate to the `case`s, but it means the concerns are clearly separated, and reveals an important property about the data flow: we can tell whether a keypress is a "quit" or not before we've even begun to look at the game state.
