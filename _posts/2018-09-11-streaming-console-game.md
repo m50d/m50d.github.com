@@ -95,3 +95,5 @@ Better to pull these out into individual functions and values that can be inspec
 val ticks = Stream.unfoldEval[IO, Int, Int](0) { tick => IO.sleep(100 milliseconds).map(_ => Some((tick + 1, tick + 1))) }
 ````
 
+(unfortunately it seems like we have to repeat the `tick + 1`, as there's no variant of `unfold` that uses the emitted value as the next input).
+
