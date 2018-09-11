@@ -29,17 +29,13 @@ I was confused by the use of a single `Future` that never actually completes, an
 
 ````scala
 val km = KeyMap.keyMaps().get("vi-insert")
-val inputHandling = Stream.repeatEval(IO {
-    val c = reader.readBinding(km)
-    if (c == Operation.SELF_INSERT) Right(reader.getLastBinding)
-    else Left(c match { case op: Operation => op })
-  })
+    Stream.repeatEval(IO {
+      val c = reader.readBinding(km)
+      if (c == Operation.SELF_INSERT) Right(reader.getLastBinding)
+      else Left(c match { case op: Operation => op })
+    })
 ````
 
 We've now got a standalone value that we could test in isolation.
 
 I'm normally skeptical about the value of the `IO` monad - I find most of the effects that one cares about sequencing are more specific than I/O, and in a lot of typical programming contexts one doesn't particularly care about the sequencing of I/O (e.g. one usually doesn't care about the order in which logging or reading from a "static" filesystem happens). But a console game is exactly the environment where `IO` shines: we have a lot of operations that interact with stdout/stdin, and we care deeply about interleaving them in the correct order.
-
-## Possible future improvements
-
- * `reader` is still a pseudo-global variable. It's only used 
