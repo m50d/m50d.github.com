@@ -69,4 +69,6 @@ Our input stream can now be transformed to terminate appropriately:
 
 and again this becomes something we can test in isolation, without even needing access to the game state. Conversely we can test whether a keypress translates into the correct operation on a game state without involving the global `isGameOn` variable.
 
+## Ticks in a stream rather than a `while` loop
+
 
