@@ -59,3 +59,12 @@ The original code relies on a global `AtomicBoolean` called `isGameOn`, which ot
 ````
 
 This does add a bit of boilerplate to the `case`s, but it means the concerns are clearly separated, and reveals an important property about the data flow: we can tell whether a keypress is a "quit" or not before we've even begun to look at the game state.
+
+Our input stream can now be transformed to terminate appropriately:
+
+````scala
+  .map(handleKeypress)
+    .unNoneTerminate
+````
+
+and again this becomes something we can test in isolation, without even needing access to the game state.
