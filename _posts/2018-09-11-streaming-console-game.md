@@ -42,4 +42,4 @@ I'm normally skeptical about the value of the `IO` monad - I find most of the ef
 
 ## Terminating the stream rather than global `isGameOn`
 
-The original code relies on a global `AtomicBoolean` called `isGameOn`, which other threads then check to see if they should terminate. Again it's unclear what the flow of logic and data is here. The difficulty is that the logic for determining whether the 
+The original code relies on a global `AtomicBoolean` called `isGameOn`, which other threads then check to see if they should terminate. Again it's unclear what the flow of logic and data is here. The difficulty in factoring this more cleanly is that the logic for determining whether it's time to quit is entangled with the logic for determining a change to the game state. 
