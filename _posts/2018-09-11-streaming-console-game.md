@@ -151,4 +151,4 @@ val gameAnsis = inputAndTicks.mapAccumulate(GameState(pos = (6, 7))) {
   }
 ````
 
-Even this far out into the "shell" of our program, we're still mostly in a world of functions and values: this is a stream of sequences of `Ansi`s. 
+Even this far out into the "shell" of our program, we're still mostly in a world of functions and values: this is a stream of `IO` effects that can yield sequences of `Ansi`s.
