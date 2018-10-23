@@ -1,0 +1,96 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 1em;
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #ffffff;
+  color: #333333;
+}
+
+h1 {
+  margin: 1em 0;
+  font-size: 2rem;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+p {
+  margin: 1em 0;
+}
+
+button, input {
+  display: inline-block;
+  font-size: 1em;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  padding: 0.25em 0.5em;
+  background-color: #d0d0d0;
+  cursor: pointer;
+}
+
+input {
+  border: 1px solid #d0d0d0;
+  padding: 0.25em;
+}
+
+@media (min-width: 1000px) {
+  #app {
+    margin: 0 5%;
+  }
+}
+
+.result-entry label {
+  display: block;
+  margin: 0.5em 0;
+}
+
+.result-entry input {
+  width: 100%;
+}
+
+@media (min-width: 575px) {
+  .result-entry input {
+    width: 200px;
+    margin-left: 0.25em;
+  }
+
+  .result-entry label {
+    display: inline-block;
+    margin: 0.5em 0.25em;
+  }
+
+  .result-entry label:first-child {
+    margin-left: 0;
+  }
+
+  .result-entry label:last-child {
+    margin-right: 0;
+  }
+}
+
+.tournament-results {
+  margin: 1em 0;
+}
+
+.tournament-result {
+  margin: 0.5em 0
+}
+
+.tournament-result:last-child {
+  margin-bottom: 1em;
+}
+
+.tournament-result button {
+  margin-left: 0.25em;
+}
