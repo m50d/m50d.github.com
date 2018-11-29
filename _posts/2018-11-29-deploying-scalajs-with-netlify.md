@@ -27,7 +27,7 @@ C:\Users\md401\eclipse-workspace\plus-minus-zero>mvn install
 
 (I'm sure it's possible to do this stuff with Gradle or SBT, but I find Maven much simpler and easier to use)
 
-I'll also assume this project is already in a git repository hosted on [GitHub](https://github.com).
+I'll also assume this project is already in a Git repository hosted on [GitHub](https://github.com).
 
 ## 1. Create a basic HTML file, using resource filtering to point at our compiled JS
 
