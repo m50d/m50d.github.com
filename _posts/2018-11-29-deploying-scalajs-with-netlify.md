@@ -65,7 +65,7 @@ To check everything's working, run `mvn process-classes` and then navigate to `t
 
 ## 2. Include the Maven wrapper in your project source
 
-Following [this blog post](https://www.robintegg.com/2018/01/21/publish-maven-site-to-netlify/), we need to install a maven wrapper that Netlify can use to build our site:
+Following [this blog post](https://www.robintegg.com/2018/01/21/publish-maven-site-to-netlify/), we need to include a maven wrapper in our repository. Netlify will use this wrapper to build our site:
 
 ````
 mvn -N io.takari:maven:wrapper
@@ -75,3 +75,12 @@ git commit
 git push
 ````
 
+(the `update-index` line shouldn't be necessary on unix-like systems)
+
+Check that you can use this `mvnw` to build your project:
+
+````
+mvnw process-classes
+````
+
+(`./mvnw process-classes` on unix-like systems)
