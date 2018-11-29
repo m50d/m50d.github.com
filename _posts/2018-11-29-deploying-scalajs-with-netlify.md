@@ -28,3 +28,27 @@ C:\Users\md401\eclipse-workspace\plus-minus-zero>mvn install
 (I'm sure it's possible to do this stuff with Gradle or SBT, but I find Maven much simpler and easier to use)
 
 ## 1. Create a basic HTML file, using resource filtering to point at our compiled JS
+
+I was a little concerned that the path that the javascript is built in will change with the project version, but Maven has builting functionality to substitute in resource files. So I put some substitutable parameters in `src/main/resources/index.html`:
+
+````
+<!DOCTYPE html>
+<html>
+  <body>
+    <div id="app"></div>
+    <!-- Include Scala.js compiled code -->
+    <script type="text/javascript" src="./META-INF/resources/webjars/${project.artifactId}/${project.version}/runtime.min.js"></script>
+  </body>
+</html>
+````
+
+And enabled filtering for my resources in `pom.xml`:
+
+````
+<resource>
+  <directory>src/main/resources</directory>
+  <filtering>true</filtering>
+</resource>
+````
+
+If you 
