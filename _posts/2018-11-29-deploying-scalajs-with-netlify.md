@@ -1,5 +1,4 @@
 ---
-published: false
 layout: default
 title: Deploying Scala.js to the Web with Netlify
 ---
