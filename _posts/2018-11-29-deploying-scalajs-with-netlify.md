@@ -63,7 +63,7 @@ In the same file I also made sure my application's `main` method was in the init
 
 To check everything's working, run `mvn process-classes` and then navigate to `target/classes/index.html` in your web browser. You should see your app running locally!
 
-## 2. Include the Maven wrapper in your project source
+## 2. Include the Maven wrapper in the project source, and add Netlify configuration
 
 Following [this blog post](https://www.robintegg.com/2018/01/21/publish-maven-site-to-netlify/), we need to include a maven wrapper in our repository. Netlify will use this wrapper to build our site:
 
@@ -84,3 +84,16 @@ mvnw process-classes
 ````
 
 (`./mvnw process-classes` on unix-like systems)
+
+Then we add a `netlify.toml` telling Netlify to use it to build:
+
+````
+[build]
+  base    = ""
+  publish = "target/classes"
+  command = "./mvnw clean process-classes"
+````
+
+## 3. Sign up to [Netlify](https://netlify.com), add/enable this repository, and get a link to your Scala.js webapp
+
+It's that simple. Since Scala.js code executes in the user's browser, we can use a service designed for static site generators like Netlify.
