@@ -51,4 +51,11 @@ And enabled filtering for my resources in `pom.xml`:
 </resource>
 ````
 
-If you 
+In the same file I also made sure my application's `main` method was in the initializer list in the scalor plugin configration:
+
+````
+<linkerMainInitializerList>
+  <initializer>com.github.m50d.plusminuszero.PlusMinusZero.main(build=${project.artifactId},stamp=${maven.build.timestamp})</initializer>
+</linkerMainInitializerList>
+````
+
