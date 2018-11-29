@@ -6,7 +6,7 @@ title: Deploying Scala.js to the Web with Netlify
 
 Scala has long been my language of choice, but while I was aware of Scala.js, the process to get from Scala code to something that people could access in a web browser was a bit intimidating. Last week I set up a Scala.js project to automatically deploy the `master` branch from github to a website running on Netlify, and was pleasantly surprised at how easy and straightforward it all was.
 
-## 0. Scala code in a Scala.js project using the [Scalor maven plugin](https://github.com/random-maven/scalor-maven-plugin)
+## 0. Scala code in a Scala.js project using the [Scalor maven plugin](https://github.com/random-maven/scalor-maven-plugin), in a git project.
 
 I'll start by assuming we've got a Maven project set up that will link JS with the Scalor plugin:
 
@@ -26,6 +26,8 @@ C:\Users\md401\eclipse-workspace\plus-minus-zero>mvn install
 ````
 
 (I'm sure it's possible to do this stuff with Gradle or SBT, but I find Maven much simpler and easier to use)
+
+I'll also assume this project is already in a git repository hosted on [GitHub](https://github.com).
 
 ## 1. Create a basic HTML file, using resource filtering to point at our compiled JS
 
@@ -61,4 +63,4 @@ In the same file I also made sure my application's `main` method was in the init
 
 To check everything's working, run `mvn process-classes` and then navigate to `target/classes/index.html` in your web browser. You should see your app running locally!
 
-## 2. 
+## 2. Include the maven wrapper in your project source
