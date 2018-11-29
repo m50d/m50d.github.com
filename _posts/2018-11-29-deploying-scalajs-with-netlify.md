@@ -4,7 +4,7 @@ layout: default
 title: Deploying Scala.js to the Web with Netlify
 ---
 
-Scala has long been my language of choice, but while I was aware of Scala.js, the process to get from Scala code to something that people could access in a web browser was a bit intimidating. Last week I set up a Scala.js project to automatically deploy the `master` branch from github onto Netlify, and was pleasantly surprised at how easy and straightforward it all was.
+Scala has long been my language of choice, but while I was aware of Scala.js, the process to get from Scala code to something that people could access in a web browser was a bit intimidating. Last week I set up a Scala.js project to automatically deploy the `master` branch from github to a website running on Netlify, and was pleasantly surprised at how easy and straightforward it all was.
 
 ## 0. Working Scala.js project using the [Scalor maven plugin](https://github.com/random-maven/scalor-maven-plugin)
 
