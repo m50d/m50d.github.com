@@ -64,3 +64,14 @@ In the same file I also made sure my application's `main` method was in the init
 To check everything's working, run `mvn process-classes` and then navigate to `target/classes/index.html` in your web browser. You should see your app running locally!
 
 ## 2. Include the Maven wrapper in your project source
+
+Following [this blog post](https://www.robintegg.com/2018/01/21/publish-maven-site-to-netlify/), we need to install a maven wrapper that Netlify can use to build our site:
+
+````
+mvn -N io.takari:maven:wrapper
+git add mvnw mvnw.cmd .mvn
+git update-index --chmod=+x mvnw
+git commit
+git push
+````
+
