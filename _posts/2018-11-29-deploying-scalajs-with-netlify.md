@@ -96,4 +96,4 @@ Then we add a `netlify.toml` telling Netlify to use it to build:
 
 ## 3. Sign up to [Netlify](https://netlify.com), add/enable this repository, and get a link to your Scala.js webapp
 
-It's that simple. Since Scala.js code executes in the user's browser, we can use a service designed for static site generators like Netlify.
+It's that simple. Since Scala.js code executes in the user's browser, we can use a service designed for static site generators like Netlify. By default Netlify will automatically rebuild and redeploy our code every time we update the `master` branch on Github!
