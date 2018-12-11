@@ -29,7 +29,8 @@ Should I conclude, as Westheide would, that he didn't spend enough time thinking
 
 Maybe. But it's more productive to at least pretend that these are matters of taste, that reasonable people can disagree, that no-one was actually trying to make the codebase worse. What if there is no "complexity trap", just disagreements about how best to design programs?
 
-## Talk is less useful than code
+## Is there any value in these talks?
 
 Westheide said all the right things about principles. I agree with asking why particular design decisions were made. I agree with paying more attention to tradeoffs. And yet this brings us no closer to agreement on these concrete design questions. He opened with "metrics or it didn't happen", but seems to have abandoned this to talk about some definition of "complexity" that exists only in his head.
 
+Let's stop exhorting programmers to make things simpler. It makes our debates more contentious, turning differences of taste into moral failings. And it doesn't help.
