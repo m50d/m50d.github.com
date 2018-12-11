@@ -26,3 +26,5 @@ In fact there's no tension between using Free monads or tagless final style and 
 Presumably, as someone preparing a conference talk, Westheide picked what he thought were the most clear-cut examples of programmers choosing a complex solution rather than a simple one. And yet in at least two out of three examples he got it backwards: his suggestions are more complex than the approaches he proposes to replace.
 
 Should I conclude, as Westheide would, that he didn't spend enough time thinking about the problem? That he treated his code as a playground for his latest fad? That he loves writing JSON formatters and prefers to stay in his comfort zone of doing that?
+
+Maybe. But it's more productive to at least pretend that these are matters of taste, that reasonable people can disagree, that no-one was actually trying to make the codebase worse.
