@@ -11,5 +11,5 @@ I recently saw Daniel Westheide's [The Complexity Trap: Think Before You Leap](h
 
 Westheide advocates writing large amounts of boilerplate code to map your domain objects to and from JSON. He claims that deriving equivalent code "almost always leads to strongly coupled systems that are very difficult to evolve."
 
-
+But in fact deriving code in no way limits your ability to replace that derived code with custom code in the future.
 
