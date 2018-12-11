@@ -21,4 +21,8 @@ A "functional core, imperative shell" model is great if you really can implement
 
 In fact there's no tension between using Free monads or tagless final style and the "functional core, imperative shell" model - rather, the former is a technique for achieving the latter, without having to contort your program logic to move all your effectful calls into one place. Indeed a Free monad is the very thing that Westheide was advocating in the previous section - a DTO, a value representation of the output of one part of the system that decouples one side from the other. But unlike a DTO that simply duplicates a domain model, there's a very good reason for this one to exist: it gives us a value representation of our effectful operations that lets us separate business logic from effect execution, something we simply don't have otherwise.
 
-## 
+## A conference speaker picked his best examples of "simpler" choices, and yet got them utterly wrong
+
+Presumably, as someone preparing a conference talk, Westheide picked what he thought were the most clear-cut examples of programmers choosing a complex solution rather than a simple one. And yet in at least two out of three examples he got it backwards: his suggestions are more complex than the approaches he proposes to replace.
+
+My point isn't that Westheide is wrong and I'm right.
