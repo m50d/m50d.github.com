@@ -9,5 +9,7 @@ I recently saw Daniel Westheide's [The Complexity Trap: Think Before You Leap](h
 
 ## Explicit JSON formatters are not simpler than typeclass derivation. Nor are DTOs
 
-Westheide advocates writing large amounts of boilerplate code to map your domain objects to and from JSON.
+Westheide advocates writing large amounts of boilerplate code to map your domain objects to and from JSON. He claims that deriving equivalent code "almost always leads to strongly coupled systems that are very difficult to evolve."
+
+
 
