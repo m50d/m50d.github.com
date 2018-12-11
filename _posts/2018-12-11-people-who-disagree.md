@@ -17,4 +17,4 @@ And what happens when you *do* introduce some transformations? Say one out of te
 
 ## Functional core, imperative shell is not simpler than Free monads or tagless final
 
-
+A "functional core, imperative shell" model is great if you really can implement in "rather small, pure, and effect-free functions". But 
