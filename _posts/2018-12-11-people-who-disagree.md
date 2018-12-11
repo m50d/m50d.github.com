@@ -11,5 +11,5 @@ I recently saw Daniel Westheide's [The Complexity Trap: Think Before You Leap](h
 
 Westheide advocates writing large amounts of boilerplate code to map your domain objects to and from JSON. He claims that deriving equivalent code "almost always leads to strongly coupled systems that are very difficult to evolve."
 
-But in fact deriving code in no way limits your ability to replace that derived code with custom code in the future. Adding an explicit transformation layer *when a transformation is actually needed* is essential complexity; adding an explicit transformation layer that does nothing in case you need a transformation in the future is the worst kind of accidental complexity. It may 
+But in fact deriving code in no way limits your ability to replace that derived code with custom code in the future. Adding an explicit transformation layer *when a transformation is actually needed* is essential complexity; adding an explicit transformation layer that does nothing in case you need a transformation in the future is the worst kind of accidental complexity. It may not take a lot of effort to write, but it takes a lot of effort to read and understand, and code is read more than it's written.
 
