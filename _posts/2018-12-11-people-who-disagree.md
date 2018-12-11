@@ -9,3 +9,5 @@ I recently saw Daniel Westheide's [The Complexity Trap: Think Before You Leap](h
 
 ## Explicit JSON formatters are not simpler than typeclass derivation. Nor are DTOs
 
+> if you look at the bigger picture, this is the opposite of removing complexity. Exposing your domain model like this almost always leads to strongly coupled systems that are very difficult to evolve.
+
