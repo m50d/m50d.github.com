@@ -15,5 +15,6 @@ But in fact deriving code in no way limits your ability to replace that derived 
 
 And what happens when you *do* introduce some transformations? Say one out of ten domain objects turns out to need a different representation on the server and the client. If you've been scrapping you boilerplate, this one object will be an obvious special case: there'll be a bunch of extra code that no other domain object has, a warning that "here be dragons". If you used manual formats for every case, that special case code will be buried under mountains of almost-but-not-quite-the-same code for every other domain object. A reader will learn that domain objects don't get transformed between the server and the client even though there's a lot of code to skip over, and this will be [almost](http://wiki.c2.com/?AlmostConsideredHarmful) true.
 
+## Functional core, imperative shell is not simpler than Free monads or tagless final
 
 
