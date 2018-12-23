@@ -11,4 +11,4 @@ Athrun follows on in this tradition: cautious, uncertain, emotional but never wi
 
 ![](/protect.jpg)
 
-Sadly, this isn't remotely matched by his counterparts. Kira's hesitation at the end of the last episode is gone, replaced by an unwavering confidence as he asks Ramius and La Flaga what they plan to do.
+Sadly, this isn't remotely matched by his counterparts. Kira's hesitation at the end of the last episode - much less his crybaby attitude from earlier - is completely gone, replaced by an unwavering confidence as he asks Ramius and La Flaga what they plan to do. While a near-death experience can justify a certain amount of personality change, there's no such excuse for Lacus, who is 
