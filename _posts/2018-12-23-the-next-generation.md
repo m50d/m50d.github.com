@@ -9,6 +9,6 @@ Last episode was a welcome attack not just on war but on the causes of war - in 
 
 Athrun follows on in this tradition: cautious, uncertain, emotional but never without cause. His physical injury aligns perfectly with his vulnerable state; moments like drawing a gun on his childhood toy should be absurd, but he has enough gravitas to carry them off. Between a crazed father, a traitorous fiancée, his friends killed and himself injured, I felt a lot of sympathy for the poor kid trying to do the right thing. And as the conclusion of the episode shows, it's not paranoia if they really are out to get you.
 
-![](/changed.jpg)
+![](/protect.jpg)
 
-Sadly, this isn't remotely matched by his counterparts. Kira's hesitation at the end of the last episode is gone, replaced by an unwavering confidence.
+Sadly, this isn't remotely matched by his counterparts. Kira's hesitation at the end of the last episode is gone, replaced by an unwavering confidence as he asks Ramius and La Flaga what they want to do.
