@@ -11,4 +11,4 @@ Athrun follows on in this tradition: cautious, uncertain, emotional but never wi
 
 ![](/changed.jpg)
 
-Sadly, this isn't remotely matched by his counterparts.
+Sadly, this isn't remotely matched by his counterparts. Kira's hesitation at the end of the last episode is gone, replaced by an unwavering confidence.
