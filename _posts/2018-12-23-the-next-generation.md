@@ -5,4 +5,4 @@ layout: default
 ---
 ![](/changed.jpg)
 
-Last episode was a welcome attack not just on war but on the causes of war - in particular, on the overconfidence of an older generation that thinks it knows what's best for the world. Gundam made a passionate case against 
+Last episode was a welcome attack not just on war but on the causes of war - in particular, on the overconfidence of an older generation that thinks it knows what's best for the world. Gundam made a passionate case not just against fighting but against militarism; 
