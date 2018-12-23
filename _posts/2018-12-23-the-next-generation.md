@@ -15,4 +15,4 @@ Sadly, this isn't remotely matched by his counterparts. Kira's hesitation at the
 
 ![](/suggest.jpg)
 
-Look at that smug grin. Would you buy a used car from this woman?
+Look at that smug grin. Would you buy a used robot from this woman?
