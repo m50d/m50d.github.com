@@ -17,4 +17,4 @@ Sadly, this isn't remotely matched by his counterparts. Kira's hesitation at the
 
 Look at that smug grin. Would you buy a used robot from this woman?
 
-Disappointing as the character side of all this may be, I'm glad the plot's now advancing at a steady pace.
+Disappointing as the character side of all this may be, I'm glad the plot's now advancing at a steady pace. The younger generation have seized control of the fight in a very direct way, with our mid-season robot upgrade now in place; Athrun's sling has disappeared symbolically as he finds, if not a complete conclusion, a possible step forward.
