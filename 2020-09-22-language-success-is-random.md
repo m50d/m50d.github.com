@@ -1,1 +1,1 @@
-For the past 10 years I've been making my career in language X. 
+For the past 10 years I've been making my career in language X. I thought - and still think - that language X is the best language going. I thought - but no longer think - that this mattered. 
