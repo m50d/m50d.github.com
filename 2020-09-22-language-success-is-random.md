@@ -1,1 +1,3 @@
 For the past 10 years I've been making my career in language X. I thought - and still think - that language X is the best language going. I thought - but no longer think - that this mattered. And facing the prospect of working in less-good languages for years has made me look on previous experiences with fresh eyes, and wonder how little language success has to do with language design.
+
+Language X offers an unbeatable combination of features. 
