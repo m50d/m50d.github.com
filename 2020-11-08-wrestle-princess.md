@@ -44,4 +44,4 @@ I'm a *lot* more hyped for the return of Saki-sama next week; that at least has 
 
 And completing the trifecta of weak matches where the outcome was never in doubt, we have this. From the moment this was first announced I couldn't understand the team setup: Itoh Maki has not been (at least until now) a credible threat to Yamashita Miyu, and it's hard to imagine Sareee giving Aja Kong any real trouble. Flip the teams and you've got something a lot more interesting on the face of it. Still, I trusted TJPW to come up with a way to even the odds.
 
-And... nope. Nothing. Maki went toe-to-toe with Miyu for a while, something she's not been presented as capable of before, and so that did feel kind of elevating. 
+And... nope. Nothing. Maki went toe-to-toe with Miyu for a while, something she's not been presented as capable of before, and so that did feel kind of elevating. But when Aja was in the ring, neither Saree nor Maki could really 
