@@ -14,4 +14,4 @@ I can't point to any specifically bad moments, but there was just nothing intere
 
 ## International Princess championship semi-final round
 
-This was damn near perfect, although
+This was damn near perfect, although the narrative is what made it shine.
