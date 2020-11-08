@@ -66,4 +66,4 @@ I'm pretty negative on the Bakuretsu Sisters - I just don't find their wrestling
 
 ## Princess of Princess Championship match
 
-This is it. The big one. Friend against friend, partner against partner, the match we'd been building to for months. So 
+This is it. The big one. Friend against friend, partner against partner, the match we'd been building to for months. So I'm sure I'll be torn apart when I say... the first half kind of dragged.
