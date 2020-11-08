@@ -31,3 +31,7 @@ I'd genuinely forgotten this one until I looked up the card, and I'm actually a 
 Raku's problem is that she doesn't have the tools to credibly threaten someone bigger and stronger. I love the "sneaky" direction she's taken (genuinely), but running in for a surprise rollup isn't enough to win big matches (and nor should it be). She doesn't have any real power moves (her chop is sometimes treated that way, but not consistently) and she's not a high-flier, so it's really hard to see her ever beating someone like Yuna. Coming hot on the heels of a Nakajima Shoko match made this painfully apparent; Shoko is a model for what Raku could become, but she's only credible against bigger opponents because she also does high-flying stuff when she needs to.
 
 Yuna won, and under other circumstances I'd say that's not what TJPW should be doing with guests from other promotions, but the real problem is not this match, it's that Raku doesn't really have a path forward. I'd hoped teaming with Itoh Maki would give her a chance to learn and improve, but apparently not. So it was hard to get invested in this match, simply because the outcome was never really in doubt.
+
+## Special rule swapping singles match
+
+So I'd been skeptical about this match from the point where DDT asked for rule suggestions from the fans - while it's good to get the fans involved, it also seems like not having enough ideas of their own.
