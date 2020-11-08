@@ -50,4 +50,4 @@ Unlike the last two this was actually a pretty fun match, perhaps because of the
 
 ## International princess championship tournament final round
 
-At this point I'd figured that they wanted to put the belt on Yuki (partly for )
+At this point I was guessing that they wanted to put the belt on Yuki (partly for the out-of-ring reason of her English skills). 
