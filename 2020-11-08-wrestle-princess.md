@@ -20,4 +20,4 @@ This was outstanding, although it was the narrative rather than the wrestling th
 
 ## International Princess championship semi-final round
 
-I was happy with this semi-final too, although I think it mostly served to dig TJPW out of a hole they'd booked themselves into. Nakajima Shoko was, frankly, far too good for this tournament, but Kamifuku Yuki has such a sheer size advantage that she can credibly win
+I was happy with this semi-final too, although I think it mostly served to dig TJPW out of a hole they'd booked themselves into. Nakajima Shoko was, frankly, far too good for this tournament, but Kamifuku Yuki has the sheer size advantage that let her credibly win without damaging Shoko too much.
