@@ -34,4 +34,4 @@ Yuna won, and under other circumstances I'd say that's not what TJPW should be d
 
 ## Special rule swapping singles match
 
-So I'd been skeptical about this match from the point where DDT asked for rule suggestions from the fans - while it's good to get the fans involved, it also seems like not having enough ideas of their own.
+So I'd been skeptical about this match from the point where DDT asked for rule suggestions from the fans - while it's good to get the fans involved, it also seems like not having enough ideas of their own. The way I'd assumed this was going to work was that the stipulations would somehow be in Hyper Misao's favour, helping her overcome Saki Akai's natural advantages and leading to a more balanced match.
