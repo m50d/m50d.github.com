@@ -1,6 +1,6 @@
 I was at Wrestle Princess yesterday, and it felt like enough of an occasion that I wanted to record my thoughts. I'm not a serious critic and I don't have a whole lot of technical knowledge of wrestling, so this is purely a personal account.
 
-The arena and the video packages made this feel like a real occasion, and several wrestlers took the opportunity to debut refreshed versions of their ring gear.
+The arena and the video packages made this feel like a real occasion, and several wrestlers took the opportunity to debut refreshed versions of their ring gear. I certainly felt like I got my money's worth, even though a front-row seat cost over 3x as much as the Korakuen hall shows.
 
 ## Opening match (Special rookie tag match)
 
