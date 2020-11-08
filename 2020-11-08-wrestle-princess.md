@@ -1,5 +1,7 @@
 I was at Wrestle Princess yesterday, and it felt like enough of an occasion that I wanted to record my thoughts. I'm not a serious critic and I don't have a whole lot of technical knowledge of wrestling, so this is purely a personal account.
 
+The arena and the video packages made this feel like a real occasion, and several wrestlers took the opportunity to debut refreshed versions of their ring gear.
+
 ## Opening match (Special rookie tag match)
 
 This was great. I actually enjoyed this more than a lot of the matches higher up the card, though it probably helped that a) I had no real expectations going into it b) I'm a huge Suzume fan.
@@ -61,3 +63,7 @@ This match became a lot more fun once I accepted Watanabe Miu as a power wrestle
 In my head, Tatsumi Rika is head and shoulders above the other three people in this ring, but the way this match played out was more or less the opposite: Miu could *just about* go toe to toe with either of the Sisters, while Rika was constantly in serious trouble. I was expecting her high-flying moves to run rings around both sisters, but she rarely got that far; particularly in the second half she was largely getting overpowered and looking to Miu to bail her out. Eventually Miu put everything into one last effort and was able to pin Aino Yuki, but Rika wasn't able to keep Tenma Nodoka away for the 3-count, and then a few minutes later Yuki made the pin for the win.
 
 I'm pretty negative on the Bakuretsu Sisters - I just don't find their wrestling style interesting to watch - so it's hard not to feel disappointed in the result here. But as a match, it was pretty effective: everyone got their chance to shine (even Rika, for the first half at least), and ultimately the Sisters had better teamwork and were able to capitalize. If there's a positive spin I can put on this, it's that I'm excited to see what Rika and even Miu can do as singles wrestlers. While I'd love to see them continue as a tag team, I'm not sure where they'd go from here - at least, I don't think it can be the prime focus of their stories any more.
+
+## Princess of Princess Championship match
+
+This is it. The big one
