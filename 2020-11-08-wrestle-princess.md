@@ -8,4 +8,4 @@ It sounds like faint praise, but this match really just nailed the basics of tag
 
 ## Tag team match
 
-Ugh. The less said about this the better really. Kiryu Mahiro was the first TJPW match I ever saw, and I've hated her ever since - it doesn't help that her gimmick invites a comparison to Sakazaki Yuka that she can never live up to.
+Ugh. The less said about this the better really. Kiryu Mahiro was the first TJPW match I ever saw, and I've hated her ever since - it doesn't help that her gimmick invites a comparison to Sakazaki Yuka that she can never live up to. There are blander gimmicks, worse technical wrestlers, less good sellers, but I don't thin k
