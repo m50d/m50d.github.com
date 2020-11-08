@@ -22,4 +22,4 @@ This was outstanding, although it was the narrative rather than the wrestling th
 
 I was happy with this semi-final too, although I think it mostly served to dig TJPW out of a hole they'd booked themselves into. Nakajima Shoko was, frankly, far too good for this tournament, but Kamifuku Yuki has the sheer size advantage that let her credibly win without damaging Shoko too much.
 
-And while I'm usually pretty hard on Yuki, she raised her game here: in place of her usual eyepokes she managed a suplex and a... reverse DDT? I think? As you can tell, I don't know a lot of wrestling moves, but she was clearly doing wrestling moves
+And while I'm usually pretty hard on Yuki, she raised her game here: in place of her usual eyepokes she managed a suplex and a... reverse DDT? I think? As you can tell, I don't know a lot of wrestling moves, but unlike previous matches she was clearly doing wrestling moves
