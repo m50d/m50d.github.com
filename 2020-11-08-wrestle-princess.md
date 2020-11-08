@@ -50,4 +50,4 @@ Unlike the last two this was actually a pretty fun match, perhaps because of the
 
 ## International princess championship tournament final round
 
-At this point I was guessing that they wanted to put the belt on Yuki (partly for the out-of-ring reason of her English skills). Hikari's semi-final had been a drawn-out slog against the powerful Mirai, which 
+At this point I was guessing that they wanted to put the belt on Yuki (partly for the out-of-ring reason of her English skills). Hikari's semi-final had been a drawn-out slog against the powerful Mirai, which seemed like a perfect way to overcome the biggest problem with having Yuki win here: 
