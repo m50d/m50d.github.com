@@ -55,3 +55,5 @@ At this point I was guessing that they wanted to put the belt on Yuki (partly fo
 That... didn't really happen. Hikari came out looking every bit the badass she'd been in her first match, any aftereffects forgotten. Yuki managed a few moves and one genuinely impressive dropkick, but was very much not on her level. And then she got the win. In this situation I'd actually have preferred an eyepoke, or some other dastardly heel tactic; of course upsets happen in sports, but one of the advantages of being scripted is that in wrestling narratives most things happen for a reason. Finish aside this was actually a pretty good match, but it's hard to escape things feeling a bit forced.
 
 ## Princess tag championship match
+
+This match became a lot more fun once I accepted Miu as a power wrestler. It doesn't make any sense - she's about half the size of either of the Bakuretsu Sisters - but 
