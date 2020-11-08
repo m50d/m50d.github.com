@@ -23,3 +23,7 @@ This was outstanding, although it was the narrative rather than the wrestling th
 I was happy with this semi-final too, although I think it mostly served to dig TJPW out of a hole they'd booked themselves into. Nakajima Shoko was, frankly, far too good for this tournament, but Kamifuku Yuki has the sheer size advantage that let her credibly win without damaging Shoko too much.
 
 And while I'm usually pretty hard on Yuki, she raised her game here: in place of her usual eyepokes she managed a suplex and a... reverse DDT? I think? As you can tell, I don't know a lot of wrestling moves, but she was clearly doing wrestling moves and this felt like a proper wrestling match, in a way that I honestly haven't seen from her before. When she got the win there was an audible gasp from the crowd, but it didn't feel like Shoko was robbed; it felt like Yuki had earned this one.
+
+## Special singles match
+
+I'd genuinely forgotten this one until I looked up the card, and I'm actually a fan of both wrestlers.
