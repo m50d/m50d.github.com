@@ -42,4 +42,4 @@ I'm a *lot* more hyped for the return of Saki-sama next week; that at least has 
 
 ## Special tag team match
 
-And completing the trifecta of weak matches where the outcome was never in doubt, we have this.
+And completing the trifecta of weak matches where the outcome was never in doubt, we have this. From the moment this was first announced I couldn't understand the team setup: why 
