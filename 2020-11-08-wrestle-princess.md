@@ -27,3 +27,5 @@ And while I'm usually pretty hard on Yuki, she raised her game here: in place of
 ## Special singles match
 
 I'd genuinely forgotten this one until I looked up the card, and I'm actually a fan of both wrestlers involved. I'm glad to see Manase Yuna coming back, but there just wasn't enough build to make me care about this for story reasons, and the wrestling action was nothing special either.
+
+Raku's problem is that she doesn't have the tools to credibly threaten someone bigger and stronger. 
