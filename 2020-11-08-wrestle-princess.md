@@ -60,4 +60,4 @@ This match became a lot more fun once I accepted Watanabe Miu as a power wrestle
 
 In my head, Tatsumi Rika is head and shoulders above the other three people in this ring, but the way this match played out was more or less the opposite: Miu could *just about* go toe to toe with either of the Sisters, while Rika was constantly in serious trouble. I was expecting her high-flying moves to run rings around both sisters, but she rarely got that far; particularly in the second half she was largely getting overpowered and looking to Miu to bail her out. Eventually Miu put everything into one last effort and was able to pin Aino Yuki, but Rika wasn't able to keep Tenma Nodoka away for the 3-count, and then a few minutes later Yuki made the pin for the win.
 
-As a match, as a piece of storytelling, it was good. I'm pretty negative on the Bakuretsu Sisters - I just don't find them interesting to watch - but 
+As a match, as a piece of storytelling, it was good. I'm pretty negative on the Bakuretsu Sisters - I just don't find their wrestling style interesting to watch - but 
