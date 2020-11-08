@@ -7,3 +7,5 @@ Seriously, though, she was glorious here; she's shaping up to be a great wrestle
 It sounds like faint praise, but this match really just nailed the basics of tag team storytelling: the ebb and flow, the hot tags, all the cliches of wrestling that make for a classic match. Suzume, gradually worn down by more powerful opponents, desparately going to the top rope, betting it all, was pretty much a perfect finish; she got the win, but it felt like it could very easily have gone the other way. This was a real gem of a match.
 
 ## Tag team match
+
+Ugh. The less said about this the better really. Kiryu Mahiro was in the first TJPW match I ever saw, and I've hated her ever since.
