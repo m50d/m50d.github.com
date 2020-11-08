@@ -8,4 +8,4 @@ It sounds like faint praise, but this match really just nailed the basics of tag
 
 ## Tag team match
 
-Ugh. The less said about this the better really. Kiryu Mahiro was in the first TJPW match I ever saw, and I've hated her ever since.
+Ugh. The less said about this the better really. Kiryu Mahiro was the first TJPW match I ever saw, and I've hated her ever since.
