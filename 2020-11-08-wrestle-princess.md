@@ -1,4 +1,4 @@
-I was at Wrestle Princess yesterday, and it felt like enough of an occasion that I wanted to record my thoughts. 
+I was at Wrestle Princess yesterday, and it felt like enough of an occasion that I wanted to record my thoughts. I'm not a serious critic and I don't have a whole lot of technical knowledge of wrestling, so this is purely a personal account.
 
 ## Opening match (Special rookie tag match)
 
