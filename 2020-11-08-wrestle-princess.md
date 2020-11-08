@@ -26,4 +26,4 @@ And while I'm usually pretty hard on Yuki, she raised her game here: in place of
 
 ## Special singles match
 
-I'd genuinely forgotten this one until I looked up the card, and I'm actually a fan of both wrestlers.
+I'd genuinely forgotten this one until I looked up the card, and I'm actually a fan of both wrestlers involved. 
