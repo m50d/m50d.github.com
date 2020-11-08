@@ -57,3 +57,5 @@ That... didn't really happen. Hikari came out looking every bit the badass she'd
 ## Princess tag championship match
 
 This match became a lot more fun once I accepted Watanabe Miu as a power wrestler. It doesn't make any sense - she's about half the size of either of the Bakuretsu Sisters - but it seems to be an established part of TJPW physics (Miyamoto Moka may be subject to the same effect), so you just have to roll with it.
+
+In my head, Tatsumi Rika is head and shoulders above the other three people in this ring, 
