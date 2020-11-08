@@ -72,4 +72,4 @@ There was one standout moment where Yuka's attempted magical girl splash was cou
 
 From there it felt like there was nowhere for either of them to go. When Yuka extended a hand to Mizuki lying on the floor, I was genuinely wondering if she was offering some kind of honourable draw, or even to concede. Instead they slogged each other, desperately, hopelessly - which felt like a minature recapitulation of the whole match.
 
-The finish was Yuka debuting her own new spinning move, from the top rope halfway along the side - which was at once breathtaking technically and slightly unearned narratively. It's not quite winning with a roll-up, but it was 
+The finish was Yuka debuting her own new spinning move, from the top rope halfway along the side - which was at once breathtaking technically and slightly unearned narratively. It's not quite winning with a surprise roll-up, but it was 
