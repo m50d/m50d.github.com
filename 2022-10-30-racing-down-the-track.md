@@ -7,6 +7,8 @@ Deakka has often struck me as an underused character; his story is much the same
 
 ![](fond.jpg)
 
-I've said before that one of the most striking things about rewatching the early episodes was how much the naive kids turned out to be right, and the responsible adults turned out to be wrong. Ramius has discarded military discipline on every level now - disobeying orders herself, telling her crew she has no right to command them, and finally fraternizing openly in front of her subordinates - 
+I've said before that one of the most striking things about rewatching the early episodes was how much the naive kids turned out to be right, and the responsible adults turned out to be wrong. Ramius has discarded military discipline on every level now - disobeying orders herself, telling her crew she has no right to command them, and finally fraternizing openly in front of her subordinates - but the show is 
 
 I always expected this rewatch to be a long-term project, but life has gotten in the way a little more than I expected. I hope that coming back to this as someone who's emigrated to Japan will inform the project - both in terms of improved Japanese, and in terms divided loyalties - but I must admit nothing seems particularly different yet.
+
+![](again.jpg)
