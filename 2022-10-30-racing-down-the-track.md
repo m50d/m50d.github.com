@@ -11,6 +11,6 @@ I've said before that one of the most striking things about rewatching the early
 
 Which makes the one-dimensional characterization of our new antagonists - both the leader Azrael, and the three mobile suit pilots - all the more disappointing; frankly the less said about them the better. 
 
-I always expected this rewatch to be a long-term project, but life has gotten in the way a little more than I expected. I hope that coming back to this as someone who's emigrated to Japan will inform the project - both in terms of improved Japanese, and in terms divided loyalties - but I must admit nothing seems particularly different yet. Still, I want to make an effort to finish things.
+On a personal note, I always expected this rewatch to be a long-term project, but life has gotten in the way a little more than I expected. I hope that coming back to this as someone who's emigrated to Japan will inform the project - both in terms of improved Japanese, and in terms divided loyalties - but I must admit nothing seems particularly different yet. Still, I want to make an effort to finish things.
 
 ![](again.jpg)
