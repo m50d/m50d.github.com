@@ -1,3 +1,9 @@
+---
+layout: default
+published: true
+title: "Racing Down the Track (Gundam Seed 38)"
+---
+
 ![](turnedout.jpg)
 
 In my memory this whole Orb arc was a lot shorter, and perhaps the sense of inevitability is a part of that - somewhat like last episode, this episode showed events playing themselves out that felt to have already been firmly set in motion. The council meeting in the cold open shows something of a decision, but even that is very much the only possible decision that the characters (being generous to Azrael) in question could make.
