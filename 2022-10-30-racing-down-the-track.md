@@ -4,4 +4,4 @@ In my memory this whole Orb arc was a lot shorter, and perhaps the sense of inev
 
 I always expected this rewatch to be a long-term project, but life has gotten in the way a little more than I expected. I hope that coming back to this as someone who's emigrated to Japan will inform the project - both in terms of improved Japanese, and in terms divided loyalties - but one episode is probably a bit too soon to tell.
 
-Deakka has often struck me as an underused character; his story is much the same as that of our leads, but given far less attention. This episode jumps the gun a little - there's no need to explain why he'd want to shoot down Earth Federation forces - but 
+Deakka has often struck me as an underused character; his story is much the same as that of our leads, but given far less attention. This episode jumps the gun a little - there's no need to explain why he'd want to shoot down Earth Federation forces - but his clear sympathy for the Archangel is intriguing, even if it seems to be more a mix of Stockholm syndrome and simping for Millie than any 
