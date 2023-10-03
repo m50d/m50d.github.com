@@ -1,0 +1,1 @@
+I've worked in small companies and large
