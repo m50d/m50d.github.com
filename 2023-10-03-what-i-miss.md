@@ -1,1 +1,1 @@
-I've worked in small companies and large
+I spent four years working for a large investment bank on a system that was, essentially, [Bank Python](https://calpaterson.com/bank-python.html), even though in our case it was actually Scala (for those following that post, I worked on Walpole).
